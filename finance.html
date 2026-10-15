@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>每日財經｜南恩通訊處</title>
+<meta name="description" content="南恩通訊處每日財經：華爾街日報、Bloomberg 中文日報圖文版，可線上預覽與下載 PDF。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="index.html"><img src="img/logo.png" alt="南恩通訊處" width="44" height="44"><span><b>南恩通訊處</b><small>富邦人壽・台南最大心，服務最用心</small></span></a>
+    <button class="burger" aria-label="開啟選單" aria-expanded="false" onclick="toggleNav(this)">☰</button>
+    <nav id="menu">
+      <a href="index.html#products">保險商品</a><a href="index.html#tools">線上報價</a><a class="cur" href="finance.html">每日財經</a><a href="index.html#why">服務特色</a><a href="index.html#contact">聯絡我們</a>
+      <a class="btn-nav" href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener">旅平險報價</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="fin-head"><div class="wrap">
+  <h1>📰 每日財經</h1>
+  <p>華爾街日報・Bloomberg 中文日報圖文版，每日更新</p>
+</div></section>
+
+<section class="wrap sec" id="days">
+  <p class="fin-note">載入中…</p>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <p class="legal" style="border-top:0;margin-top:0;padding-top:0"><b style="color:#fff">內容為依公開報導整理的中文摘要，僅供參考，版權屬原媒體。</b><br>本網站為富邦人壽南恩通訊處業務人員個人服務網站，財經內容不構成任何投資或保險建議。<br>© 2026 南恩通訊處・業務經理 陳銘旭　<a href="index.html" style="text-decoration:underline">回首頁</a></p>
+</div></footer>
+<script>
+function toggleNav(b){const m=document.getElementById('menu');b.setAttribute('aria-expanded',m.classList.toggle('open'))}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function wk(d){return '週'+'日一二三四五六'[new Date(d+'T00:00:00').getDay()]}
+fetch('news/index.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(data=>{
+  const days=(data.days||[]).slice().sort((a,b)=>b.date<a.date?-1:1);
+  const box=document.getElementById('days');
+  if(!days.length){box.innerHTML='<p class="fin-note">目前尚無內容。</p>';return}
+  box.innerHTML=days.map(d=>`<article class="fin-day"><h3>${esc(d.date)}（${wk(d.date)}）</h3><div class="fin-grid">`+
+    d.items.map(it=>`<div class="fin-card"><h4><span>${esc(it.name)}</span><a class="fin-dl" href="${esc(it.pdf)}" download>⬇ 下載 PDF</a></h4><div class="fin-pages">`+
+      it.previews.map((p,i)=>`<a href="${esc(it.pdf)}" target="_blank" rel="noopener" title="開啟 PDF"><img src="${esc(p)}" alt="${esc(it.name)} ${esc(d.date)} 第${i+1}頁預覽" loading="lazy"></a>`).join('')+
+    `</div></div>`).join('')+`</div></article>`).join('');
+}).catch(()=>{document.getElementById('days').innerHTML='<p class="fin-note">內容載入失敗，請稍後重新整理。</p>'});
+</script>
+</body></html>
