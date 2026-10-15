@@ -360,3 +360,7 @@ nav.open{display:flex}nav a{padding:14px 20px;border-top:1px solid #edf2f8}nav a
  .rt-tab{padding:5px 12px;flex:none}.rt-tab small{display:none}}
 @media(max-width:360px){.rt-tab{padding:5px 10px}.rt-tab b{font-size:14px}.rt-st{padding:7px 8px}.rt-st span{font-size:11px}}
 @media(max-width:380px){.rt-tabs{gap:4px}.rt-tab{padding:5px 0;flex:1 1 0;justify-content:center}.rt-tab b{font-size:13.5px}}
+/* 基金代號／名稱連結（富邦投資網詳細頁） */
+.fd-link{color:inherit;text-decoration:none;border-bottom:1px dotted var(--gold);transition:.15s}
+.fd-link:hover,.fd-link:focus-visible{color:var(--b);border-bottom-color:var(--b);background:rgba(21,101,192,.06)}
+.fd-tbl td.code .fd-link{color:var(--b)}

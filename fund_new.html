@@ -78,6 +78,7 @@
 function toggleNav(b){const m=document.getElementById('menu');b.setAttribute('aria-expanded',m.classList.toggle('open'))}
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fl=(f,t)=>f&&typeof f.detail_url==='string'&&f.detail_url.indexOf('https://invest.fubonlife.com.tw/')===0?`<a class="fd-link" href="${esc(f.detail_url)}" target="_blank" rel="noopener" title="開啟富邦投資網基金詳細頁">${t}</a>`:t;
 const nf=(v,d=0)=>v==null||!isFinite(v)?'—':Number(v).toLocaleString('zh-TW',{minimumFractionDigits:d,maximumFractionDigits:d});
 const nv=v=>{if(v==null||!isFinite(v))return '—';let t=Number(v).toFixed(4).replace(/0+$/,'');const d=(t.split('.')[1]||'').length;return Number(v).toLocaleString('zh-TW',{minimumFractionDigits:Math.max(2,d),maximumFractionDigits:4})};
 const pc=(v,d=2)=>v==null||!isFinite(v)?'—':(v>0&&v<0.0001?'<0.01%':(v*100).toFixed(d)+'%');
@@ -99,8 +100,8 @@ function makeTable(tbl,cols,rowsFn,state,rowCls){
 
 let D=null,F=[];const st={k:'yld',d:-1};
 const cols=[
- ['code','代號',f=>f.code,f=>`<b>${esc(f.code)}</b>`,'t',1],
- ['name','基金名稱',f=>f.name,f=>esc(f.name)+`<small class="fd-alias">${esc(f.kind)}${f.type?'・'+esc(f.type):''}</small>`,'t',1],
+ ['code','代號',f=>f.code,f=>fl(f,`<b>${esc(f.code)}</b>`),'t',1],
+ ['name','基金名稱',f=>f.name,f=>fl(f,esc(f.name))+`<small class="fd-alias">${esc(f.kind)}${f.type?'・'+esc(f.type):''}</small>`,'t',1],
  ['cur','幣別',f=>f.currency,f=>esc(f.currency),'t',1],
  ['nav','淨值',f=>f.nav,f=>nv(f.nav),'n',-1],
  ['nav_date','淨值日期',f=>f.nav_date,f=>dt(f.nav_date),'t',-1],

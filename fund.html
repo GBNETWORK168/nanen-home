@@ -128,6 +128,7 @@
 function toggleNav(b){const m=document.getElementById('menu');b.setAttribute('aria-expanded',m.classList.toggle('open'))}
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fl=(f,t)=>f&&typeof f.detail_url==='string'&&f.detail_url.indexOf('https://invest.fubonlife.com.tw/')===0?`<a class="fd-link" href="${esc(f.detail_url)}" target="_blank" rel="noopener" title="開啟富邦投資網基金詳細頁">${t}</a>`:t;
 const nf=(v,d=0)=>v==null||!isFinite(v)?'—':Number(v).toLocaleString('zh-TW',{minimumFractionDigits:d,maximumFractionDigits:d});
 const nv=v=>{if(v==null||!isFinite(v))return '—';let t=Number(v).toFixed(4).replace(/0+$/,'');const d=(t.split('.')[1]||'').length;return Number(v).toLocaleString('zh-TW',{minimumFractionDigits:Math.max(2,d),maximumFractionDigits:4})};
 const pc=(v,d=2)=>v==null||!isFinite(v)?'—':(v*100).toFixed(d)+'%';
@@ -161,7 +162,8 @@ function renderList(){
     const cell=c=>{const v=c[2](f);let s;
       switch(c[0]){case'nav':case'bnav':case'div':case'bdiv':s=nv(v);break;
       case'nav_date':s=v?esc(v).replace(/-/g,'/'):'—';break;case'annual_yield':s=pc(v);break;case'byld':s=pc(v);break;case'm':s=nf(v,0);break;default:s=v==null?'—':esc(v)}
-      if(c[0]==='code')s=`<b>${esc(f.code)}</b>`;
+      if(c[0]==='code')s=fl(f,`<b>${esc(f.code)}</b>`);
+      if(c[0]==='name'&&!miss)s=fl(f,s);
       if(c[0]==='name'&&miss)s='<span class="fd-miss">查無資料（網站無此代號）</span>';
       return `<td class="${c[3]==='n'?'num':''}${c[0]==='annual_yield'&&!miss?' hi':''}${c[0]==='code'?' code':''}${c[0]==='nav_date'?' nw':''}${c[0]==='name'?' nm':''}">${s}</td>`};
     return `<tr class="${miss?'miss':''}">`+cols.map(cell).join('')+'</tr>'}).join('');
@@ -177,7 +179,7 @@ function renderCalc(){
   const rows=F.map(f=>{const p=pick(f,src);const ok=p.nav&&p.div!=null&&p.per!=null&&f.status==='ok'||(src==='sheet'&&p.nav&&p.div!=null);return{f,p,ok,r:ok?calc(p.nav,p.div,p.per,amt,fee,mode):null}});
   rows.sort((a,b)=>(b.r?b.r.yld:-1)-(a.r?a.r.yld:-1));
   $('ctbl').querySelector('tbody').innerHTML=rows.map(({f,p,ok,r})=>ok?
-   `<tr><td class="code"><b>${esc(f.code)}</b></td><td>${esc(f.short_name)}${f.currency==='TWD'?'<small class="fd-alias">台幣計價</small>':''}</td><td class="num">${nv(p.nav)}</td><td class="num">${nv(p.div)}</td><td class="num">${nf(r.units,2)}</td><td class="num">${nf(r.monthly,0)}</td><td class="num">${nf(r.yearly,0)}</td><td class="num hi">${pc(r.yld)}</td></tr>`:
+   `<tr><td class="code">${fl(f,`<b>${esc(f.code)}</b>`)}</td><td>${fl(f,esc(f.short_name))}${f.currency==='TWD'?'<small class="fd-alias">台幣計價</small>':''}</td><td class="num">${nv(p.nav)}</td><td class="num">${nv(p.div)}</td><td class="num">${nf(r.units,2)}</td><td class="num">${nf(r.monthly,0)}</td><td class="num">${nf(r.yearly,0)}</td><td class="num hi">${pc(r.yld)}</td></tr>`:
    `<tr class="miss"><td class="code"><b>${esc(f.code)}</b></td><td colspan="7"><span class="fd-miss">${src==='sheet'?'試算表無資料':'查無資料'}</span></td></tr>`).join('');
 }
 function fillOne(){
