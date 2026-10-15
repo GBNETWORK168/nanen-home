@@ -57,6 +57,7 @@
     <span class="fd-hint">點表頭可排序</span>
   </div>
   <div class="fd-tblwrap"><table class="fd-tbl" id="tbl"><thead></thead><tbody><tr><td>載入中…</td></tr></tbody></table></div>
+  <p class="fd-prodnote">「可選的商品」：富邦人壽投資型保險專區各基金詳細頁列出的適用保單商品；以在售商品優先，已停售商品於展開清單標示「停售」。實際可選標的請以保單條款與富邦人壽公告為準。</p>
   <p class="fd-note" id="listNote"></p>
 </section>
 
@@ -129,6 +130,17 @@ function toggleNav(b){const m=document.getElementById('menu');b.setAttribute('ar
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fl=(f,t)=>f&&typeof f.detail_url==='string'&&f.detail_url.indexOf('https://invest.fubonlife.com.tw/')===0?`<a class="fd-link" href="${esc(f.detail_url)}" target="_blank" rel="noopener" title="開啟富邦投資網基金詳細頁">${t}</a>`:t;
+const prodN=f=>Array.isArray(f.products)&&f.products.length?f.products.filter(p=>p.on_sale).length*1000+f.products.length:null;
+const pLi=p=>`<li class="${p.on_sale?'':'off'}"><b>${esc(p.code)}</b> ${esc(p.name)}${p.on_sale?'':'<em>停售</em>'}</li>`;
+function prodCell(f){
+  const P=f.products;
+  if(!Array.isArray(P)||!P.length)return '<span class="fd-na">—</span>';
+  const on=P.filter(p=>p.on_sale),off=P.filter(p=>!p.on_sale);
+  const more=`<details class="fd-prod"><summary>共 ${P.length} 項，點開看全部</summary><ul>${on.concat(off).map(pLi).join('')}</ul></details>`;
+  if(!on.length)return `<span class="fd-na">目前無在售商品</span>${more}`;
+  if(on.length<=2&&!off.length)return `<ul class="fd-pl">${on.map(pLi).join('')}</ul>`;
+  return `<ul class="fd-pl">${on.slice(0,2).map(pLi).join('')}</ul>${more}`;
+}
 const nf=(v,d=0)=>v==null||!isFinite(v)?'—':Number(v).toLocaleString('zh-TW',{minimumFractionDigits:d,maximumFractionDigits:d});
 const nv=v=>{if(v==null||!isFinite(v))return '—';let t=Number(v).toFixed(4).replace(/0+$/,'');const d=(t.split('.')[1]||'').length;return Number(v).toLocaleString('zh-TW',{minimumFractionDigits:Math.max(2,d),maximumFractionDigits:4})};
 const pc=(v,d=2)=>v==null||!isFinite(v)?'—':(v*100).toFixed(d)+'%';
@@ -148,7 +160,7 @@ function sortBy(arr,key,dir){return arr.slice().sort((a,b)=>{const x=key(a),y=ke
 let sortKey='annual_yield',sortDir=-1;
 const COLS=[
  ['code','代號',f=>f.code,'t'],['name','基金名稱',f=>f.name,'t'],['cur','幣別',f=>f.currency,'t'],['nav','淨值',f=>f.nav,'n'],['nav_date','淨值日期',f=>f.nav_date,'t'],
- ['div','每單位配息',f=>f.dividend_per_unit,'n'],['freq','配息頻率',f=>f.frequency,'t'],['annual_yield','年化配息率',f=>f.annual_yield,'n'],['m','每百萬每月配息',f=>f._m,'n']];
+ ['div','每單位配息',f=>f.dividend_per_unit,'n'],['freq','配息頻率',f=>f.frequency,'t'],['annual_yield','年化配息率',f=>f.annual_yield,'n'],['m','每百萬每月配息',f=>f._m,'n'],['prod','可選的商品',f=>prodN(f),'t']];
 function renderList(){
   const showBase=$('showBase').checked;
   F.forEach(f=>{const p=pick(f,'live');f._m=(f.status==='ok'&&f.nav&&f.dividend_per_unit!=null&&f.periods_per_year!=null)?calc(f.nav,f.dividend_per_unit,f.periods_per_year,1e6,D.fee_factor_default,'sheet').monthly:null});
@@ -161,11 +173,11 @@ function renderList(){
     const miss=f.status!=='ok';
     const cell=c=>{const v=c[2](f);let s;
       switch(c[0]){case'nav':case'bnav':case'div':case'bdiv':s=nv(v);break;
-      case'nav_date':s=v?esc(v).replace(/-/g,'/'):'—';break;case'annual_yield':s=pc(v);break;case'byld':s=pc(v);break;case'm':s=nf(v,0);break;default:s=v==null?'—':esc(v)}
+      case'nav_date':s=v?esc(v).replace(/-/g,'/'):'—';break;case'annual_yield':s=pc(v);break;case'byld':s=pc(v);break;case'm':s=nf(v,0);break;case'prod':s=prodCell(f);break;default:s=v==null?'—':esc(v)}
       if(c[0]==='code')s=fl(f,`<b>${esc(f.code)}</b>`);
       if(c[0]==='name'&&!miss)s=fl(f,s);
       if(c[0]==='name'&&miss)s='<span class="fd-miss">查無資料（網站無此代號）</span>';
-      return `<td class="${c[3]==='n'?'num':''}${c[0]==='annual_yield'&&!miss?' hi':''}${c[0]==='code'?' code':''}${c[0]==='nav_date'?' nw':''}${c[0]==='name'?' nm':''}">${s}</td>`};
+      return `<td class="${c[3]==='n'?'num':''}${c[0]==='annual_yield'&&!miss?' hi':''}${c[0]==='code'?' code':''}${c[0]==='nav_date'?' nw':''}${c[0]==='name'?' nm':''}${c[0]==='prod'?' prd':''}">${s}</td>`};
     return `<tr class="${miss?'miss':''}">`+cols.map(cell).join('')+'</tr>'}).join('');
   $('tbl').querySelectorAll('th').forEach(th=>{const go=()=>{const k=th.dataset.k;if(sortKey===k)sortDir=-sortDir;else{sortKey=k;sortDir=(k==='code'||k==='name'||k==='cur'||k==='nav_date'||k==='freq')?1:-1}renderList()};th.onclick=go;th.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}}});
 }

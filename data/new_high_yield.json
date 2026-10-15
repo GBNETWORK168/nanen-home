@@ -31,6 +31,48 @@
    "short_name": "高盛基金III - 高盛新興市場債券基金X股對沖級別澳幣(月配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/32/NGB3",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 74.86,
    "nav_date": "2026-10-14",
@@ -71,6 +113,138 @@
    "short_name": "iShares 20+ Year Treasury Bond BuyWrite Strategy ETF",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/2/BR016",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 20.36,
    "nav_date": "2026-10-14",
@@ -111,6 +285,48 @@
    "short_name": "野村基金(愛爾蘭系列)-美國非投資等級債券基金(TD美元類股)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/32/NGB15",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 58.7568,
    "nav_date": "2026-10-14",
@@ -151,6 +367,7 @@
    "short_name": "富蘭克林坦伯頓成長基金A股",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRE1",
+   "products": [],
    "currency": "USD",
    "nav": 29.12,
    "nav_date": "2026-10-14",
@@ -191,6 +408,93 @@
    "short_name": "富邦台灣核心半導體",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/7/F0892",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 40.64,
    "nav_date": "2026-10-15",
@@ -231,6 +535,48 @@
    "short_name": "聯博-全球非投資等級債券基金AA(穩定月配)澳幣避險級別",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB23",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 6.48,
    "nav_date": "2026-10-14",
@@ -271,6 +617,48 @@
    "short_name": "富蘭克林華美全球非投資等級債券基金-美元C分配型",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/17/FRB14",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.1614,
    "nav_date": "2026-10-14",
@@ -311,6 +699,43 @@
    "short_name": "施羅德環球基金系列-環球收息債券(美元)A-穩定月配",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/29/SCB15",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 86.6315,
    "nav_date": "2026-10-14",
@@ -351,6 +776,48 @@
    "short_name": "瀚亞多重收益優化組合基金B類型-美元",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/21/ESC1",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 8.12,
    "nav_date": "2026-10-14",
@@ -391,6 +858,48 @@
    "short_name": "摩根投資基金-環球非投資等級債券基金-JPM環球非投資等級債券(美元)-A股(穩定月配)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB19",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 70.8,
    "nav_date": "2026-10-14",
@@ -431,6 +940,28 @@
    "short_name": "富蘭克林華美多重資產收益基金-新台幣分配型",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/17/FRT1",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "TWD",
    "nav": 8.61,
    "nav_date": "2026-10-14",
@@ -471,6 +1002,48 @@
    "short_name": "野村基金(愛爾蘭系列)-全球多元收益債券基金(TD美元類股)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/32/NGB16",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 68.8897,
    "nav_date": "2026-10-14",
@@ -511,6 +1084,83 @@
    "short_name": "柏瑞特別股息收益基金-B類型(美元)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/61/PBE2",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.2,
    "nav_date": "2026-10-14",
@@ -551,6 +1201,133 @@
    "short_name": "富蘭克林坦伯頓全球投資系列-新興國家固定收益基金美元A(Qdis)股",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRB3",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 7.41,
    "nav_date": "2026-10-14",
@@ -591,6 +1368,48 @@
    "short_name": "路博邁投資基金 - NB非投資等級債券基金T月配息類股(美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/38/NBB1",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 5.28,
    "nav_date": "2026-10-14",
@@ -631,6 +1450,48 @@
    "short_name": "路博邁投資基金 - NB非投資等級債券基金T月配息類股(澳幣)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/38/NBB2",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 4.92,
    "nav_date": "2026-10-14",
@@ -671,6 +1532,48 @@
    "short_name": "瑞銀(盧森堡)新興市場債券基金(美元)(月配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/37/UBB6",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 47.28,
    "nav_date": "2026-10-13",
@@ -711,6 +1614,48 @@
    "short_name": "富蘭克林坦伯頓全球投資系列-新興國家固定收益基金澳幣避險A(Mdis)股-H1",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRB15",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 3.45,
    "nav_date": "2026-10-14",
@@ -751,6 +1696,103 @@
    "short_name": "富邦台美雙星多重資產基金-B類型(美元)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/15/FBT8",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 15.7347,
    "nav_date": "2026-10-14",
@@ -791,6 +1833,48 @@
    "short_name": "霸菱優先順位資產抵押債券基金-G類美元月配息型",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/42/BRB9",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 72.63,
    "nav_date": "2026-10-14",
@@ -831,6 +1915,68 @@
    "short_name": "富邦台美雙星多重資產基金-B類型(新台幣)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/15/FBT9",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 16.4331,
    "nav_date": "2026-10-14",
@@ -871,6 +2017,103 @@
    "short_name": "景順環球高評級企業債券基金 E-穩定月配息股 美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/36/IGB5",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.6703,
    "nav_date": "2026-10-14",
@@ -911,6 +2154,103 @@
    "short_name": "富達基金-永續發展全球存股優勢基金(A股C月配息美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDE32",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 9.993,
    "nav_date": "2026-10-14",
@@ -951,6 +2291,83 @@
    "short_name": "安聯收益成長基金-AM穩定月收類股(澳幣避險)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSP7",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 7.7307,
    "nav_date": "2026-10-14",
@@ -991,6 +2408,103 @@
    "short_name": "安聯全球收益成長基金-AMf2固定月配類股(美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSP14",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 80.7,
    "nav_date": "2026-10-14",
@@ -1031,6 +2545,83 @@
    "short_name": "聯博美國傘型基金之聯博美國成長入息基金-AI類型(美元)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/20/ACE16",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 15.35,
    "nav_date": "2026-10-14",
@@ -1071,6 +2662,103 @@
    "short_name": "安聯美國收益基金-AMf固定月配類股(美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSB13",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.4399,
    "nav_date": "2026-10-14",
@@ -1111,6 +2799,48 @@
    "short_name": "霸菱成熟及新興市場非投資等級債券基金-G類澳幣避險月配息型",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/42/BRB4",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 7.41,
    "nav_date": "2026-10-14",
@@ -1151,6 +2881,28 @@
    "short_name": "摩根大美國領先收成多重資產基金-月配息型(新臺幣)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/19/JFT1",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "TWD",
    "nav": 9.28,
    "nav_date": "2026-10-14",
@@ -1191,6 +2943,48 @@
    "short_name": "安本基金-前緣市場債券基金A月配息美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/26/ABB8",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 9.2594,
    "nav_date": "2026-10-14",
@@ -1231,6 +3025,103 @@
    "short_name": "貝萊德世界科技 A10",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/27/MLE24",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 20.97,
    "nav_date": "2026-10-14",
@@ -1271,6 +3162,48 @@
    "short_name": "安聯收益成長多重資產基金-B類型(月配息)-新臺幣",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/10/DST1",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 8.12,
    "nav_date": "2026-10-14",
@@ -1311,6 +3244,43 @@
    "short_name": "安聯收益成長基金-AMi穩定月收類股(日圓避險)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSP15",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "JPY",
    "nav": 1818.66,
    "nav_date": "2026-10-14",
@@ -1351,6 +3321,103 @@
    "short_name": "聯博-美國收益基金AA(穩定月配)級別美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB16",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 8.43,
    "nav_date": "2026-10-14",
@@ -1391,6 +3458,48 @@
    "short_name": "PIMCO新興市場債券基金-M級類別(月收息強化股份)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/22/DSB9",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.93,
    "nav_date": "2026-10-14",
@@ -1431,6 +3540,103 @@
    "short_name": "富達基金－全球優質債券基金 (A股C月配息美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDB21",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 7.763,
    "nav_date": "2026-10-14",
@@ -1471,6 +3677,28 @@
    "short_name": "晉達環球策略基金－新興市場公司債券基金C收益－2股份(澳幣避險IRD，月配)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/32/INB4",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 10.76,
    "nav_date": "2026-10-14",
@@ -1511,6 +3739,28 @@
    "short_name": "摩根基金－新興市場本地貨幣債券基金 - JPM 新興市場本地貨幣債券(澳幣對沖)－ A股(利率入息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB13",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 3.94,
    "nav_date": "2026-10-14",
@@ -1551,6 +3801,103 @@
    "short_name": "聯博-全球多元收益基金AD月配級別美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACP4",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 8.95,
    "nav_date": "2026-10-14",
@@ -1591,6 +3938,48 @@
    "short_name": "霸菱成熟及新興市場非投資等級債券基金-G類美元月配息型",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/42/BRB3",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 7.13,
    "nav_date": "2026-10-14",
@@ -1631,6 +4020,28 @@
    "short_name": "聯博全球非投資等級債券基金-TA類型(新台幣)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/20/ACB26",
+   "products": [
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 4.51,
    "nav_date": "2026-10-14",
@@ -1671,6 +4082,93 @@
    "short_name": "霸菱成熟及新興市場非投資等級債券基金-G類美元季配息型",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/42/BRB1",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUE",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUF/VSF",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUG",
+     "name": "致富贏家變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUK",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.93,
    "nav_date": "2026-10-14",
@@ -1711,6 +4209,23 @@
    "short_name": "霸菱成熟及新興市場非投資等級債券基金-G類美元季配息型",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/42/BRB7",
+   "products": [
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.93,
    "nav_date": "2026-10-14",
@@ -1751,6 +4266,28 @@
    "short_name": "野村亞太複合非投資等級債券基金-月配型新臺幣計價",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/14/NGB10",
+   "products": [
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 4.1631,
    "nav_date": "2026-10-14",
@@ -1791,6 +4328,103 @@
    "short_name": "富蘭克林坦伯頓全球投資系列-穩定月收益基金美元A (Mdis)股",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRP4",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 9.66,
    "nav_date": "2026-10-14",
@@ -1831,6 +4465,28 @@
    "short_name": "安聯收益成長多重資產基金-B類型(月配息)-人民幣",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/10/DST2",
+   "products": [
+    {
+     "code": "VABC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "CNY",
    "nav": 7.72,
    "nav_date": "2026-10-14",
@@ -1871,6 +4527,48 @@
    "short_name": "安聯美國收益基金-AMg穩定月收總收益類股(美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSB12",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 7.0162,
    "nav_date": "2026-10-14",
@@ -1911,6 +4609,48 @@
    "short_name": "瑞銀(盧森堡)歐元非投資等級債券基金(歐元)(美元避險)(月配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/37/UBB5",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 81.68,
    "nav_date": "2026-10-13",
@@ -1951,6 +4691,48 @@
    "short_name": "富達基金－亞洲非投資等級債券基金(A股H月配息澳幣避險)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDB15",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 4.547,
    "nav_date": "2026-10-14",
@@ -1991,6 +4773,83 @@
    "short_name": "富蘭克林坦伯頓全球投資系列－全球債券總報酬基金澳幣避險A(Mdis)-H1",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRB21",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 4.78,
    "nav_date": "2026-10-14",
@@ -2031,6 +4890,28 @@
    "short_name": "瀚亞投資-美國非投資等級債券基金Andmc1(紐幣避險穩定月配)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/41/ESB3",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "NZD",
    "nav": 5.202,
    "nav_date": "2026-10-14",
@@ -2071,6 +4952,83 @@
    "short_name": "摩根投資基金－多重收益基金 - JPM多重收益(澳幣對沖) - A股(利率入息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFP5",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 9.05,
    "nav_date": "2026-10-14",
@@ -2111,6 +5069,83 @@
    "short_name": "富蘭克林坦伯頓全球投資系列－全球債券總報酬基金美元A(Mdis)股",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRB17",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 7.7,
    "nav_date": "2026-10-14",
@@ -2151,6 +5186,88 @@
    "short_name": "貝萊德全球智慧數據股票入息基金A6美元(穩定配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/27/MLE20",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 9.98,
    "nav_date": "2026-10-14",
@@ -2191,6 +5308,83 @@
    "short_name": "高盛基金III - 高盛投資級公司債基金X股美元(月配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/32/NGB9",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 83.46,
    "nav_date": "2026-10-14",
@@ -2231,6 +5425,48 @@
    "short_name": "景順多元收益成長基金A-穩定月配息(美元對沖)股 美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/36/IGP1",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 10.6268,
    "nav_date": "2026-10-14",
@@ -2271,6 +5507,48 @@
    "short_name": "摩根基金－新興市場本地貨幣債券基金 - JPM 新興市場本地貨幣債券(美元)－ A股(每月派息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB4",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.08,
    "nav_date": "2026-10-14",
@@ -2311,6 +5589,83 @@
    "short_name": "野村全球金融收益基金-月配類型美元計價",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/14/NGB13",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 7.2422,
    "nav_date": "2026-10-14",
@@ -2351,6 +5706,48 @@
    "short_name": "晉達環球策略基金 - 新興市場公司債券基金 C 收益-2 股份",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/32/INB3",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 12.39,
    "nav_date": "2026-10-14",
@@ -2391,6 +5788,93 @@
    "short_name": "富邦臺灣中小A級動能50ETF基金",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/7/F0733",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 75.98,
    "nav_date": "2026-10-15",
@@ -2431,6 +5915,43 @@
    "short_name": "貝萊德世界礦業基金A10美元(總報酬穩定配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/27/MLE25",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 14.21,
    "nav_date": "2026-10-14",
@@ -2471,6 +5992,83 @@
    "short_name": "施羅德環球基金系列 - 環球股息基金(澳幣避險)A-月配固定(C)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/29/SCE17",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 7.4649,
    "nav_date": "2026-10-14",
@@ -2511,6 +6109,83 @@
    "short_name": "高盛基金III - 高盛美國高股息基金X股美元(月配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/32/NGE8",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 530.95,
    "nav_date": "2026-10-14",
@@ -2551,6 +6226,48 @@
    "short_name": "安聯全球收益成長基金-AMg穩定月收總收益類股(美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSP11",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 8.97,
    "nav_date": "2026-10-14",
@@ -2591,6 +6308,58 @@
    "short_name": "聯博-全球非投資等級債券基金AT股美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB6",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 2.94,
    "nav_date": "2026-10-14",
@@ -2631,6 +6400,18 @@
    "short_name": "景順環球非投資等級債券基金A-半年配息股 美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/36/IGB4",
+   "products": [
+    {
+     "code": "VUE",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUG",
+     "name": "致富贏家變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 9.33,
    "nav_date": "2026-10-14",
@@ -2671,6 +6452,28 @@
    "short_name": "聯博全球非投資等級債券基金-TA類型(人民幣)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/20/ACB28",
+   "products": [
+    {
+     "code": "VABC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "CNY",
    "nav": 6.86,
    "nav_date": "2026-10-14",
@@ -2711,6 +6514,48 @@
    "short_name": "安聯智慧城市收益基金-AMg穩定月收總收益類股(美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSP12",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 10.8327,
    "nav_date": "2026-10-14",
@@ -2751,6 +6596,48 @@
    "short_name": "富達亞洲非投資等級債券基金A股月配息型美元計價級別",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/16/FDB10",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 3.9979,
    "nav_date": "2026-10-14",
@@ -2791,6 +6678,48 @@
    "short_name": "貝萊德環球非投資等級債券基金 A6 美元(穩定配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/27/MLB8",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 5.66,
    "nav_date": "2026-10-14",
@@ -2831,6 +6760,103 @@
    "short_name": "摩根投資基金-多重收益基金-JPM多重收益(美元對沖)-A股(利率入息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFP10",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 8.34,
    "nav_date": "2026-10-14",
@@ -2871,6 +6897,28 @@
    "short_name": "瀚亞全球非投資等級債券基金C類型-新臺幣",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/21/ESB1",
+   "products": [
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 5.9405,
    "nav_date": "2026-10-14",
@@ -2911,6 +6959,83 @@
    "short_name": "聯博-美國收益基金AT股澳幣避險",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB18",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 9.6,
    "nav_date": "2026-10-14",
@@ -2951,6 +7076,28 @@
    "short_name": "摩根基金－新興市場債券基金 - JPM 新興市場債券(澳幣對沖)－ A股(利率入息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB14",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 5.35,
    "nav_date": "2026-10-14",
@@ -2991,6 +7138,83 @@
    "short_name": "PIMCO多元收益債券基金-M級類別(月收息強化股份)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/22/DSB3",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 7.63,
    "nav_date": "2026-10-14",
@@ -3031,6 +7255,48 @@
    "short_name": "富蘭克林坦伯頓全球投資系列－公司債基金澳幣避險A(Mdis)股-H1",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRB12",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 6.88,
    "nav_date": "2026-10-14",
@@ -3071,6 +7337,58 @@
    "short_name": "富蘭克林坦伯頓全球投資系列-公司債基金美元A (Mdis)股",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRB9",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 4.98,
    "nav_date": "2026-10-14",
@@ -3111,6 +7429,28 @@
    "short_name": "霸菱成熟及新興市場非投資等級債券基金-G類紐幣避險月配息型",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/42/BRB6",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "NZD",
    "nav": 9.97,
    "nav_date": "2026-10-14",
@@ -3151,6 +7491,48 @@
    "short_name": "摩根投資基金－環球非投資等級債券基金 - JPM 環球非投資等級債券(澳幣對沖)- A股(利率入息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB12",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 6.83,
    "nav_date": "2026-10-14",
@@ -3191,6 +7573,83 @@
    "short_name": "施羅德環球基金系列-環球股息基金(美元)AX-月配固定",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/29/SCE16",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 4.737,
    "nav_date": "2026-10-14",
@@ -3231,6 +7690,48 @@
    "short_name": "摩根基金 - 新興市場債券基金 - JPM新興市場債券(歐元對沖) - A股(每月派息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB17",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "EUR",
    "nav": 5.27,
    "nav_date": "2026-10-14",
@@ -3271,6 +7772,103 @@
    "short_name": "駿利亨德森資產管理基金-駿利亨德森平衡基金A6穩月配美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/32/JNP1",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 11.41,
    "nav_date": "2026-10-14",
@@ -3311,6 +7909,48 @@
    "short_name": "摩根基金－新興市場債券基金 - JPM 新興市場債券(美元)－ A股(每月派息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB3",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 9.48,
    "nav_date": "2026-10-14",
@@ -3351,6 +7991,83 @@
    "short_name": "安聯歐洲高息股票基金-AM穩定月收類股(美元避險)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSE10",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 12.1453,
    "nav_date": "2026-10-14",
@@ -3391,6 +8108,48 @@
    "short_name": "聯博-新興市場債券基金AT股澳幣避險",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB20",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 9.68,
    "nav_date": "2026-10-14",
@@ -3431,6 +8190,28 @@
    "short_name": "摩根亞洲總合非投資等級債券基金-月配息型",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/19/JFB15",
+   "products": [
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 4.2329,
    "nav_date": "2026-10-14",
@@ -3471,6 +8252,7 @@
    "short_name": "摩根國際債券基金",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JF01",
+   "products": [],
    "currency": "USD",
    "nav": 16.81,
    "nav_date": "2026-10-14",
@@ -3511,6 +8293,63 @@
    "short_name": "富蘭克林坦伯頓全球投資系列－全球債券基金澳幣避險 A (Mdis)股-H1",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRB20",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 5.72,
    "nav_date": "2026-10-14",
@@ -3551,6 +8390,73 @@
    "short_name": "聯博－美國收益基金AT股美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB5",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 5.92,
    "nav_date": "2026-10-14",
@@ -3591,6 +8497,83 @@
    "short_name": "施羅德環球基金系列－環球收息債券(美元)A-月配固定",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/29/SCB13",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 81.6193,
    "nav_date": "2026-10-14",
@@ -3631,6 +8614,28 @@
    "short_name": "富邦亞太債券傘型基金之富邦中國非投資等級債券基金-B類型(人民幣)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/15/FBB11",
+   "products": [
+    {
+     "code": "VABC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "CNY",
    "nav": 3.4349,
    "nav_date": "2026-10-14",
@@ -3671,6 +8676,63 @@
    "short_name": "摩根投資基金－環球非投資等級債券基金 - JPM 環球非投資等級債券(美元)－ A股(每月派息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB2",
+   "products": [
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 78.04,
    "nav_date": "2026-10-14",
@@ -3711,6 +8773,28 @@
    "short_name": "柏瑞全球策略非投資等級債券基金-B類型",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/61/PBB1",
+   "products": [
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 4.8246,
    "nav_date": "2026-10-14",
@@ -3751,6 +8835,83 @@
    "short_name": "安聯收益成長基金-AM穩定月收類股(歐元避險)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSP8",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "EUR",
    "nav": 7.8705,
    "nav_date": "2026-10-14",
@@ -3791,6 +8952,48 @@
    "short_name": "富邦亞太債券傘型基金之富邦中國非投資等級債券基金-B類型(美元)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/15/FBB12",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 0.5507,
    "nav_date": "2026-10-14",
@@ -3831,6 +9034,28 @@
    "short_name": "聯博-全球非投資等級債券基金AT股紐幣避險",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB13",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "NZD",
    "nav": 8.89,
    "nav_date": "2026-10-14",
@@ -3871,6 +9096,48 @@
    "short_name": "景順環球股票收益基金A-穩定月配息股 美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/36/IGE14",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 14.1,
    "nav_date": "2026-10-14",
@@ -3911,6 +9178,28 @@
    "short_name": "富蘭克林華美全球非投資等級債券基金-新台幣B分配型",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/17/FRB22",
+   "products": [
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 5.9886,
    "nav_date": "2026-10-14",
@@ -3951,6 +9240,118 @@
    "short_name": "富蘭克林坦伯頓全球投資系列- 全球債券基金美元 A(Mdis)股",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRB1",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 10.67,
    "nav_date": "2026-10-14",
@@ -3991,6 +9392,83 @@
    "short_name": "聯博-新興市場多元收益基金AD月配級別美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACP1",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 14.15,
    "nav_date": "2026-10-14",
@@ -4031,6 +9509,48 @@
    "short_name": "貝萊德亞洲老虎債券基金 A6 美元 (穩定配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/27/MLB6",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 8.03,
    "nav_date": "2026-10-14",
@@ -4071,6 +9591,48 @@
    "short_name": "富達亞洲總報酬基金A股月配息型美元計價級別",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/16/FDB20",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.9284,
    "nav_date": "2026-10-14",
@@ -4111,6 +9673,63 @@
    "short_name": "聯博-歐洲收益基金AT股澳幣避險",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB25",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 11.8,
    "nav_date": "2026-10-14",
@@ -4151,6 +9770,18 @@
    "short_name": "摩根基金－新興市場債券基金 - JPM 新興市場債券(歐元對沖)－A股(分派)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JF10",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "EUR",
    "nav": 5.59,
    "nav_date": "2026-10-14",
@@ -4191,6 +9822,63 @@
    "short_name": "富達基金－亞洲非投資等級債券基金 (A股月配息美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDB9",
+   "products": [
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 4.796,
    "nav_date": "2026-10-14",
@@ -4231,6 +9919,83 @@
    "short_name": "施羅德傘型基金II-亞洲高息股債基金(美元)A-月配",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/29/SCP1",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 9.7321,
    "nav_date": "2026-10-14",
@@ -4271,6 +10036,83 @@
    "short_name": "施羅德傘型基金II－亞洲高息股債基金(澳幣避險)A－月配",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/29/SCP3",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 8.8259,
    "nav_date": "2026-10-14",
@@ -4311,6 +10153,93 @@
    "short_name": "富邦全方位入息ETF傘型基金之富邦彭博10年期(以上)BBB美元息收公司債券ETF基金",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/7/F0740",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 36.3224,
    "nav_date": "2026-10-14",
@@ -4351,6 +10280,48 @@
    "short_name": "聯博－新興市場債券基金AT股美元",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB7",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 11.33,
    "nav_date": "2026-10-14",
@@ -4391,6 +10362,83 @@
    "short_name": "瑞銀(盧森堡)美國總收益股票基金(美元)(月配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/37/UBE6",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 175.06,
    "nav_date": "2026-10-13",
@@ -4431,6 +10479,18 @@
    "short_name": "富蘭克林坦伯頓全球投資系列-歐洲非投資等級債券基金歐元A(Ydis)股",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FR03",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "EUR",
    "nav": 4.92,
    "nav_date": "2026-10-14",
@@ -4471,6 +10531,43 @@
    "short_name": "摩根投資基金 - 多重收益基金 - JPM多重收益(日圓對沖) - A 股(每月派息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFP12",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "JPY",
    "nav": 9613.0,
    "nav_date": "2026-10-14",
@@ -4511,6 +10608,43 @@
    "short_name": "富達基金-美元債券基金(A股C月配息美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDB12",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 7.092,
    "nav_date": "2026-10-14",
@@ -4551,6 +10685,48 @@
    "short_name": "聯博-全球非投資等級債券基金AT股歐元避險",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB15",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "EUR",
    "nav": 9.86,
    "nav_date": "2026-10-14",
@@ -4591,6 +10767,48 @@
    "short_name": "摩根投資基金－多重收益基金 - JPM多重收益(美元對沖) - A股(每月派息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFP3",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 127.62,
    "nav_date": "2026-10-14",
@@ -4631,6 +10849,48 @@
    "short_name": "瑞銀(盧森堡)歐元非投資等級債券基金(歐元)(月配息)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/37/UBB4",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "EUR",
    "nav": 114.29,
    "nav_date": "2026-10-13",
@@ -4671,6 +10931,28 @@
    "short_name": "摩根多元入息成長基金-月配息型(人民幣)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/19/JFC1",
+   "products": [
+    {
+     "code": "VABC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "CNY",
    "nav": 9.6893,
    "nav_date": "2026-10-14",
@@ -4711,6 +10993,48 @@
    "short_name": "安本基金-歐元非投資等級債券基金 A 月配息 美元避險",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/26/ABB5",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 10.4423,
    "nav_date": "2026-10-14",
@@ -4751,6 +11075,48 @@
    "short_name": "摩根多元入息成長基金-月配息型",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/19/JFC2",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 8.1632,
    "nav_date": "2026-10-14",
@@ -4791,6 +11157,103 @@
    "short_name": "施羅德環球基金系列-亞洲債信先機(美元)A-月配固定",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/29/SCB14",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 77.6003,
    "nav_date": "2026-10-14",
@@ -4831,6 +11294,28 @@
    "short_name": "瀚亞投資-亞洲債券基金Andm(紐幣避險月配)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/41/ESB2",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "NZD",
    "nav": 5.852,
    "nav_date": "2026-10-14",
@@ -4871,6 +11356,83 @@
    "short_name": "PIMCO全球投資級別債券基金-M級類別(月收息強化股份)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/22/DSB6",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 7.84,
    "nav_date": "2026-10-14",
@@ -4911,6 +11473,48 @@
    "short_name": "富蘭克林坦伯頓全球投資系列－歐洲非投資等級債券基金美元A (Mdis)股",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRB18",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.91,
    "nav_date": "2026-10-14",
@@ -4951,6 +11555,48 @@
    "short_name": "富達基金－美元非投資等級債券基金(A股月配息美元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDB5",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 10.35,
    "nav_date": "2026-10-14",
@@ -4991,6 +11637,28 @@
    "short_name": "富蘭克林華美全球債券組合基金-分配型",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/17/FRC2",
+   "products": [
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 6.177,
    "nav_date": "2026-10-14",
@@ -5031,6 +11699,28 @@
    "short_name": "富達基金－美元非投資等級債券基金(A股月配息澳幣避險)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDB16",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 9.233,
    "nav_date": "2026-10-14",
@@ -5071,6 +11761,63 @@
    "short_name": "聯博-亞洲股票基金AD股澳幣避險",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACE11",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 18.32,
    "nav_date": "2026-10-14",
@@ -5111,6 +11858,28 @@
    "short_name": "野村環球非投資等級債券基金-月配類型人民幣計價",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/14/NGB6",
+   "products": [
+    {
+     "code": "VABC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "CNY",
    "nav": 6.0415,
    "nav_date": "2026-10-14",
@@ -5151,6 +11920,28 @@
    "short_name": "富邦亞太債券傘型基金之富邦亞太優質債券基金-B類型(人民幣)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/15/FBB9",
+   "products": [
+    {
+     "code": "VABC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBC",
+     "name": "人民幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCC",
+     "name": "人民幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "CNY",
    "nav": 8.2865,
    "nav_date": "2026-10-14",
@@ -5191,6 +11982,18 @@
    "short_name": "富蘭克林坦伯頓全球投資系列-亞洲債券基金美元A(Mdis)股",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FR01",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 6.99,
    "nav_date": "2026-10-14",
@@ -5231,6 +12034,63 @@
    "short_name": "聯博-美國收益基金AT股紐幣避險",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACB14",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "NZD",
    "nav": 9.11,
    "nav_date": "2026-10-14",
@@ -5271,6 +12131,48 @@
    "short_name": "富邦亞太債券傘型基金之富邦亞太優質債券基金-B類型(美元)",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/15/FBB13",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 1.2082,
    "nav_date": "2026-10-14",
@@ -5311,6 +12213,23 @@
    "short_name": "富達基金－歐洲非投資等級債券基金(A股歐元)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDB2",
+   "products": [
+    {
+     "code": "VUC",
+     "name": "花開富貴變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUH",
+     "name": "花開富貴變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUP",
+     "name": "花開富貴變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "EUR",
    "nav": 8.606,
    "nav_date": "2026-10-14",
@@ -5351,6 +12270,88 @@
    "short_name": "iShares iBoxx $ High Yield Corporate Bond ETF",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/2/BR012",
+   "products": [
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 76.65,
    "nav_date": "2026-10-14",
@@ -5391,6 +12392,48 @@
    "short_name": "富達基金 - 歐洲非投資等級債券基金 (A股月配息美元避險)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDB14",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 10.8,
    "nav_date": "2026-10-14",
@@ -5431,6 +12474,83 @@
    "short_name": "富達基金-歐洲入息基金(A股H月配息澳幣避險)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDE22",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 14.18,
    "nav_date": "2026-10-14",
@@ -5471,6 +12591,28 @@
    "short_name": "野村環球非投資等級債券基金-月配類型新臺幣計價",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/14/NGB8",
+   "products": [
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 5.8159,
    "nav_date": "2026-10-14",
@@ -5511,6 +12653,108 @@
    "short_name": "PIMCO多元收益債券基金-E級類別(收息股份)",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/22/DSB5",
+   "products": [
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 11.79,
    "nav_date": "2026-10-14",
@@ -5551,6 +12795,28 @@
    "short_name": "柏瑞新興亞太策略債券基金-B類型",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/61/PBB2",
+   "products": [
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 6.5725,
    "nav_date": "2026-10-14",
@@ -5591,6 +12857,83 @@
    "short_name": "聯博-全球價值型基金AD月配澳幣避險級別",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACE10",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "AUD",
    "nav": 18.65,
    "nav_date": "2026-10-14",
@@ -5631,6 +12974,138 @@
    "short_name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/2/BR009",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 102.65,
    "nav_date": "2026-10-14",
@@ -5666,5 +13141,5 @@
    "freq_check": null
   }
  ],
- "updated_at": "2026-10-15T23:10:14+08:00"
+ "updated_at": "2026-10-15T23:32:26+08:00"
 }

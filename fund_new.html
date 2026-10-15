@@ -60,6 +60,7 @@
   </div>
   <div class="fd-bar"><span class="fd-hint" id="cnt"></span><span class="fd-hint">點表頭可排序</span></div>
   <div class="fd-tblwrap fd-tall"><table class="fd-tbl fd-compact" id="tbl"><thead></thead><tbody><tr><td>載入中…</td></tr></tbody></table></div>
+  <p class="fd-prodnote">「可選的商品」：富邦人壽投資型保險專區各基金詳細頁列出的適用保單商品；以在售商品優先，已停售商品於展開清單標示「停售」。實際可選標的請以保單條款與富邦人壽公告為準。</p>
   <p class="fd-note" id="note"></p>
 </section>
 
@@ -79,6 +80,17 @@ function toggleNav(b){const m=document.getElementById('menu');b.setAttribute('ar
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fl=(f,t)=>f&&typeof f.detail_url==='string'&&f.detail_url.indexOf('https://invest.fubonlife.com.tw/')===0?`<a class="fd-link" href="${esc(f.detail_url)}" target="_blank" rel="noopener" title="開啟富邦投資網基金詳細頁">${t}</a>`:t;
+const prodN=f=>Array.isArray(f.products)&&f.products.length?f.products.filter(p=>p.on_sale).length*1000+f.products.length:null;
+const pLi=p=>`<li class="${p.on_sale?'':'off'}"><b>${esc(p.code)}</b> ${esc(p.name)}${p.on_sale?'':'<em>停售</em>'}</li>`;
+function prodCell(f){
+  const P=f.products;
+  if(!Array.isArray(P)||!P.length)return '<span class="fd-na">—</span>';
+  const on=P.filter(p=>p.on_sale),off=P.filter(p=>!p.on_sale);
+  const more=`<details class="fd-prod"><summary>共 ${P.length} 項，點開看全部</summary><ul>${on.concat(off).map(pLi).join('')}</ul></details>`;
+  if(!on.length)return `<span class="fd-na">目前無在售商品</span>${more}`;
+  if(on.length<=2&&!off.length)return `<ul class="fd-pl">${on.map(pLi).join('')}</ul>`;
+  return `<ul class="fd-pl">${on.slice(0,2).map(pLi).join('')}</ul>${more}`;
+}
 const nf=(v,d=0)=>v==null||!isFinite(v)?'—':Number(v).toLocaleString('zh-TW',{minimumFractionDigits:d,maximumFractionDigits:d});
 const nv=v=>{if(v==null||!isFinite(v))return '—';let t=Number(v).toFixed(4).replace(/0+$/,'');const d=(t.split('.')[1]||'').length;return Number(v).toLocaleString('zh-TW',{minimumFractionDigits:Math.max(2,d),maximumFractionDigits:4})};
 const pc=(v,d=2)=>v==null||!isFinite(v)?'—':(v>0&&v<0.0001?'<0.01%':(v*100).toFixed(d)+'%');
@@ -114,7 +126,9 @@ const cols=[
  ['y12','合計÷淨值',f=>f.annual_yield_12m,f=>pc(f.annual_yield_12m),'n',-1],
  ['stab','穩定度',f=>f.annual_yield_12m&&f.annual_yield?f.annual_yield_12m/f.annual_yield:null,f=>{if(!(f.annual_yield_12m&&f.annual_yield))return '—';const r=f.annual_yield_12m/f.annual_yield;return r>=0.9&&r<=1.1?'<span class="fd-pos">穩定</span>':r<0.9?'<span class="fd-neg">近期偏高('+Math.round(r*100)+'%)</span>':'<span class="fd-na">近期下降('+Math.round(r*100)+'%)</span>'},'n',-1],
  ['risk','風險等級',f=>f.risk_level,f=>esc(f.risk_level||'—'),'t',-1],
- ['y1','近1年報酬',f=>f.returns&&f.returns.y1,f=>rt(f.returns&&f.returns.y1),'n',-1]];
+ ['y1','近1年報酬',f=>f.returns&&f.returns.y1,f=>rt(f.returns&&f.returns.y1),'n',-1],
+ ['prod','可選的商品',f=>prodN(f),f=>prodCell(f),'t',-1,' prd']
+];
 let redraw;
 function filtered(){
   const a=$('fFreq').value,b=$('fCur').value,k=$('fKind').value,q=$('fQ').value.trim().toLowerCase();

@@ -22,6 +22,173 @@
    "short_name": "安聯台灣科技",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/10/DSE11",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUE",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUF/VSF",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUG",
+     "name": "致富贏家變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUK",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 781.99,
    "nav_date": "2026-10-15",
@@ -65,6 +232,73 @@
    "short_name": "野村e科技",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/14/NGE5",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 229.69,
    "nav_date": "2026-10-15",
@@ -108,6 +342,93 @@
    "short_name": "富邦台灣核心半導體",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/7/F0892",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 40.64,
    "nav_date": "2026-10-15",
@@ -151,6 +472,93 @@
    "short_name": "富邦台灣科技指數",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/7/F0052",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 62.95,
    "nav_date": "2026-10-15",
@@ -194,6 +602,128 @@
    "short_name": "富邦AI智能新趨勢",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/15/FBT7",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 60.0562,
    "nav_date": "2026-10-14",
@@ -237,6 +767,33 @@
    "short_name": "富邦高科技",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/15/FBE14",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "TWD",
    "nav": 92.41,
    "nav_date": "2026-10-15",
@@ -280,6 +837,18 @@
    "short_name": "摩根太平洋科技",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JF09",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 169.64,
    "nav_date": "2026-10-14",
@@ -323,6 +892,233 @@
    "short_name": "聯博國際科技",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACE3",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUE",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUF/VSF",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUG",
+     "name": "致富贏家變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUK",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 1541.1,
    "nav_date": "2026-10-14",
@@ -366,6 +1162,43 @@
    "short_name": "安聯網路資安趨勢",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSE14",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 174.91,
    "nav_date": "2026-10-14",
@@ -409,6 +1242,103 @@
    "short_name": "貝萊德世界科技 A10",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/27/MLE24",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 20.97,
    "nav_date": "2026-10-14",
@@ -452,6 +1382,128 @@
    "short_name": "貝萊德世界科技 A2",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/27/MLE23",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 148.58,
    "nav_date": "2026-10-14",
@@ -495,6 +1547,93 @@
    "short_name": "富邦NASDAQ-100",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/7/F0662",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 123.46,
    "nav_date": "2026-10-14",
@@ -538,6 +1677,93 @@
    "short_name": "統一NYSE FANG+",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/6/T0757",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "TWD",
    "nav": 144.25,
    "nav_date": "2026-10-14",
@@ -581,6 +1807,128 @@
    "short_name": "安聯AI人工智慧",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/25/DSE12",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 40.1074,
    "nav_date": "2026-10-14",
@@ -624,6 +1972,158 @@
    "short_name": "富達全球科技",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDE33",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 86.91,
    "nav_date": "2026-10-14",
@@ -667,6 +2167,43 @@
    "short_name": "安聯AI收益成長",
    "kind": "境內基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/10/DST3",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
    "currency": "USD",
    "nav": 12.21,
    "nav_date": "2026-10-14",
@@ -710,6 +2247,183 @@
    "short_name": "摩根美國科技",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFE15",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUE",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUF/VSF",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUG",
+     "name": "致富贏家變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUK",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 154.04,
    "nav_date": "2026-10-14",
@@ -753,6 +2467,138 @@
    "short_name": "iShares生技",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/2/BR010",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 203.22,
    "nav_date": "2026-10-14",
@@ -796,6 +2642,148 @@
    "short_name": "瑞銀生化股票",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/37/UBE2",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUE",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUF/VSF",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUG",
+     "name": "致富贏家變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUK",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 1006.09,
    "nav_date": "2026-10-13",
@@ -839,6 +2827,83 @@
    "short_name": "富蘭克林生技領航",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRE8",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 60.95,
    "nav_date": "2026-10-14",
@@ -882,6 +2947,18 @@
    "short_name": "百達生物科技",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/57/PI02",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 1144.44,
    "nav_date": "2026-10-14",
@@ -925,6 +3002,233 @@
    "short_name": "聯博國際醫療",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/40/ACE2",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA1",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VDA2",
+     "name": "吉祥變額遞延年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VUE",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUF/VSF",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUG",
+     "name": "致富贏家變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUJ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUK",
+     "name": "富貴人生變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUL",
+     "name": "吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUN",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUQ/VSQ",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUS",
+     "name": "新吉祥變額萬能終身壽險",
+     "on_sale": false
+    },
+    {
+     "code": "VUW",
+     "name": "祥富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 631.66,
    "nav_date": "2026-10-14",
@@ -968,6 +3272,83 @@
    "short_name": "富達永續全球健康護理",
    "kind": "境外基金",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDE24",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 25.44,
    "nav_date": "2026-10-14",
@@ -1011,6 +3392,138 @@
    "short_name": "iShares美國醫療設備",
    "kind": "ETF",
    "detail_url": "https://invest.fubonlife.com.tw/funds/overview/ETF/2/BR011",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
    "currency": "USD",
    "nav": 52.72,
    "nav_date": "2026-10-14",
@@ -1049,5 +3562,5 @@
    "annual_yield_12m": 0.004972
   }
  ],
- "updated_at": "2026-10-15T23:09:53+08:00"
+ "updated_at": "2026-10-15T23:31:42+08:00"
 }
