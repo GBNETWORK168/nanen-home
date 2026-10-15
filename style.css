@@ -301,3 +301,5 @@ nav.open{display:flex}nav a{padding:14px 20px;border-top:1px solid #edf2f8}nav a
 .vision .home-banner{margin:6px 0 4px}.vision .brush-quote{margin-top:26px}
 .rate-cash{flex-direction:column;gap:2px}.rate-card{display:flex;flex-direction:column}.rate-cash{margin-top:auto}.rate-pair{margin-bottom:8px}
 @media(max-width:720px){.rate-cash{flex-direction:column}}
+@media(max-width:720px){.rates-fin{padding-left:12px;padding-right:12px}.rates-sec .sec{padding-left:12px;padding-right:12px}.rate-pair{gap:5px}.rate-pair div{padding:8px 2px}.rate-pair strong{font-size:17px;white-space:nowrap;letter-spacing:-.3px}.rate-card header{gap:7px}}
+@media(max-width:380px){.rate-pair strong{font-size:15px}.rate-card header b{font-size:15px}}
