@@ -60,7 +60,7 @@
       "change": "-1,655.96（-3.41%）"
     }
   ],
-  "indices_note": "美股為美東 10/14 收盤；台股加權為 10/15 收盤。",
+  "indices_note": "美股為美東 10/14 收盤；台股為 10/15 收盤",
   "posters": [
     {
       "caption": "每日報報 2026.10.15（新聞棚版）",
@@ -93,44 +93,143 @@
   ],
   "clips": [
     {
-      "caption": "前八月總薪資 創16年同期新高",
-      "download": "20261015-剪報-前八月總薪資.png",
-      "source_url": "https://www.ctee.com.tw/news/20261015702223-430503",
-      "source": "工商時報 2026/10/15",
-      "thumb": "daily-news/thumb/clip-ctee-salary.jpg",
-      "full": "daily-news/img/clip-ctee-salary.png",
-      "download_path": "daily-news/img/clip-ctee-salary.png"
+      "caption": "台股挫跌1655點　失守月線創單日第6大跌點",
+      "download": "20261015-剪報-台股挫跌1655點.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202610150126.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-taiex.jpg",
+      "full": "daily-news/img/cards/taiex.png",
+      "download_path": "daily-news/img/cards/taiex.png"
     },
     {
-      "caption": "美9月通膨3.7% 升息壓力再起",
-      "download": "20261015-剪報-美國9月通膨.png",
+      "caption": "美9月通膨升至3.7%　共和黨期中選舉再添變數",
+      "download": "20261015-剪報-美9月通膨升至3.7%.png",
       "source_url": "https://www.cna.com.tw/news/afe/202610150034.aspx",
       "source": "中央社 2026/10/15",
-      "thumb": "daily-news/thumb/clip-cna-cpi.jpg",
-      "full": "daily-news/img/clip-cna-cpi.png",
-      "download_path": "daily-news/img/clip-cna-cpi.png"
+      "thumb": "daily-news/thumb/clip-cpi.jpg",
+      "full": "daily-news/img/cards/cpi.png",
+      "download_path": "daily-news/img/cards/cpi.png"
     },
     {
-      "caption": "失智照護3.0 研議用藥納健保",
-      "download": "20261015-剪報-失智照護3.0.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202610150214.aspx",
-      "source": "中央社 2026/10/15",
-      "thumb": "daily-news/thumb/clip-cna-dementia.jpg",
-      "full": "daily-news/img/clip-cna-dementia.png",
-      "download_path": "daily-news/img/clip-cna-dementia.png"
-    },
-    {
-      "caption": "普發萬元之際 全教總籲撥補退休基金",
-      "download": "20261015-剪報-全教總退休基金.png",
+      "caption": "政府將普發萬元　全教總籲正視退休基金永續經營",
+      "download": "20261015-剪報-政府將普發萬元.png",
       "source_url": "https://www.cna.com.tw/news/ahel/202610150057.aspx",
       "source": "中央社 2026/10/15",
-      "thumb": "daily-news/thumb/clip-cna-pension.jpg",
-      "full": "daily-news/img/clip-cna-pension.png",
-      "download_path": "daily-news/img/clip-cna-pension.png"
+      "thumb": "daily-news/thumb/clip-pension.jpg",
+      "full": "daily-news/img/cards/pension.png",
+      "download_path": "daily-news/img/cards/pension.png"
+    },
+    {
+      "caption": "前八月總薪資年增4.55%　創16年新高",
+      "download": "20261015-剪報-前八月總薪資年增4.55%.png",
+      "source_url": "https://www.ctee.com.tw/news/20261015702223-430503",
+      "source": "工商時報 2026/10/15",
+      "thumb": "daily-news/thumb/clip-salary.jpg",
+      "full": "daily-news/img/cards/salary.png",
+      "download_path": "daily-news/img/cards/salary.png"
+    },
+    {
+      "caption": "失智友善台灣888　衛福部研議用藥納健保",
+      "download": "20261015-剪報-失智友善台灣888.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202610150214.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-dementia.jpg",
+      "full": "daily-news/img/cards/dementia.png",
+      "download_path": "daily-news/img/cards/dementia.png"
+    },
+    {
+      "caption": "13家金控前3季賺6318億元　超越2024全年",
+      "download": "20261015-剪報-13家金控前3季賺6318億元.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202610150310.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-fhc.jpg",
+      "full": "daily-news/img/cards/fhc.png",
+      "download_path": "daily-news/img/cards/fhc.png"
+    },
+    {
+      "caption": "匯市成交爆天量91億美元　新台幣重貶",
+      "download": "20261015-剪報-匯市成交爆天量91億美元.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202610150287.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-twd.jpg",
+      "full": "daily-news/img/cards/twd.png",
+      "download_path": "daily-news/img/cards/twd.png"
+    },
+    {
+      "caption": "台積電全年營收看增44%　評估德州設廠",
+      "download": "20261015-剪報-台積電全年營收看增44%.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202610150284.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-tsmc.jpg",
+      "full": "daily-news/img/cards/tsmc.png",
+      "download_path": "daily-news/img/cards/tsmc.png"
+    },
+    {
+      "caption": "債券殖利率彈升　6大壽險9月獲利縮至90億",
+      "download": "20261015-剪報-債券殖利率彈升.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202610150341.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-life.jpg",
+      "full": "daily-news/img/cards/life.png",
+      "download_path": "daily-news/img/cards/life.png"
+    },
+    {
+      "caption": "TISA免稅額2.4萬？金管會：尚未定案",
+      "download": "20261015-剪報-TISA免稅額2.4萬金管會：尚未定案.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202610150332.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-tisa.jpg",
+      "full": "daily-news/img/cards/tisa.png",
+      "download_path": "daily-news/img/cards/tisa.png"
+    },
+    {
+      "caption": "三商壽擬發次順位債上限125億元",
+      "download": "20261015-剪報-三商壽擬發次順位債上限125億元.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202610150343.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-mli.jpg",
+      "full": "daily-news/img/cards/mli.png",
+      "download_path": "daily-news/img/cards/mli.png"
+    },
+    {
+      "caption": "藥華藥血癌新藥　取得中國ET藥證",
+      "download": "20261015-剪報-藥華藥血癌新藥.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202610150318.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-pharma.jpg",
+      "full": "daily-news/img/cards/pharma.png",
+      "download_path": "daily-news/img/cards/pharma.png"
+    },
+    {
+      "caption": "高齡揮桿不老魂　老盟籲打造五安人生",
+      "download": "20261015-剪報-高齡揮桿不老魂.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202610150259.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-senior.jpg",
+      "full": "daily-news/img/cards/senior.png",
+      "download_path": "daily-news/img/cards/senior.png"
+    },
+    {
+      "caption": "咳嗽打噴嚏就漏尿　應力性尿失禁惹禍",
+      "download": "20261015-剪報-咳嗽打噴嚏就漏尿.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202610150243.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-sui.jpg",
+      "full": "daily-news/img/cards/sui.png",
+      "download_path": "daily-news/img/cards/sui.png"
+    },
+    {
+      "caption": "翁誤吞假牙卡小腸2個月　小腸鏡解危機",
+      "download": "20261015-剪報-翁誤吞假牙卡小腸2個月.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202610150229.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-denture.jpg",
+      "full": "daily-news/img/cards/denture.png",
+      "download_path": "daily-news/img/cards/denture.png"
     }
   ],
   "zip": "daily-news/news-20261015-all.zip",
   "page": "daily-news/",
   "source_repo": "https://dashin-team.github.io/daily-news/",
-  "synced_at": "2026/10/15 22:19"
+  "synced_at": "2026/10/15 22:43"
 }

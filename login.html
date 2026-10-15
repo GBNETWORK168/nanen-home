@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" data-nn-login>
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<script src="auth.js"></script>
+<title>登入｜南恩通訊處</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.lg-body{min-height:100vh;min-height:100dvh;margin:0;display:flex;align-items:center;justify-content:center;padding:24px 16px;background:radial-gradient(900px 500px at 15% 0%,#e3f1fa 0%,transparent 60%),radial-gradient(700px 480px at 100% 100%,#e7f4ea 0%,transparent 60%),var(--ivory)}
+.lg-card{width:100%;max-width:420px;background:#fff;border:var(--edge);border-radius:24px;box-shadow:var(--sh2);padding:30px 28px 24px;position:relative;overflow:hidden}
+.lg-card::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:linear-gradient(90deg,#c9a24a,#e8cb7a,#0e9f9a,#43a047)}
+.lg-logo{display:block;width:92px;height:92px;margin:6px auto 10px;border-radius:50%;box-shadow:0 0 0 3px var(--gold2),0 6px 18px rgba(21,101,192,.22)}
+.lg-name{font-family:"NanenBrush","Noto Serif TC",serif;font-size:38px;line-height:1.2;text-align:center;margin:0;letter-spacing:4px;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.lg-slogan{text-align:center;margin:2px 0 0;color:var(--goldd);font-size:14px;letter-spacing:1px}
+.lg-rule{height:2px;width:84px;margin:14px auto 12px;border-radius:2px;background:var(--goldg)}
+.lg-title{text-align:center;margin:0 0 4px;font-size:20px;color:var(--navy);font-family:"Noto Serif TC",serif;font-weight:700}
+.lg-hint{text-align:center;margin:0 0 16px;font-size:14px;color:var(--mut)}
+.lg-f{display:block;margin-bottom:12px}
+.lg-f>.lg-lb{display:block;font-size:13px;font-weight:700;color:var(--navy);margin-bottom:4px}
+.lg-in{display:flex!important;align-items:center;gap:8px;border:1px solid rgba(21,101,192,.28);border-radius:12px;background:#f8fbfd;padding:0 12px;transition:.2s}
+.lg-in:focus-within{border-color:var(--teal);box-shadow:0 0 0 3px rgba(14,159,154,.16);background:#fff}
+.lg-in svg{width:20px;height:20px;flex:none}
+.lg-in input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:inherit;font-size:16px;color:var(--ink);padding:12px 0}
+.lg-eye{border:0;background:none;cursor:pointer;color:var(--b);font:inherit;font-size:13px;font-weight:700;padding:6px 2px;flex:none}
+.lg-err{min-height:22px;margin:2px 0 8px;font-size:14px;font-weight:700;color:#c8372d;text-align:center}
+.lg-btn{width:100%;border:0;cursor:pointer;font:inherit;font-size:17px;font-weight:700;letter-spacing:4px;color:#fff;background:var(--grad);border-radius:14px;padding:13px 0;box-shadow:0 6px 16px rgba(21,101,192,.28);transition:.2s}
+.lg-btn:hover{transform:translateY(-1px);box-shadow:0 10px 22px rgba(21,101,192,.34)}
+.lg-btn:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.lg-foot{text-align:center;margin:14px 0 0;font-size:12.5px;color:var(--mut);line-height:1.6}
+.lg-shake{animation:lgs .38s}
+@keyframes lgs{0%,100%{transform:translateX(0)}20%{transform:translateX(-8px)}40%{transform:translateX(8px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
+@media(max-width:380px){.lg-card{padding:24px 18px 20px;border-radius:20px}.lg-name{font-size:32px}}
+</style>
+</head>
+<body class="lg-body">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<linearGradient id="gr" gradientUnits="userSpaceOnUse" x1="2" y1="2" x2="22" y2="22"><stop offset="0" stop-color="#1565c0"/><stop offset=".55" stop-color="#0e9f9a"/><stop offset="1" stop-color="#43a047"/></linearGradient>
+</defs></svg>
+<main class="lg-card" id="lgCard">
+  <img class="lg-logo" src="img/logo_nav.png" alt="南恩通訊處" width="92" height="92">
+  <h1 class="lg-name">南恩通訊處</h1>
+  <p class="lg-slogan">台南最大心，服務最用心</p>
+  <h2 class="lg-title">會員登入</h2>
+  <p class="lg-hint" id="lgHint">請輸入帳號密碼</p>
+  <form id="lgForm" autocomplete="on" novalidate>
+    <label class="lg-f"><span class="lg-lb">帳號</span>
+      <span class="lg-in"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></g></svg>
+      <input id="lgUser" name="username" type="text" inputmode="text" autocomplete="username" autocapitalize="characters" spellcheck="false" placeholder="請輸入帳號" required></span></label>
+    <label class="lg-f"><span class="lg-lb">密碼</span>
+      <span class="lg-in"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/><path d="M12 15v2.5"/></g></svg>
+      <input id="lgPass" name="password" type="password" autocomplete="current-password" spellcheck="false" placeholder="請輸入密碼" required>
+      <button type="button" class="lg-eye" id="lgEye" aria-label="顯示或隱藏密碼" aria-pressed="false">顯示</button></span></label>
+    <div class="lg-err" id="lgErr" role="alert" aria-live="assertive"></div>
+    <button class="lg-btn" id="lgBtn" type="submit">登　入</button>
+  </form>
+  <p class="lg-foot">登入後 30 天內此裝置免重新登入。<br>本網站僅供內部使用，帳號請勿外流。</p>
+</main>
+<script>
+(function(){
+var f=document.getElementById('lgForm'),u=document.getElementById('lgUser'),p=document.getElementById('lgPass'),err=document.getElementById('lgErr'),btn=document.getElementById('lgBtn'),card=document.getElementById('lgCard');
+var fails=0,lockUntil=0;
+document.getElementById('lgEye').addEventListener('click',function(){var s=p.type==='password';p.type=s?'text':'password';this.textContent=s?'隱藏':'顯示';this.setAttribute('aria-pressed',s)});
+function bad(m){err.textContent=m;card.classList.remove('lg-shake');void card.offsetWidth;card.classList.add('lg-shake')}
+f.addEventListener('submit',function(e){
+  e.preventDefault();err.textContent='';
+  var now=Date.now();if(now<lockUntil){bad('錯誤次數過多，請 '+Math.ceil((lockUntil-now)/1000)+' 秒後再試');return}
+  if(!u.value.trim()){bad('請輸入帳號');u.focus();return}
+  if(!p.value){bad('請輸入密碼');p.focus();return}
+  btn.disabled=true;
+  setTimeout(function(){
+    var ok=window.NNAuth&&NNAuth.login(u.value,p.value);
+    if(ok){var q=/[?&]next=([^&]*)/.exec(location.search);location.replace(NNAuth.safeNext(q?decodeURIComponent(q[1]):NNAuth.root));return}
+    btn.disabled=false;fails++;p.value='';p.focus();
+    if(fails>=5){lockUntil=Date.now()+30000;fails=0;bad('帳號或密碼錯誤，已暫時鎖定 30 秒')}else bad('帳號或密碼錯誤，請重新輸入');
+  },30);
+});
+})();
+</script>
+</body>
+</html>
