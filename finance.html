@@ -43,6 +43,7 @@
   <h2>每日匯率</h2>
   <p class="sub">新台幣兌外幣・臺灣銀行牌告匯率</p>
   <div id="rates-box" aria-live="polite"><p class="rate-note">匯率載入中…</p></div>
+  <div id="rates-trend"></div>
 </div></section>
 
 <section class="wrap sec nn-sec" id="daily-news"><div>
@@ -74,5 +75,6 @@ fetch('news/index.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw 0;return r.j
 }).catch(()=>{document.getElementById('days').innerHTML='<p class="fin-note">內容載入失敗，請稍後重新整理。</p>'});
 </script>
 <script src="rates.js"></script>
+<script src="rates-chart.js"></script>
 <script src="daily-news.js"></script>
 </body></html>

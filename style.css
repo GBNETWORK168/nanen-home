@@ -330,3 +330,32 @@ nav.open{display:flex}nav a{padding:14px 20px;border-top:1px solid #edf2f8}nav a
 .btn-ghost{background:#fff;color:var(--b)!important;border:1.5px solid var(--gold);box-shadow:none}.btn-ghost .si{background:none;padding:0}
 @media(max-width:1000px){.nn-figs{grid-template-columns:repeat(2,minmax(0,1fr))}.nn-top{grid-template-columns:1fr}}
 @media(max-width:560px){.nn-figs{gap:10px}.nn-card{padding:16px 14px}.nn-fig figcaption{padding:10px;font-size:13px}.nn-q strong{font-size:17px}}
+/* 近一年匯率走勢 */
+#rates-trend{margin-top:22px;min-width:0}
+.rt-card{background:#fff;border:var(--edge);border-radius:20px;box-shadow:var(--sh);padding:20px 22px 14px;min-width:0;overflow:hidden}
+.rt-head h3{margin:0;font-size:22px;color:var(--navy);line-height:1.3;display:flex;align-items:center;gap:10px}
+.rt-head h3::before{content:"";width:5px;height:22px;border-radius:3px;background:linear-gradient(180deg,#c9a24a,#e8cb7a)}
+.rt-sub{margin:4px 0 0 15px;font-size:13px;color:var(--mut)}
+.rt-tabs{display:flex;gap:8px;margin:14px 0 12px;flex-wrap:wrap}
+.rt-tab{font:inherit;cursor:pointer;border:1px solid rgba(201,162,74,.5);background:#fffdf7;border-radius:999px;padding:6px 16px;color:var(--navy);display:flex;align-items:baseline;gap:6px;line-height:1.3;transition:.2s}
+.rt-tab b{font-size:15px}.rt-tab small{font-size:11px;color:var(--mut)}
+.rt-tab:hover{background:#f1f8fc}
+.rt-tab[aria-selected="true"]{background:var(--grad);border-color:transparent;color:#fff;box-shadow:0 4px 12px rgba(21,101,192,.22)}
+.rt-tab[aria-selected="true"] small{color:rgba(255,255,255,.85)}
+.rt-tab:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.rt-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:10px}
+.rt-st{background:linear-gradient(180deg,#f6fbfd,#eef6fb);border-radius:12px;padding:8px 10px;min-width:0}
+.rt-st span{display:block;font-size:12px;color:var(--mut);line-height:1.4}
+.rt-st strong{display:block;font-size:20px;line-height:1.3;color:var(--navy);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.rt-st.hi strong{color:#c8372d}.rt-st.lo strong{color:var(--goldd)}.rt-st.up strong{color:#c8372d;font-size:16px}.rt-st.dn strong{color:#2e8b3f;font-size:16px}
+.rt-plot{width:100%;min-width:0;position:relative}
+.rt-plot svg{display:block;max-width:none;width:100%;height:auto;overflow:visible}
+.rt-ax{font-size:11px;fill:#5d6f82;font-variant-numeric:tabular-nums}
+.rt-mk{font-size:11.5px;font-weight:700;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round}
+.rt-tip{font-size:12px;font-weight:700}.rt-tip2{font-weight:500}
+.rt-note{margin-top:8px}
+@media(max-width:720px){.rt-card{padding:14px 12px 10px;border-radius:16px}.rt-head h3{font-size:19px}.rt-sub{margin-left:15px;font-size:12px}
+ .rt-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.rt-st strong{font-size:17px}.rt-st.up strong,.rt-st.dn strong{font-size:14px}
+ .rt-tabs{gap:6px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-left:-2px;padding:2px}.rt-tabs::-webkit-scrollbar{display:none}
+ .rt-tab{padding:5px 12px;flex:none}.rt-tab small{display:none}}
+@media(max-width:360px){.rt-tab{padding:5px 10px}.rt-tab b{font-size:14px}.rt-st{padding:7px 8px}.rt-st span{font-size:11px}}
