@@ -1,3 +1,4 @@
+@font-face{font-family:"NanenSerifI";src:url(fonts/playfair-italic.woff) format("woff");font-style:italic;font-display:swap}
 @font-face{font-family:"NanenBrush";src:url(fonts/brush.woff) format("woff");font-display:swap}
 :root{--navy:#06254a;--b:#1565c0;--teal:#0e9f9a;--green:#43a047;--gold:#c9a24a;--gold2:#e8cb7a;--goldd:#9a7a2c;--ink:#1f2d3d;--mut:#5d6f82;--ivory:#fcfaf4;--bg:#f1f7fc;
 --grad:linear-gradient(100deg,#1565c0 0%,#0e9f9a 62%,#43a047 100%);--goldg:linear-gradient(135deg,#f0d98f,#c9a24a 55%,#a9822f);--navyg:linear-gradient(120deg,#041b38 0%,#0b4f9c 58%,#0e8f9f 100%);
@@ -132,3 +133,31 @@ nav.open{display:flex}nav a{padding:14px 20px;border-top:1px solid #edf2f8}nav a
 .home-banner,.brand-banner{border-width:2px;border-radius:12px}.vision-line p{font-size:19px}.en-quote{font-size:18px}
 .tee-views{grid-template-columns:1fr;padding:14px}.tv-front{width:64%;margin:0 auto}.tee h3{font-size:24px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* 團隊理念（原文） */
+.em{font-weight:800;color:#c8372d}
+.vision-org{margin-bottom:28px}
+.vision-cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:stretch;margin:10px 0 26px}
+.v-card{position:relative;border-radius:24px;padding:30px 30px 26px;overflow:hidden;border:1px solid rgba(201,162,74,.6);box-shadow:var(--sh2)}
+.v-left{background:linear-gradient(180deg,#fff,#f6fbfb)}
+.v-left::after{content:"";position:absolute;right:-40px;bottom:-40px;width:260px;height:260px;background:url(img/brand/logo.png) center/contain no-repeat;opacity:.09;pointer-events:none}
+.v-right{background:#0a0a0e;color:#fff;border-color:var(--gold)}
+.v-right::before{content:"";position:absolute;inset:8px;border:1px solid rgba(232,203,122,.35);border-radius:18px;pointer-events:none}
+.v-title{margin:0 0 18px;text-align:center;font-family:"NanenBrush","Noto Serif TC",serif;font-weight:400;font-size:42px;letter-spacing:6px;width:fit-content;margin-left:auto;margin-right:auto;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.v-title::after{content:"";display:block;height:3px;margin-top:6px;background:var(--goldg);border-radius:2px}
+.fl-badge{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:6px 14px;margin:0 0 20px;padding:14px 10px;font-family:"NanenSerifI","Playfair Display",Georgia,"Times New Roman",serif;font-style:italic;font-size:28px;line-height:1.25;color:#fff;border-top:1px solid rgba(232,203,122,.6);border-bottom:1px solid rgba(232,203,122,.6);text-align:center;position:relative}
+.fl-badge i{color:var(--gold2);font-style:normal;font-weight:300}
+.fl-badge .cross{color:#ffc928;font-weight:700;text-shadow:0 0 10px rgba(255,201,40,.55)}
+.v-list{list-style:none;margin:0;padding:0;position:relative;z-index:1}
+.v-list li{position:relative;padding:11px 0 11px 26px;border-bottom:1px solid rgba(201,162,74,.28);font-size:17px;line-height:1.7}
+.v-list li:last-child{border-bottom:0}
+.v-list li::before{content:"";position:absolute;left:4px;top:1.15em;width:9px;height:9px;border-radius:50%;background:var(--goldg);box-shadow:0 0 0 3px rgba(201,162,74,.18)}
+.v-right .v-list li{border-bottom-color:rgba(232,203,122,.25);color:#f1f1f1}
+.v-right .em{color:#ffd45e}
+.v-goal{border:2px solid var(--gold);border-radius:20px;padding:6px;background:linear-gradient(135deg,#fffaf0,#fff);box-shadow:var(--sh2)}
+.v-goal p{margin:0;text-align:center;border-radius:14px;padding:20px 16px;font-family:"Noto Serif TC",serif;font-weight:900;font-size:28px;letter-spacing:3px;color:#3a2a08;background:var(--goldg)}
+.v-chips{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin:26px 0 12px;padding:0}
+.v-chips li{background:#fff;border:1px solid var(--gold);border-radius:99px;padding:8px 22px;font-size:20px;box-shadow:var(--sh)}
+@media(max-width:900px){.vision-cols{grid-template-columns:1fr}}
+@media(max-width:720px){.v-card{padding:24px 20px 20px}.v-title{font-size:34px}.fl-badge{font-size:23px}.v-list li{font-size:16px}.v-goal p{font-size:21px}.v-chips li{font-size:17px;padding:7px 16px}}
+.v-list .em+.em{margin-left:.45em}
