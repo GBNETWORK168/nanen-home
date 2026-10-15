@@ -1,4 +1,5 @@
 @font-face{font-family:"NanenSerifI";src:url(fonts/playfair-italic.woff) format("woff");font-style:italic;font-display:swap}
+@font-face{font-family:"NanenTai";src:url(fonts/tai.woff) format("woff");font-display:swap}
 @font-face{font-family:"NanenBrush";src:url(fonts/brush.woff) format("woff");font-display:swap}
 :root{--navy:#06254a;--b:#1565c0;--teal:#0e9f9a;--green:#43a047;--gold:#c9a24a;--gold2:#e8cb7a;--goldd:#9a7a2c;--ink:#1f2d3d;--mut:#5d6f82;--ivory:#fcfaf4;--bg:#f1f7fc;
 --grad:linear-gradient(100deg,#1565c0 0%,#0e9f9a 62%,#43a047 100%);--goldg:linear-gradient(135deg,#f0d98f,#c9a24a 55%,#a9822f);--navyg:linear-gradient(120deg,#041b38 0%,#0b4f9c 58%,#0e8f9f 100%);
@@ -187,3 +188,5 @@ nav.open{display:flex}nav a{padding:14px 20px;border-top:1px solid #edf2f8}nav a
 @media(max-width:900px){.vision-cols{grid-template-columns:1fr}}
 @media(max-width:768px){.v-body{grid-template-columns:1fr;gap:6px}.v-body .v-logo{padding-top:14px}.v-body .v-logo img{width:46%;min-width:140px;max-width:200px}}
 .v-left::after{display:none}
+
+.tai{font-family:"NanenTai","Ma Shan Zheng","KaiTi","STKaiti",serif;font-size:1.3em;line-height:1;color:#c8372d;display:inline-block;vertical-align:.5em;margin-left:.15em;transform:rotate(-6deg);text-shadow:0 1px 0 rgba(201,162,74,.5);white-space:nowrap}
