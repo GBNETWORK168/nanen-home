@@ -4,4 +4,4 @@ function show(k){i=(k+slides.length)%slides.length;slides.forEach((s,n)=>s.class
 function go(d){show(i+d)}
 function toggleNav(b){const m=document.getElementById('menu');const o=m.classList.toggle('open');b.setAttribute('aria-expanded',o)}
 document.querySelectorAll('#menu a').forEach(a=>a.addEventListener('click',()=>document.getElementById('menu').classList.remove('open')));
-show(0);
+if(slides.length)show(0);
