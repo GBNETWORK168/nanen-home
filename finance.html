@@ -45,6 +45,12 @@
   <div id="rates-box" aria-live="polite"><p class="rate-note">匯率載入中…</p></div>
 </div></section>
 
+<section class="wrap sec nn-sec" id="daily-news"><div>
+  <h2>南恩新聞報報</h2>
+  <p class="sub">每日要聞・重要指數・海報與剪報</p>
+  <div id="nn-box" aria-live="polite"><p class="rate-note">新聞載入中…</p></div>
+</div></section>
+
 <section class="wrap sec" id="days">
   <p class="fin-note">載入中…</p>
 </section>
@@ -68,4 +74,5 @@ fetch('news/index.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw 0;return r.j
 }).catch(()=>{document.getElementById('days').innerHTML='<p class="fin-note">內容載入失敗，請稍後重新整理。</p>'});
 </script>
 <script src="rates.js"></script>
+<script src="daily-news.js"></script>
 </body></html>

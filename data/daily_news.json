@@ -1,0 +1,136 @@
+{
+  "date": "2026.10.15",
+  "title": "南恩新聞報報",
+  "date_label": "2026.10.15（四）",
+  "headlines": [
+    {
+      "url": "https://www.cna.com.tw/news/afe/202610150126.aspx",
+      "title": "台股挫跌1655點　失守月線創單日第6大跌點",
+      "source": "中央社",
+      "time": "2026/10/15 13:53"
+    },
+    {
+      "url": "https://www.cna.com.tw/news/afe/202610150034.aspx",
+      "title": "美9月通膨升至3.7%　共和黨期中選舉再添變數",
+      "source": "中央社",
+      "time": "2026/10/15 10:02"
+    },
+    {
+      "url": "https://www.cna.com.tw/news/ahel/202610150057.aspx",
+      "title": "政府將普發萬元　全教總籲正視退休基金永續經營",
+      "source": "中央社",
+      "time": "2026/10/15 11:19"
+    },
+    {
+      "url": "https://www.ctee.com.tw/news/20261015702223-430503",
+      "title": "股市大跌景氣差？今年前八月總薪資年增4.55％ 創16年新高",
+      "source": "工商時報",
+      "time": "2026/10/15 20:20"
+    },
+    {
+      "url": "https://www.cna.com.tw/news/ahel/202610150214.aspx",
+      "title": "拚2035年達「失智友善台灣888」　衛福部研議用藥納健保",
+      "source": "中央社",
+      "time": "2026/10/15 16:24"
+    }
+  ],
+  "indices": [
+    {
+      "name": "道瓊",
+      "value": "51,621.48",
+      "dir": "dn",
+      "change": "-48.62（-0.09%）"
+    },
+    {
+      "name": "標普500",
+      "value": "7,718.94",
+      "dir": "dn",
+      "change": "-86.51（-1.11%）"
+    },
+    {
+      "name": "那斯達克",
+      "value": "26,692.87",
+      "dir": "dn",
+      "change": "-511.51（-1.88%）"
+    },
+    {
+      "name": "台股加權",
+      "value": "46,969.87",
+      "dir": "dn",
+      "change": "-1,655.96（-3.41%）"
+    }
+  ],
+  "indices_note": "美股為美東 10/14 收盤；台股加權為 10/15 收盤。",
+  "posters": [
+    {
+      "caption": "每日報報 2026.10.15（新聞棚版）",
+      "download": "20261015-每日報報-新聞棚版.png",
+      "thumb": "daily-news/thumb/poster-v4-studio.jpg",
+      "full": "daily-news/img/poster-v4-studio.png",
+      "download_path": "daily-news/img/poster-v4-studio.png"
+    },
+    {
+      "caption": "每日報報 2026.10.15（藍綠版）",
+      "download": "20261015-每日報報-藍綠版.png",
+      "thumb": "daily-news/thumb/poster-v3-bluegreen.jpg",
+      "full": "daily-news/img/poster-v3-bluegreen.png",
+      "download_path": "daily-news/img/poster-v3-bluegreen.png"
+    },
+    {
+      "caption": "每日報報 2026.10.15（101版）",
+      "download": "20261015-每日報報-101版.png",
+      "thumb": "daily-news/thumb/poster-v2-101.jpg",
+      "full": "daily-news/img/poster-v2-101.png",
+      "download_path": "daily-news/img/poster-v2-101.png"
+    },
+    {
+      "caption": "每日報報 2026.10.15（深藍版）",
+      "download": "20261015-每日報報-深藍版.png",
+      "thumb": "daily-news/thumb/poster-v1-navy.jpg",
+      "full": "daily-news/img/poster-v1-navy.png",
+      "download_path": "daily-news/img/poster-v1-navy.png"
+    }
+  ],
+  "clips": [
+    {
+      "caption": "前八月總薪資 創16年同期新高",
+      "download": "20261015-剪報-前八月總薪資.png",
+      "source_url": "https://www.ctee.com.tw/news/20261015702223-430503",
+      "source": "工商時報 2026/10/15",
+      "thumb": "daily-news/thumb/clip-ctee-salary.jpg",
+      "full": "daily-news/img/clip-ctee-salary.png",
+      "download_path": "daily-news/img/clip-ctee-salary.png"
+    },
+    {
+      "caption": "美9月通膨3.7% 升息壓力再起",
+      "download": "20261015-剪報-美國9月通膨.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202610150034.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-cna-cpi.jpg",
+      "full": "daily-news/img/clip-cna-cpi.png",
+      "download_path": "daily-news/img/clip-cna-cpi.png"
+    },
+    {
+      "caption": "失智照護3.0 研議用藥納健保",
+      "download": "20261015-剪報-失智照護3.0.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202610150214.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-cna-dementia.jpg",
+      "full": "daily-news/img/clip-cna-dementia.png",
+      "download_path": "daily-news/img/clip-cna-dementia.png"
+    },
+    {
+      "caption": "普發萬元之際 全教總籲撥補退休基金",
+      "download": "20261015-剪報-全教總退休基金.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202610150057.aspx",
+      "source": "中央社 2026/10/15",
+      "thumb": "daily-news/thumb/clip-cna-pension.jpg",
+      "full": "daily-news/img/clip-cna-pension.png",
+      "download_path": "daily-news/img/clip-cna-pension.png"
+    }
+  ],
+  "zip": "daily-news/news-20261015-all.zip",
+  "page": "daily-news/",
+  "source_repo": "https://dashin-team.github.io/daily-news/",
+  "synced_at": "2026/10/15 22:19"
+}
