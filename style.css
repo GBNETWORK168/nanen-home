@@ -178,3 +178,12 @@ nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;flex-
 nav.open{display:flex}nav a{padding:14px 20px;border-top:1px solid #edf2f8}nav a:not(.btn-nav)::after{display:none}.btn-nav{border-radius:0;text-align:center;padding:14px 20px}}
 @media(max-width:400px){.brand small{font-size:10px;letter-spacing:0}.brand b{font-size:17px}}
 @media(max-width:350px){.brand small{display:none}}
+/* 白卡：Logo 置於右側垂直置中 */
+.vision-cols{grid-template-columns:1.3fr 1fr}
+.v-body{display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:18px;align-items:center}
+.v-body .v-logo{margin:0;padding:0;text-align:center}
+.v-body .v-logo img{width:150px;min-width:0;max-width:100%}
+.v-right{display:flex;flex-direction:column}.v-right .v-list{margin-top:auto;margin-bottom:auto}
+@media(max-width:900px){.vision-cols{grid-template-columns:1fr}}
+@media(max-width:768px){.v-body{grid-template-columns:1fr;gap:6px}.v-body .v-logo{padding-top:14px}.v-body .v-logo img{width:46%;min-width:140px;max-width:200px}}
+.v-left::after{display:none}
