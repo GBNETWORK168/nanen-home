@@ -228,3 +228,26 @@ nav.open{display:flex}nav a{padding:14px 20px;border-top:1px solid #edf2f8}nav a
 .fd-tbl td.code{background:#fff}.fd-tbl tbody tr:nth-child(even) td.code{background:#f7fbfe}.fd-tbl tr.miss td.code{background:#f6f4ee}
 .fd-tbl th:first-child{z-index:2;background:#0b3a74}
 @media(max-width:720px){#tbl{min-width:980px}#ctbl{min-width:720px}.fd-tbl td.nm{min-width:240px}}
+
+/* 配息基金分頁標籤與主題頁 */
+.fd-tabs{background:#fff;border-bottom:2px solid transparent;border-image:linear-gradient(90deg,#c9a24a,#e8cb7a,#0e9f9a,#c9a24a) 1;box-shadow:0 2px 10px rgba(21,101,192,.08);position:sticky;top:68px;z-index:20}
+.fd-tabs .wrap{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}
+.fd-tabs a{display:inline-flex;align-items:center;padding:8px 20px;border-radius:99px;font-weight:700;color:#26425f;border:1.5px solid #d6e3f0;background:#f6fafe;transition:.2s;white-space:nowrap}
+.fd-tabs a:hover{border-color:var(--gold);color:var(--b);transform:translateY(-2px)}
+.fd-tabs a.on{background:var(--grad);color:#fff;border-color:transparent;box-shadow:0 3px 10px rgba(14,159,154,.35)}
+.fd-tabs a.on .si{background:rgba(255,255,255,.92);border-radius:50%;padding:2px}
+.h-svg{background:#fff;border-radius:50%;padding:8px;box-shadow:0 0 0 2px var(--gold2)}
+.fd-pos{color:var(--b);font-weight:700}.fd-neg{color:#b3412f;font-weight:700}.fd-na{color:var(--mut)}
+.fd-bd{display:inline-block;background:#fff3d6;color:var(--goldd);border:1px solid var(--gold);border-radius:99px;font-size:11px;padding:0 8px;line-height:1.6;font-weight:700;vertical-align:1px;cursor:help}
+.fd-rules{background:#fff;border:var(--edge);border-radius:18px;box-shadow:var(--sh);padding:6px 20px}
+.fd-rules summary{cursor:pointer;font-weight:800;color:var(--navy);padding:12px 0;font-size:17px}
+.fd-rules ol{margin:6px 0 4px;padding-left:22px;color:var(--ink)}.fd-rules li{margin:4px 0}
+.fd-filters{margin-bottom:6px}
+.fd-tall{max-height:78vh;overflow:auto}
+.fd-card-svg{width:92px;height:92px;display:block;transition:.3s}.card:hover .fd-card-svg{transform:scale(1.1) rotate(-3deg)}
+@media(max-width:720px){.fd-tabs{top:68px}.fd-tabs a{padding:7px 12px;font-size:14px}.fd-tabs .wrap{gap:6px;padding-left:10px;padding-right:10px}#tTech,#tHealth{min-width:1000px}}
+.fd-compact{font-size:14px}.fd-compact th,.fd-compact td{padding:9px 8px}.fd-compact td.nm{min-width:185px;max-width:280px}
+.fd-rules-sec{padding-bottom:0}.fd-rules-sec+.fd-sec{padding-top:30px}
+.fd-tbl td.hi{white-space:nowrap}
+.h-sub{display:block;font-size:.42em;letter-spacing:3px;opacity:.92;margin-top:2px;font-family:"Noto Sans TC",sans-serif}
+.fin-head h1 span{text-align:left}
