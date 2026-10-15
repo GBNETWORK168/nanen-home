@@ -7,12 +7,27 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<linearGradient id="gr" gradientUnits="userSpaceOnUse" x1="2" y1="2" x2="22" y2="22"><stop offset="0" stop-color="#1565c0"/><stop offset=".55" stop-color="#0e9f9a"/><stop offset="1" stop-color="#43a047"/></linearGradient>
+<linearGradient id="gd" gradientUnits="userSpaceOnUse" x1="2" y1="2" x2="22" y2="22"><stop offset="0" stop-color="#e8cb7a"/><stop offset="1" stop-color="#c9a24a"/></linearGradient>
+<symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z"/></g><circle cx="12" cy="10" r="2.4" fill="url(#gd)"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></g><circle cx="18.2" cy="5.8" r="1.5" fill="url(#gd)"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H11l-4 4v-4H4z"/></g><g fill="url(#gd)"><circle cx="8.5" cy="10.5" r="1.1"/><circle cx="12" cy="10.5" r="1.1"/><circle cx="15.5" cy="10.5" r="1.1"/></g></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></g><circle cx="12" cy="12" r="1.3" fill="url(#gd)"/></symbol>
+<symbol id="i-map" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></g><circle cx="12" cy="11" r="1.8" fill="url(#gd)"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></g><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="url(#gd)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-5-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 9c0 6-8 11-8 11z"/></g><path d="M12 9.5v4M10 11.5h4" stroke="url(#gd)" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-bulb" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0-3.5 10.8c.6.5 1 1.2 1 2V17h5v-1.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/><path d="M10 20.5h4"/></g><path d="M12 7v3" stroke="url(#gd)" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/></g><path d="M8 12.3l3 3 5-6" fill="none" stroke="url(#gd)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11"/><path d="M7 11l5 5 5-5"/></g><path d="M5 20h14" stroke="url(#gd)" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 17h16"/></g><path d="M4 12h16" stroke="url(#gd)" stroke-width="2.2" stroke-linecap="round"/></symbol>
+</defs></svg>
 <header class="nav">
   <div class="wrap nav-in">
-    <a class="brand" href="#top"><img src="img/logo.png" alt="南恩通訊處" width="44" height="44"><span><b>南恩通訊處</b><small>富邦人壽・台南最大心，服務最用心</small></span></a>
-    <button class="burger" aria-label="開啟選單" aria-expanded="false" onclick="toggleNav(this)">☰</button>
+    <a class="brand" href="#top"><img src="img/logo_nav.png" alt="南恩通訊處" width="46" height="46"><span><b>南恩通訊處</b><small>富邦人壽・台南最大心，服務最用心</small></span></a>
+    <button class="burger" aria-label="開啟選單" aria-expanded="false" onclick="toggleNav(this)"><svg class="si" aria-hidden="true"><use href="#i-menu"/></svg></button>
     <nav id="menu">
-      <a href="#products">保險商品</a><a href="#tools">線上報價</a><a href="finance.html">每日財經</a><a href="#why">服務特色</a><a href="brand.html">團隊形象</a><a href="#contact">聯絡我們</a>
+      <a href="#products">保險商品</a><a href="#tools">線上報價</a><a href="finance.html">每日財經</a><a href="#why">服務特色</a><a href="brand.html">團隊形象</a><a href="#vision">理念願景</a><a href="#contact">聯絡我們</a>
       <a class="btn-nav" href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener">旅平險報價</a>
     </nav>
   </div>
@@ -27,7 +42,7 @@
         <h1>旅平險快速報價</h1>
         <p>輸入出發日期、天數與保額，立即試算旅平險組合方案，出發前安心一點。</p>
         <a class="btn" href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener">立即試算 →</a>
-      </div><div class="art">✈️</div></div>
+      </div><div class="art"><img src="img/icons/travel_dark.png" alt="旅平險" width="300" height="300" decoding="async"></div></div>
     </article>
     <article class="slide s2">
       <div class="wrap slide-in"><div>
@@ -35,7 +50,7 @@
         <h1>富小胖商品報價</h1>
         <p>醫療、重大傷病、長照等商品一站查詢，快速比較保障內容與保費。</p>
         <a class="btn" href="https://gbnetwork168.github.io/fubon-quote-tool/home.html" target="_blank" rel="noopener">開始報價 →</a>
-      </div><div class="art">📊</div></div>
+      </div><div class="art"><img src="img/icons/medical_dark.png" alt="商品報價" width="300" height="300" decoding="async"></div></div>
     </article>
     <article class="slide s3">
       <div class="wrap slide-in"><div>
@@ -43,7 +58,7 @@
         <h1>您的保障，夠嗎？</h1>
         <p>由業務經理陳銘旭為您整理現有保單，找出保障缺口，量身規劃。</p>
         <a class="btn" href="#contact">預約諮詢 →</a>
-      </div><div class="art">🛡️</div></div>
+      </div><div class="art"><img src="img/icons/critical_dark.png" alt="保單健檢" width="300" height="300" decoding="async"></div></div>
     </article>
   </div>
   <button class="arrow prev" aria-label="上一則" onclick="go(-1)">‹</button>
@@ -55,12 +70,12 @@
   <h2>保險商品分類</h2>
   <p class="sub">選擇您關心的保障類型，了解規劃重點</p>
   <div class="grid6">
-    <a class="tile" href="#contact"><span class="ico">🏥</span><b>醫療險</b><small>住院、手術、實支實付</small></a>
-    <a class="tile" href="#contact"><span class="ico">❤️‍🩹</span><b>重大傷病</b><small>癌症、重大疾病一次給付</small></a>
-    <a class="tile" href="#contact"><span class="ico">🤝</span><b>長照險</b><small>失能照護、長期安心</small></a>
-    <a class="tile" href="#contact"><span class="ico">💰</span><b>儲蓄險</b><small>穩健累積、退休規劃</small></a>
-    <a class="tile" href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener"><span class="ico">🧳</span><b>旅平險</b><small>出國旅遊、線上試算</small></a>
-    <a class="tile" href="#contact"><span class="ico">🚗</span><b>車險</b><small>強制險、任意險規劃</small></a>
+    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/medical.png" alt="醫療險" width="64" height="64" loading="lazy" decoding="async"></span><b>醫療險</b><small>住院、手術、實支實付</small></a>
+    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/critical.png" alt="重大傷病" width="64" height="64" loading="lazy" decoding="async"></span><b>重大傷病</b><small>癌症、重大疾病一次給付</small></a>
+    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/longterm.png" alt="長照險" width="64" height="64" loading="lazy" decoding="async"></span><b>長照險</b><small>失能照護、長期安心</small></a>
+    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/savings.png" alt="儲蓄險" width="64" height="64" loading="lazy" decoding="async"></span><b>儲蓄險</b><small>穩健累積、退休規劃</small></a>
+    <a class="tile" href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener"><span class="ico"><img src="img/icons/travel.png" alt="旅平險" width="64" height="64" loading="lazy" decoding="async"></span><b>旅平險</b><small>出國旅遊、線上試算</small></a>
+    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/car.png" alt="車險" width="64" height="64" loading="lazy" decoding="async"></span><b>車險</b><small>強制險、任意險規劃</small></a>
   </div>
 </section>
 
@@ -68,30 +83,42 @@
   <h2>線上工具</h2>
   <p class="sub">隨時隨地，快速取得報價</p>
   <div class="cards">
-    <article class="card"><div class="card-top c1"><span class="ico">✈️</span></div><div class="card-b"><h3>旅平險組合方案試算</h3><p>依旅遊天數與保額組合，即時計算保費。</p><a href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener">前往試算 →</a></div></article>
-    <article class="card"><div class="card-top c2"><span class="ico">💰</span></div><div class="card-b"><h3>儲蓄險快速報價</h3><p>儲蓄險保費與商品快速查詢、比較。</p><a href="savings-quote/home.html">前往報價 →</a></div></article>
-    <article class="card"><div class="card-top c1"><span class="ico">🏥</span></div><div class="card-b"><h3>醫療險快速報價</h3><p>醫療險（四季春等）保費快速查詢，輸入條件即時試算。</p><a href="medical-quote/index.html">前往報價 →</a></div></article>
-    <article class="card"><div class="card-top c3"><span class="ico">🚗</span></div><div class="card-b"><h3>車禍理賠流程</h3><p>現場 SOP、陪伴客戶、理賠與和解重點一次看懂。</p><a href="car-claim/index.html">前往閱讀 →</a></div></article>
-    <article class="card"><div class="card-top c2"><span class="ico">🗺️</span></div><div class="card-b"><h3>人類風險地圖（癌症）</h3><p>如果罹癌，需要準備多少錢？互動式風險地圖一看就懂。</p><a href="cancer-risk-map/index.html">前往查看 →</a></div></article>
-    <article class="card"><div class="card-top c1"><span class="ico">🦴</span></div><div class="card-b"><h3>骨折險</h3><p>意外險／骨折保障說明與即時保費試算。</p><a href="accident-insurance/index.html">前往試算 →</a></div></article>
-    <article class="card"><div class="card-top c2"><span class="ico">📰</span></div><div class="card-b"><h3>每日財經</h3><p>華爾街日報、Bloomberg 中文日報圖文版，每日更新、可下載 PDF。</p><a href="finance.html">前往閱讀 →</a></div></article>
-    <article class="card"><div class="card-top c3"><span class="ico">📝</span></div><div class="card-b"><h3>保單健檢預約</h3><p>帶著現有保單，讓我們幫您檢視保障。</p><a href="#contact">聯絡我們 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/travel.png" alt="旅平險" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>旅平險組合方案試算</h3><p>依旅遊天數與保額組合，即時計算保費。</p><a href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener">前往試算 →</a></div></article>
+    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/savings.png" alt="儲蓄險" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>儲蓄險快速報價</h3><p>儲蓄險保費與商品快速查詢、比較。</p><a href="savings-quote/home.html">前往報價 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/medical.png" alt="醫療險" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>醫療險快速報價</h3><p>醫療險（四季春等）保費快速查詢，輸入條件即時試算。</p><a href="medical-quote/index.html">前往報價 →</a></div></article>
+    <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/claim.png" alt="車禍理賠" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>車禍理賠流程</h3><p>現場 SOP、陪伴客戶、理賠與和解重點一次看懂。</p><a href="car-claim/index.html">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/cancer.png" alt="癌症風險地圖" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>人類風險地圖（癌症）</h3><p>如果罹癌，需要準備多少錢？互動式風險地圖一看就懂。</p><a href="cancer-risk-map/index.html">前往查看 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/fracture.png" alt="骨折險" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>骨折險</h3><p>意外險／骨折保障說明與即時保費試算。</p><a href="accident-insurance/index.html">前往試算 →</a></div></article>
+    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/finance.png" alt="每日財經" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>每日財經</h3><p>華爾街日報、Bloomberg 中文日報圖文版，每日更新、可下載 PDF。</p><a href="finance.html">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/medical.png" alt="保單健檢" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>保單健檢預約</h3><p>帶著現有保單，讓我們幫您檢視保障。</p><a href="#contact">聯絡我們 →</a></div></article>
   </div>
 </div></section>
 
 <section id="brand" class="band brand-band"><div class="wrap sec">
   <h2>團隊形象</h2>
   <p class="sub">南恩通訊處・台南最大心，服務最用心</p>
-  <a class="home-banner" href="brand.html"><img src="img/brand/banner.jpg" alt="南恩通訊處 台南最大心，服務最用心" width="2400" height="600" loading="lazy"></a>
+  <a class="home-banner" href="brand.html"><img src="img/brand/banner.jpg" alt="南恩通訊處 台南最大心，服務最用心" width="2400" height="600" loading="lazy" decoding="async"></a>
   <p class="center"><a class="btn btn-gold" href="brand.html">看團隊形象 Logo・布條・團服 →</a></p>
+</div></section>
+
+<section id="vision" class="vision"><div class="wrap sec">
+  <h2>團隊理念與願景</h2>
+  <p class="brush-quote">台南最大心，<br class="m-br">服務最用心</p>
+  <p class="en-quote">Fall in Love ・ Full Intelligent</p>
+  <div class="pillars pillars-mini">
+    <div><b>大心</b><span>格局放大，把客戶的事當自己的事</span></div>
+    <div><b>用心</b><span>從規劃到理賠全程陪伴</span></div>
+    <div><b>智慧</b><span>專業與科技並用</span></div>
+  </div>
+  <p class="center"><a class="btn btn-gold" href="brand.html#vision">看完整理念與願景 →</a></p>
 </div></section>
 
 <section id="why" class="wrap sec">
   <h2>為什麼選擇南恩</h2>
   <div class="why">
-    <div><b>在地服務</b><p>深耕台南，就近提供面對面諮詢。</p></div>
-    <div><b>需求導向</b><p>依家庭與人生階段規劃，不推銷不需要的保障。</p></div>
-    <div><b>理賠協助</b><p>理賠流程全程協助，讓您少跑一趟。</p></div>
+    <div><svg class="si si-lg" aria-hidden="true"><use href="#i-pin"/></svg><b>在地服務</b><p>深耕台南，就近提供面對面諮詢。</p></div>
+    <div><svg class="si si-lg" aria-hidden="true"><use href="#i-check"/></svg><b>需求導向</b><p>依家庭與人生階段規劃，不推銷不需要的保障。</p></div>
+    <div><svg class="si si-lg" aria-hidden="true"><use href="#i-shield"/></svg><b>理賠協助</b><p>理賠流程全程協助，讓您少跑一趟。</p></div>
   </div>
 </section>
 
@@ -102,14 +129,14 @@
     <div class="loc-card">
       <h3>富邦人壽 南恩通訊處</h3>
       <ul>
-        <li><span>📍 地址</span><em class="ph">【待補：通訊處地址】</em></li>
-        <li><span>📞 電話</span><em class="ph">【待補：聯絡電話】</em></li>
-        <li><span>💬 LINE</span><em class="ph">【待補：LINE ID】</em></li>
-        <li><span>🕘 服務時間</span><em class="ph">【待補：服務時間】</em></li>
+        <li><span><svg class="si" aria-hidden="true"><use href="#i-pin"/></svg>地址</span><em class="ph">【待補：通訊處地址】</em></li>
+        <li><span><svg class="si" aria-hidden="true"><use href="#i-phone"/></svg>電話</span><em class="ph">【待補：聯絡電話】</em></li>
+        <li><span><svg class="si" aria-hidden="true"><use href="#i-chat"/></svg>LINE</span><em class="ph">【待補：LINE ID】</em></li>
+        <li><span><svg class="si" aria-hidden="true"><use href="#i-clock"/></svg>服務時間</span><em class="ph">【待補：服務時間】</em></li>
       </ul>
       <p class="sign">業務經理 陳銘旭</p>
     </div>
-    <div class="map"><div>🗺️<p>地圖位置<br><em class="ph">【待補：確認地址後嵌入地圖】</em></p></div></div>
+    <div class="map"><div><svg class="si si-xl" aria-hidden="true"><use href="#i-map"/></svg><p>地圖位置<br><em class="ph">【待補：確認地址後嵌入地圖】</em></p></div></div>
   </div>
 </div></section>
 </main>
