@@ -161,7 +161,7 @@ function renderList(){
     const cell=c=>{const v=c[2](f);let s;
       switch(c[0]){case'nav':case'bnav':case'div':case'bdiv':s=nv(v);break;
       case'nav_date':s=v?esc(v).replace(/-/g,'/'):'—';break;case'annual_yield':s=pc(v);break;case'byld':s=pc(v);break;case'm':s=nf(v,0);break;default:s=v==null?'—':esc(v)}
-      if(c[0]==='code')s=`<b>${esc(f.code)}</b>`+(f.list_code!==f.code?`<small class="fd-alias">表內寫 ${esc(f.list_code)}</small>`:'');
+      if(c[0]==='code')s=`<b>${esc(f.code)}</b>`;
       if(c[0]==='name'&&miss)s='<span class="fd-miss">查無資料（網站無此代號）</span>';
       return `<td class="${c[3]==='n'?'num':''}${c[0]==='annual_yield'&&!miss?' hi':''}${c[0]==='code'?' code':''}${c[0]==='nav_date'?' nw':''}${c[0]==='name'?' nm':''}">${s}</td>`};
     return `<tr class="${miss?'miss':''}">`+cols.map(cell).join('')+'</tr>'}).join('');
