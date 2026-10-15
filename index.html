@@ -31,7 +31,7 @@
     <a class="brand" href="#top"><img src="img/logo_nav.png" alt="南恩通訊處" width="46" height="46"><span><b>南恩通訊處</b><small>富邦人壽・台南最大心，服務最用心</small></span></a>
     <button class="burger" aria-label="開啟選單" aria-expanded="false" onclick="toggleNav(this)"><svg class="si" aria-hidden="true"><use href="#i-menu"/></svg></button>
     <nav id="menu">
-      <a href="#family-liability">調皮搗蛋險</a><a href="#products">保險商品</a><a href="#tools">線上報價</a><a href="finance.html">每日財經</a><a href="fund.html">配息基金</a><a href="#why">服務特色</a><a href="brand.html">團隊形象</a><a href="#vision">理念願景</a><a href="#contact">聯絡我們</a>
+      <a href="#family-liability">調皮搗蛋險</a><a href="#products">保險商品</a><a href="#tools">線上報價</a><a href="finance.html">每日財經</a><a href="fund.html">配息基金</a><a href="#why">服務特色</a><a href="#vision">團隊願景</a><a href="#contact">聯絡我們</a>
       <a class="btn-nav" href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener">旅平險報價</a>
     </nav>
   </div>
@@ -77,6 +77,12 @@
   <button class="arrow next" aria-label="下一則" onclick="go(1)">›</button>
   <div class="dots"></div>
 </section>
+
+<section id="rates" class="rates-sec"><div class="wrap sec">
+  <h2>每日匯率</h2>
+  <p class="sub">新台幣兌外幣・臺灣銀行牌告匯率</p>
+  <div id="rates-box" aria-live="polite"><p class="rate-note">匯率載入中…</p></div>
+</div></section>
 
 <section id="family-liability" class="fl-sec"><div class="wrap sec">
   <p class="fl-kicker">家人保障－家庭日常生活責任保險</p>
@@ -136,15 +142,10 @@
   </div>
 </div></section>
 
-<section id="brand" class="band brand-band"><div class="wrap sec">
-  <h2>團隊形象</h2>
+<section id="vision" class="vision"><div class="wrap sec">
+  <h2>團隊願景</h2>
   <p class="sub">南恩通訊處・台南最大心，服務最用心</p>
   <a class="home-banner" href="brand.html"><img src="img/brand/banner.jpg" alt="南恩通訊處 台南最大心，服務最用心" width="2400" height="600" loading="lazy" decoding="async"></a>
-  <p class="center"><a class="btn btn-gold" href="brand.html">看團隊形象 Logo・布條・團服 →</a></p>
-</div></section>
-
-<section id="vision" class="vision"><div class="wrap sec">
-  <h2>團隊理念與願景</h2>
   <p class="brush-quote">台南最大心，<br class="m-br">服務最用心</p>
   <ul class="v-chips">
     <li><b class="em">態度</b></li>
@@ -152,7 +153,7 @@
     <li><b class="em">感恩</b></li>
     <li><b class="em">充滿愛</b>・<b class="em">充滿智慧</b></li>
   </ul>
-  <p class="center"><a class="btn btn-gold" href="brand.html#vision">看完整團隊理念 →</a></p>
+  <p class="center"><a class="btn btn-gold" href="brand.html#vision">看完整團隊願景 →</a></p>
 </div></section>
 
 <section id="why" class="wrap sec">
@@ -187,9 +188,10 @@
   <div class="cols">
     <div><b>保險商品</b><a href="#products">醫療險</a><a href="#products">重大傷病</a><a href="#products">長照險</a><a href="#products">儲蓄險</a></div>
     <div><b>線上工具</b><a href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener">旅平險快速報價</a><a href="savings-quote/home.html">儲蓄險快速報價</a><a href="medical-quote/index.html">醫療險快速報價</a><a href="car-claim/index.html">車禍理賠流程</a><a href="cancer-risk-map/index.html">人類風險地圖（癌症）</a><a href="accident-insurance/index.html">骨折險</a><a href="finance.html">每日財經</a><a href="fund.html">配息基金試算</a><a href="fund_theme.html">科技與醫療基金</a><a href="fund_new.html">高配息新標的</a></div>
-    <div><b>關於我們</b><a href="#why">服務特色</a><a href="brand.html">團隊形象</a><a href="#contact">聯絡資訊</a></div>
+    <div><b>關於我們</b><a href="#why">服務特色</a><a href="brand.html#vision">團隊願景</a><a href="#contact">聯絡資訊</a></div>
   </div>
   <p class="legal">本網站為富邦人壽南恩通訊處業務人員個人服務網站，商品內容以富邦人壽正式條款及官方公告為準。報價結果僅供參考。<br>© 2026 南恩通訊處・業務經理 陳銘旭</p>
 </div></footer>
 <script src="main.js"></script>
+<script src="rates.js"></script>
 </body></html>

@@ -27,7 +27,7 @@
     <a class="brand" href="index.html"><img src="img/logo_nav.png" alt="南恩通訊處" width="46" height="46"><span><b>南恩通訊處</b><small>富邦人壽・台南最大心，服務最用心</small></span></a>
     <button class="burger" aria-label="開啟選單" aria-expanded="false" onclick="toggleNav(this)"><svg class="si" aria-hidden="true"><use href="#i-menu"/></svg></button>
     <nav id="menu">
-      <a href="index.html#products">保險商品</a><a href="index.html#tools">線上報價</a><a class="cur" href="finance.html">每日財經</a><a href="fund.html">配息基金</a><a href="index.html#why">服務特色</a><a href="brand.html">團隊形象</a><a href="brand.html#vision">理念願景</a><a href="index.html#contact">聯絡我們</a>
+      <a href="index.html#products">保險商品</a><a href="index.html#tools">線上報價</a><a class="cur" href="finance.html">每日財經</a><a href="fund.html">配息基金</a><a href="index.html#why">服務特色</a><a href="brand.html#vision">團隊願景</a><a href="index.html#contact">聯絡我們</a>
       <a class="btn-nav" href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener">旅平險報價</a>
     </nav>
   </div>
@@ -37,6 +37,12 @@
 <section class="fin-head"><div class="wrap">
   <h1><img class="h-ico" src="img/icons/finance_dark.png" alt="" width="56" height="56">每日財經</h1>
   <p>華爾街日報・Bloomberg 中文日報圖文版，每日更新</p>
+</div></section>
+
+<section class="wrap rates-fin" id="rates"><div>
+  <h2>每日匯率</h2>
+  <p class="sub">新台幣兌外幣・臺灣銀行牌告匯率</p>
+  <div id="rates-box" aria-live="polite"><p class="rate-note">匯率載入中…</p></div>
 </div></section>
 
 <section class="wrap sec" id="days">
@@ -61,4 +67,5 @@ fetch('news/index.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw 0;return r.j
     `</div></div>`).join('')+`</div></article>`).join('');
 }).catch(()=>{document.getElementById('days').innerHTML='<p class="fin-note">內容載入失敗，請稍後重新整理。</p>'});
 </script>
+<script src="rates.js"></script>
 </body></html>
