@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>富邦四季春快速報價</title>
+<meta name="description" content="富邦四季春快速報價｜醫療險內部試算">
+<meta property="og:title" content="富邦四季春快速報價">
+<meta property="og:description" content="富邦四季春快速報價｜醫療險內部試算">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0a4f8f">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="stylesheet" href="style.css?v=122">
+</head>
+<body>
+<header>
+  <h1>富邦四季春快速報價</h1>
+  <div class="sub">v1.22｜富邦四季春快速報價｜SJR1 改計手術險累計・CLX／CLZ 10/22 停售｜僅供內部試算，以公司正式建議書為準</div>
+</header>
+<main>
+  <section class="card" id="step1">
+    <h2>① 被保險人</h2>
+    <div class="row">
+      <label>保險年齡
+        <div class="agebox">
+          <button type="button" class="pm" data-d="-1">−</button>
+          <input id="age" type="number" inputmode="numeric" min="0" max="85" value="30">
+          <button type="button" class="pm" data-d="1">＋</button>
+        </div>
+      </label>
+      <label>性別
+        <div class="seg" id="sex">
+          <button type="button" data-v="1" class="on">男</button>
+          <button type="button" data-v="2">女</button>
+        </div>
+      </label>
+    </div>
+    <div class="row">
+      <label>職業類別
+        <select id="occ">
+          <option value="1">第 1 類</option><option value="2">第 2 類</option><option value="3">第 3 類</option>
+          <option value="4">第 4 類</option><option value="5">第 5 類</option><option value="6">第 6 類</option>
+        </select>
+      </label>
+      <label>或輸入生日換算
+        <input id="bd" type="date">
+      </label>
+    </div>
+    <div class="row">
+      <label>要保人（父母）年齡 <small>選填，親子型豁免 WPA／WPF1 用</small>
+        <input id="page" type="number" inputmode="numeric" min="0" max="99" placeholder="未填">
+      </label>
+      <label>要保人性別
+        <div class="seg" id="psex">
+          <button type="button" data-v="1" class="on">男</button>
+          <button type="button" data-v="2">女</button>
+        </div>
+      </label>
+    </div>
+    <div class="row">
+      <label>既有有效壽險保額（萬） <small>選填；通則醫療附約日額上限用（壽險主約＋壽險附約＋重大疾病險）</small>
+        <input id="lifeex" type="number" inputmode="decimal" min="0" placeholder="未填＝0">
+      </label>
+    </div>
+    <label class="chk"><input type="checkbox" id="specon"> 被保險人為特定身分（孩童／學生、家管／退休／無業／待業）</label>
+    <div id="specbox" class="specbox" hidden>
+      <div class="seg" id="specid">
+        <button type="button" data-v="kid">孩童／學生</button>
+        <button type="button" data-v="home">家管／退休／無業／待業</button>
+      </div>
+      <label class="chk" id="specparw" hidden><input type="checkbox" id="specpar"> 比照父母或兄弟姊妹有效保單同額（附約 ≦4,000、主約＋附約 ≦6,000；報告書備註填其保單號碼）</label>
+      <div class="hint" id="spechint"></div>
+    </div>
+    <div class="hint" id="medcap"></div>
+    <div class="hint" id="agehint">保險年齡＝足歲，未滿一歲零數超過六個月加算一歲。</div>
+  </section>
+
+  <section class="card" id="step2">
+    <h2>② 可投保商品 <span id="cnt" class="cnt"></span></h2>
+    <div class="tiles">
+      <button type="button" class="tile" data-jump="secMain"><span class="tl">可投保主約</span><span class="tn"><b id="sumMain">0</b> 項</span><span class="ts" id="subMain"></span></button>
+      <button type="button" class="tile rider" data-jump="secRider"><span class="tl">可投保附約</span><span class="tn"><b id="sumRider">0</b> 項</span><span class="ts" id="subRider"></span></button>
+    </div>
+    <div class="quick" id="quick"></div>
+    <div class="hint">☑ 勾選主約 → 下方附約區只開放能附加的附約 → 底部自動合計保費。點商品名稱（ⓘ）可看「這是甚麼」。</div>
+    <div class="hint" id="multihint" hidden>📑 第二張主約模式：可再勾另一個主約，或同商品按「＋第2張」（兩張 XWS5、兩張 OLA6）；附約各自掛在對應主約下（ADH／SDL 各自依那張主約額度，HSV／HSY 限一張）。</div>
+  </section>
+
+  <div class="sbar" id="sbar">
+    <div class="sin"><span class="sic">🔍</span><input id="q" type="search" enterkeyhint="search" autocomplete="off" placeholder="搜尋主約／附約（代號、中文、英文）"><button type="button" id="qx" hidden aria-label="清除">✕</button></div>
+    <div class="qres" id="qres"></div>
+  </div>
+
+  <section class="card" id="secMain">
+    <h2>可投保主約</h2>
+    <div id="list"></div>
+    <details id="nolist"><summary>此條件不可投保的主約 <span id="nolistcnt"></span></summary><div id="nl"></div></details>
+  </section>
+
+  <section class="card" id="secRider">
+    <h2>可投保附約</h2>
+    <div id="mtree"></div>
+    <div class="hint" id="rhint"></div>
+    <div id="rlist"></div>
+    <details id="rnolist"><summary>此條件不可投保的附約 <span id="rnolistcnt"></span></summary><div id="rnl"></div></details>
+  </section>
+</main>
+
+<div id="cart" class="cart hidden">
+  <div class="cartbar" id="cartbar"><span id="cartsum"></span><button type="button" id="cartopen">明細 ▲</button></div>
+  <div class="cartmini" id="cartmini"></div>
+  <div class="cartbody" id="cartbody"></div>
+</div>
+
+<footer>
+  可試算主約的費率取自各商品建議書試算表（Excel）並逐格比對 PDF 費率表；附約／豁免附約費率取自各附約「保險費費率表」PDF（兩種方法獨立抽取逐格比對，並以 DM 範例驗證）；其餘主約目前只收錄投保規則與給付項目，費率整理中；投保年齡、保額上下限取自投保規則；折扣取自保費規定。<br>
+  本工具僅供業務員快速試算，實際保費、核保、給付以公司正式建議書、保單條款及核保結果為準。<br>
+  <span id="ver"></span>
+</footer>
+<script src="data.js?v=122"></script>
+<script src="data_life.js?v=122"></script>
+<script src="data_mains.js?v=122"></script>
+<script src="catalog.js?v=122"></script>
+<script src="riders_rates.js?v=122"></script>
+<script src="app.js?v=122"></script>
+<!--CFWA--><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "1f1171fedb8a47c1b04731b056bc8142"}'></script><!--/CFWA--><a href="../index.html" id="nanen-back" style="position:fixed;left:8px;bottom:8px;z-index:60;background:rgba(0,58,117,.88);color:#fff;font:13px/1 sans-serif;padding:7px 11px;border-radius:16px;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,.25)">← 南恩首頁</a></body>
+</html>

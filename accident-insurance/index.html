@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <!-- ===== 版本號（快取更新）VERSION = 20261013-1455 =====
+       更新網站檔案後，把本檔所有「?v=20261013-1455」一起換成新的版本號（例：20261007-0900），
+       使用者的瀏覽器就會重新下載 style.css／app.js／rates.js／圖片，不會看到舊版。
+       一行指令：sed -i 's/20261013-1455/新版本號/g' index.html -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>意外險保障｜即時報價系統</title>
+  <meta name="description" content="OLA6、ADG、TMR、ADM、ADH 保費與骨折給付情境試算。" />
+  <link rel="icon" type="image/png" href="assets/favicon.png?v=20261013-1455" />
+  <link rel="apple-touch-icon" href="assets/favicon.png?v=20261013-1455" />
+  <link rel="stylesheet" href="style.css?v=20261013-1455" />
+</head>
+<body>
+<main class="app-shell">
+  <header class="topbar">
+    <!-- 品牌列：大心 logo＋標語＋標題（深藍底、金色 logo） -->
+    <div class="brand">
+      <img class="brand-logo" src="assets/logo.png?v=20261013-1455" alt="大心" width="34" height="48" />
+      <div class="brand-text">
+        <span class="eyebrow">意外保障提案工具</span>
+        <span class="brand-slogan">台南最大心，服務最用心</span>
+        <h1>意外險保障</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="workspace-grid">
+    <!-- ================= 左側：輸入投保資料 ================= -->
+    <aside class="input-panel">
+      <div class="panel-title">
+        <div><strong>輸入投保資料</strong><small>右側會同步更新</small></div>
+      </div>
+
+      <section class="basic-grid">
+        <label>姓名<input id="name" /></label>
+        <label>民國生日<input id="rocBirth" inputmode="numeric" placeholder="例：700101" /></label>
+        <label>性別
+          <select id="gender">
+            <option value="female">女性</option>
+            <option value="male">男性</option>
+          </select>
+        </label>
+        <label>職業類別<select id="occupation"></select></label>
+        <label class="wide">繳別<select id="payMode"></select></label>
+      </section>
+      <p class="field-error" id="ageError" hidden></p>
+
+      <!-- OLA6 主約 -->
+      <section class="product-input" style="--product-tone:#9f7a2e">
+        <div class="product-heading"><span class="product-code">OLA6</span><strong>金來寶小額終身壽險</strong></div>
+        <label class="switch-row">
+          <input type="checkbox" id="hasExistingMain" /><span>已有富邦有效主約，不另買 OLA6</span>
+        </label>
+        <label class="check-row" id="existingMainRow" hidden>
+          <input type="checkbox" id="existingMainChecked" />我已確認原主約效期可涵蓋附約期間；保額比例仍待業務員覆核
+        </label>
+        <div class="inline-fields" id="olaFields">
+          <label>繳費年期<select id="olaTerm"></select></label>
+          <label>壽險保額
+            <div class="amount-control">
+              <input type="number" id="olaAmount" inputmode="numeric" min="10" max="90" step="1" /><span>萬元</span>
+            </div>
+          </label>
+        </div>
+        <p class="field-error" id="olaError" hidden></p>
+      </section>
+
+      <!-- 附約 -->
+      <div class="rider-grid">
+        <section class="product-input" style="--product-tone:#1267a5">
+          <div class="product-heading"><span class="product-code">ADG</span><strong>意外身故／失能／燒燙傷</strong></div>
+          <label>保額
+            <div class="amount-control">
+              <input type="number" id="adgAmount" min="0" max="2000" step="10" /><span>萬元</span>
+            </div>
+          </label>
+          <p class="rule-note">0＝不投保｜直接輸入或箭頭調整</p>
+        </section>
+
+        <section class="product-input" style="--product-tone:#11857c">
+          <div class="product-heading"><span class="product-code">TMR</span><strong>意外醫療實支實付</strong></div>
+          <label>保額
+            <div class="amount-control">
+              <input type="number" id="tmrAmount" min="0" step="1" /><span>萬元</span>
+            </div>
+          </label>
+          <p class="rule-note">0＝不投保｜上限 ADG 10%</p>
+          <p class="field-error" id="tmrError" hidden></p>
+        </section>
+
+        <section class="product-input" style="--product-tone:#7451a2">
+          <div class="product-heading"><span class="product-code">ADM</span><strong>意外住院日額／門診手術</strong></div>
+          <label>日額
+            <div class="amount-control">
+              <input type="number" id="admDaily" min="0" max="2000" step="100" /><span>元／日</span>
+            </div>
+          </label>
+          <p class="rule-note">0＝不投保｜直接輸入或箭頭調整</p>
+        </section>
+
+        <section class="product-input" style="--product-tone:#d43b35">
+          <div class="product-heading"><span class="product-code">ADH</span><strong>骨力勇意外骨折傷害</strong></div>
+          <label>保額
+            <div class="amount-control">
+              <input type="number" id="adhAmount" min="0" step="10" /><span>萬元</span>
+            </div>
+          </label>
+          <p class="rule-note" id="adhNote"></p>
+          <p class="field-error" id="adhError" hidden></p>
+        </section>
+      </div>
+
+      <!-- 骨折情境 -->
+      <section class="scenario-box">
+        <div class="scenario-title"><span>骨折情境</span><b>以您的左手橈骨案例為預設</b></div>
+        <label>骨折部位<select id="boneId"></select></label>
+        <div class="inline-fields">
+          <label>骨折程度<select id="fractureType"></select></label>
+          <label>實際住院日數
+            <div class="amount-control">
+              <input type="number" id="hospitalDays" inputmode="numeric" min="0" max="90" step="1" /><span>日</span>
+            </div>
+          </label>
+        </div>
+        <!-- 脫臼部位（選填）：與圖上右欄脫臼標籤同步；選了就計入報價卡與定額給付合計 -->
+        <div class="joint-field">
+          <label>脫臼部位<select id="jointId"></select></label>
+          <p class="rule-note joint-note">需實際施行開放性復位術：ADH 保額 × 比例；同一事故多處脫臼僅給付最高一項</p>
+        </div>
+      </section>
+
+      <!-- 客戶理賠案例（純文字卡，不放任何診斷書／收據影像；資料在 rates.js 的 CASES，由 app.js 產生） -->
+      <section class="case-share" id="caseShare" aria-labelledby="caseShareTitle">
+        <div class="case-share-head">
+          <h2 id="caseShareTitle">客戶理賠案例</h2>
+          <span>真實骨折理賠｜如果有 ADH 保額 100 萬</span>
+        </div>
+        <div class="case-tabs" id="caseTabs" role="tablist" aria-label="選擇案例"></div>
+        <div class="case-body" id="caseBody" role="tabpanel"></div>
+        <p class="case-premium" id="casePremium"></p>
+      </section>
+    </aside>
+
+    <!-- ================= 右側：保障彙整圖（由 app.js 即時產生） ================= -->
+    <section class="summary-panel">
+      <!-- 排序：骨頭人互動圖在上、報價卡在下 -->
+      <!-- ADH 骨折／脫臼互動圖：Q 版骨頭人（圖片本身沒有文字）＋由 app.js 依 rates.js 的 BONES／JOINTS 產生的部位標籤、引線與圓點。
+           依「骨折部位」自動標示並顯示比例與理賠金額；點左欄骨折或右欄脫臼部位（標籤或骨頭上的圓點）可直接選取 -->
+      <figure class="chart-card">
+        <div class="chart-thumb" id="chartThumb">
+          <!-- 分類標題（同 DM）：左＝骨折、右＝脫臼；分界對齊骨頭人中線（rates.js CHART_FIGURE 的中心） -->
+          <div class="chart-head" aria-hidden="true">
+            <span class="chart-head-bone">意外傷害骨折保險金給付比例</span>
+            <span class="chart-head-joint">意外傷害脫臼開放性復位術保險金給付比例</span>
+          </div>
+          <span class="chart-stage">
+            <span class="chart-divider" aria-hidden="true"></span>
+            <img src="assets/cute-skeleton.webp?v=20261013-1455" width="866" height="1680"
+                 alt="Q 版骨頭人：左側為骨折部位、右側為脫臼部位的給付比例標籤" />
+            <span class="chart-labels" aria-hidden="true"></span>
+            <span class="chart-overlay" aria-hidden="true"></span>
+          </span>
+          <span class="chart-tap-hint">👆 點圖上骨折或脫臼部位，直接看理賠金額</span>
+        </div>
+        <figcaption>
+          <span class="chart-kicker">ADH 給付比例</span>
+          <strong>骨力勇 ADH 骨折及脫臼給付比例</strong>
+          <small>（部位與比例依 DM，詳見條款）</small>
+          <div class="chart-callout" id="chartCallout" aria-live="polite"></div>
+          <p>左側：意外傷害骨折保險金給付比例（保險金額 × 3%～80%）。</p>
+          <p>右側：意外傷害脫臼開放性復位術保險金給付比例（保險金額 × 10%～30%）。</p>
+          <p class="chart-hint">點圖上骨折部位（左欄）或脫臼部位（右欄）的標籤，或骨頭人身上的圓點，直接看理賠金額；變更左側「骨折部位」也會自動標示。</p>
+        </figcaption>
+      </figure>
+
+      <div class="quote-card" id="quoteCard"></div>
+    </section>
+  </div>
+</main>
+
+<!-- 載入順序：先費率資料，再主程式 -->
+<script src="rates.js?v=20261013-1455"></script>
+<script src="app.js?v=20261013-1455"></script>
+<a href="../index.html" id="nanen-back" style="position:fixed;left:8px;bottom:8px;z-index:60;background:rgba(0,58,117,.88);color:#fff;font:13px/1 sans-serif;padding:7px 11px;border-radius:16px;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,.25)">← 南恩首頁</a></body>
+</html>
