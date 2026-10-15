@@ -63,32 +63,32 @@
   "indices_note": "美股為美東 10/14 收盤；台股為 10/15 收盤",
   "posters": [
     {
-      "caption": "每日報報 2026.10.15（新聞棚版）",
-      "download": "20261015-每日報報-新聞棚版.png",
-      "thumb": "daily-news/thumb/poster-v4-studio.jpg",
-      "full": "daily-news/img/poster-v4-studio.png",
-      "download_path": "daily-news/img/poster-v4-studio.png"
+      "caption": "每日報報 2026.10.15（經典深藍）",
+      "download": "20261015-每日報報-經典深藍.png",
+      "thumb": "daily-news/thumb/poster-1-navy.jpg",
+      "full": "daily-news/img/poster-1-navy.png",
+      "download_path": "daily-news/img/poster-1-navy.png"
     },
     {
-      "caption": "每日報報 2026.10.15（藍綠版）",
-      "download": "20261015-每日報報-藍綠版.png",
-      "thumb": "daily-news/thumb/poster-v3-bluegreen.jpg",
-      "full": "daily-news/img/poster-v3-bluegreen.png",
-      "download_path": "daily-news/img/poster-v3-bluegreen.png"
+      "caption": "每日報報 2026.10.15（深藍K線）",
+      "download": "20261015-每日報報-深藍K線.png",
+      "thumb": "daily-news/thumb/poster-2-navy-chart.jpg",
+      "full": "daily-news/img/poster-2-navy-chart.png",
+      "download_path": "daily-news/img/poster-2-navy-chart.png"
     },
     {
-      "caption": "每日報報 2026.10.15（101版）",
-      "download": "20261015-每日報報-101版.png",
-      "thumb": "daily-news/thumb/poster-v2-101.jpg",
-      "full": "daily-news/img/poster-v2-101.png",
-      "download_path": "daily-news/img/poster-v2-101.png"
+      "caption": "每日報報 2026.10.15（金色地球）",
+      "download": "20261015-每日報報-金色地球.png",
+      "thumb": "daily-news/thumb/poster-3-globe-night.jpg",
+      "full": "daily-news/img/poster-3-globe-night.png",
+      "download_path": "daily-news/img/poster-3-globe-night.png"
     },
     {
-      "caption": "每日報報 2026.10.15（深藍版）",
-      "download": "20261015-每日報報-深藍版.png",
-      "thumb": "daily-news/thumb/poster-v1-navy.jpg",
-      "full": "daily-news/img/poster-v1-navy.png",
-      "download_path": "daily-news/img/poster-v1-navy.png"
+      "caption": "每日報報 2026.10.15（新聞棚）",
+      "download": "20261015-每日報報-新聞棚.png",
+      "thumb": "daily-news/thumb/poster-4-newsroom.jpg",
+      "full": "daily-news/img/poster-4-newsroom.png",
+      "download_path": "daily-news/img/poster-4-newsroom.png"
     }
   ],
   "clips": [
@@ -231,5 +231,5 @@
   "zip": "daily-news/news-20261015-all.zip",
   "page": "daily-news/",
   "source_repo": "https://dashin-team.github.io/daily-news/",
-  "synced_at": "2026/10/15 22:43"
+  "synced_at": "2026/10/15 23:01"
 }
