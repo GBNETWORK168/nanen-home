@@ -3,8 +3,8 @@
 :root{--navy:#06254a;--b:#1565c0;--teal:#0e9f9a;--green:#43a047;--gold:#c9a24a;--gold2:#e8cb7a;--goldd:#9a7a2c;--ink:#1f2d3d;--mut:#5d6f82;--ivory:#fcfaf4;--bg:#f1f7fc;
 --grad:linear-gradient(100deg,#1565c0 0%,#0e9f9a 62%,#43a047 100%);--goldg:linear-gradient(135deg,#f0d98f,#c9a24a 55%,#a9822f);--navyg:linear-gradient(120deg,#041b38 0%,#0b4f9c 58%,#0e8f9f 100%);
 --sh:0 4px 18px rgba(21,101,192,.08);--sh2:0 14px 34px rgba(21,101,192,.16);--edge:1px solid rgba(201,162,74,.45);--leaf:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cpath d='M10 110C10 50 50 10 110 10c0 60-40 100-100 100z' fill='%2343a047' fill-opacity='.10'/%3E%3Cpath d='M18 102L84 36' stroke='%2343a047' stroke-opacity='.18' stroke-width='2' fill='none'/%3E%3C/svg%3E")}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:76px;overflow-x:hidden}
-body{margin:0;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:var(--ink);background:var(--ivory);line-height:1.7;-webkit-text-size-adjust:100%;overflow-x:hidden}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:var(--ink);background:var(--ivory);line-height:1.7;-webkit-text-size-adjust:100%;overflow-x:clip}
 img,svg{max-width:100%}img{height:auto}
 a{color:inherit;text-decoration:none}.wrap{max-width:1160px;margin:0 auto;padding:0 20px}.center{text-align:center}
 .si{width:1.25em;height:1.25em;vertical-align:-.28em;margin-right:.4em;flex:none}.si-sm{width:1.1em;height:1.1em;margin-right:.35em}.si-lg{width:40px;height:40px;margin:0 0 6px;display:block}.si-xl{width:56px;height:56px;margin:0 auto 8px;display:block}
@@ -121,7 +121,7 @@ h2::after{content:"";display:block;width:150px;height:10px;margin:12px auto 0;ba
 .fin-pages img{display:block;width:100%;height:auto}
 .fin-note{text-align:center;color:var(--mut);padding:30px 0}
 .band::before{content:"";position:absolute;left:-30px;bottom:-30px;width:200px;height:200px;background:var(--leaf) center/contain no-repeat;transform:scaleX(-1);pointer-events:none}.band>.wrap{position:relative}
-@media(max-width:1020px){nav{gap:14px;font-size:15px}}
+@media(max-width:1240px){nav{gap:14px;font-size:15px}.btn-nav{padding:7px 14px}}
 @media(max-width:900px){.grid6{grid-template-columns:repeat(3,1fr)}.cards,.why,.locator,.pillars{grid-template-columns:1fr}.fin-grid{grid-template-columns:1fr}}
 @media(max-width:720px){
 .burger{display:block}.sec{padding:46px 16px}h2{font-size:32px}.m-br{display:inline}
@@ -160,4 +160,21 @@ nav.open{display:flex}nav a{padding:14px 20px;border-top:1px solid #edf2f8}nav a
 .v-chips li{background:#fff;border:1px solid var(--gold);border-radius:99px;padding:8px 22px;font-size:20px;box-shadow:var(--sh)}
 @media(max-width:900px){.vision-cols{grid-template-columns:1fr}}
 @media(max-width:720px){.v-card{padding:24px 20px 20px}.v-title{font-size:34px}.fl-badge{font-size:23px}.v-list li{font-size:16px}.v-goal p{font-size:21px}.v-chips li{font-size:17px;padding:7px 16px}}
-.v-list .em+.em{margin-left:.45em}
+
+.v-left{display:flex;flex-direction:column}
+.v-logo{margin:auto 0 0;padding-top:18px;text-align:center;position:relative;z-index:1}
+.v-logo img{width:40%;min-width:150px;max-width:230px;height:auto;aspect-ratio:1/1;object-fit:contain;filter:drop-shadow(0 8px 16px rgba(21,101,192,.25))}
+@media(max-width:720px){.v-logo img{width:46%;min-width:140px}}
+.v-list .em.gap{margin-left:.45em}
+.em{white-space:nowrap}
+
+/* 導覽列：品牌單行不換行、不被擠壓 */
+.nav-in{gap:12px}.brand{flex:none;min-width:0}.brand>span{display:block;white-space:nowrap}.brand b,.brand small{white-space:nowrap}
+.brand b{line-height:1.25}.brand small{line-height:1.3}
+nav{flex-shrink:0}
+@media(max-width:1100px){
+.burger{display:block;flex:none}
+nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 10px 18px rgba(21,101,192,.18);border-bottom:2px solid var(--gold);font-size:16px}
+nav.open{display:flex}nav a{padding:14px 20px;border-top:1px solid #edf2f8}nav a:not(.btn-nav)::after{display:none}.btn-nav{border-radius:0;text-align:center;padding:14px 20px}}
+@media(max-width:400px){.brand small{font-size:10px;letter-spacing:0}.brand b{font-size:17px}}
+@media(max-width:350px){.brand small{display:none}}
