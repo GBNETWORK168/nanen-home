@@ -1231,10 +1231,10 @@
    "frequency": "月配",
    "frequency_source": "富邦網站配息頻率欄",
    "periods_per_year": 12,
-   "dividend_12m_per_unit": 4.20326,
-   "dividend_12m_count": 13,
+   "dividend_12m_per_unit": 3.87596,
+   "dividend_12m_count": 12,
    "annual_yield": 0.028955,
-   "annual_yield_12m": 0.024031
+   "annual_yield_12m": 0.02216
   },
   {
    "code": "MLE24",
@@ -3562,5 +3562,5 @@
    "annual_yield_12m": 0.004972
   }
  ],
- "updated_at": "2026-10-15T23:31:42+08:00"
+ "updated_at": "2026-10-16T09:25:38+08:00"
 }
