@@ -1086,7 +1086,7 @@
    "periods_per_year": 12,
    "annual_yield": 0.08622,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
-   "dividend_12m_per_unit": 0.72,
+   "dividend_12m_per_unit": 0.665,
    "return_1y": "6.98%",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
@@ -1557,5 +1557,5 @@
    }
   }
  ],
- "updated_at": "2026-10-15T23:31:26+08:00"
+ "updated_at": "2026-10-16T09:26:57+08:00"
 }
