@@ -66,43 +66,57 @@ renderBgs();
 const ptitle=()=>($('#ptitle').value.trim()||'每日報報');
 $('#ptitle').value=localStorage.getItem('nn_title')||'每日報報';
 let _pt;$('#ptitle').oninput=()=>{const v=$('#ptitle').value.trim();v&&v!=='每日報報'?localStorage.setItem('nn_title',v):localStorage.removeItem('nn_title');clearTimeout(_pt);_pt=setTimeout(redraw,500);};
-$('#ptreset').onclick=()=>{$('#ptitle').value='每日報報';localStorage.removeItem('nn_title');redraw();};
+// custom title: font + colour (other poster text keeps its default colours)
+const TF={heavy:['900',SANS,'思源黑體 Heavy'],bold:['700',SANS,'思源黑體 Bold'],medium:['500',SANS,'思源黑體 Medium'],
+  serif600:['600',SERIF,'思源宋體 SemiBold'],serif400:['400',SERIF,'思源宋體 Regular'],inter:['800',`${INTER},"Noto Sans TC","Noto Sans CJK TC",sans-serif`,'Inter']};
+let tfont=localStorage.getItem('nn_tfont');if(!(tfont in TF))tfont='';
+$('#tfont').value=tfont;
+$('#tfont').onchange=()=>{tfont=$('#tfont').value;tfont?localStorage.setItem('nn_tfont',tfont):localStorage.removeItem('nn_tfont');redraw();};
+const SW=[['金色漸層','gold'],['白','#ffffff'],['金','#f2b632'],['大心藍綠','#17a2a0'],['深藍','#0a1a3a'],['紅','#d7262b']];
+let TCOL=localStorage.getItem('nn_tcolor')||'gold';localStorage.removeItem('nn_colors');
+function renderCols(){$('#cols').innerHTML=`<div class=cr2><span class=cn2 style="font-weight:700">標題顏色<small style="font-weight:400;color:#888">（金色字圖時不套用）</small></span>${SW.map(([n,v])=>`<button class="sw${TCOL===v?' on':''}" data-v="${v}" title="${n}" style="background:${v==='gold'?'linear-gradient(#fff1b0,#f2b632,#c98a12)':v}"></button>`).join('')}<input type=color id=tcol value="${TCOL==='gold'?'#f2b632':TCOL}"></div>`;
+  document.querySelectorAll('.sw').forEach(b=>b.onclick=()=>setCol(b.dataset.v));$('#tcol').onchange=()=>setCol($('#tcol').value);}
+function setCol(v){TCOL=v;v==='gold'?localStorage.removeItem('nn_tcolor'):localStorage.setItem('nn_tcolor',v);renderCols();redraw();}
+renderCols();
+$('#ptreset').onclick=()=>{$('#ptitle').value='每日報報';tfont='';$('#tfont').value='';TCOL='gold';['nn_title','nn_tfont','nn_tcolor'].forEach(k=>localStorage.removeItem(k));renderCols();redraw();};
+const titleFont=s=>{const [w,f]=TF[tfont||'heavy'];return `${w} ${s}px ${f}`;};
 function redraw(){if($('#pout img'))$('#gen').click();}
 function fit(c,t,max,size,w,fam){fam=fam||F;let s=size;do{c.font=`${w} ${s}px ${fam}`;s-=1}while(c.measureText(t).width>max&&s>18);}
 async function poster(ids){
   const heads=ids.map(id=>byId[id].short);
   const txt=heads.join('')+'每日報報五大重點財經頭條美元澳幣日圓人民幣道瓊標普那斯達克台股加權0123456789.,+-()%（）／：；漲跌較美股為東收盤紅綠資料來源截至台北時間灣證券交易所中央社工商時報ReutersInvesting.comNewsUSDAUDJPYCNY';
   const fl=[];['T','H','S'].forEach(k=>['900','700','600','500'].forEach(w=>fl.push(`${w} 40px ${R[k]}`)));['800','700','600'].forEach(w=>fl.push(`${w} 40px ${INTER}`));
+  fl.push(titleFont(40));
   try{await Promise.all(fl.map(f=>document.fonts.load(f,txt+ptitle())));await document.fonts.ready;}catch(e){}
   const [bg,title,logo]=await Promise.all([img(`img/bg/${bgId()}.jpg`),img('img/title.png'),img('img/logo.png')]);
   const cv=document.createElement('canvas');cv.width=1080;cv.height=1920;const c=cv.getContext('2d');
   c.drawImage(bg,0,0,1080,1920);
   const PT=ptitle();
-  if(PT==='每日報報'){const tw=800,th=tw*title.height/title.width;c.drawImage(title,(1080-tw)/2,70,tw,th);}
-  else{let s=170;c.font=`900 ${s}px ${F_('T')}`;while(c.measureText(PT).width>960&&s>40){s-=2;c.font=`900 ${s}px ${F_('T')}`;}
+  if(PT==='每日報報'&&!tfont){const tw=800,th=tw*title.height/title.width;c.drawImage(title,(1080-tw)/2,70,tw,th);}
+  else{let s=170;c.font=titleFont(s);while(c.measureText(PT).width>960&&s>40){s-=2;c.font=titleFont(s);}
     c.textAlign='center';c.textBaseline='middle';const cy=172,g=c.createLinearGradient(0,cy-s/2,0,cy+s/2);
     g.addColorStop(0,'#fff1b0');g.addColorStop(.45,'#f2b632');g.addColorStop(.8,'#c98a12');g.addColorStop(1,'#8a5a08');
     c.lineJoin='round';c.lineWidth=Math.max(4,s/18);c.strokeStyle='#5a3a06';c.shadowColor='rgba(0,0,0,.7)';c.shadowBlur=14;c.shadowOffsetY=6;c.strokeText(PT,540,cy);
-    c.shadowBlur=0;c.shadowOffsetY=0;c.fillStyle=g;c.fillText(PT,540,cy);c.textBaseline='alphabetic';}
-  c.textAlign='center';c.fillStyle='#fff';c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=10;
+    c.shadowBlur=0;c.shadowOffsetY=0;c.fillStyle=TCOL==='gold'?g:TCOL;c.fillText(PT,540,cy);c.textBaseline='alphabetic';}
+  c.textAlign='center';c.fillStyle='#ffffff';c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=10;
   c.font=`800 76px ${INTER}`;c.fillText(`${D.date} News`,540,395);c.shadowBlur=0;
   const gold=(y,h)=>{const g=c.createLinearGradient(0,y,0,y+h);g.addColorStop(0,'#ffe680');g.addColorStop(1,'#f7c531');return g};
   const cardW=225,gap=20,x0=(1080-4*cardW-3*gap)/2;
   // FX
   
   
-  c.fillStyle='#fff';c.font=`900 56px ${F_('T')}`;c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=10;c.fillText('五大重點財經頭條',540,908);c.shadowBlur=0;
+  c.fillStyle='#ffffff';c.font=`900 56px ${F_('T')}`;c.shadowColor='rgba(0,0,0,.6)';c.shadowBlur=10;c.fillText('五大重點財經頭條',540,908);c.shadowBlur=0;
   heads.forEach((h,k)=>{const y=956+k*92;rr(c,60,y,960,74,16);c.fillStyle='rgba(8,18,50,.72)';c.fill();c.strokeStyle='#fff';c.lineWidth=3;c.stroke();
     c.beginPath();c.arc(112,y+37,25,0,7);c.fillStyle='#f7c531';c.fill();c.fillStyle='#0a1a3a';c.font=`800 30px ${INTER}`;c.textAlign='center';c.fillText(k+1,112,y+48);
-    c.textAlign='left';c.fillStyle='#fff';fit(c,h,830,38,600,F_('H'));c.fillText(h,155,y+50);});
+    c.textAlign='left';c.fillStyle='#ffffff';fit(c,h,830,38,600,F_('H'));c.fillText(h,155,y+50);});
   c.textAlign='center';
   D.idx.forEach(([n,v,a,p,u],k)=>{const x=x0+k*(cardW+gap),y=1442,h=272;
     c.shadowColor='rgba(0,0,0,.4)';c.shadowBlur=14;rr(c,x,y,cardW,h,22);c.fillStyle=gold(y,h);c.fill();c.shadowBlur=0;
-    c.fillStyle='#111';fit(c,n,cardW-20,38,900,F_('T'));c.fillText(n,x+cardW/2,y+58);
+    c.fillStyle='#111111';fit(c,n,cardW-20,38,900,F_('T'));c.fillText(n,x+cardW/2,y+58);
     c.strokeStyle='rgba(0,0,0,.25)';c.lineWidth=2;c.beginPath();c.moveTo(x+14,y+84);c.lineTo(x+cardW-14,y+84);c.stroke();
     fit(c,v,cardW-16,40,700,INTER);c.fillText(v,x+cardW/2,y+146);
     c.fillStyle=u==='up'?'#d4001a':'#078a32';fit(c,a,cardW-16,34,600,INTER);c.fillText(a,x+cardW/2,y+200);c.font=`600 34px ${INTER}`;c.fillText(`(${p})`,x+cardW/2,y+248);});
-  c.fillStyle='#fff';c.font=`500 24px ${F_('S')}`;const n2=D.idxnote+'　紅漲綠跌';c.fillText(n2,540,1762);
+  c.fillStyle='#e8eeff';c.font=`500 24px ${F_('S')}`;const n2=D.idxnote+'　紅漲綠跌';c.fillText(n2,540,1762);
   c.fillStyle='rgba(6,16,45,.65)';rr(c,30,1800,1020,96,10);c.fill();
   c.drawImage(logo,42,1803,90,90*logo.height/logo.width);
   c.fillStyle='#e8eeff';const s1='資料來源：'+D.sources,s2=`資料截至 ${D.asof}（台北時間）`;fit(c,s1,860,22,500,F_('S'));c.fillText(s1,600,1840);c.font=`500 22px ${F_('S')}`;c.fillText(s2,600,1874);
@@ -113,7 +127,7 @@ $('#gen').onclick=async()=>{
   $('#gen').textContent='產生中…';
   try{const cv=await poster(order.slice(0,5));
     const blob=await new Promise(r=>cv.toBlob(r,'image/png'));const url=URL.createObjectURL(blob);
-    $('#pout').innerHTML=`<img src="${url}" alt="自選每日報報海報"><div class=vbar style="justify-content:center"><a class="btn red" href="${url}" download="${D.D8}-${ptitle().replace(/[\\/:*?"<>|]/g,'')}-自選-${bgId()}-${fkey}.png" style="margin:0">下載圖片</a></div><div class=tip>手機可長按圖片儲存。</div>`;
+    $('#pout').innerHTML=`<img src="${url}" alt="自選每日報報海報"><div class=vbar style="justify-content:center"><a class="btn red" href="${url}" download="${D.D8}-${ptitle().replace(/[\\/:*?"<>|]/g,'')}-自選-${bgId()}-${tfont||'default'}.png" style="margin:0">下載圖片</a></div><div class=tip>手機可長按圖片儲存。</div>`;
   }catch(e){$('#pout').textContent='產生失敗：'+e;}
   $('#gen').textContent='產生海報';
 };
