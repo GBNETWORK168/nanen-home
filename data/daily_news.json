@@ -1,37 +1,37 @@
 {
-  "date": "2026.10.17",
+  "date": "2026.10.18",
   "title": "南恩新聞報報",
-  "date_label": "2026.10.17（六）",
+  "date_label": "2026.10.18（日）",
   "headlines": [
     {
-      "url": "https://www.cna.com.tw/news/afe/202610160166.aspx",
-      "title": "台積電收黑PCB強彈　台股量縮上漲141點收復47000點",
-      "source": "中央社",
-      "time": "2026/10/16 14:36"
-    },
-    {
-      "url": "https://www.ctee.com.tw/news/20261017700033-439901",
-      "title": "三度上修　中經院：今年經濟成長12.16％",
+      "url": "https://www.ctee.com.tw/news/20261018700029-439901",
+      "title": "費半狂瀉近4％　恐慌指數升",
       "source": "工商時報",
-      "time": "2026/10/17 03:00"
+      "time": "2026/10/18 03:00"
     },
     {
-      "url": "https://www.cna.com.tw/news/ahel/202610160316.aspx",
-      "title": "長者有條件免健保費　衛福部估20至64歲每人每年多繳2700元",
-      "source": "中央社",
-      "time": "2026/10/16 19:52"
-    },
-    {
-      "url": "https://www.businesstoday.com.tw/article/category/183012/post/202610160010/",
-      "title": "別到80、90歲還要煩惱選股！退休適合投資什麼？「財務自由教父」公開3個投資工具",
+      "url": "https://www.businesstoday.com.tw/article/category/183015/post/202610170014/",
+      "title": "LINE Pay個資外洩？暗網爆75萬筆「只賣1萬2」…姓名、手機號、身分證地址生日資料哪來？公司發聲報案",
       "source": "今周刊",
-      "time": "2026/10/16 11:38"
+      "time": "2026/10/17 22:11"
     },
     {
-      "url": "https://www.cw.com.tw/article/5143319",
-      "title": "綠茶和咖啡，誰更抗發炎？",
+      "url": "https://www.ctee.com.tw/news/20261018700090-439901",
+      "title": "失智風險增　提前打造照護網",
+      "source": "工商時報",
+      "time": "2026/10/18 03:00"
+    },
+    {
+      "url": "https://www.cna.com.tw/news/ahel/202610170063.aspx",
+      "title": "調查指逾半有預立醫療意願者未與家人談　衛福部籲先說好",
+      "source": "中央社",
+      "time": "2026/10/17 12:54"
+    },
+    {
+      "url": "https://www.cw.com.tw/article/5143204",
+      "title": "咖啡一天喝幾杯最健康？35萬人大型研究揭密：喝對肝硬化風險下降35%",
       "source": "天下雜誌",
-      "time": "2026/10/16 15:57"
+      "time": "2026/10/14"
     }
   ],
   "indices": [
@@ -60,176 +60,176 @@
       "change": "+141.39（+0.30%）"
     }
   ],
-  "indices_note": "美股為美東 10/16 收盤；台股為 10/16 收盤",
+  "indices_note": "美股為美東 10/16（週五）收盤；台股為 10/16（週五）收盤",
   "posters": [
     {
-      "caption": "每日報報 2026.10.17（晨光青綠）",
-      "download": "20261017-每日報報-晨光青綠.png",
-      "thumb": "daily-news/thumb/poster-1-sage-light.jpg",
-      "full": "daily-news/img/poster-1-sage-light.png",
-      "download_path": "daily-news/img/poster-1-sage-light.png"
+      "caption": "每日報報 2026.10.18（金色地球）",
+      "download": "20261018-每日報報-金色地球.png",
+      "thumb": "daily-news/thumb/poster-1-globe-night.jpg",
+      "full": "daily-news/img/poster-1-globe-night.png",
+      "download_path": "daily-news/img/poster-1-globe-night.png"
     },
     {
-      "caption": "每日報報 2026.10.17（藍綠金）",
-      "download": "20261017-每日報報-藍綠金.png",
-      "thumb": "daily-news/thumb/poster-2-teal-gold.jpg",
-      "full": "daily-news/img/poster-2-teal-gold.png",
-      "download_path": "daily-news/img/poster-2-teal-gold.png"
+      "caption": "每日報報 2026.10.18（新聞棚）",
+      "download": "20261018-每日報報-新聞棚.png",
+      "thumb": "daily-news/thumb/poster-2-newsroom.jpg",
+      "full": "daily-news/img/poster-2-newsroom.png",
+      "download_path": "daily-news/img/poster-2-newsroom.png"
     },
     {
-      "caption": "每日報報 2026.10.17（柔和綠）",
-      "download": "20261017-每日報報-柔和綠.png",
-      "thumb": "daily-news/thumb/poster-3-soft-green.jpg",
-      "full": "daily-news/img/poster-3-soft-green.png",
-      "download_path": "daily-news/img/poster-3-soft-green.png"
+      "caption": "每日報報 2026.10.18（經典深藍）",
+      "download": "20261018-每日報報-經典深藍.png",
+      "thumb": "daily-news/thumb/poster-3-navy.jpg",
+      "full": "daily-news/img/poster-3-navy.png",
+      "download_path": "daily-news/img/poster-3-navy.png"
     },
     {
-      "caption": "每日報報 2026.10.17（翡翠心電）",
-      "download": "20261017-每日報報-翡翠心電.png",
-      "thumb": "daily-news/thumb/poster-4-emerald-pulse.jpg",
-      "full": "daily-news/img/poster-4-emerald-pulse.png",
-      "download_path": "daily-news/img/poster-4-emerald-pulse.png"
+      "caption": "每日報報 2026.10.18（深藍K線）",
+      "download": "20261018-每日報報-深藍K線.png",
+      "thumb": "daily-news/thumb/poster-4-navy-chart.jpg",
+      "full": "daily-news/img/poster-4-navy-chart.png",
+      "download_path": "daily-news/img/poster-4-navy-chart.png"
     }
   ],
   "clips": [
     {
-      "caption": "台股反彈141點　收復47000點",
-      "download": "20261017-剪報-台股反彈141點.png",
-      "source_url": "https://www.cna.com.tw/news/afe/202610160166.aspx",
-      "source": "中央社 2026/10/16",
-      "thumb": "daily-news/thumb/clip-taiex16.jpg",
-      "full": "daily-news/img/cards/taiex16.png",
-      "download_path": "daily-news/img/cards/taiex16.png"
+      "caption": "費半連8黑狂瀉近4%　恐慌指數升",
+      "download": "20261018-剪報-費半連8黑狂瀉近4%.png",
+      "source_url": "https://www.ctee.com.tw/news/20261018700029-439901",
+      "source": "工商時報 2026/10/18",
+      "thumb": "daily-news/thumb/clip-sox.jpg",
+      "full": "daily-news/img/cards/sox.png",
+      "download_path": "daily-news/img/cards/sox.png"
     },
     {
-      "caption": "中經院三度上修　今年GDP成長12.16%",
-      "download": "20261017-剪報-中經院三度上修.png",
-      "source_url": "https://www.ctee.com.tw/news/20261017700033-439901",
-      "source": "工商時報 2026/10/17",
-      "thumb": "daily-news/thumb/clip-gdp.jpg",
-      "full": "daily-news/img/cards/gdp.png",
-      "download_path": "daily-news/img/cards/gdp.png"
+      "caption": "暗網兜售75萬筆個資　LINE Pay否認",
+      "download": "20261018-剪報-暗網兜售75萬筆個資.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183015/post/202610170014/",
+      "source": "今周刊 2026/10/17",
+      "thumb": "daily-news/thumb/clip-linepay.jpg",
+      "full": "daily-news/img/cards/linepay.png",
+      "download_path": "daily-news/img/cards/linepay.png"
     },
     {
-      "caption": "長者免健保費　青壯年每人年多繳2690元",
-      "download": "20261017-剪報-長者免健保費.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202610160316.aspx",
-      "source": "中央社 2026/10/16",
-      "thumb": "daily-news/thumb/clip-nhi65.jpg",
-      "full": "daily-news/img/cards/nhi65.png",
-      "download_path": "daily-news/img/cards/nhi65.png"
+      "caption": "失智風險增　分階段保障提前規劃",
+      "download": "20261018-剪報-失智風險增.png",
+      "source_url": "https://www.ctee.com.tw/news/20261018700090-439901",
+      "source": "工商時報 2026/10/18",
+      "thumb": "daily-news/thumb/clip-dementia.jpg",
+      "full": "daily-news/img/cards/dementia.png",
+      "download_path": "daily-news/img/cards/dementia.png"
     },
     {
-      "caption": "退休投資只要3種工具　股票不低於5成",
-      "download": "20261017-剪報-退休投資只要3種工具.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183012/post/202610160010/",
-      "source": "今周刊 2026/10/16",
-      "thumb": "daily-news/thumb/clip-retire3.jpg",
-      "full": "daily-news/img/cards/retire3.png",
-      "download_path": "daily-news/img/cards/retire3.png"
+      "caption": "逾半未與家人談　預立醫療先說好",
+      "download": "20261018-剪報-逾半未與家人談.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202610170063.aspx",
+      "source": "中央社 2026/10/17",
+      "thumb": "daily-news/thumb/clip-acp.jpg",
+      "full": "daily-news/img/cards/acp.png",
+      "download_path": "daily-news/img/cards/acp.png"
     },
     {
-      "caption": "綠茶咖啡誰抗發炎　營養師：綠茶勝",
-      "download": "20261017-剪報-綠茶咖啡誰抗發炎.png",
-      "source_url": "https://www.cw.com.tw/article/5143319",
+      "caption": "每天3至4杯咖啡　肝硬化風險降35%",
+      "download": "20261018-剪報-每天3至4杯咖啡.png",
+      "source_url": "https://www.cw.com.tw/article/5143204",
+      "source": "天下雜誌 2026/10/14",
+      "thumb": "daily-news/thumb/clip-coffee.jpg",
+      "full": "daily-news/img/cards/coffee.png",
+      "download_path": "daily-news/img/cards/coffee.png"
+    },
+    {
+      "caption": "外資撤出　新台幣恐探33元",
+      "download": "20261018-剪報-外資撤出.png",
+      "source_url": "https://www.ctee.com.tw/news/20261018700056-439901",
+      "source": "工商時報 2026/10/18",
+      "thumb": "daily-news/thumb/clip-twd33.jpg",
+      "full": "daily-news/img/cards/twd33.png",
+      "download_path": "daily-news/img/cards/twd33.png"
+    },
+    {
+      "caption": "台積熊本二廠　獲准生產3奈米",
+      "download": "20261018-剪報-台積熊本二廠.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202610170082.aspx",
+      "source": "中央社 2026/10/17",
+      "thumb": "daily-news/thumb/clip-kumamoto.jpg",
+      "full": "daily-news/img/cards/kumamoto.png",
+      "download_path": "daily-news/img/cards/kumamoto.png"
+    },
+    {
+      "caption": "中油下週汽柴油價格不調整",
+      "download": "20261018-剪報-中油下週汽柴油價格不調整.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202610170134.aspx",
+      "source": "中央社 2026/10/17",
+      "thumb": "daily-news/thumb/clip-oil.jpg",
+      "full": "daily-news/img/cards/oil.png",
+      "download_path": "daily-news/img/cards/oil.png"
+    },
+    {
+      "caption": "外資連8天賣台積電逾11萬張",
+      "download": "20261018-剪報-外資連8天賣台積電逾11萬張.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183008/post/202610170004/",
+      "source": "今周刊 2026/10/17",
+      "thumb": "daily-news/thumb/clip-tsmcadr.jpg",
+      "full": "daily-news/img/cards/tsmcadr.png",
+      "download_path": "daily-news/img/cards/tsmcadr.png"
+    },
+    {
+      "caption": "友達轉型類控股　告別大鍋飯",
+      "download": "20261018-剪報-友達轉型類控股.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183015/post/202610170010/",
+      "source": "今周刊 2026/10/17",
+      "thumb": "daily-news/thumb/clip-auo.jpg",
+      "full": "daily-news/img/cards/auo.png",
+      "download_path": "daily-news/img/cards/auo.png"
+    },
+    {
+      "caption": "歐盟研擬一鍵封殺　歐中貿易戰升溫",
+      "download": "20261018-剪報-歐盟研擬一鍵封殺.png",
+      "source_url": "https://www.cw.com.tw/article/5143322",
+      "source": "天下雜誌 2026/10/17",
+      "thumb": "daily-news/thumb/clip-eutrade.jpg",
+      "full": "daily-news/img/cards/eutrade.png",
+      "download_path": "daily-news/img/cards/eutrade.png"
+    },
+    {
+      "caption": "長壽時代　壽險聚焦資產配置",
+      "download": "20261018-剪報-長壽時代.png",
+      "source_url": "https://www.ctee.com.tw/news/20261018700087-439901",
+      "source": "工商時報 2026/10/18",
+      "thumb": "daily-news/thumb/clip-elderlife.jpg",
+      "full": "daily-news/img/cards/elderlife.png",
+      "download_path": "daily-news/img/cards/elderlife.png"
+    },
+    {
+      "caption": "長輩受騙不是糊塗　5大心理破口",
+      "download": "20261018-剪報-長輩受騙不是糊塗.png",
+      "source_url": "https://www.cw.com.tw/article/5143306",
       "source": "天下雜誌 2026/10/16",
-      "thumb": "daily-news/thumb/clip-greentea.jpg",
-      "full": "daily-news/img/cards/greentea.png",
-      "download_path": "daily-news/img/cards/greentea.png"
+      "thumb": "daily-news/thumb/clip-scam.jpg",
+      "full": "daily-news/img/cards/scam.png",
+      "download_path": "daily-news/img/cards/scam.png"
     },
     {
-      "caption": "新台幣收32.338元　逾1年最大週貶幅",
-      "download": "20261017-剪報-新台幣收32.338元.png",
-      "source_url": "https://www.cna.com.tw/news/afe/202610160271.aspx",
-      "source": "中央社 2026/10/16",
-      "thumb": "daily-news/thumb/clip-twd.jpg",
-      "full": "daily-news/img/cards/twd.png",
-      "download_path": "daily-news/img/cards/twd.png"
+      "caption": "流感疫苗半個月接種破300萬劑",
+      "download": "20261018-剪報-流感疫苗半個月接種破300萬劑.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202610170037.aspx",
+      "source": "中央社 2026/10/17",
+      "thumb": "daily-news/thumb/clip-flu.jpg",
+      "full": "daily-news/img/cards/flu.png",
+      "download_path": "daily-news/img/cards/flu.png"
     },
     {
-      "caption": "華許不預判利率　認全球同步緊縮",
-      "download": "20261017-剪報-華許不預判利率.png",
-      "source_url": "https://www.ctee.com.tw/news/20261016701427-430701",
-      "source": "工商時報 2026/10/16",
-      "thumb": "daily-news/thumb/clip-warsh.jpg",
-      "full": "daily-news/img/cards/warsh.png",
-      "download_path": "daily-news/img/cards/warsh.png"
-    },
-    {
-      "caption": "外資倒貨後　分析師教543階梯布局",
-      "download": "20261017-剪報-外資倒貨後.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183008/post/202610160003/",
-      "source": "今周刊 2026/10/16",
-      "thumb": "daily-news/thumb/clip-tsmc543.jpg",
-      "full": "daily-news/img/cards/tsmc543.png",
-      "download_path": "daily-news/img/cards/tsmc543.png"
-    },
-    {
-      "caption": "台積沒救全村　柴油短缺恐至2027",
-      "download": "20261017-剪報-台積沒救全村.png",
-      "source_url": "https://www.cw.com.tw/article/5143316",
-      "source": "天下雜誌 2026/10/16",
-      "thumb": "daily-news/thumb/clip-cwweekly.jpg",
-      "full": "daily-news/img/cards/cwweekly.png",
-      "download_path": "daily-news/img/cards/cwweekly.png"
-    },
-    {
-      "caption": "金管會擴大TISA　研議租稅優惠",
-      "download": "20261017-剪報-金管會擴大TISA.png",
-      "source_url": "https://www.chinatimes.com/newspapers/20261017000191-260202",
-      "source": "工商時報 2026/10/17",
-      "thumb": "daily-news/thumb/clip-tisa.jpg",
-      "full": "daily-news/img/cards/tisa.png",
-      "download_path": "daily-news/img/cards/tisa.png"
-    },
-    {
-      "caption": "美元磁吸　人民幣存款終止連三升",
-      "download": "20261017-剪報-美元磁吸.png",
-      "source_url": "https://www.chinatimes.com/newspapers/20261017000251-260205",
-      "source": "工商時報 2026/10/17",
-      "thumb": "daily-news/thumb/clip-rmb.jpg",
-      "full": "daily-news/img/cards/rmb.png",
-      "download_path": "daily-news/img/cards/rmb.png"
-    },
-    {
-      "caption": "蒙格：先存到第一個10萬美元",
-      "download": "20261017-剪報-蒙格：先存到第一個10萬美元.png",
-      "source_url": "https://www.cw.com.tw/article/5143302",
+      "caption": "散步沒有最佳時段　持續最重要",
+      "download": "20261018-剪報-散步沒有最佳時段.png",
+      "source_url": "https://www.cw.com.tw/article/5143303",
       "source": "天下雜誌 2026/10/15",
-      "thumb": "daily-news/thumb/clip-munger.jpg",
-      "full": "daily-news/img/cards/munger.png",
-      "download_path": "daily-news/img/cards/munger.png"
-    },
-    {
-      "caption": "骨折癒合仍劇痛　神經阻斷術解痛",
-      "download": "20261017-剪報-骨折癒合仍劇痛.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202610160243.aspx",
-      "source": "中央社 2026/10/16",
-      "thumb": "daily-news/thumb/clip-crps.jpg",
-      "full": "daily-news/img/cards/crps.png",
-      "download_path": "daily-news/img/cards/crps.png"
-    },
-    {
-      "caption": "不到50歲血管像70歲　3習慣傷血管",
-      "download": "20261017-剪報-不到50歲血管像70歲.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183029/post/202610160027/",
-      "source": "今周刊 2026/10/16",
-      "thumb": "daily-news/thumb/clip-vessel.jpg",
-      "full": "daily-news/img/cards/vessel.png",
-      "download_path": "daily-news/img/cards/vessel.png"
-    },
-    {
-      "caption": "中年後運動　肌力訓練不可少",
-      "download": "20261017-剪報-中年後運動.png",
-      "source_url": "https://www.cw.com.tw/article/5143320",
-      "source": "天下雜誌 2026/10/16",
-      "thumb": "daily-news/thumb/clip-exercise.jpg",
-      "full": "daily-news/img/cards/exercise.png",
-      "download_path": "daily-news/img/cards/exercise.png"
+      "thumb": "daily-news/thumb/clip-walk.jpg",
+      "full": "daily-news/img/cards/walk.png",
+      "download_path": "daily-news/img/cards/walk.png"
     }
   ],
-  "zip": "daily-news/news-20261017-all.zip",
+  "zip": "daily-news/news-20261018-all.zip",
   "page": "daily-news/",
   "source_repo": "https://dashin-team.github.io/daily-news/",
-  "synced_at": "2026/10/17 08:04"
+  "synced_at": "2026/10/18 07:59"
 }
