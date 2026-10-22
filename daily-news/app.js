@@ -115,7 +115,7 @@ async function poster(ids){
     c.fillStyle='#111111';fit(c,n,cardW-20,38,900,F_('T'));c.fillText(n,x+cardW/2,y+58);
     c.strokeStyle='rgba(0,0,0,.25)';c.lineWidth=2;c.beginPath();c.moveTo(x+14,y+84);c.lineTo(x+cardW-14,y+84);c.stroke();
     fit(c,v,cardW-16,40,700,INTER);c.fillText(v,x+cardW/2,y+146);
-    c.fillStyle=u==='up'?'#d4001a':'#078a32';fit(c,a,cardW-16,34,600,INTER);c.fillText(a,x+cardW/2,y+200);c.font=`600 34px ${INTER}`;c.fillText(`(${p})`,x+cardW/2,y+248);});
+    c.fillStyle=u==='up'?'#d4001a':u==='fl'?'#333333':'#078a32';fit(c,a,cardW-16,34,600,INTER);c.fillText(a,x+cardW/2,y+200);c.font=`600 34px ${INTER}`;c.fillText(`(${p})`,x+cardW/2,y+248);});
   c.fillStyle='#e8eeff';c.font=`500 24px ${F_('S')}`;const n2=D.idxnote+'　紅漲綠跌';c.fillText(n2,540,1762);
   c.fillStyle='rgba(6,16,45,.65)';rr(c,30,1800,1020,96,10);c.fill();
   c.drawImage(logo,42,1803,90,90*logo.height/logo.width);
