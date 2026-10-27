@@ -963,26 +963,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 70.78,
-   "nav_date": "2026-10-22",
+   "nav": 70.79,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "非投資等級債券",
    "region": "全球",
    "company": "摩根投信",
    "benchmark": "ICE美銀美國高收益限制指數(總報酬總額)",
    "returns": {
-    "ytd": -0.12,
-    "m1": -1.61,
-    "m3": -1.79,
-    "m6": -1.45,
-    "y1": 1.1,
-    "y2": 8.95,
-    "y3": 27.25,
-    "y5": 17.52
+    "ytd": -0.11,
+    "m1": -1.36,
+    "m3": -1.55,
+    "m6": -1.39,
+    "y1": 1.2,
+    "y2": 9.09,
+    "y3": 27.26,
+    "y5": 17.53
    },
-   "std_dev": 3.69,
-   "sharpe": -0.01,
-   "beta": 0.8,
+   "std_dev": 3.18,
+   "sharpe": 0.0,
+   "beta": 0.76,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.596,
    "dividend_date": "2026-10-08",
@@ -991,8 +991,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 8.27,
    "dividend_12m_count": 12,
-   "annual_yield": 0.101045,
-   "annual_yield_12m": 0.116841,
+   "annual_yield": 0.101031,
+   "annual_yield_12m": 0.116824,
    "status": "ok",
    "freq_check": null
   },
@@ -2150,26 +2150,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 72.57,
-   "nav_date": "2026-10-22",
+   "nav": 72.45,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "非投資等級債券",
    "region": "全球",
    "company": "霸菱投顧",
    "benchmark": "ICE BofA BB-B Global High Yield Secured Bond Index",
    "returns": {
-    "ytd": -0.31,
-    "m1": -1.83,
-    "m3": -1.81,
-    "m6": -1.02,
-    "y1": 0.71,
-    "y2": 7.72,
-    "y3": 24.1,
-    "y5": 17.74
+    "ytd": -0.47,
+    "m1": -1.59,
+    "m3": -1.66,
+    "m6": -1.08,
+    "y1": 0.57,
+    "y2": 7.67,
+    "y3": 23.83,
+    "y5": 17.55
    },
-   "std_dev": 3.4,
-   "sharpe": -0.04,
-   "beta": 0.74,
+   "std_dev": 3.21,
+   "sharpe": -0.06,
+   "beta": 0.77,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.561544,
    "dividend_date": "2026-10-01",
@@ -2178,8 +2178,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 6.738528,
    "dividend_12m_count": 12,
-   "annual_yield": 0.092856,
-   "annual_yield_12m": 0.092856,
+   "annual_yield": 0.093009,
+   "annual_yield_12m": 0.093009,
    "status": "ok",
    "freq_check": null
   },
@@ -2979,26 +2979,26 @@
     }
    ],
    "currency": "AUD",
-   "nav": 7.39,
-   "nav_date": "2026-10-22",
+   "nav": 7.38,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "非投資等級債券",
    "region": "全球",
    "company": "霸菱投顧",
    "benchmark": "ICE BofA Global High Yield Index",
    "returns": {
-    "ytd": 0.11,
-    "m1": -2.3,
-    "m3": -2.18,
-    "m6": -1.26,
-    "y1": 0.26,
-    "y2": 6.09,
-    "y3": 22.41,
-    "y5": 3.72
+    "ytd": -0.03,
+    "m1": -2.04,
+    "m3": -2.05,
+    "m6": -1.39,
+    "y1": 0.25,
+    "y2": 6.21,
+    "y3": 22.08,
+    "y5": 3.58
    },
-   "std_dev": 3.91,
+   "std_dev": 3.76,
    "sharpe": -0.07,
-   "beta": 0.82,
+   "beta": 0.88,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.055191,
    "dividend_date": "2026-10-01",
@@ -3007,8 +3007,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 0.657339,
    "dividend_12m_count": 12,
-   "annual_yield": 0.08962,
-   "annual_yield_12m": 0.08895,
+   "annual_yield": 0.089741,
+   "annual_yield_12m": 0.08907,
    "status": "ok",
    "freq_check": null
   },
@@ -3398,6 +3398,68 @@
    "freq_check": null
   },
   {
+   "code": "JFB13",
+   "name": "摩根基金－新興市場本地貨幣債券基金 - JPM 新興市場本地貨幣債券(澳幣對沖)－ A股(利率入息)",
+   "short_name": "摩根基金－新興市場本地貨幣債券基金 - JPM 新興市場本地貨幣債券(澳幣對沖)－ A股(利率入息)",
+   "kind": "境外基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB13",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
+   "currency": "AUD",
+   "nav": 3.92,
+   "nav_date": "2026-10-23",
+   "risk_level": "RR3",
+   "type": "債券型",
+   "region": "新興市場",
+   "company": "摩根投信",
+   "benchmark": "摩根政府債券指數-新興市場全球多元化指數(總報酬總額)避險為澳幣",
+   "returns": {
+    "ytd": 0.58,
+    "m1": -0.8,
+    "m3": 0.57,
+    "m6": -0.76,
+    "y1": 3.33,
+    "y2": 14.99,
+    "y3": 24.28,
+    "y5": 9.24
+   },
+   "std_dev": 8.91,
+   "sharpe": 0.08,
+   "beta": 2.03,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "dividend_per_unit": 0.028,
+   "dividend_date": "2026-10-08",
+   "frequency": "月配",
+   "frequency_source": "富邦網站配息頻率欄",
+   "periods_per_year": 12,
+   "dividend_12m_per_unit": 0.316,
+   "dividend_12m_count": 12,
+   "annual_yield": 0.085714,
+   "annual_yield_12m": 0.080612,
+   "status": "ok",
+   "freq_check": null
+  },
+  {
    "code": "INB4",
    "name": "晉達環球策略基金－新興市場公司債券基金C收益－2股份(澳幣避險IRD，月配)",
    "short_name": "晉達環球策略基金－新興市場公司債券基金C收益－2股份(澳幣避險IRD，月配)",
@@ -3593,68 +3655,6 @@
    "dividend_12m_count": 12,
    "annual_yield": 0.085412,
    "annual_yield_12m": 0.085412,
-   "status": "ok",
-   "freq_check": null
-  },
-  {
-   "code": "JFB13",
-   "name": "摩根基金－新興市場本地貨幣債券基金 - JPM 新興市場本地貨幣債券(澳幣對沖)－ A股(利率入息)",
-   "short_name": "摩根基金－新興市場本地貨幣債券基金 - JPM 新興市場本地貨幣債券(澳幣對沖)－ A股(利率入息)",
-   "kind": "境外基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB13",
-   "products": [
-    {
-     "code": "VABF",
-     "name": "外幣計價真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VACF",
-     "name": "外幣計價真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBBF",
-     "name": "外幣計價真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBCF",
-     "name": "外幣計價真有利變額年金保險",
-     "on_sale": false
-    }
-   ],
-   "currency": "AUD",
-   "nav": 3.94,
-   "nav_date": "2026-10-22",
-   "risk_level": "RR3",
-   "type": "債券型",
-   "region": "新興市場",
-   "company": "摩根投信",
-   "benchmark": "摩根政府債券指數-新興市場全球多元化指數(總報酬總額)避險為澳幣",
-   "returns": {
-    "ytd": 1.09,
-    "m1": -1.04,
-    "m3": 0.33,
-    "m6": -0.98,
-    "y1": 3.85,
-    "y2": 14.99,
-    "y3": 24.92,
-    "y5": 9.8
-   },
-   "std_dev": 9.17,
-   "sharpe": 0.09,
-   "beta": 2.55,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "dividend_per_unit": 0.028,
-   "dividend_date": "2026-10-08",
-   "frequency": "月配",
-   "frequency_source": "富邦網站配息頻率欄",
-   "periods_per_year": 12,
-   "dividend_12m_per_unit": 0.316,
-   "dividend_12m_count": 12,
-   "annual_yield": 0.085279,
-   "annual_yield_12m": 0.080203,
    "status": "ok",
    "freq_check": null
   },
@@ -3981,26 +3981,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 7.11,
-   "nav_date": "2026-10-22",
+   "nav": 7.1,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "非投資等級債券",
    "region": "全球",
    "company": "霸菱投顧",
    "benchmark": "ICE BofA Global High Yield Index",
    "returns": {
-    "ytd": -0.21,
-    "m1": -2.32,
-    "m3": -2.32,
-    "m6": -1.53,
-    "y1": 0.19,
-    "y2": 6.65,
-    "y3": 24.45,
-    "y5": 7.98
+    "ytd": -0.35,
+    "m1": -2.06,
+    "m3": -2.2,
+    "m6": -1.67,
+    "y1": 0.05,
+    "y2": 6.63,
+    "y3": 24.1,
+    "y5": 7.82
    },
-   "std_dev": 3.87,
-   "sharpe": -0.07,
-   "beta": 0.82,
+   "std_dev": 3.85,
+   "sharpe": -0.08,
+   "beta": 0.9,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.050133,
    "dividend_date": "2026-10-01",
@@ -4009,8 +4009,65 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 0.601596,
    "dividend_12m_count": 12,
-   "annual_yield": 0.084613,
-   "annual_yield_12m": 0.084613,
+   "annual_yield": 0.084732,
+   "annual_yield_12m": 0.084732,
+   "status": "ok",
+   "freq_check": null
+  },
+  {
+   "code": "BRB7",
+   "name": "霸菱成熟及新興市場非投資等級債券基金-G類美元季配息型",
+   "short_name": "霸菱成熟及新興市場非投資等級債券基金-G類美元季配息型",
+   "kind": "境外基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/42/BRB7",
+   "products": [
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    }
+   ],
+   "currency": "USD",
+   "nav": 6.9,
+   "nav_date": "2026-10-23",
+   "risk_level": "RR3",
+   "type": "非投資等級債券",
+   "region": "全球",
+   "company": "霸菱投顧",
+   "benchmark": "ICE BofA Global High Yield Index",
+   "returns": {
+    "ytd": -0.32,
+    "m1": -2.02,
+    "m3": -2.16,
+    "m6": -1.56,
+    "y1": 0.08,
+    "y2": 6.69,
+    "y3": 24.26,
+    "y5": 7.99
+   },
+   "std_dev": 3.68,
+   "sharpe": -0.08,
+   "beta": 0.86,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "dividend_per_unit": 0.1454,
+   "dividend_date": "2026-10-01",
+   "frequency": "季配",
+   "frequency_source": "富邦網站配息頻率欄",
+   "periods_per_year": 4,
+   "dividend_12m_per_unit": 0.5816,
+   "dividend_12m_count": 4,
+   "annual_yield": 0.08429,
+   "annual_yield_12m": 0.08429,
    "status": "ok",
    "freq_check": null
   },
@@ -4108,26 +4165,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 6.91,
-   "nav_date": "2026-10-22",
+   "nav": 6.9,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "非投資等級債券",
    "region": "全球",
    "company": "霸菱投顧",
    "benchmark": "ICE BofA Global High Yield Index",
    "returns": {
-    "ytd": -0.17,
-    "m1": -2.29,
-    "m3": -2.29,
-    "m6": -1.55,
-    "y1": 0.23,
-    "y2": 6.71,
-    "y3": 24.44,
-    "y5": 8.15
+    "ytd": -0.32,
+    "m1": -2.02,
+    "m3": -2.16,
+    "m6": -1.56,
+    "y1": 0.08,
+    "y2": 6.69,
+    "y3": 24.26,
+    "y5": 7.99
    },
-   "std_dev": 3.99,
-   "sharpe": -0.07,
-   "beta": 0.85,
+   "std_dev": 3.68,
+   "sharpe": -0.08,
+   "beta": 0.86,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.1454,
    "dividend_date": "2026-10-01",
@@ -4136,65 +4193,8 @@
    "periods_per_year": 4,
    "dividend_12m_per_unit": 0.5816,
    "dividend_12m_count": 4,
-   "annual_yield": 0.084168,
-   "annual_yield_12m": 0.084168,
-   "status": "ok",
-   "freq_check": null
-  },
-  {
-   "code": "BRB7",
-   "name": "霸菱成熟及新興市場非投資等級債券基金-G類美元季配息型",
-   "short_name": "霸菱成熟及新興市場非投資等級債券基金-G類美元季配息型",
-   "kind": "境外基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/42/BRB7",
-   "products": [
-    {
-     "code": "ULV",
-     "name": "富貴吉祥變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "UNA",
-     "name": "富貴吉祥變額萬能壽險(V2)",
-     "on_sale": false
-    },
-    {
-     "code": "UNV",
-     "name": "富貴吉祥變額萬能壽險(V1)",
-     "on_sale": false
-    }
-   ],
-   "currency": "USD",
-   "nav": 6.91,
-   "nav_date": "2026-10-22",
-   "risk_level": "RR3",
-   "type": "非投資等級債券",
-   "region": "全球",
-   "company": "霸菱投顧",
-   "benchmark": "ICE BofA Global High Yield Index",
-   "returns": {
-    "ytd": -0.17,
-    "m1": -2.29,
-    "m3": -2.29,
-    "m6": -1.55,
-    "y1": 0.23,
-    "y2": 6.71,
-    "y3": 24.44,
-    "y5": 8.15
-   },
-   "std_dev": 3.99,
-   "sharpe": -0.07,
-   "beta": 0.85,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "dividend_per_unit": 0.1454,
-   "dividend_date": "2026-10-01",
-   "frequency": "季配",
-   "frequency_source": "富邦網站配息頻率欄",
-   "periods_per_year": 4,
-   "dividend_12m_per_unit": 0.5816,
-   "dividend_12m_count": 4,
-   "annual_yield": 0.084168,
-   "annual_yield_12m": 0.084168,
+   "annual_yield": 0.08429,
+   "annual_yield_12m": 0.08429,
    "status": "ok",
    "freq_check": null
   },
@@ -4989,6 +4989,123 @@
    "freq_check": null
   },
   {
+   "code": "JFP5",
+   "name": "摩根投資基金－多重收益基金 - JPM多重收益(澳幣對沖) - A股(利率入息)",
+   "short_name": "摩根投資基金－多重收益基金 - JPM多重收益(澳幣對沖) - A股(利率入息)",
+   "kind": "境外基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFP5",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
+   "currency": "AUD",
+   "nav": 9.0,
+   "nav_date": "2026-10-23",
+   "risk_level": "RR3",
+   "type": "平衡型",
+   "region": "全球",
+   "company": "摩根投信",
+   "benchmark": "40%彭博美國高收益率2%發行者限制指數(總報酬總額)避險為澳幣/35%摩根士丹利資本國際世界指數(總報酬淨額)避險為澳幣/25%彭博全球信用指數(總報酬總額)避險為澳幣",
+   "returns": {
+    "ytd": 5.29,
+    "m1": -1.42,
+    "m3": -0.75,
+    "m6": 1.37,
+    "y1": 6.86,
+    "y2": 14.8,
+    "y3": 35.37,
+    "y5": 15.88
+   },
+   "std_dev": 6.71,
+   "sharpe": 0.24,
+   "beta": 0.47,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "dividend_per_unit": 0.06,
+   "dividend_date": "2026-10-08",
+   "frequency": "月配",
+   "frequency_source": "富邦網站配息頻率欄",
+   "periods_per_year": 12,
+   "dividend_12m_per_unit": 0.721,
+   "dividend_12m_count": 12,
+   "annual_yield": 0.08,
+   "annual_yield_12m": 0.080111,
+   "status": "ok",
+   "freq_check": null
+  },
+  {
    "code": "FRB21",
    "name": "富蘭克林坦伯頓全球投資系列－全球債券總報酬基金澳幣避險A(Mdis)-H1 ",
    "short_name": "富蘭克林坦伯頓全球投資系列－全球債券總報酬基金澳幣避險A(Mdis)-H1",
@@ -5102,123 +5219,6 @@
    "dividend_12m_count": 12,
    "annual_yield": 0.079834,
    "annual_yield_12m": 0.079834,
-   "status": "ok",
-   "freq_check": null
-  },
-  {
-   "code": "JFP5",
-   "name": "摩根投資基金－多重收益基金 - JPM多重收益(澳幣對沖) - A股(利率入息)",
-   "short_name": "摩根投資基金－多重收益基金 - JPM多重收益(澳幣對沖) - A股(利率入息)",
-   "kind": "境外基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFP5",
-   "products": [
-    {
-     "code": "VCAT",
-     "name": "真好利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCBF",
-     "name": "外幣計價真吉利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCBT",
-     "name": "真吉利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCCF",
-     "name": "外幣計價真豐利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCCT",
-     "name": "真豐利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCDF",
-     "name": "外幣計價真福利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCDT",
-     "name": "真福利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VABF",
-     "name": "外幣計價真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VABT",
-     "name": "真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VACF",
-     "name": "外幣計價真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VACT",
-     "name": "真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBBF",
-     "name": "外幣計價真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBBT",
-     "name": "真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBCF",
-     "name": "外幣計價真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBCT",
-     "name": "真有利變額年金保險",
-     "on_sale": false
-    }
-   ],
-   "currency": "AUD",
-   "nav": 9.02,
-   "nav_date": "2026-10-22",
-   "risk_level": "RR3",
-   "type": "平衡型",
-   "region": "全球",
-   "company": "摩根投信",
-   "benchmark": "40%彭博美國高收益率2%發行者限制指數(總報酬總額)避險為澳幣/35%摩根士丹利資本國際世界指數(總報酬淨額)避險為澳幣/25%彭博全球信用指數(總報酬總額)避險為澳幣",
-   "returns": {
-    "ytd": 5.52,
-    "m1": -1.63,
-    "m3": -1.06,
-    "m6": 1.6,
-    "y1": 7.09,
-    "y2": 14.93,
-    "y3": 35.67,
-    "y5": 16.14
-   },
-   "std_dev": 6.89,
-   "sharpe": 0.25,
-   "beta": 0.47,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "dividend_per_unit": 0.06,
-   "dividend_date": "2026-10-08",
-   "frequency": "月配",
-   "frequency_source": "富邦網站配息頻率欄",
-   "periods_per_year": 12,
-   "dividend_12m_per_unit": 0.721,
-   "dividend_12m_count": 12,
-   "annual_yield": 0.079823,
-   "annual_yield_12m": 0.079933,
    "status": "ok",
    "freq_check": null
   },
@@ -5345,6 +5345,88 @@
    "freq_check": null
   },
   {
+   "code": "JFB4",
+   "name": "摩根基金－新興市場本地貨幣債券基金 - JPM 新興市場本地貨幣債券(美元)－ A股(每月派息)",
+   "short_name": "摩根基金－新興市場本地貨幣債券基金 - JPM 新興市場本地貨幣債券(美元)－ A股(每月派息)",
+   "kind": "境外基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB4",
+   "products": [
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
+   "currency": "USD",
+   "nav": 6.05,
+   "nav_date": "2026-10-23",
+   "risk_level": "RR3",
+   "type": "債券型",
+   "region": "新興市場",
+   "company": "摩根投信",
+   "benchmark": "摩根政府債券指數-新興市場全球多元化指數(總報酬總額)",
+   "returns": {
+    "ytd": 0.58,
+    "m1": -0.98,
+    "m3": 0.29,
+    "m6": -1.17,
+    "y1": 3.34,
+    "y2": 16.16,
+    "y3": 27.47,
+    "y5": 16.16
+   },
+   "std_dev": 8.91,
+   "sharpe": 0.08,
+   "beta": 2.02,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "dividend_per_unit": 0.04,
+   "dividend_date": "2026-10-08",
+   "frequency": "月配",
+   "frequency_source": "富邦網站配息頻率欄",
+   "periods_per_year": 12,
+   "dividend_12m_per_unit": 0.471,
+   "dividend_12m_count": 12,
+   "annual_yield": 0.079339,
+   "annual_yield_12m": 0.077851,
+   "status": "ok",
+   "freq_check": null
+  },
+  {
    "code": "FRB17",
    "name": "富蘭克林坦伯頓全球投資系列－全球債券總報酬基金美元A(Mdis)股 ",
    "short_name": "富蘭克林坦伯頓全球投資系列－全球債券總報酬基金美元A(Mdis)股",
@@ -5458,88 +5540,6 @@
    "dividend_12m_count": 12,
    "annual_yield": 0.078968,
    "annual_yield_12m": 0.078968,
-   "status": "ok",
-   "freq_check": null
-  },
-  {
-   "code": "JFB4",
-   "name": "摩根基金－新興市場本地貨幣債券基金 - JPM 新興市場本地貨幣債券(美元)－ A股(每月派息)",
-   "short_name": "摩根基金－新興市場本地貨幣債券基金 - JPM 新興市場本地貨幣債券(美元)－ A股(每月派息)",
-   "kind": "境外基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFB4",
-   "products": [
-    {
-     "code": "VABF",
-     "name": "外幣計價真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VABT",
-     "name": "真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VACF",
-     "name": "外幣計價真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VACT",
-     "name": "真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBBF",
-     "name": "外幣計價真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBBT",
-     "name": "真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBCF",
-     "name": "外幣計價真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBCT",
-     "name": "真有利變額年金保險",
-     "on_sale": false
-    }
-   ],
-   "currency": "USD",
-   "nav": 6.08,
-   "nav_date": "2026-10-22",
-   "risk_level": "RR3",
-   "type": "債券型",
-   "region": "新興市場",
-   "company": "摩根投信",
-   "benchmark": "摩根政府債券指數-新興市場全球多元化指數(總報酬總額)",
-   "returns": {
-    "ytd": 1.07,
-    "m1": -0.97,
-    "m3": 0.14,
-    "m6": -1.3,
-    "y1": 3.85,
-    "y2": 15.97,
-    "y3": 28.1,
-    "y5": 16.74
-   },
-   "std_dev": 9.39,
-   "sharpe": 0.09,
-   "beta": 2.65,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "dividend_per_unit": 0.04,
-   "dividend_date": "2026-10-08",
-   "frequency": "月配",
-   "frequency_source": "富邦網站配息頻率欄",
-   "periods_per_year": 12,
-   "dividend_12m_per_unit": 0.471,
-   "dividend_12m_count": 12,
-   "annual_yield": 0.078947,
-   "annual_yield_12m": 0.077467,
    "status": "ok",
    "freq_check": null
   },
@@ -6731,24 +6731,24 @@
     }
    ],
    "currency": "USD",
-   "nav": 8.31,
-   "nav_date": "2026-10-22",
+   "nav": 8.29,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "平衡型",
    "region": "全球",
    "company": "摩根投信",
    "benchmark": "40%彭博美國高收益率2%發行者限制指數(總報酬總額)避險為美元/35%摩根士丹利資本國際世界指數(總報酬淨額)避險為美元/25%彭博全球信用指數(總報酬總額)避險為美元",
    "returns": {
-    "ytd": 5.52,
-    "m1": -1.63,
-    "m3": -1.1,
-    "m6": 1.29,
-    "y1": 7.03,
-    "y2": 15.93,
-    "y3": 38.79,
-    "y5": 22.7
+    "ytd": 5.26,
+    "m1": -1.52,
+    "m3": -0.88,
+    "m6": 1.05,
+    "y1": 6.78,
+    "y2": 15.78,
+    "y3": 38.45,
+    "y5": 22.41
    },
-   "std_dev": 6.99,
+   "std_dev": 6.82,
    "sharpe": 0.24,
    "beta": 0.48,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
@@ -6759,8 +6759,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 0.635,
    "dividend_12m_count": 12,
-   "annual_yield": 0.07509,
-   "annual_yield_12m": 0.076414,
+   "annual_yield": 0.075271,
+   "annual_yield_12m": 0.076598,
    "status": "ok",
    "freq_check": null
   },
@@ -6855,26 +6855,26 @@
     }
    ],
    "currency": "AUD",
-   "nav": 5.35,
-   "nav_date": "2026-10-22",
+   "nav": 5.36,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "債券型",
    "region": "新興市場",
    "company": "摩根投信",
    "benchmark": "摩根新興市場全球多元債券指數(總報酬總額)避險為澳幣",
    "returns": {
-    "ytd": -0.39,
-    "m1": -2.83,
-    "m3": -3.04,
-    "m6": -2.68,
-    "y1": 1.82,
-    "y2": 12.45,
-    "y3": 33.11,
-    "y5": -0.39
+    "ytd": -0.21,
+    "m1": -2.12,
+    "m3": -2.34,
+    "m6": -2.16,
+    "y1": 2.19,
+    "y2": 13.08,
+    "y3": 33.36,
+    "y5": -0.21
    },
-   "std_dev": 6.78,
-   "sharpe": 0.03,
-   "beta": 1.63,
+   "std_dev": 6.8,
+   "sharpe": 0.05,
+   "beta": 1.34,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.033,
    "dividend_date": "2026-10-08",
@@ -6883,8 +6883,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 0.367,
    "dividend_12m_count": 12,
-   "annual_yield": 0.074019,
-   "annual_yield_12m": 0.068598,
+   "annual_yield": 0.073881,
+   "annual_yield_12m": 0.06847,
    "status": "ok",
    "freq_check": null
   },
@@ -7233,26 +7233,26 @@
     }
    ],
    "currency": "NZD",
-   "nav": 9.95,
-   "nav_date": "2026-10-22",
+   "nav": 9.93,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "非投資等級債券",
    "region": "全球",
    "company": "霸菱投顧",
    "benchmark": "ICE BofA Global High Yield Index",
    "returns": {
-    "ytd": -1.18,
-    "m1": -2.44,
-    "m3": -2.55,
-    "m6": -2.16,
-    "y1": -1.24,
-    "y2": 4.1,
-    "y3": 21.25,
-    "y5": 4.81
+    "ytd": -1.37,
+    "m1": -2.16,
+    "m3": -2.46,
+    "m6": -2.26,
+    "y1": -1.34,
+    "y2": 4.08,
+    "y3": 20.89,
+    "y5": 4.6
    },
-   "std_dev": 3.93,
-   "sharpe": -0.18,
-   "beta": 0.83,
+   "std_dev": 3.74,
+   "sharpe": -0.19,
+   "beta": 0.86,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.059896,
    "dividend_date": "2026-10-01",
@@ -7261,8 +7261,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 0.709599,
    "dividend_12m_count": 12,
-   "annual_yield": 0.072236,
-   "annual_yield_12m": 0.071316,
+   "annual_yield": 0.072382,
+   "annual_yield_12m": 0.07146,
    "status": "ok",
    "freq_check": null
   },
@@ -7408,7 +7408,7 @@
    ],
    "currency": "AUD",
    "nav": 6.83,
-   "nav_date": "2026-10-22",
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "非投資等級債券",
    "region": "全球",
@@ -7416,17 +7416,17 @@
    "benchmark": "ICE美銀美國高收益限制指數(總報酬總額)避險為澳幣",
    "returns": {
     "ytd": 0.19,
-    "m1": -1.56,
-    "m3": -1.65,
+    "m1": -1.28,
+    "m3": -1.37,
     "m6": -1.07,
-    "y1": 1.29,
-    "y2": 8.47,
+    "y1": 1.43,
+    "y2": 8.62,
     "y3": 25.01,
     "y5": 12.27
    },
-   "std_dev": 3.69,
-   "sharpe": 0.01,
-   "beta": 0.8,
+   "std_dev": 3.16,
+   "sharpe": 0.02,
+   "beta": 0.75,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.041,
    "dividend_date": "2026-10-08",
@@ -7489,26 +7489,26 @@
     }
    ],
    "currency": "EUR",
-   "nav": 5.27,
-   "nav_date": "2026-10-22",
+   "nav": 5.28,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "債券型",
    "region": "新興市場",
    "company": "摩根投信",
    "benchmark": "摩根新興市場全球多元債券指數(總報酬總額)避險為歐元",
    "returns": {
-    "ytd": -2.02,
-    "m1": -2.91,
-    "m3": -3.58,
-    "m6": -3.91,
-    "y1": -0.12,
-    "y2": 8.8,
-    "y3": 28.29,
-    "y5": -5.6
+    "ytd": -1.83,
+    "m1": -2.18,
+    "m3": -2.87,
+    "m6": -3.21,
+    "y1": 0.25,
+    "y2": 9.41,
+    "y3": 28.53,
+    "y5": -5.42
    },
-   "std_dev": 7.11,
-   "sharpe": -0.05,
-   "beta": 1.76,
+   "std_dev": 6.74,
+   "sharpe": -0.03,
+   "beta": 1.35,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.031,
    "dividend_date": "2026-10-08",
@@ -7517,8 +7517,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 0.351,
    "dividend_12m_count": 12,
-   "annual_yield": 0.070588,
-   "annual_yield_12m": 0.066603,
+   "annual_yield": 0.070455,
+   "annual_yield_12m": 0.066477,
    "status": "ok",
    "freq_check": null
   },
@@ -7825,26 +7825,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 9.49,
-   "nav_date": "2026-10-22",
+   "nav": 9.51,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "債券型",
    "region": "新興市場",
    "company": "摩根投信",
    "benchmark": "摩根新興市場全球多元債券指數(總報酬總額)",
    "returns": {
-    "ytd": -0.47,
-    "m1": -2.7,
-    "m3": -3.09,
-    "m6": -2.96,
-    "y1": 1.87,
-    "y2": 13.37,
-    "y3": 36.31,
-    "y5": 6.06
+    "ytd": -0.26,
+    "m1": -1.99,
+    "m3": -2.4,
+    "m6": -2.47,
+    "y1": 2.29,
+    "y2": 13.97,
+    "y3": 36.6,
+    "y5": 6.28
    },
-   "std_dev": 6.9,
-   "sharpe": 0.04,
-   "beta": 1.7,
+   "std_dev": 6.83,
+   "sharpe": 0.05,
+   "beta": 1.38,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.055,
    "dividend_date": "2026-10-08",
@@ -7853,8 +7853,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 0.624,
    "dividend_12m_count": 12,
-   "annual_yield": 0.069547,
-   "annual_yield_12m": 0.065753,
+   "annual_yield": 0.069401,
+   "annual_yield_12m": 0.065615,
    "status": "ok",
    "freq_check": null
   },
@@ -8724,26 +8724,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 78.02,
-   "nav_date": "2026-10-22",
+   "nav": 78.03,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "非投資等級債券",
    "region": "全球",
    "company": "摩根投信",
    "benchmark": "ICE美銀美國高收益限制指數(總報酬總額)",
    "returns": {
-    "ytd": -0.11,
-    "m1": -1.61,
-    "m3": -1.79,
-    "m6": -1.44,
-    "y1": 1.11,
-    "y2": 8.98,
-    "y3": 27.32,
-    "y5": 17.69
+    "ytd": -0.1,
+    "m1": -1.37,
+    "m3": -1.55,
+    "m6": -1.37,
+    "y1": 1.21,
+    "y2": 9.12,
+    "y3": 27.34,
+    "y5": 17.71
    },
-   "std_dev": 3.7,
+   "std_dev": 3.18,
    "sharpe": 0.0,
-   "beta": 0.8,
+   "beta": 0.76,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.43,
    "dividend_date": "2026-10-08",
@@ -8752,8 +8752,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 5.109,
    "dividend_12m_count": 12,
-   "annual_yield": 0.066137,
-   "annual_yield_12m": 0.065483,
+   "annual_yield": 0.066128,
+   "annual_yield_12m": 0.065475,
    "status": "ok",
    "freq_check": null
   },
@@ -9656,26 +9656,26 @@
     }
    ],
    "currency": "EUR",
-   "nav": 5.59,
-   "nav_date": "2026-10-22",
+   "nav": 5.6,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "債券型",
    "region": "新興市場",
    "company": "摩根投信",
    "benchmark": "摩根新興市場全球多元債券指數(總報酬總額)避險為歐元",
    "returns": {
-    "ytd": -2.11,
-    "m1": -2.95,
-    "m3": -3.54,
-    "m6": -3.86,
-    "y1": -0.13,
-    "y2": 8.78,
-    "y3": 28.26,
-    "y5": -5.64
+    "ytd": -1.94,
+    "m1": -2.27,
+    "m3": -2.9,
+    "m6": -3.37,
+    "y1": 0.21,
+    "y2": 9.35,
+    "y3": 28.49,
+    "y5": -5.47
    },
-   "std_dev": 7.05,
-   "sharpe": -0.05,
-   "beta": 1.73,
+   "std_dev": 6.88,
+   "sharpe": -0.03,
+   "beta": 1.38,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.35,
    "dividend_date": "2026-09-17",
@@ -9684,8 +9684,8 @@
    "periods_per_year": 1,
    "dividend_12m_per_unit": 0.35,
    "dividend_12m_count": 1,
-   "annual_yield": 0.062612,
-   "annual_yield_12m": 0.062612,
+   "annual_yield": 0.0625,
+   "annual_yield_12m": 0.0625,
    "status": "ok",
    "freq_check": null
   },
@@ -9773,25 +9773,25 @@
     }
    ],
    "currency": "USD",
-   "nav": 9.5558,
-   "nav_date": "2026-10-22",
+   "nav": 9.5506,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "平衡型",
    "region": "亞洲",
    "company": "施羅德投信",
    "benchmark": "NASDAQ Asia NTR Index",
    "returns": {
-    "ytd": 13.73,
-    "m1": -4.7,
-    "m3": -2.58,
-    "m6": 2.86,
-    "y1": 15.54,
-    "y2": 28.03,
-    "y3": 55.53,
-    "y5": 28.12
+    "ytd": 13.66,
+    "m1": -4.49,
+    "m3": -2.9,
+    "m6": 3.04,
+    "y1": 15.42,
+    "y2": 28.13,
+    "y3": 55.45,
+    "y5": 28.05
    },
-   "std_dev": 13.38,
-   "sharpe": 0.3,
+   "std_dev": 14.69,
+   "sharpe": 0.28,
    "beta": 0.68,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.04961,
@@ -9801,8 +9801,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 0.615342,
    "dividend_12m_count": 12,
-   "annual_yield": 0.062299,
-   "annual_yield_12m": 0.064395,
+   "annual_yield": 0.062333,
+   "annual_yield_12m": 0.06443,
    "status": "ok",
    "freq_check": null
   },
@@ -9890,25 +9890,25 @@
     }
    ],
    "currency": "AUD",
-   "nav": 8.6665,
-   "nav_date": "2026-10-22",
+   "nav": 8.6624,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "平衡型",
    "region": "亞洲",
    "company": "施羅德投信",
    "benchmark": "NASDAQ Asia NTR Index",
    "returns": {
-    "ytd": 13.64,
-    "m1": -4.69,
-    "m3": -2.49,
-    "m6": 3.0,
-    "y1": 15.28,
-    "y2": 26.51,
-    "y3": 51.42,
-    "y5": 21.17
+    "ytd": 13.59,
+    "m1": -4.47,
+    "m3": -2.81,
+    "m6": 3.19,
+    "y1": 15.16,
+    "y2": 26.63,
+    "y3": 51.35,
+    "y5": 21.11
    },
-   "std_dev": 13.33,
-   "sharpe": 0.3,
+   "std_dev": 14.67,
+   "sharpe": 0.27,
    "beta": 0.68,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "dividend_per_unit": 0.044982,
@@ -9918,8 +9918,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 0.511601,
    "dividend_12m_count": 12,
-   "annual_yield": 0.062284,
-   "annual_yield_12m": 0.059032,
+   "annual_yield": 0.062313,
+   "annual_yield_12m": 0.05906,
    "status": "ok",
    "freq_check": null
   },
@@ -10230,6 +10230,83 @@
    "freq_check": null
   },
   {
+   "code": "JFP12",
+   "name": "摩根投資基金 - 多重收益基金 - JPM多重收益(日圓對沖) - A 股(每月派息)",
+   "short_name": "摩根投資基金 - 多重收益基金 - JPM多重收益(日圓對沖) - A 股(每月派息)",
+   "kind": "境外基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFP12",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
+   "currency": "JPY",
+   "nav": 9543.0,
+   "nav_date": "2026-10-23",
+   "risk_level": "RR3",
+   "type": "平衡型",
+   "region": "全球",
+   "company": "摩根投信",
+   "benchmark": "40%彭博美國高收益率2%發行者限制指數(總報酬總額)避險為日圓／35%摩根士丹利資本國際世界指數(總報酬淨額)避險為日圓／25%彭博全球信用指數(總報酬總額)避險為日圓。",
+   "returns": {
+    "ytd": 2.42,
+    "m1": -1.76,
+    "m3": -1.69,
+    "m6": -0.51,
+    "y1": 3.29,
+    "y2": 7.01,
+    "y3": null,
+    "y5": null
+   },
+   "std_dev": 6.63,
+   "sharpe": 0.1,
+   "beta": 0.46,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "dividend_per_unit": 48.0,
+   "dividend_date": "2026-10-08",
+   "frequency": "月配",
+   "frequency_source": "富邦網站配息頻率欄",
+   "periods_per_year": 12,
+   "dividend_12m_per_unit": 570.0,
+   "dividend_12m_count": 12,
+   "annual_yield": 0.060358,
+   "annual_yield_12m": 0.05973,
+   "status": "ok",
+   "freq_check": null
+  },
+  {
    "code": "FR03",
    "name": "富蘭克林坦伯頓全球投資系列-歐洲非投資等級債券基金歐元A(Ydis)股",
    "short_name": "富蘭克林坦伯頓全球投資系列-歐洲非投資等級債券基金歐元A(Ydis)股",
@@ -10282,83 +10359,6 @@
    "freq_check": null
   },
   {
-   "code": "JFP12",
-   "name": "摩根投資基金 - 多重收益基金 - JPM多重收益(日圓對沖) - A 股(每月派息)",
-   "short_name": "摩根投資基金 - 多重收益基金 - JPM多重收益(日圓對沖) - A 股(每月派息)",
-   "kind": "境外基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFP12",
-   "products": [
-    {
-     "code": "VCAT",
-     "name": "真好利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCBF",
-     "name": "外幣計價真吉利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCBT",
-     "name": "真吉利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCCF",
-     "name": "外幣計價真豐利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCCT",
-     "name": "真豐利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCDF",
-     "name": "外幣計價真福利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCDT",
-     "name": "真福利變額年金保險",
-     "on_sale": true
-    }
-   ],
-   "currency": "JPY",
-   "nav": 9573.0,
-   "nav_date": "2026-10-22",
-   "risk_level": "RR3",
-   "type": "平衡型",
-   "region": "全球",
-   "company": "摩根投信",
-   "benchmark": "40%彭博美國高收益率2%發行者限制指數(總報酬總額)避險為日圓／35%摩根士丹利資本國際世界指數(總報酬淨額)避險為日圓／25%彭博全球信用指數(總報酬總額)避險為日圓。",
-   "returns": {
-    "ytd": 2.74,
-    "m1": -1.82,
-    "m3": -1.91,
-    "m6": -0.24,
-    "y1": 3.53,
-    "y2": 7.19,
-    "y3": null,
-    "y5": null
-   },
-   "std_dev": 6.92,
-   "sharpe": 0.1,
-   "beta": 0.47,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "dividend_per_unit": 48.0,
-   "dividend_date": "2026-10-08",
-   "frequency": "月配",
-   "frequency_source": "富邦網站配息頻率欄",
-   "periods_per_year": 12,
-   "dividend_12m_per_unit": 570.0,
-   "dividend_12m_count": 12,
-   "annual_yield": 0.060169,
-   "annual_yield_12m": 0.059542,
-   "status": "ok",
-   "freq_check": null
-  },
-  {
    "code": "JFP3",
    "name": "摩根投資基金－多重收益基金 - JPM多重收益(美元對沖) - A股(每月派息)",
    "short_name": "摩根投資基金－多重收益基金 - JPM多重收益(美元對沖) - A股(每月派息)",
@@ -10407,24 +10407,24 @@
     }
    ],
    "currency": "USD",
-   "nav": 127.16,
-   "nav_date": "2026-10-22",
+   "nav": 126.78,
+   "nav_date": "2026-10-23",
    "risk_level": "RR3",
    "type": "平衡型",
    "region": "全球",
    "company": "摩根投信",
    "benchmark": "40%彭博美國高收益率2%發行者限制指數(總報酬總額)避險為美元/35%摩根士丹利資本國際世界指數(總報酬淨額)避險為美元/25%彭博全球信用指數(總報酬總額)避險為美元",
    "returns": {
-    "ytd": 5.5,
-    "m1": -1.56,
-    "m3": -1.11,
-    "m6": 1.36,
-    "y1": 7.09,
-    "y2": 15.95,
-    "y3": 38.97,
-    "y5": 22.78
+    "ytd": 5.18,
+    "m1": -1.5,
+    "m3": -0.91,
+    "m6": 1.09,
+    "y1": 6.82,
+    "y2": 15.74,
+    "y3": 38.55,
+    "y5": 22.41
    },
-   "std_dev": 6.95,
+   "std_dev": 6.68,
    "sharpe": 0.24,
    "beta": 0.47,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
@@ -10435,8 +10435,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 7.41,
    "dividend_12m_count": 12,
-   "annual_yield": 0.060019,
-   "annual_yield_12m": 0.058273,
+   "annual_yield": 0.060199,
+   "annual_yield_12m": 0.058448,
    "status": "ok",
    "freq_check": null
   },
@@ -13129,7 +13129,124 @@
    "annual_yield_12m": 0.048677,
    "status": "ok",
    "freq_check": null
+  },
+  {
+   "code": "JFE10",
+   "name": "摩根投資基金－歐洲策略股息基金 - JPM歐洲策略股息(美元對沖) - A股(每月派息) ",
+   "short_name": "摩根投資基金－歐洲策略股息基金 - JPM歐洲策略股息(美元對沖) - A股(每月派息)",
+   "kind": "境外基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/39/JFE10",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
+   "currency": "USD",
+   "nav": 217.27,
+   "nav_date": "2026-10-23",
+   "risk_level": "RR4",
+   "type": "股票型",
+   "region": "歐洲",
+   "company": "摩根投信",
+   "benchmark": "摩根士丹利資本國際歐洲指數(總報酬淨額)避險為美元",
+   "returns": {
+    "ytd": 13.39,
+    "m1": -2.89,
+    "m3": -1.41,
+    "m6": 4.23,
+    "y1": 20.87,
+    "y2": 48.33,
+    "y3": 85.16,
+    "y5": 94.89
+   },
+   "std_dev": 12.67,
+   "sharpe": 0.42,
+   "beta": 0.66,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "dividend_per_unit": 0.906,
+   "dividend_date": "2026-10-08",
+   "frequency": "月配",
+   "frequency_source": "富邦網站配息頻率欄",
+   "periods_per_year": 12,
+   "dividend_12m_per_unit": 10.05,
+   "dividend_12m_count": 12,
+   "annual_yield": 0.050039,
+   "annual_yield_12m": 0.046256,
+   "status": "ok",
+   "freq_check": null
   }
  ],
- "updated_at": "2026-10-26T09:24:57+08:00"
+ "updated_at": "2026-10-27T09:18:57+08:00"
 }
