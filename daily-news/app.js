@@ -1,35 +1,114 @@
-// 南恩新聞報報 viewer + client-side poster
+// 南恩新聞報報 e-paper reader + client-side poster
 (function(){
 const $=s=>document.querySelector(s);
-let cat='全部', list=D.items.slice(), cur=0;
-function filt(){list=cat==='全部'?D.items.slice():D.items.filter(i=>i.cat===cat);}
+const SECS=[{id:'a1',code:'A1',name:'要聞'}].concat(D.cats.map((c,i)=>({id:c,code:'A'+(i+2),name:c})));
+const pages=[];
+D.posters.forEach(([f,n])=>pages.push({sec:'a1',kind:'poster',title:n==='五大頭條'?'五大重點財經頭條':n,img:'img/'+f,dl:`${D.D8}-每日報報-${n}.png`}));
+D.items.forEach(it=>pages.push({sec:it.cat,kind:'card',title:it.title,img:it.img,dl:it.dl,url:it.url,src:it.src,time:it.time}));
+let cur=0, archiveOn=false, archiveD8=D.D8;
+const byD8=Object.fromEntries(D.archives.map(a=>[a.d8,a]));
+const arcList=D.archives.map(a=>a.d8);
+let calMonth=new Date(+D.D8.slice(0,4), +D.D8.slice(4,6)-1, 1);
+const label=d8=>{const a=byD8[d8];return a?`${a.date}（${a.wd}）`:d8;};
+function closeNav(){document.body.classList.remove('nav-open');}
+function showMarket(on){document.body.classList.toggle('mkt-open',!!on);if(on)closeNav();}
 function show(k){
-  cur=(k+list.length)%list.length; const it=list[cur];
-  $('#vimg').src=it.img; $('#vimg').alt=it.title;
-  $('#vdl').href=it.img; $('#vdl').setAttribute('download',it.dl);
-  $('#vcnt').textContent=`${cat}　${cur+1} / ${list.length}`;
-  $('#vsrc').innerHTML=`<a href="${it.url}" target=_blank rel=noopener>原文：${it.src}｜${it.time} ›</a>`;
-  document.querySelectorAll('.it').forEach((e,j)=>e.classList.toggle('cur',j===cur));
+  if(archiveOn) return;
+  showMarket(false);
+  cur=(k+pages.length)%pages.length; const p=pages[cur];
+  const sec=SECS.find(s=>s.id===p.sec);
+  $('#vimg').src=p.img; $('#vimg').alt=p.title;
+  $('#vdl').href=p.img; $('#vdl').setAttribute('download',p.dl);
+  $('#dock-dl').href=p.img; $('#dock-dl').setAttribute('download',p.dl);
+  $('#vkicker').textContent=`${sec.code} ${sec.name}　${cur+1} / ${pages.length}`;
+  $('#vtitle').textContent=p.title;
+  $('#vsrc').innerHTML=p.url?`<a href="${p.url}" target=_blank rel=noopener>原文：${p.src}｜${p.time} ›</a>`:'';
+  $('#custom-open').style.display=p.sec==='a1'?'':'none';
+  document.querySelectorAll('.strip button').forEach((b,i)=>b.classList.toggle('on',i===cur));
+  const onb=document.querySelector('.strip button.on'); if(onb) onb.scrollIntoView({inline:'center',block:'nearest'});
+  renderNav();
 }
-function renderList(){
-  $('#list').innerHTML=list.map((it,j)=>`<div class=it data-j=${j}><span class=c>${it.cat}</span><span class=t>${it.title}<small>${it.src}｜${it.time}</small></span></div>`).join('');
-  document.querySelectorAll('.it').forEach(e=>e.onclick=()=>{show(+e.dataset.j);$('#viewer').scrollIntoView({behavior:'smooth',block:'center'});});
+function renderStrip(){
+  $('#strip').innerHTML=pages.map((p,i)=>`<button type=button data-i=${i} class="${i===cur?'on':''}"><img src="${p.img}" alt=""><span>${SECS.find(s=>s.id===p.sec).code}</span></button>`).join('');
+  document.querySelectorAll('.strip button').forEach(b=>b.onclick=()=>{show(+b.dataset.i);$('#viewer').scrollIntoView({behavior:'smooth',block:'center'});});
 }
-document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));b.classList.add('on');cat=b.dataset.c;filt();renderList();show(0);});
-$('#prev').onclick=()=>show(cur-1); $('#next').onclick=()=>show(cur+1);
+function renderNav(){
+  const active=archiveOn?'':pages[cur].sec;
+  const tops=D.items.filter(i=>i.top).sort((a,b)=>a.top-b.top);
+  $('#secnav').innerHTML=SECS.map(s=>{
+    const open=s.id===active;
+    let rows='';
+    if(open&&s.id==='a1'){
+      rows+=tops.map((it,n)=>`<a class=hl href="${it.url}" target=_blank rel=noopener><b style="color:#e60012;margin-right:6px">${n+1}</b>${it.title}<small>${it.src}｜${it.time}</small></a>`).join('');
+    }
+    if(open){
+      rows+=pages.map((p,i)=>p.sec===s.id?`<div class="prow${i===cur?' on':''}"><button type=button class=jump data-i=${i}>${p.title}</button><a class=mini href="${p.img}" download="${p.dl}">下載</a></div>`:'').join('');
+    }
+    return `<button type=button class="sec${open?' on':''}" data-sec="${s.id}"><b>${s.code}</b> ${s.name}</button><div class=plist>${rows}</div>`;
+  }).join('')+`<button type=button class="sec${document.body.classList.contains('mkt-open')?' on':''}" data-sec="mkt"><b>市場</b> 報價</button><div class=plist><a class="hl" href="${byD8[D.D8].file}" download="${byD8[D.D8].file}">下載當日 ZIP（海報＋全部剪報）</a></div>`;
+  document.querySelectorAll('.sec').forEach(b=>b.onclick=()=>{
+    if(b.dataset.sec==='mkt'){archiveOn&&setEdition(D.D8);showMarket(true);$('#market').scrollIntoView({behavior:'smooth',block:'start'});return;}
+    if(archiveOn) setEdition(D.D8);
+    const i=pages.findIndex(p=>p.sec===b.dataset.sec);
+    show(i<0?0:i); closeNav();
+  });
+  document.querySelectorAll('.jump').forEach(b=>b.onclick=()=>{show(+b.dataset.i);closeNav();});
+}
+function setEdition(d8){
+  if(!byD8[d8]) return;
+  archiveD8=d8;
+  $('#date-btn').textContent=label(d8);
+  if(d8===D.D8){
+    archiveOn=false; $('#archive').hidden=true; $('#read').hidden=false; showMarket(false); show(cur); return;
+  }
+  archiveOn=true; showMarket(false);
+  $('#read').hidden=true; $('#archive').hidden=false;
+  $('#arch-title').textContent=`${byD8[d8].date}（${byD8[d8].wd}）電子報存檔`;
+  $('#arch-dl').href=byD8[d8].file; $('#arch-dl').setAttribute('download', byD8[d8].file);
+  $('#arch-dl').textContent=`下載 ${byD8[d8].date} ZIP`;
+  renderNav();
+}
+function stepDay(dir){
+  const key=archiveOn?archiveD8:D.D8;
+  const i=arcList.indexOf(key);
+  const j=i+dir; if(j<0||j>=arcList.length) return;
+  setEdition(arcList[j]); $('#cal').hidden=true;
+}
+let calOpen=false;
+function renderCal(){
+  const y=calMonth.getFullYear(), m=calMonth.getMonth();
+  const start=new Date(y,m,1).getDay(), days=new Date(y,m+1,0).getDate();
+  const curKey=archiveOn?archiveD8:D.D8;
+  let cells='';
+  for(let i=0;i<start;i++) cells+='<span></span>';
+  for(let d=1;d<=days;d++){
+    const key=`${y}${String(m+1).padStart(2,'0')}${String(d).padStart(2,'0')}`;
+    const has=!!byD8[key], on=key===curKey;
+    cells+=`<button type=button class="day${has?' has':''}${on?' on':''}" data-d8="${key}" ${has?'':'disabled'}>${d}</button>`;
+  }
+  $('#cal').innerHTML=`<div class=calhead><button type=button id=cal-prev aria-label=上個月>‹</button><b>${y}.${String(m+1).padStart(2,'0')}</b><button type=button id=cal-next aria-label=下個月>›</button></div><div class=wk><span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span></div><div class=days>${cells}</div><div class=tip>有存檔的日期可切換。本日可閱讀，其餘日期下載 ZIP。</div>`;
+  $('#cal-prev').onclick=()=>{calMonth=new Date(y,m-1,1);renderCal();};
+  $('#cal-next').onclick=()=>{calMonth=new Date(y,m+1,1);renderCal();};
+  document.querySelectorAll('.days button.has').forEach(b=>b.onclick=()=>{setEdition(b.dataset.d8);$('#cal').hidden=true;calOpen=false;});
+}
+$('#date-btn').onclick=()=>{calOpen=!calOpen;$('#cal').hidden=!calOpen;if(calOpen)renderCal();};
+$('#day-prev').onclick=()=>stepDay(-1);
+$('#day-next').onclick=()=>stepDay(1);
+$('#back-today').onclick=()=>setEdition(D.D8);
+$('#menu-btn').onclick=()=>document.body.classList.toggle('nav-open');
+$('#navmask').onclick=closeNav;
+$('#dock-menu').onclick=()=>document.body.classList.toggle('nav-open');
+$('#dock-thumbs').onclick=()=>{$('#strip').scrollIntoView({behavior:'smooth',block:'center'});};
+$('#dock-prev').onclick=()=>show(cur-1);
+$('#dock-next').onclick=()=>show(cur+1);
+$('#prev').onclick=()=>show(cur-1);
+$('#next').onclick=()=>show(cur+1);
+$('#custom-open').onclick=()=>{const el=$('#pcustom');el.hidden=!el.hidden;if(!el.hidden)el.scrollIntoView({behavior:'smooth',block:'start'});};
 let sx=null,sy=null;
 $('#viewer').addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY},{passive:true});
 $('#viewer').addEventListener('touchend',e=>{if(sx===null)return;const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;if(Math.abs(dx)>40&&Math.abs(dx)>Math.abs(dy))show(cur+(dx<0?1:-1));sx=null;},{passive:true});
-renderList(); show(0);
-
-// poster tabs
-document.querySelectorAll('.ptab').forEach(b=>b.onclick=()=>{
-  document.querySelectorAll('.ptab').forEach(x=>x.classList.remove('on'));b.classList.add('on');
-  const k=b.dataset.k;
-  if(k==='custom'){$('#pstatic').style.display='none';$('#pcustom').style.display='';return;}
-  $('#pstatic').style.display='';$('#pcustom').style.display='none';
-  const [f,n]=D.posters[+k];$('#pimg').src='img/'+f;$('#pdl').href='img/'+f;$('#pdl').setAttribute('download',`${D.D8}-每日報報-${n}.png`);
-});
+document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1);if(e.key==='Escape'){$('#cal').hidden=true;calOpen=false;closeNav();}});
+renderStrip(); show(0);
 
 // picker
 let order=D.items.filter(i=>i.top).sort((a,b)=>a.top-b.top).map(i=>i.id);
