@@ -40,7 +40,7 @@
 <main>
 <section class="fin-head"><div class="wrap">
   <h1><img class="h-ico" src="img/icons/fund_dark.svg" alt="" width="56" height="56">配息基金試算</h1>
-  <p>基金淨值・配息・年化配息率一覽，投資金額試算與轉換試算</p>
+  <p>基金淨值・配息・年化配息率一覽，投資金額試算、轉換試算與<a href="#portfolio" style="color:inherit;text-decoration:underline">投資組合試算</a></p>
   <p class="fd-asof" id="asof">資料載入中…</p>
 </div></section>
 <div class="fd-tabs" role="navigation" aria-label="配息基金分頁"><div class="wrap">
@@ -120,6 +120,28 @@
   <figure class="fd-fig"><img src="img/fund_compare.png" alt="配息基金比較圖：各基金年化配息率與每百萬每月配息金額" width="2250" height="1530" loading="lazy" decoding="async">
   <figcaption id="chartCap">資料日期請見圖下方說明。</figcaption></figure>
 </div></section>
+<section class="wrap sec fd-sec" id="portfolio">
+  <h2>投資組合試算</h2>
+  <p class="sub">挑選 1～10 檔基金搭配、調整各檔比例，計算每月配息合計與組合年化配息率（買到單位數公式同「投資金額試算」，手續費與計算方式共用該區設定）</p>
+  <div class="fd-panel">
+    <div class="fd-form">
+      <label>總投資金額<input type="number" id="pfAmt" value="1000000" min="0" step="10000" inputmode="decimal"></label>
+      <label>投資金額幣別<select id="pfCur"><option value="USD">美元（同投資金額試算）</option><option value="TWD">台幣</option></select></label>
+      <label>美元兌台幣匯率<input type="number" id="pfFx" value="32" min="0" step="0.01" inputmode="decimal"></label>
+      <label>手續費／計算方式<input type="text" id="pfFeeInfo" readonly tabindex="-1"></label>
+    </div>
+    <details class="pf-fx" id="pfFxBox"><summary>其他幣別匯率（台幣／每 1 單位外幣，預設臺銀牌告即期中價，可修改）</summary><div class="fd-form" id="pfFxList"></div></details>
+    <div id="pfRows" class="pf-rows"></div>
+    <div class="pf-bar">
+      <button type="button" class="pf-btn" id="pfAdd">＋ 新增基金</button>
+      <button type="button" class="pf-btn ghost" id="pfEven">平均分配</button>
+      <button type="button" class="pf-btn ghost" id="pfFill">自動補足到100%</button>
+      <span class="pf-sum" id="pfSum"></span>
+    </div>
+    <div class="fd-res" id="pfRes"></div>
+    <p class="fd-note">每檔分配金額＝總投資金額 × 比例；外幣計價基金先以匯率換算成該基金幣別，再依「投資金額試算」公式計算買到單位數（台幣計價基金如 ACC2 以台幣計算）。每月配息＝單位數 × 每單位配息 × 年配息次數 ÷ 12；季配、半年配、年配基金以「月平均」顯示。組合加權年化配息率＝年配息合計 ÷ 總投資金額。匯差、轉換費與稅費未計入，實際金額以富邦人壽試算為準。選擇會保存在本機瀏覽器。</p>
+  </div>
+</section>
 </main>
 
 <footer class="foot"><div class="wrap">
@@ -254,5 +276,94 @@ fetch('data/funds.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw 0;return r.j
   $('aFund').onchange=()=>fillSwap('a');$('bFund').onchange=()=>fillSwap('b');
   ['aUnits','aNav','aDiv','bNav','bDiv','fx'].forEach(k=>$(k).addEventListener('input',renderSwap));
 }).catch(()=>{$('asof').textContent='資料載入失敗，請稍後重新整理。';$('tbl').querySelector('tbody').innerHTML='<tr><td>資料載入失敗</td></tr>'});
+</script>
+<style>
+.pf-rows{display:flex;flex-direction:column;gap:12px;margin-top:16px}
+.pf-row{border:1px solid rgba(201,162,74,.45);border-radius:16px;padding:14px;background:linear-gradient(180deg,#fff,#f6fafd)}
+.pf-top{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:end}
+.pf-row label{display:flex;flex-direction:column;gap:5px;font-weight:700;color:var(--navy);font-size:14px}
+.pf-row input[type=text],.pf-row input[type=number]{font:inherit;font-weight:500;color:var(--ink);padding:10px 12px;border:1.5px solid #cfdceb;border-radius:12px;background:#fcfdff;min-width:0;width:100%}
+.pf-del{font:inherit;border:1.5px solid #e3b4b4;color:#b23b3b;background:#fff;border-radius:12px;padding:10px 14px;cursor:pointer}
+.pf-pct{display:grid;grid-template-columns:1fr 110px;gap:12px;align-items:center;margin-top:10px}
+.pf-pct input[type=range]{width:100%;accent-color:var(--teal)}
+.pf-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:6px 14px;margin-top:10px;font-size:14px;color:var(--mut)}
+.pf-info b{display:block;color:var(--navy);font-size:16px;font-variant-numeric:tabular-nums}
+.pf-tag{display:inline-block;font-size:12px;color:var(--goldd);border:1px solid rgba(201,162,74,.6);border-radius:8px;padding:0 6px;margin-left:4px}
+.pf-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
+.pf-btn{font:inherit;font-weight:700;border:0;border-radius:12px;padding:10px 16px;background:var(--teal);color:#fff;cursor:pointer}
+.pf-btn.ghost{background:#fff;color:var(--navy);border:1.5px solid #cfdceb}
+.pf-btn:disabled{opacity:.45;cursor:not-allowed}
+.pf-sum{font-weight:700;color:var(--navy)}.pf-sum.bad{color:#b23b3b}
+.pf-fx{margin-top:6px;font-size:14px;color:var(--mut)}.pf-fx summary{cursor:pointer}.pf-fx .fd-form{margin-top:10px}
+.pf-warn{color:#b23b3b;font-size:13px;margin-top:6px}
+@media(max-width:720px){.pf-pct{grid-template-columns:1fr 90px}}
+</style>
+<script>
+/* 投資組合試算：獨立載入三個分頁的基金資料（不更動上方既有資料流程） */
+(function(){
+const g=id=>document.getElementById(id),MAX=10,KEY='nanen_fund_portfolio_v1';
+const CN={USD:'美元',TWD:'台幣',AUD:'澳幣',JPY:'日圓',EUR:'歐元',NZD:'紐幣',CNY:'人民幣',ZAR:'南非幣',GBP:'英鎊'};
+let ALL=[],FX={},rows=[];
+const per=f=>f.periods_per_year!=null?f.periods_per_year:(PER[f.frequency]!=null?PER[f.frequency]:0);
+const lab=f=>f.code+'　'+(f.short_name||f.name)+'（'+(CN[f.currency]||f.currency)+'・'+(f.frequency||'—')+'）';
+const twd=c=>c==='TWD'?1:c==='USD'?+g('pfFx').value:+(g('pfFx_'+c)||{}).value;
+function save(){try{localStorage.setItem(KEY,JSON.stringify({amt:g('pfAmt').value,cur:g('pfCur').value,rows}))}catch(e){}}
+function load(){try{return JSON.parse(localStorage.getItem(KEY)||'null')}catch(e){return null}}
+function draw(){
+  g('pfRows').innerHTML=rows.map((r,i)=>`<div class="pf-row" data-i="${i}"><div class="pf-top"><label>基金 ${i+1}（可輸入代號或名稱搜尋）<input type="text" list="pfList" class="pf-f" value="${esc(r.code?lab(ALL.find(f=>f.code===r.code)||{code:r.code}):'')}" placeholder="例：NGB2 或 高盛"></label><button type="button" class="pf-del" aria-label="刪除此基金">刪除</button></div><div class="pf-pct"><input type="range" class="pf-r" min="0" max="100" step="1" value="${r.pct}" aria-label="比例"><label style="flex-direction:row;align-items:center;gap:4px"><input type="number" class="pf-n" min="0" max="100" step="0.1" value="${r.pct}" inputmode="decimal">%</label></div><div class="pf-info"></div></div>`).join('');
+  g('pfRows').querySelectorAll('.pf-row').forEach(el=>{const i=+el.dataset.i;
+    el.querySelector('.pf-f').addEventListener('change',e=>{const v=e.target.value.trim(),c=v.split(/[\s　]/)[0].toUpperCase();const f=ALL.find(x=>x.code.toUpperCase()===c)||ALL.find(x=>v&&(x.short_name||'').includes(v)||(x.name||'').includes(v));rows[i].code=f?f.code:'';if(f)e.target.value=lab(f);calcAll()});
+    el.querySelector('.pf-r').addEventListener('input',e=>{rows[i].pct=+e.target.value;el.querySelector('.pf-n').value=e.target.value;calcAll()});
+    el.querySelector('.pf-n').addEventListener('input',e=>{rows[i].pct=Math.max(0,Math.min(100,+e.target.value||0));el.querySelector('.pf-r').value=rows[i].pct;calcAll()});
+    el.querySelector('.pf-del').onclick=()=>{rows.splice(i,1);if(!rows.length)rows.push({code:'',pct:100});draw()};
+  });
+  g('pfAdd').disabled=rows.length>=MAX;g('pfAdd').textContent=rows.length>=MAX?'已達上限 10 檔':'＋ 新增基金';
+  calcAll();
+}
+function calcAll(){
+  const amt=+g('pfAmt').value||0,cur=g('pfCur').value,fee=+$('fee').value,mode=$('mode').value,src=$('src').value,ic=twd(cur);
+  g('pfFeeInfo').value=(mode==='rate'?'費率 '+fee+'%':'係數 '+fee)+'（'+($('src').value==='sheet'?'試算表基準日':'最新資料')+'）';
+  const sum=rows.reduce((s,r)=>s+(+r.pct||0),0);
+  g('pfSum').textContent='比例合計：'+(+sum.toFixed(2))+'%'+(Math.abs(sum-100)>0.001?'（⚠ 未等於 100%）':' ✓');g('pfSum').className='pf-sum'+(Math.abs(sum-100)>0.001?' bad':'');
+  let totM=0,totY=0,used=0,bad=false;
+  g('pfRows').querySelectorAll('.pf-row').forEach(el=>{const r=rows[+el.dataset.i],f=ALL.find(x=>x.code===r.code),box=el.querySelector('.pf-info');
+    if(!f){box.innerHTML='<span>請選擇基金</span>';return}
+    const fc=twd(f.currency),alloc=amt*(+r.pct||0)/100;
+    const p=f._src==='funds'?pick(f,src):{nav:f.nav,div:f.dividend_per_unit,per:per(f)};
+    if(!(fc>0)||!(ic>0)){box.innerHTML=`<span class="pf-warn">請在「其他幣別匯率」填入 ${esc(CN[f.currency]||f.currency)} 匯率</span>`;bad=true;return}
+    const amtF=alloc*ic/fc,ok=p.nav>0;
+    const c=ok?calc(p.nav,p.div||0,p.per||0,amtF,fee,mode):null;
+    const mF=c?c.monthly:0,mI=mF*fc/ic,yI=mI*12;used+=alloc;totM+=mI;totY+=yI;
+    const nonM=(p.per||0)!==12,tag=!p.div||!p.per?'<span class="pf-tag">不配息</span>':nonM?`<span class="pf-tag">${esc(f.frequency)}・月平均</span>`:'';
+    const sameCur=f.currency===cur;
+    box.innerHTML=`<div>分配金額<b>${nf(alloc,0)} ${CN[cur]}</b>${sameCur?'':'<small>≈ '+nf(amtF,2)+' '+esc(CN[f.currency]||f.currency)+'</small>'}</div><div>買到單位數<b>${ok?nf(c.units,2):'—'}</b></div><div>每月配息${tag}<b>${nf(mI,0)} ${CN[cur]}</b>${sameCur?'':'<small>'+nf(mF,2)+' '+esc(CN[f.currency]||f.currency)+'</small>'}</div><div>年化配息率<b>${ok&&alloc>0?pc(c.yld):'—'}</b></div>`;
+  });
+  const box=(t,v,u)=>`<div class="fd-kpi"><span>${t}</span><b>${v}</b><small>${u||''}</small></div>`;
+  g('pfRes').innerHTML=box('每月配息合計',nf(totM,0),CN[cur]+(cur==='USD'?'（約台幣 '+nf(totM*twd('USD'),0)+'）':''))+box('年配息合計',nf(totY,0),CN[cur]+'・每月合計 × 12')+box('組合加權年化配息率',amt>0?pc(totY/amt):'—','年配息合計 ÷ 總投資金額')+box('已配置金額',nf(used,0),CN[cur]+'・比例合計 '+(+sum.toFixed(2))+'%');
+  save();
+}
+function fxInputs(rates){
+  const need=[...new Set(ALL.map(f=>f.currency))].filter(c=>c&&c!=='USD'&&c!=='TWD');
+  g('pfFxList').innerHTML=need.map(c=>{const r=(rates||[]).find(x=>x.code===c);const v=r&&r.spot_buy&&r.spot_sell?((r.spot_buy+r.spot_sell)/2/(r.unit||1)):'';return `<label>${esc(CN[c]||c)}（${esc(c)}）<input type="number" id="pfFx_${esc(c)}" value="${v?+v.toFixed(4):''}" step="0.0001" min="0" inputmode="decimal" placeholder="請輸入"></label>`}).join('');
+  g('pfFxList').querySelectorAll('input').forEach(i=>i.addEventListener('input',calcAll));
+}
+const J=u=>fetch(u,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null);
+Promise.all([J('data/funds.json'),J('data/theme_funds.json'),J('data/new_high_yield.json'),J('data/rates.json')]).then(([a,b,c,rt])=>{
+  const seen=new Set();[[a,'funds'],[b,'theme'],[c,'new']].forEach(([d,s])=>((d&&d.funds)||[]).forEach(f=>{if(f.status==='ok'&&f.nav>0&&!seen.has(f.code)){seen.add(f.code);f._src=s;ALL.push(f)}}));
+  if(a&&a.fx_usd_twd_default)g('pfFx').value=a.fx_usd_twd_default;
+  if(!ALL.length){g('pfRes').innerHTML='<p class="fd-note">資料載入失敗，請稍後重新整理。</p>';return}
+  const dl=document.createElement('datalist');dl.id='pfList';dl.innerHTML=ALL.map(f=>`<option value="${esc(lab(f))}"></option>`).join('');document.body.appendChild(dl);
+  fxInputs(rt&&rt.currencies);
+  const st=load();
+  if(st&&Array.isArray(st.rows)&&st.rows.length){rows=st.rows.slice(0,MAX).map(r=>({code:ALL.some(f=>f.code===r.code)?r.code:'',pct:+r.pct||0}));if(st.amt)g('pfAmt').value=st.amt;if(st.cur)g('pfCur').value=st.cur}
+  else rows=[{code:'NGB2',pct:50},{code:'ACB22',pct:30},{code:ALL[2].code,pct:20}].map(r=>({code:ALL.some(f=>f.code===r.code)?r.code:'',pct:r.pct}));
+  draw();
+  g('pfAdd').onclick=()=>{if(rows.length<MAX){rows.push({code:'',pct:0});draw()}};
+  g('pfEven').onclick=()=>{const n=rows.length,b=Math.floor(1000/n)/10;rows.forEach((r,i)=>r.pct=i===n-1?+(100-b*(n-1)).toFixed(1):b);draw()};
+  g('pfFill').onclick=()=>{const s=rows.reduce((t,r)=>t+(+r.pct||0),0),d=100-s;if(Math.abs(d)<1e-9)return;let i=rows.length-1;if(d<0){for(;i>=0&&rows[i].pct<-d;i--);if(i<0)i=rows.length-1}rows[i].pct=Math.max(0,+(rows[i].pct+d).toFixed(2));draw()};
+  ['pfAmt','pfFx'].forEach(k=>g(k).addEventListener('input',calcAll));g('pfCur').onchange=calcAll;
+  ['fee','mode','src'].forEach(k=>{$(k).addEventListener('input',calcAll);$(k).addEventListener('change',calcAll)});
+});
+})();
 </script>
 </body></html>
