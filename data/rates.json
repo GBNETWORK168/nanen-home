@@ -1,54 +1,54 @@
 {
   "source": "臺灣銀行牌告匯率",
   "source_url": "https://rate.bot.com.tw/xrt",
-  "listed_at": "2026/10/30 07:51",
+  "listed_at": "2026/10/31 05:31",
   "listed_note": "牌價最新掛牌時間（台北時間）",
-  "fetched_at": "2026/10/30 07:55",
+  "fetched_at": "2026/10/31 07:57",
   "currencies": [
     {
       "code": "USD",
       "name": "美元",
       "unit": 1,
-      "spot_buy": 32.415,
-      "spot_sell": 32.565,
-      "cash_buy": 32.09,
-      "cash_sell": 32.76
+      "spot_buy": 32.405,
+      "spot_sell": 32.555,
+      "cash_buy": 32.08,
+      "cash_sell": 32.75
     },
     {
       "code": "AUD",
       "name": "澳幣",
       "unit": 1,
-      "spot_buy": 22.655,
-      "spot_sell": 23.0,
-      "cash_buy": 22.44,
-      "cash_sell": 23.22
+      "spot_buy": 22.675,
+      "spot_sell": 23.02,
+      "cash_buy": 22.46,
+      "cash_sell": 23.24
     },
     {
       "code": "JPY",
       "name": "日圓",
       "unit": 1,
-      "spot_buy": 0.2035,
-      "spot_sell": 0.2085,
-      "cash_buy": 0.1967,
-      "cash_sell": 0.2095
+      "spot_buy": 0.2038,
+      "spot_sell": 0.2088,
+      "cash_buy": 0.197,
+      "cash_sell": 0.2098
     },
     {
       "code": "EUR",
       "name": "歐元",
       "unit": 1,
-      "spot_buy": 36.045,
-      "spot_sell": 36.645,
-      "cash_buy": 35.53,
-      "cash_sell": 36.87
+      "spot_buy": 35.955,
+      "spot_sell": 36.555,
+      "cash_buy": 35.44,
+      "cash_sell": 36.78
     },
     {
       "code": "CNY",
       "name": "人民幣",
       "unit": 1,
-      "spot_buy": 4.852,
-      "spot_sell": 4.912,
-      "cash_buy": 4.785,
-      "cash_sell": 4.947
+      "spot_buy": 4.854,
+      "spot_sell": 4.914,
+      "cash_buy": 4.787,
+      "cash_sell": 4.949
     }
   ]
 }
