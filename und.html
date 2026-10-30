@@ -32,6 +32,16 @@
 .u-tog{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:8px 0}
 td.danger{color:#c62828;font-weight:600}
 .fd-tbl td.l,.fd-tbl th.l{text-align:left;white-space:normal;min-width:120px}
+label[hidden]{display:none!important}
+.u-rng{color:#d32f2f;font-weight:700;font-size:.85rem}
+input.bad{border-color:#d32f2f!important;background:#fff4f4}
+.u-sub{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:6px}
+.u-box{border:2px dashed #90caf9;border-radius:12px;padding:12px}
+.u-box.x{border-color:#80cbc4}
+.u-box h4{margin:0 0 8px;font-size:1rem;color:#1565c0}
+.u-box.x h4{color:#00796b}
+.u-box .u-grid{grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
+.u-out{font-weight:700;font-size:1.05rem;padding:8px 10px;border:1px solid #cfd8dc;border-radius:8px;background:#fafafa}
 </style>
 </head>
 <body>
@@ -95,20 +105,42 @@ td.danger{color:#c62828;font-weight:600}
   <h2>試算：客戶與保單</h2>
   <div class="fd-panel">
     <div class="u-grid">
-      <label>姓名<input id="name" value="王小姐"></label>
+      <label>姓名<input id="name" value="客戶"></label>
       <label>性別<select id="sex"><option value="M">男</option><option value="F" selected>女</option></select></label>
       <label>年齡輸入方式<select id="ageMode"><option value="birth">用生日（民國）</option><option value="age">用投保年齡</option></select></label>
-      <label id="birthL">生日（民國年月日）<input id="birth" value="850701" inputmode="numeric"></label>
-      <label id="ageL" hidden>投保年齡<input id="ageIn" type="number" value="30"></label>
-      <label>型別<select id="typ"><option value="A">甲型</option><option value="B">乙型</option></select></label>
-      <label>繳別<select id="mode"><option value="1">年繳</option><option value="2">半年繳</option><option value="4">季繳</option><option value="12">月繳</option></select></label>
-      <label>每期目標保費（元）<input id="prem" type="number" value="24000"></label>
-      <label>繳費年期（年）<input id="years" type="number" value="20"></label>
-      <label>保額（萬）<input id="face" type="number" value="263"></label>
-      <label>首期超額／單筆保費（元）<input id="single" type="number" value="0"></label>
+      <label id="birthL">生日（民國年月日）<input id="birth" value="741126" inputmode="numeric"></label>
+      <label id="ageL">投保年齡<input id="ageIn" type="number" value="41"><small class="fd-note" id="ageHint"></small></label>
+      <label>保障型別<select id="typ"><option value="A">甲型</option><option value="B">乙型</option></select></label>
       <label>報酬率來源<select id="rateSrc"><option value="custom">自訂報酬率</option><option value="fund">依投資標的</option></select></label>
-      <label id="rateL">假設年報酬率（%）<input id="rate" type="number" value="6" step="0.1"></label>
+      <label id="rateL">假設投資報酬率（%）<input id="rate" type="number" value="5" step="0.1"></label>
     </div>
+    <div class="u-sub">
+     <div class="u-box"><h4>目標保險費</h4><div class="u-grid">
+      <label>繳費方式：首期<select id="pay1"><option>金融機構轉帳</option><option>富邦信用卡</option><option>匯款</option></select></label>
+      <label>繳費方式：續期<select id="pay2"><option>金融機構轉帳</option><option>富邦信用卡</option><option>自行繳費</option><option>匯款</option></select></label>
+      <label>繳別<select id="mode"><option value="1">年繳</option><option value="2">半年繳</option><option value="4">季繳</option><option value="12">月繳</option></select></label>
+      <label>目標保險費（每期，元）<input id="prem" type="number" value="36000"><small class="u-rng" id="rgPrem"></small></label>
+      <label>繳費年度（年）<input id="years" type="number" value="20"><small class="u-rng" id="rgYears"></small></label>
+      <label>基本保額（萬元）<input id="face" type="number" value="300" step="0.1"><small class="u-rng" id="rgFace"></small></label>
+      <label>計畫繳費金額（轉帳/匯款金額）<span class="u-out" id="planAmt">—</span><small class="fd-note" id="planNote"></small></label>
+     </div></div>
+     <div class="u-box x"><h4>超額保險費：定期定額</h4><div class="u-grid">
+      <label>繳費方式<select id="regPay"><option>金融機構轉帳</option><option>富邦信用卡</option></select></label>
+      <label>繳別<span class="u-out">月繳</span></label>
+      <label>繳費開始年度<input id="regS" type="number" value="1"></label>
+      <label>繳費結束年度<input id="regE" type="number" value="10"><small class="u-rng" id="rgRegY"></small></label>
+      <label>預計繳費金額（每月，元）<input id="regAmt" type="number" value="7000"><small class="u-rng" id="rgRegA"></small></label>
+      <label>定期定額超額保險費實際繳費金額<span class="u-out" id="regOut">—</span></label>
+     </div></div>
+     <div class="u-box x"><h4>超額保險費：不定期（單筆增額）</h4><div class="u-grid">
+      <label>繳費方式<span class="u-out">現金匯款／躉繳</span></label>
+      <label>繳費開始年度<input id="lumpS" type="number" value="1"></label>
+      <label>繳費結束年度<input id="lumpE" type="number" value="1"><small class="u-rng" id="rgLumpY"></small></label>
+      <label>預計繳費金額（元）<input id="lumpAmt" type="number" value=""><small class="u-rng" id="rgLumpA"></small></label>
+      <label>單筆超額保險費實際繳費金額<span class="u-out" id="lumpOut">—</span></label>
+     </div></div>
+    </div>
+    <p class="fd-note">紅字為可規劃範圍，公式取自 UND 試算表輸入頁（目標保費 S24/S25、基本保額 W24/W25、超額上限 輸入頁 G156:J157）。超額費用率 5%（未滿200萬），定期定額於期間內每月投入；單筆於開始年度起每年第1個月投入一次（與試算表相同）。</p>
     <p class="fd-note" id="ageNote"></p>
   </div>
   <h3 class="fd-h3">中途提領</h3>
@@ -149,6 +181,9 @@ td.danger{color:#c62828;font-weight:600}
       <tr><td class="l">DM 範例</td><td class="l">40歲男、乙型、238萬、年繳4萬×15年、5%</td><td class="l">0 元（帳戶價值、身故、COI 全同 DM）</td></tr>
       <tr><td class="l">案例A（含提領）</td><td class="l">30歲女、甲型、263萬、年繳2.4萬×20年、6%；第10–20年每年提5萬、第25–30年每年提3萬</td><td class="l">0 元（29年）</td></tr>
       <tr><td class="l">案例B（含提領）</td><td class="l">40歲男、乙型、238萬、年繳4萬×15年、5%；第16–25年每年提2萬、第30–35年每年提1.5萬</td><td class="l">0 元（39年）</td></tr>
+      <tr><td class="l">截圖案例（定期定額）</td><td class="l">41歲女（生日741126）、甲型、300萬、年繳3.6萬×20年、5%；定期定額每月7,000（第1–10年）</td><td class="l">0 元（70年；紅字範圍全同試算表）</td></tr>
+      <tr><td class="l">案例L（單筆增額）</td><td class="l">40歲男、乙型、238萬、年繳4萬×15年、5%；單筆30萬（第3–5年）</td><td class="l">0 元（70年）</td></tr>
+      <tr><td class="l">案例M（定期＋單筆＋提領）</td><td class="l">30歲女、甲型、263萬、年繳2.4萬×20年、6%；定期每月3,000（第2–12年）、單筆10萬（第1年）、兩段提領</td><td class="l">0 元（81年）</td></tr>
     </tbody></table></div>
     <dl class="u-kv" style="margin-top:14px">
       <dt>引擎</dt><dd>依原試算表「計算內容-正」逐月計算：前置費用→管理費→保險成本（淨危險保額×月費率）→月複利→年末提領→甲型保額調整；保費依最低比率檢核。</dd>
@@ -175,30 +210,47 @@ const SCH=[0.6,0.35,0.25,0.15,0.15,0];
 const hpDisc=a=>a>=500000?.035:a>=300000?.03:a>=200000?.02:a>=150000?.015:a>=100000?.01:a>=60000?.005:0;
 const exRate=p=>p>=1e7?.025:p>=5e6?.03:p>=2e6?.04:.05;
 function runEngine(o){const n=o.n,months=n===1?[1]:n===2?[1,7]:n===4?[1,4,7,10]:[1,2,3,4,5,6,7,8,9,10,11,12];
-const ann=o.prem*n,hd=hpDisc(ann),coi=o.sex==='M'?COI_M:COI_F;
-let C=0,E=o.face,H=0,cumO=0,y=1,m=1,a=o.age,first=true,net=0;const out=[];let acc={prem:0,coi:0,exp:0,div:0};
-const rate=cum=>Math.max(SCH[Math.min(6,Math.max(1,Math.ceil(cum/ann)))-1]-hd-o.pd,0);
-for(let g=0;g<1400;g++){let O=0;
-if(y<=o.years&&months.includes(m)){O=o.prem;if(n===12&&y===1&&m===1)O=o.prem*2;if(n===12&&y===1&&m===2)O=0;}
-if(!first&&O){const X=corridor(a);const AM=C?(o.typ==='A'?Math.max(C+net,E):E+C+net):0;if(C===0||rnd(C*X,8)>rnd(AM,8)||H+o.prem>6e7)O=0;}
-let P=first?o.single:0;if(P>(cumO+O)*100)P=0;cumO+=O;
-const U=rnd(O*rate(cumO))+rnd(P*exRate(P));const V=(!first&&C===0)?0:100;const Y=O+P-U-V;H+=O+P;
-const AC=first?Math.max(Y,0):Math.max(C+Y,0);
-const Z=first?(o.typ==='A'?o.face-(O+P-U):o.face):(o.typ==='A'?Math.max(E-AC,0):E);
-const AB=(first||AC>0)?rnd(Z*coi[Math.min(a,110)]):0;
-let AJ=(AC-AB)*Math.pow(1+o.rate,1/12);
-const dv=o.dy>0?rnd(Math.max(AJ,0)*o.dy/12):0;AJ-=dv;
-let AG=0,B=0;
-if(m===12){const w=o.wd.find(w=>w.s<=y&&y<=w.e);if(w){AG=w.pct?rnd(Math.max(AJ,0)*w.pct):rnd(w.amt||0);}
- if(AG){let bad=AJ-AG<10000;if(o.typ==='A'&&!first){const adj=AJ-AG>E?0:(AJ>E&&AJ-AG<E?E-(AJ-AG):AG);if(E-adj<0)bad=true;}B=bad?0:AG;}}
-const Cn=rnd(Math.max(AJ,0),8)-B;let En=E;
-if(o.typ==='A'){if(Cn>E)En=E;else if(Cn<E&&Cn+B>E)En=rnd(Cn);else if(Cn+B<E)En=E-B;}
-const D=Cn===0?0:rnd(o.typ==='A'?Math.max(Cn,En):En+Cn);
-acc={prem:acc.prem+O+P,coi:acc.coi+AB,exp:acc.exp+U,div:acc.div+dv};
-C=Cn;E=En;first=false;
-if(m===12){out.push({y,age:a,prem:acc.prem,cum:H,wd:B,want:AG,av:rnd(C),death:D,face:E,coi:acc.coi,exp:acc.exp,div:acc.div});acc={prem:0,coi:0,exp:0,div:0};
- if(C===0||a+1>=111)break;y++;m=1;a++;}else m++;
-net=0;if(y<=o.years&&months.includes(m)){const c2=cumO+o.prem;net=o.prem-rnd(o.prem*rate(c2));}
+const ann=o.prem*n,hd=hpDisc(ann),coi=o.sex==='M'?COI_M:COI_F,A=o.typ==='A';
+const reg=o.reg&&o.reg.amt>0?o.reg:null;
+const lump=o.lump&&o.lump.amt>0?o.lump:(o.single>0?{amt:o.single,s:1,e:1}:null);
+const lumpMax=o.lumpMax==null?Infinity:o.lumpMax;
+const csched=(y,m)=>{if(y>o.years||!months.includes(m))return 0;if(n===12&&y===1&&m===1)return o.prem*2;if(n===12&&y===1&&m===2)return 0;return o.prem;};
+let C=0,E=o.face,H=0,cumB=0,cumO=0,cumCs=0,cumP=0,cumQ=0,Pprev=0,yO=0,yP=0,yQ=0,lastPayO=0,y=1,m=1,a=o.age,first=true;const out=[];let acc={prem:0,coi:0,exp:0,div:0,reg:0,lump:0};
+const rate=(cum,f)=>Math.max(SCH[Math.min(6,Math.max(1,Math.ceil(cum/ann)))-1]-hd-(f?(o.pd1!=null?o.pd1:o.pd):(o.pd2!=null?o.pd2:o.pd)),0);
+for(let g=0;g<1400;g++){
+ const Cs=csched(y,m);cumCs+=Cs;
+ const F=Cs-rnd(Cs*SCH[Math.min(6,Math.max(1,Math.ceil(cumCs/ann)))-1]);
+ const Ds=(lump&&y>=lump.s&&y<=Math.min(lump.e,o.years))?lump.amt:0;const Gs=Ds-rnd(Ds*exRate(lump?lump.amt:0));
+ const Es=(reg&&y>=reg.s&&y<=Math.min(reg.e,o.years))?reg.amt:0;const Hs=Es-rnd(Es*0.05);
+ if(m===1){yO=0;yP=0;yQ=0;}
+ const X=corridor(a);let O=Cs,P=0,Q=0;
+ if(first){P=(Ds&&O*100>=Ds&&lump.amt<=lumpMax)?Ds:0;Q=(Es&&O*100>=P+Es)?Es:0;lastPayO=O;}
+ else{
+  if(O){const AM=A?Math.max(C+F,E):E+C+F;if(C===0||rnd((C+F)*X,8)>rnd(AM,8)||y>o.years||H+o.prem*(n===12?1:1)>6e7)O=0;}
+  if(months.includes(m))lastPayO=O;
+  const AO=(n===12&&y===1&&m<=2)?1:((n===12?O:lastPayO)===o.prem?1:0);
+  if(Ds){const done=yP>=lump.amt;const G2=done?0:Gs;const s=C+F+G2;const AQ=A?Math.max(s,E):E+s;
+   if(!(AO===0||rnd(s*X,8)>rnd(AQ,8)||H+Cs+(done?0:Ds)>6e7||(yO+O)*100<yP+yQ+(done?0:Ds)||done))P=Ds;}
+  if(Es){const Pn=P-rnd(P*exRate(P));const s=C+F+Pn+Hs;const AR=A?Math.max(s,E):E+s;
+   if(!(AO===0||rnd(s*X,8)>rnd(AR,8)||H-cumB+Cs+P+Es>6e7||(yO+O)*100<yP+yQ+P+Es))Q=Es;}
+ }
+ cumO+=O;
+ const U=rnd(O*rate(cumO,first))+rnd(P*exRate(P))+rnd(Q*exRate(Q));const V=(!first&&C===0)?0:100;const Y=O+P+Q-U-V;H+=O+P+Q;cumP+=P;cumQ+=Q;Pprev=P;yO+=O;yP+=P;yQ+=Q;
+ const AC=first?Math.max(Y,0):Math.max(C+Y,0);
+ const Z=first?(A?o.face-(O+P+Q-U):o.face):(A?Math.max(E-AC,0):E);
+ const AB=(first||AC>0)?rnd(Z*coi[Math.min(a,110)]):0;
+ let AJ=(AC-AB)*Math.pow(1+o.rate,1/12);
+ const dv=o.dy>0?rnd(Math.max(AJ,0)*o.dy/12):0; AJ-=dv;
+ let AG=0,B=0;
+ if(m===12){const w=(o.wd||[]).find(w=>w.s<=y&&y<=w.e);if(w){AG=w.pct?rnd(Math.max(AJ,0)*w.pct):rnd(w.amt);}
+  if(AG){let bad=AJ-AG<10000;if(A&&!first){const adj=AJ-AG>E?0:(AJ>E&&AJ-AG<E?E-(AJ-AG):AG);if(E-adj<0)bad=true;}B=bad?0:AG;}}
+ const Cn=rnd(Math.max(AJ,0),8)-B;cumB+=B;let En=E;
+ if(A){if(Cn>E)En=E;else if(Cn<E&&Cn+B>E)En=rnd(Cn);else if(Cn+B<E)En=E-B;}
+ const D=Cn===0?0:rnd(A?Math.max(Cn,En):En+Cn);
+ acc.prem+=O+P+Q;acc.reg+=Q;acc.lump+=P;acc.coi+=AB;acc.exp+=U;acc.div+=dv;
+ C=Cn;E=En;first=false;
+ if(m===12){out.push({y,age:a,prem:acc.prem,reg:acc.reg,lump:acc.lump,cum:H,wd:B,want:AG,av:rnd(C),death:D,face:E,coi:acc.coi,exp:acc.exp,div:acc.div});acc={prem:0,coi:0,exp:0,div:0,reg:0,lump:0};
+  if(C===0||a+1>=111)break;y++;m=1;a++;}else m++;
 }return out;}
 /*ENGINE-END*/
 const $=id=>document.getElementById(id);
@@ -252,41 +304,76 @@ $('fAdd').onclick=()=>{frs.push({code:'ACB17',w:0,r:null});renderF();calc();};
 // ---- 試算 ----
 let view='main';
 $('views').onclick=e=>{const b=e.target.closest('button');if(!b)return;view=b.dataset.v;[...$('views').children].forEach(x=>x.classList.toggle('on',x===b));calc();};
-['name','sex','ageMode','birth','ageIn','typ','mode','prem','years','face','single','rateSrc','rate','cash'].forEach(id=>{$(id).addEventListener('input',calc);$(id).addEventListener('change',calc);});
+['name','sex','ageMode','birth','ageIn','typ','mode','prem','years','face','pay1','pay2','regPay','regS','regE','regAmt','lumpS','lumpE','lumpAmt','rateSrc','rate','cash'].forEach(id=>{$(id).addEventListener('input',calc);$(id).addEventListener('change',calc);});
 function chart(rows){const W=900,Hh=320,L=70,R=20,T=16,B=36;const mx=Math.max(1,...rows.map(r=>Math.max(r.av,r.cum,r.cw+r.cd)));
  const x=i=>L+(rows.length<=1?0:i*(W-L-R)/(rows.length-1)),y=v=>T+(Hh-T-B)*(1-v/mx);
  const line=(f,c)=>`<polyline fill="none" stroke="${c}" stroke-width="2.4" points="${rows.map((r,i)=>x(i).toFixed(1)+','+y(f(r)).toFixed(1)).join(' ')}"/>`;
  let g='';for(let k=0;k<=4;k++){const v=mx*k/4;g+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="#e3e8ec"/><text x="${L-8}" y="${y(v)+4}" text-anchor="end" font-size="12" fill="#78909c">${fmt(v/10000)}萬</text>`;}
  const st=Math.max(1,Math.ceil(rows.length/6));rows.forEach((r,i)=>{if(i%st===0||i===rows.length-1)g+=`<text x="${x(i)}" y="${Hh-12}" text-anchor="middle" font-size="12" fill="#78909c">${r.y}年</text>`;});
  $('chart').innerHTML=g+line(r=>r.cum,'#c9a24a')+line(r=>r.cw+r.cd,'#0e9f9a')+line(r=>r.av,'#1565c0');}
+const MUL=(sex,a)=>a<=70?(sex==='M'?MUL_M:MUL_F)[Math.max(0,a)]:[6,6];
+const rup=(x,d)=>{const m=Math.pow(10,-d);return Math.ceil(x/m-1e-9)*m;},rdn=(x,d)=>{const m=Math.pow(10,-d);return Math.floor(x/m+1e-9)*m;};
+function planRanges(o){const a=o.age,n=o.n,ann=o.prem*n,face=o.face,X=corridor(a),[mn,mx]=MUL($('sex').value,a),avg=(mn+mx)/2;
+ const r={};
+ if(a<15){r.premLo=7500;r.premHi=7500;}else{r.premLo=Math.max(24000/n,rup((face-(avg===mx?9999:0))/mx/n,-2));r.premHi=Math.max(Math.min(6e7/n,rdn(face/avg/n,-2)),24000/n);}
+ r.faceLo=Math.min(6e7,rup(rup(avg*ann,0),-3));r.faceHi=Math.min(6e7,mx===avg?rup(ann*mx,-3):rdn(ann*mx,-3));
+ r.yearsHi=111-a;const yh=Math.min(o.years,111-a);r.regYHi=yh;r.lumpYHi=yh;
+ r.plan=n===12?o.prem*2:o.prem;
+ r.regS=o.regS||1;r.regE=o.regE||0;r.lumpS=o.lumpS||1;r.lumpE=o.lumpE||r.lumpS;
+ r.regAct=o.regAmt>0?o.regAmt:0;
+ const adj=(o.typ==='A'&&a<15)?1:(o.typ==='B'&&a>=15)?-1:0;
+ const Q160=Math.min(6e7-r.plan,face/(X+adj)-r.plan);
+ r.lumpLo=a>70?Math.max(ann*1.5-((r.regS===1&&o.regE)?r.regAct:0),0):10000;
+ r.lumpAct=o.lumpAmt>=r.lumpLo?o.lumpAmt:0;
+ const G=r.regS,J=r.lumpS,J158=r.lumpAct,G158=r.regAct,M157=a<=15?6e6:face/X;
+ r.regLo=1000;
+ if(face-ann*X<1000)r.regHi=null;else{const sub=(G===J||J===1)?J158:0;r.regHi=G!==1?ann*100-sub:Math.floor(Math.min(ann*100-sub,Q160-J158));}
+ r.regFull=G===1&&(r.regHi==null||r.regHi<1000||M157-(ann+((G===J||J===1)?J158:0))<1000);
+ if(face-ann*X<10000)r.lumpHi=null;else r.lumpHi=J!==1?ann*100-(G===J?G158:0):Math.floor(Math.min(ann*100-G158,Q160));
+ r.lumpFull=J===1&&(r.lumpHi==null||r.lumpHi<r.lumpLo||M157-(ann+G158)<30000);
+ return r;}
+function showRanges(r,warn){const f=v=>Math.round(v).toLocaleString('en-US'),w=v=>(v/10000).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1});
+ const flag=(id,bad,msg)=>{$(id).classList.toggle('bad',!!bad);if(bad&&msg)warn.push(msg);};
+ const prem=num($('prem').value),years=num($('years').value),face=Math.round(num($('face').value)*10000);
+ $('rgPrem').textContent=`${f(r.premLo)}~${f(r.premHi)}`;flag('prem',prem<r.premLo||prem>r.premHi,`目標保險費須介於 ${f(r.premLo)}~${f(r.premHi)} 元。`);
+ $('rgYears').textContent=`1 ~ ${r.yearsHi} 年`;flag('years',years<1||years>r.yearsHi,`繳費年度須介於 1~${r.yearsHi} 年。`);
+ $('rgFace').textContent=`${w(r.faceLo)} 萬 ~ ${w(r.faceHi)} 萬`;flag('face',face<r.faceLo||face>r.faceHi,`基本保額須介於 ${w(r.faceLo)}~${w(r.faceHi)} 萬。`);
+ $('planAmt').textContent=f(r.plan)+' 元';$('planNote').textContent=num($('mode').value)===12?'首期需繳二個月':'';
+ const ry=`1 ~ ${r.regYHi} 年`;$('rgRegY').textContent=ry;$('rgLumpY').textContent=ry;
+ const ra=num($('regAmt').value),la=num($('lumpAmt').value);
+ $('rgRegA').textContent=r.regFull?'已達繳費上限':`${f(r.regLo)}~${r.regHi==null?'—':f(r.regHi)}`;
+ $('rgLumpA').textContent=r.lumpFull?'已達繳費上限':`${f(r.lumpLo)}~${r.lumpHi==null?'—':f(r.lumpHi)}`;
+ const has=ra>0;flag('regS',has&&(r.regS<1||r.regS>r.regYHi),`定期定額開始年度須介於 ${ry}。`);flag('regE',has&&(r.regE<r.regS||r.regE>r.regYHi),`定期定額結束年度須介於 ${ry} 且不小於開始年度。`);
+ flag('regAmt',has&&(ra<r.regLo||(r.regHi!=null&&ra>r.regHi)),`定期定額每月金額須介於 ${f(r.regLo)}~${r.regHi==null?'—':f(r.regHi)} 元。`);
+ const hl=la>0;flag('lumpS',hl&&(r.lumpS<1||r.lumpS>r.lumpYHi),`單筆開始年度須介於 ${ry}。`);flag('lumpE',hl&&(r.lumpE<r.lumpS||r.lumpE>r.lumpYHi),`單筆結束年度須介於 ${ry} 且不小於開始年度。`);
+ flag('lumpAmt',hl&&(la<r.lumpLo||(r.lumpHi!=null&&la>r.lumpHi)),`單筆金額須介於 ${f(r.lumpLo)}~${r.lumpHi==null?'—':f(r.lumpHi)} 元${la<r.lumpLo?'（低於下限，試算表不計入）':''}。`);
+ $('regOut').textContent=r.regAct?f(r.regAct)+' 元':'—';$('lumpOut').textContent=r.lumpAct?f(r.lumpAct)+' 元':'—';}
 function calc(){
- const ageMode=$('ageMode').value;$('birthL').hidden=ageMode!=='birth';$('ageL').hidden=ageMode==='birth';
+ const ageMode=$('ageMode').value;$('birthL').hidden=ageMode!=='birth';$('ageIn').disabled=ageMode==='birth';
  const useFunds=$('rateSrc').value==='fund';$('rateL').hidden=useFunds;
  const cash=$('cash').checked;$('cashL').textContent=cash?'配息：現金撥回（自帳戶價值撥出）':'配息：轉投入（留在帳戶）';
  const age=ageMode==='birth'?ageFromRoc($('birth').value):($('ageIn').value.trim()===''?null:Math.floor(num($('ageIn').value)));
- const sex=$('sex').value,typ=$('typ').value,n=parseInt($('mode').value,10),premV=num($('prem').value),faceV=Math.round(num($('face').value)*10000),yearsV=Math.max(1,Math.floor(num($('years').value))),single=num($('single').value);
+ if(ageMode==='birth'){$('ageIn').value=age===null?'':age;$('ageHint').textContent='依生日自動計算（保險年齡）';}else $('ageHint').textContent='';
+ const sex=$('sex').value,typ=$('typ').value,n=parseInt($('mode').value,10),premV=num($('prem').value),faceV=Math.round(num($('face').value)*10000),yearsV=Math.max(1,Math.floor(num($('years').value)));
  const fr=frs.map(f=>({fund:fOf(f.code),w:num(f.w)/100,r:num(f.r)/100}));const wsum=fr.reduce((s,f)=>s+f.w,0);
  const effRate=useFunds?fr.reduce((s,f)=>s+f.w*f.r,0):num($('rate').value)/100;
  const dyTot=useFunds?fr.reduce((s,f)=>s+f.w*(f.fund?f.fund.yld:0),0):0;
  $('fSum').textContent=useFunds?`加權假設報酬率 ${(effRate*100).toFixed(2)}%；加權年化配息率 ${(dyTot*100).toFixed(2)}%；配置合計 ${Math.round(wsum*100)}%`:'目前使用自訂報酬率；改選「依投資標的」才會套用下列配置。';
- const warn=[];if(age===null)warn.push('生日格式請輸入民國年月日，例：850701。');
+ const warn=[];const RG=planRanges({age:age===null?30:age,typ,n,prem:premV,face:faceV,years:yearsV,regS:num($('regS').value),regE:num($('regE').value),regAmt:num($('regAmt').value),lumpS:num($('lumpS').value),lumpE:num($('lumpE').value),lumpAmt:num($('lumpAmt').value)});showRanges(RG,warn);
+ if(age===null)warn.push('生日格式請輸入民國年月日，例：850701。');
  const ag=age===null?30:age;const maxAge=typ==='A'?64:70;
  if(age!==null&&(age<0||age>maxAge))warn.push(`${typ==='A'?'甲型':'乙型'}投保年齡為0–${maxAge}歲，目前 ${age} 歲。`);
  if(ag<15&&n!==1)warn.push('未滿15歲限年繳。');
- const minPrem=ag<15?7500:{1:24000,2:12000,4:6000,12:2000}[n];if(premV<minPrem)warn.push(`目標保費低於最低 ${fmt(minPrem)} 元。`);
- if(ag<15&&premV>7500)warn.push('未滿15歲目標保費上限7,500元。');
  const annual=premV*n,mt=ag<=70?(sex==='M'?MUL_M:MUL_F)[Math.max(0,ag)]:[6,6],avgMul=(mt[0]+mt[1])/2;
  const minFace=Math.max(100000,Math.ceil(annual*avgMul/1000)*1000),maxFace=annual*mt[1];
- if(faceV<minFace)warn.push(`保額低於新契約最低 ${(minFace/10000).toFixed(1)} 萬（平均倍數 ${avgMul} × 年化目標保費，千元進位）。`);
- if(faceV>=maxFace)warn.push(`保額須低於最高倍數 ${mt[1]} × 年化目標保費 ＝ ${fmt(maxFace/10000)} 萬。`);
- if(annual*yearsV+single>6e7)warn.push('累計保費超過6,000萬上限，超過部分將不計入。');
+ if(annual*yearsV+RG.regAct*12*Math.max(0,Math.min(RG.regE,yearsV)-RG.regS+1)+RG.lumpAct>6e7)warn.push('累計保費超過6,000萬上限，超過部分將不計入。');
  if(useFunds&&Math.abs(wsum-1)>0.0001)warn.push(`投資標的配置合計 ${Math.round(wsum*100)}%，須為100%。`);
  if(useFunds&&fr.some(f=>f.w>0&&f.w<0.05))warn.push('每一標的配置至少5%。');
  if(useFunds&&fr.some(f=>f.fund&&!f.fund.und))warn.push('已選標的中有未列為 UND 可選的基金，僅供參考。');
  wds.forEach(w=>{if(w.mode==='amt'&&num(w.v)>0&&num(w.v)<10000)warn.push(`第${w.s}–${w.e}年提領 ${fmt(num(w.v))} 元，低於每次最低10,000元。`);});
  $('ageNote').textContent=`${$('name').value||'客戶'}：投保年齡 ${age===null?'—':age} 歲；倍數 ${mt[0]}–${mt[1]}，新契約最低保額 ${fmt(minFace)} 元。`;
  const wdList=wds.filter(w=>num(w.v)>0).map(w=>w.mode==='pct'?{s:num(w.s),e:num(w.e),pct:num(w.v)/100}:{s:num(w.s),e:num(w.e),amt:num(w.v)});
- const res=runEngine({n,prem:premV,sex,typ,face:faceV,years:yearsV,rate:effRate,single,pd:0.01,dy:useFunds&&cash?dyTot:0,age:Math.max(0,Math.min(ag,110)),wd:wdList});
+ const res=runEngine({n,prem:premV,sex,typ,face:faceV,years:yearsV,rate:effRate,reg:{amt:RG.regAct,s:RG.regS,e:RG.regE},lump:{amt:RG.lumpAct,s:RG.lumpS,e:RG.lumpE},lumpMax:RG.lumpHi==null?0:RG.lumpHi,pd:0.01,pd1:['金融機構轉帳','富邦信用卡'].includes($('pay1').value)?0.01:0,pd2:['金融機構轉帳','富邦信用卡','自行繳費'].includes($('pay2').value)?0.01:0,dy:useFunds&&cash?dyTot:0,age:Math.max(0,Math.min(ag,110)),wd:wdList});
  const sk=res.filter(r=>r.want>0&&r.wd===0);if(sk.length)warn.push(`第 ${sk.map(r=>r.y).join('、')} 年提領未執行（提領後帳戶價值將低於10,000元或甲型保額不足）。`);
  const last=res[res.length-1],lapsed=last&&last.av===0;if(lapsed)warn.push(`保單帳戶價值於第 ${last.y} 保單年度（${last.age} 歲）歸零，將進入寬限期／停效。`);
  $('warn').innerHTML=warn.length?`<div class="u-warn"><b>提醒</b><ul>${warn.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></div>`:'';
@@ -294,8 +381,8 @@ function calc(){
  const th=a=>'<tr>'+a.map((h,i)=>`<th${i<0?' class="l"':''}>${esc(h)}</th>`).join('')+'</tr>';let head,body;
  if(view==='main'){head=th(['保單年度','年齡','累計保費','提領金額','累計提領','帳戶價值','解約金','身故保障']);
   body=rows.map((r,i)=>{const d=lapsed&&i===rows.length-1?' class="danger"':'';return `<tr><td>${r.y}</td><td>${r.age}</td><td>${fmt(r.cum)}</td><td>${r.wd?fmt(r.wd):'–'}</td><td>${fmt(r.cw)}</td><td${d}>${fmt(r.av)}</td><td${d}>${fmt(r.av)}</td><td>${fmt(r.death)}</td></tr>`;});}
- else if(view==='cost'){head=th(['保單年度','年齡','當年保費','前置費用','保險成本','年末保額','帳戶價值']);
-  body=rows.map(r=>`<tr><td>${r.y}</td><td>${r.age}</td><td>${fmt(r.prem)}</td><td>${fmt(r.exp)}</td><td>${fmt(r.coi)}</td><td>${fmt(r.face)}</td><td>${fmt(r.av)}</td></tr>`);}
+ else if(view==='cost'){head=th(['保單年度','年齡','當年保費','其中定期定額','其中單筆','前置費用','保險成本','年末保額','帳戶價值']);
+  body=rows.map(r=>`<tr><td>${r.y}</td><td>${r.age}</td><td>${fmt(r.prem)}</td><td>${r.reg?fmt(r.reg):'–'}</td><td>${r.lump?fmt(r.lump):'–'}</td><td>${fmt(r.exp)}</td><td>${fmt(r.coi)}</td><td>${fmt(r.face)}</td><td>${fmt(r.av)}</td></tr>`);}
  else{const sel=fr.filter(f=>f.fund&&f.w>0);
   if(!useFunds||!sel.length){head='';body=['<tr><td class="l">請在「投資標的與配息」把報酬率來源改為「依投資標的」並設定配置後查看配息明細。</td></tr>'];}
   else{head=th(['保單年度','年齡',...sel.map(f=>f.fund.code+' 每月配息'),cash?'當年現金配息':'當年配息（轉投入）','累計現金配息']);
