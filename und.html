@@ -42,6 +42,49 @@ input.bad{border-color:#d32f2f!important;background:#fff4f4}
 .u-box.x h4{color:#00796b}
 .u-box .u-grid{grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
 .u-out{font-weight:700;font-size:1.05rem;padding:8px 10px;border:1px solid #cfd8dc;border-radius:8px;background:#fafafa}
+
+.u-presets{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.u-presets button{padding:8px 14px;border-radius:999px;border:1px solid #1565c0;background:#fff;color:#1565c0;font:inherit;font-weight:700;cursor:pointer}
+.u-presets button:hover{background:#e3f2fd}
+#rWrap[hidden],#propPlan[hidden],#prop[hidden]{display:none!important}
+.pp-seg{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-end;margin:0 0 8px;padding:10px;border:1px solid #e3e8ec;border-radius:10px}
+.pp-seg label{display:flex;flex-direction:column;gap:4px;font-size:.88rem;flex:1 1 100px}
+.pp-seg label.w2{flex:3 1 260px}
+.pp-seg input,.pp-seg select,.pp-seg textarea{padding:7px 9px;border:1px solid #cfd8dc;border-radius:8px;font:inherit;min-width:0}
+.prop-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:10px;background:#fff}
+.prop{min-width:1000px;font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif;color:#000;background:#fff;padding:8px}
+.prop-top{display:flex;gap:14px;align-items:flex-start}
+.prop-top .ttl{flex:0 0 220px;color:#1e88e5;font-size:1.35rem;font-weight:700;text-align:center;line-height:1.9;white-space:pre-line}
+.prop-hd{border-collapse:collapse;width:100%;font-size:.95rem}
+.prop-hd th,.prop-hd td{border:1px solid #333;padding:2px 8px;text-align:center}
+.prop-hd th{font-weight:400;background:#fff}
+.prop-hd td{font-weight:700}
+.prop-meta{display:flex;justify-content:space-between;font-weight:700;margin:4px 0 6px;font-size:.95rem}
+.prop-tbl{border-collapse:collapse;width:100%;font-size:.88rem}
+.prop-tbl th{background:#cfe3f7;color:#1a3d7c;font-weight:400;border:1px solid #9bb7d4;padding:6px 4px;line-height:1.35}
+.prop-tbl td{border:1px solid #999;padding:2px 6px;text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
+.prop-tbl td.c{text-align:center}
+.prop-tbl th.rb,.prop-tbl td.rb{border-left:3px solid #e53935;border-right:3px solid #e53935}
+.prop-tbl thead th.rb{border-top:3px solid #e53935}
+.prop-tbl tbody tr:last-child td.rb{border-bottom:3px solid #e53935}
+.prop-tbl tr.seg td{border-top:2.5px solid #e53935}
+.prop-tbl td.note{border:0;border-top:2.5px solid #e53935;color:#1e88e5;font-size:1.25rem;font-weight:500;text-align:center;vertical-align:middle;white-space:pre-line;line-height:2;width:220px;background:#fff}
+.prop-tbl td.note0{border:0;width:220px;background:#fff}
+.prop-tbl th.nh{background:#fff;border:0;width:220px}
+.prop-sum{color:#e53935;font-size:1.3rem;font-weight:700;text-align:right;margin-top:8px}
+.prop-foot{font-size:.75rem;color:#555;margin-top:6px}
+@media print{
+ @page{size:A4 landscape;margin:8mm}
+ body *{visibility:hidden!important}
+ #prop,#prop *{visibility:visible!important}
+ #prop{position:absolute;left:0;top:0;width:100%}
+ .prop-scroll{overflow:visible}
+ .prop{min-width:0;font-size:10px;padding:0}
+ .prop-tbl{font-size:9.5px}.prop-tbl td{padding:1px 4px}
+ .prop-tbl td.note,.prop-top .ttl{font-size:14px}
+ .prop-sum{font-size:15px}
+ *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
 </style>
 </head>
 <body>
@@ -103,6 +146,7 @@ input.bad{border-color:#d32f2f!important;background:#fff4f4}
 
 <section class="wrap sec fd-sec" id="calc">
   <h2>試算：客戶與保單</h2>
+  <div class="u-presets"><span class="fd-note" style="align-self:center">建議書範例：</span><button type="button" data-preset="1">單筆100萬｜邊領邊成長</button><button type="button" data-preset="2">單筆100萬｜先成長</button></div>
   <div class="fd-panel">
     <div class="u-grid">
       <label>姓名<input id="name" value="客戶"></label>
@@ -168,8 +212,23 @@ input.bad{border-color:#d32f2f!important;background:#fff4f4}
   <div class="fd-panel">
     <div class="u-legend"><span><i style="background:#1565c0"></i>保單帳戶價值</span><span><i style="background:#c9a24a"></i>累計保費</span><span><i style="background:#0e9f9a"></i>累計提領＋現金配息</span></div>
     <svg class="u-chart" id="chart" viewBox="0 0 900 320" role="img" aria-label="逐年帳戶價值圖"></svg>
-    <div class="u-seg" id="views"><button data-v="main" class="on">逐年摘要</button><button data-v="cost">費用明細</button><button data-v="div">配息明細</button></div>
-    <div class="fd-tblwrap"><table class="fd-tbl" id="rTbl"><thead></thead><tbody></tbody></table></div>
+    <div class="u-seg" id="views"><button data-v="main" class="on">逐年摘要</button><button data-v="cost">費用明細</button><button data-v="div">配息明細</button><button data-v="prop">建議書呈現</button></div>
+    <div id="propPlan" hidden class="fd-panel" style="margin-top:10px">
+      <h3 class="fd-h3" style="margin-top:0">分段領息規劃</h3>
+      <div class="u-grid">
+        <label>右上標題<textarea id="ppTitle" rows="2">單筆投入100萬
+(邊領邊成長)</textarea></label>
+        <label>本金基準（元，空白＝第1年總保費）<input id="ppBase" type="number" value=""></label>
+        <label>顯示到第幾年（空白＝依分段）<input id="ppYears" type="number" value=""></label>
+        <label class="fd-chk" style="flex-direction:row;align-items:center"><input type="checkbox" id="ppDeduct"> 配息自帳戶價值扣除（當作中途提領）</label>
+      </div>
+      <p class="fd-note">預設不扣除：表格為保單帳戶價值試算（低假設報酬率），配息為基金現金撥回另列，與範例簡報相同。勾選後配息改以中途提領方式由帳戶扣除（使用已驗證的提領邏輯）。</p>
+      <div id="ppSegs"></div>
+      <button class="u-btn" id="ppAdd" type="button">＋ 新增分段</button>
+      <button class="u-btn" id="ppPrint" type="button">列印／存 PDF（A4 橫式）</button>
+    </div>
+    <div class="prop-scroll" id="propWrap"><div class="prop" id="prop" hidden></div></div>
+    <div class="fd-tblwrap" id="rWrap"><table class="fd-tbl" id="rTbl"><thead></thead><tbody></tbody></table></div>
     <p class="fd-note">簡化試算，實際以公司建議書為準。金額以新台幣計，外幣標的不計匯率變動；解約金＝帳戶價值（本商品無解約費用）。</p>
   </div>
 </section>
@@ -247,9 +306,9 @@ for(let g=0;g<1400;g++){
  const Cn=rnd(Math.max(AJ,0),8)-B;cumB+=B;let En=E;
  if(A){if(Cn>E)En=E;else if(Cn<E&&Cn+B>E)En=rnd(Cn);else if(Cn+B<E)En=E-B;}
  const D=Cn===0?0:rnd(A?Math.max(Cn,En):En+Cn);
- acc.prem+=O+P+Q;acc.reg+=Q;acc.lump+=P;acc.coi+=AB;acc.exp+=U;acc.div+=dv;
+ acc.adm=(acc.adm||0)+V;acc.tgt=(acc.tgt||0)+O;acc.prem+=O+P+Q;acc.reg+=Q;acc.lump+=P;acc.coi+=AB;acc.exp+=U;acc.div+=dv;
  C=Cn;E=En;first=false;
- if(m===12){out.push({y,age:a,prem:acc.prem,reg:acc.reg,lump:acc.lump,cum:H,wd:B,want:AG,av:rnd(C),death:D,face:E,coi:acc.coi,exp:acc.exp,div:acc.div});acc={prem:0,coi:0,exp:0,div:0,reg:0,lump:0};
+ if(m===12){out.push({y,age:a,prem:acc.prem,reg:acc.reg,lump:acc.lump,cum:H,wd:B,want:AG,av:rnd(C),death:D,face:E,coi:acc.coi,exp:acc.exp,div:acc.div,adm:acc.adm||0,tgt:acc.tgt||0});acc={prem:0,coi:0,exp:0,div:0,reg:0,lump:0};
   if(C===0||a+1>=111)break;y++;m=1;a++;}else m++;
 }return out;}
 /*ENGINE-END*/
@@ -303,6 +362,57 @@ $('fRows').addEventListener('click',e=>{if(e.target.dataset.del!=null){frs.splic
 $('fAdd').onclick=()=>{frs.push({code:'ACB17',w:0,r:null});renderF();calc();};
 // ---- 試算 ----
 let view='main';
+let segs=[{s:1,e:10,label:'穩健成長＋領息',mode:'rate',rate:5,base:'principal',note:''},{s:11,e:20,label:'穩健成長',mode:'rate',rate:10,base:'principal',note:''},{s:21,e:30,label:'穩健成長',mode:'rate',rate:15,base:'principal',note:''}];
+function renderSegs(){$('ppSegs').innerHTML=segs.map((g,i)=>`<div class="pp-seg" data-i="${i}">
+ <label>開始年度<input type="number" data-k="s" value="${g.s}"></label><label>結束年度<input type="number" data-k="e" value="${g.e}"></label>
+ <label>階段名稱<input data-k="label" value="${esc(g.label)}" list="ppLabels"></label>
+ <label>領息<select data-k="mode"><option value="none"${g.mode==='none'?' selected':''}>不領息</option><option value="rate"${g.mode==='rate'?' selected':''}>年配息率</option></select></label>
+ <label>年配息率 %<input type="number" step="0.1" data-k="rate" value="${g.rate}"${g.mode==='none'?' disabled':''}></label>
+ <label>基準<select data-k="base"${g.mode==='none'?' disabled':''}><option value="principal"${g.base==='principal'?' selected':''}>單筆投入本金</option><option value="av"${g.base==='av'?' selected':''}>當年帳戶價值</option></select></label>
+ <label class="w2">右側註記（空白＝自動）<textarea rows="2" data-k="note" placeholder="自動產生">${esc(g.note)}</textarea></label>
+ <button class="u-btn" type="button" data-del="${i}">移除</button></div>`).join('')+'<datalist id="ppLabels"><option value="穩健成長"><option value="穩健成長＋領息"><option value="累積成長期"><option value="現金流量期"></datalist>';}
+$('ppSegs').addEventListener('input',e=>{const r=e.target.closest('.pp-seg');const k=e.target.dataset.k;if(!r||!k)return;segs[+r.dataset.i][k]=e.target.value;if(k==='mode')renderSegs();calc();});
+$('ppSegs').addEventListener('click',e=>{if(e.target.dataset.del!=null){segs.splice(+e.target.dataset.del,1);renderSegs();calc();}});
+$('ppAdd').onclick=()=>{const l=segs.length?Math.max(...segs.map(g=>num(g.e))):0;segs.push({s:l+1,e:l+10,label:'現金流量期',mode:'rate',rate:10,base:'principal',note:''});renderSegs();calc();};
+$('ppPrint').onclick=()=>window.print();
+['ppTitle','ppBase','ppYears','ppDeduct'].forEach(id=>{$(id).addEventListener('input',()=>calc());$(id).addEventListener('change',()=>calc());});
+const wan=v=>{const x=v/10000;return (Math.abs(x-Math.round(x))<0.05?Math.round(x):x.toFixed(1))+'';};
+function segPlan(res,principal){return segs.map(g=>{const s=Math.max(1,Math.floor(num(g.s))),e=Math.max(s,Math.floor(num(g.e))),rate=num(g.rate)/100;
+ const pay=y=>{if(g.mode!=='rate'||rate<=0)return 0;if(g.base==='av'){const prev=res[y-2];return prev?Math.round(prev.av*rate):Math.round(principal*rate);}return Math.round(principal*rate);};
+ const yrs=[];for(let y=s;y<=e;y++)yrs.push(pay(y));const tot=yrs.reduce((a,b)=>a+b,0);
+ let auto;if(g.mode!=='rate'||rate<=0)auto=`${g.label}\n(暫不領息/複利)`;
+ else if(g.base==='av')auto=`${g.label}\n每年約${wan(yrs[0]||0)}萬起(帳戶價值${num(g.rate)}%)\n配息逐年成長`;
+ else auto=`${g.label}\n每年約${wan(principal*rate)}萬(${num(g.rate)}%)`;
+ return{...g,s,e,rate,yrs,tot,text:(g.note&&g.note.trim())?g.note:auto};});}
+function renderProp(res,o){const principal=num($('ppBase').value)||(res[0]?res[0].prem:0);const plan=segPlan(res,principal);
+ const maxSeg=plan.length?Math.max(...plan.map(g=>g.e)):10;const showN=Math.min(res.length,num($('ppYears').value)||Math.max(maxSeg,10));
+ const rows=res.slice(0,showN);const f=v=>v?Math.round(v).toLocaleString('en-US'):'';
+ const startOf={};plan.forEach(g=>{if(g.s<=showN)startOf[g.s]=g;});
+ let cover=0;const body=rows.map(r=>{const g=startOf[r.y];let note='';
+  if(g){const span=Math.min(g.e,showN)-g.s+1;note=`<td class="note" rowspan="${span}">${esc(g.text)}</td>`;cover=g.e;}
+  else if(r.y>cover)note='<td class="note0"></td>';
+  const isSeg=!!g&&r.y>1;const tg=r.tgt||0,ex=(r.reg||0)+(r.lump||0);
+  return `<tr class="${isSeg?'seg':''}"><td class="c">${r.y}</td><td class="c">${r.age}</td><td>${f(tg)}</td><td>${f(ex)}</td><td>${f(r.exp)}</td><td>${f(r.adm)}</td><td>${f(r.coi)}</td><td>${f(r.av)||'0'}</td><td class="rb">${f(r.death)||'0'}</td><td>${f(r.av)||'0'}</td>${note}</tr>`;}).join('');
+ const paid=plan.filter(g=>g.tot>0);const totAll=paid.reduce((a,g)=>a+g.tot,0);
+ const span=plan.length?Math.max(...plan.map(g=>g.e))-Math.min(...plan.map(g=>g.s))+1:0;
+ const sum=paid.length?`${span}年總領約=${paid.map(g=>wan(g.tot)).join('+')}${paid.length>1?'='+wan(totAll):''}萬`:'';
+ $('prop').innerHTML=`<div class="prop-top"><div style="flex:1">
+ <table class="prop-hd"><tr><th>被保險人</th><th>保險種類</th><th>險種代號</th><th>首年度保額</th></tr>
+ <tr><td>${esc($('name').value||'VIP')}</td><td style="text-align:left">富邦人壽年年吉祥變額萬能壽險(${o.typ==='A'?'甲型':'乙型'})</td><td>${o.typ==='A'?'UNDA':'UNDB'}</td><td>${Math.round(o.face).toLocaleString('en-US')} 元</td></tr></table>
+ <div class="prop-meta"><span>假設投資報酬率：${(o.rate*100).toFixed(2)}%</span><span>保單計價幣別：新臺幣</span><span>單位：元</span></div></div>
+ <div class="ttl">${esc($('ppTitle').value)}</div></div>
+ <table class="prop-tbl"><thead><tr><th>保險<br>年度</th><th>保險<br>年齡</th><th>當年度目標<br>保險費</th><th>當年度超額<br>保險費</th><th>保費費用</th><th>保單管<br>理費</th><th>保險成本</th><th>年度末<br>保單帳戶價值</th><th class="rb">年度末身故/<br>完全失能保障</th><th>年度末<br>解約金</th><th class="nh"></th></tr></thead><tbody>${body}</tbody></table>
+ <div class="prop-sum">${esc(sum)}</div>
+ <div class="prop-foot">配息${$('ppDeduct').checked?'已自帳戶價值扣除（以中途提領方式試算）':'為基金現金撥回之估計，未自上表帳戶價值扣除'}；配息率非保證，過去績效不代表未來。僅供內部業務參考，實際以保單條款及公司正式建議書為準。</div>`;}
+function applyPreset(k){const set=(id,v)=>{$(id).value=v;};
+ set('name','VIP');set('sex','F');set('ageMode','age');set('ageIn',41);set('typ','A');set('mode','1');set('prem',36000);set('face',300);set('rateSrc','custom');set('rate',1);
+ set('pay1','金融機構轉帳');set('pay2','金融機構轉帳');set('lumpS',1);set('lumpE',1);set('lumpAmt',964000);set('ppBase',1000000);set('ppYears','');$('ppDeduct').checked=false;wds=[];renderWd();
+ if(k==='1'){set('years',30);set('regAmt','');set('regS',1);set('regE',10);set('ppTitle','單筆投入100萬\n(邊領邊成長)');
+  segs=[{s:1,e:10,label:'穩健成長',mode:'rate',rate:5,base:'principal',note:'穩健成長\n+\n領息\n每年約5萬(約5%)'},{s:11,e:20,label:'穩健成長',mode:'rate',rate:10,base:'principal',note:'穩健成長\n每年約10萬(10%)\n配息逐年成長'},{s:21,e:30,label:'穩健成長',mode:'rate',rate:15,base:'principal',note:'穩健成長\n每年約15萬(15%)\n配息逐年成長'}];}
+ else{set('years',25);set('regAmt',5000);set('regS',1);set('regE',10);set('ppTitle','單筆投入100萬\n(先成長)');
+  segs=[{s:1,e:10,label:'累積成長期',mode:'none',rate:0,base:'principal',note:'累積成長期\n(暫不領息/複利)'},{s:11,e:20,label:'現金流量期',mode:'rate',rate:15,base:'principal',note:'現金流量期\n每年約15萬(15%)\n配息逐年成長'},{s:21,e:30,label:'現金流量期',mode:'rate',rate:22,base:'principal',note:'現金流量期\n每年約22萬(22%)'}];}
+ renderSegs();view='prop';[...$('views').children].forEach(x=>x.classList.toggle('on',x.dataset.v==='prop'));calc();$('result').scrollIntoView({behavior:'smooth'});}
+document.querySelector('.u-presets').addEventListener('click',e=>{const b=e.target.closest('button[data-preset]');if(b)applyPreset(b.dataset.preset);});
 $('views').onclick=e=>{const b=e.target.closest('button');if(!b)return;view=b.dataset.v;[...$('views').children].forEach(x=>x.classList.toggle('on',x===b));calc();};
 ['name','sex','ageMode','birth','ageIn','typ','mode','prem','years','face','pay1','pay2','regPay','regS','regE','regAmt','lumpS','lumpE','lumpAmt','rateSrc','rate','cash'].forEach(id=>{$(id).addEventListener('input',calc);$(id).addEventListener('change',calc);});
 function chart(rows){const W=900,Hh=320,L=70,R=20,T=16,B=36;const mx=Math.max(1,...rows.map(r=>Math.max(r.av,r.cum,r.cw+r.cd)));
@@ -373,7 +483,8 @@ function calc(){
  wds.forEach(w=>{if(w.mode==='amt'&&num(w.v)>0&&num(w.v)<10000)warn.push(`第${w.s}–${w.e}年提領 ${fmt(num(w.v))} 元，低於每次最低10,000元。`);});
  $('ageNote').textContent=`${$('name').value||'客戶'}：投保年齡 ${age===null?'—':age} 歲；倍數 ${mt[0]}–${mt[1]}，新契約最低保額 ${fmt(minFace)} 元。`;
  const wdList=wds.filter(w=>num(w.v)>0).map(w=>w.mode==='pct'?{s:num(w.s),e:num(w.e),pct:num(w.v)/100}:{s:num(w.s),e:num(w.e),amt:num(w.v)});
- const res=runEngine({n,prem:premV,sex,typ,face:faceV,years:yearsV,rate:effRate,reg:{amt:RG.regAct,s:RG.regS,e:RG.regE},lump:{amt:RG.lumpAct,s:RG.lumpS,e:RG.lumpE},lumpMax:RG.lumpHi==null?0:RG.lumpHi,pd:0.01,pd1:['金融機構轉帳','富邦信用卡'].includes($('pay1').value)?0.01:0,pd2:['金融機構轉帳','富邦信用卡','自行繳費'].includes($('pay2').value)?0.01:0,dy:useFunds&&cash?dyTot:0,age:Math.max(0,Math.min(ag,110)),wd:wdList});
+ const segW=(()=>{if(!$('ppDeduct').checked)return[];const pr=num($('ppBase').value)||0;return segs.filter(g=>g.mode==='rate'&&num(g.rate)>0).map(g=>g.base==='av'?{s:num(g.s),e:num(g.e),pct:num(g.rate)/100}:{s:num(g.s),e:num(g.e),amt:Math.round((pr||1e6)*num(g.rate)/100)});})();
+ const res=runEngine({n,prem:premV,sex,typ,face:faceV,years:yearsV,rate:effRate,reg:{amt:RG.regAct,s:RG.regS,e:RG.regE},lump:{amt:RG.lumpAct,s:RG.lumpS,e:RG.lumpE},lumpMax:RG.lumpHi==null?0:RG.lumpHi,pd:0.01,pd1:['金融機構轉帳','富邦信用卡'].includes($('pay1').value)?0.01:0,pd2:['金融機構轉帳','富邦信用卡','自行繳費'].includes($('pay2').value)?0.01:0,dy:useFunds&&cash?dyTot:0,age:Math.max(0,Math.min(ag,110)),wd:segW.concat(wdList)});
  const sk=res.filter(r=>r.want>0&&r.wd===0);if(sk.length)warn.push(`第 ${sk.map(r=>r.y).join('、')} 年提領未執行（提領後帳戶價值將低於10,000元或甲型保額不足）。`);
  const last=res[res.length-1],lapsed=last&&last.av===0;if(lapsed)warn.push(`保單帳戶價值於第 ${last.y} 保單年度（${last.age} 歲）歸零，將進入寬限期／停效。`);
  $('warn').innerHTML=warn.length?`<div class="u-warn"><b>提醒</b><ul>${warn.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></div>`:'';
@@ -390,11 +501,14 @@ function calc(){
    const cells=sel.map(f=>fmt(cash&&dyTot>0?r.div*(f.w*f.fund.yld/dyTot)/12:base*f.w*f.fund.yld/12));
    const yr=cash?r.div:sel.reduce((s,f)=>s+base*f.w*f.fund.yld,0);
    return `<tr><td>${r.y}</td><td>${r.age}</td>${cells.map(c=>`<td>${c}</td>`).join('')}<td>${fmt(yr)}</td><td>${cash?fmt(r.cd):'轉投入'}</td></tr>`;});}}
+ const isP=view==='prop';$('propPlan').hidden=!isP;$('prop').hidden=!isP;$('rWrap').hidden=isP;
+ if(isP){renderProp(res,{typ,face:faceV,rate:effRate});return;}
  $('rTbl').tHead.innerHTML=head;$('rTbl').tBodies[0].innerHTML=body.join('');}
 // ---- 基金資料：優先讀本站 data/funds.json，失敗用內嵌備份 ----
 function mapFunds(d){return (d.funds||[]).filter(f=>f.status==='ok'&&f.nav&&f.annual_yield!=null).map(f=>({code:f.code,name:f.short_name||f.name,cur:f.currency,type:f.type,risk:f.risk_level,nav:f.nav,dpu:f.dividend_per_unit,yld:f.annual_yield,r1y:num(f.return_1y),
  und:Array.isArray(f.products)&&f.products.some(p=>p.code==='UND'&&p.on_sale)}));}
-renderQA();renderWd();renderF();calc();
+renderQA();renderWd();renderF();renderSegs();calc();
+{const qp=new URLSearchParams(location.search).get('preset');if(qp==='1'||qp==='2')applyPreset(qp);}
 fetch('data/funds.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{const m=mapFunds(d);if(m.length){FUNDS=m;fundDate=(m.length&&d.funds[0].nav_date)||'';
  $('fundSrc').innerHTML=`標的資料：本站 <a href="fund.html">配息基金</a>（data/funds.json，淨值日 ${esc(fundDate)}；來源富邦人壽投資型保險專區公開資料）`;renderF();calc();}}).catch(()=>{
  $('fundSrc').innerHTML='標的資料：內嵌備份（淨值日 2026-10-28，來源本站配息基金頁）';});
