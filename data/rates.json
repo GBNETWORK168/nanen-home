@@ -1,9 +1,9 @@
 {
   "source": "臺灣銀行牌告匯率",
   "source_url": "https://rate.bot.com.tw/xrt",
-  "listed_at": "2026/10/31 05:31",
+  "listed_at": "2026/11/01 05:31",
   "listed_note": "牌價最新掛牌時間（台北時間）",
-  "fetched_at": "2026/10/31 07:57",
+  "fetched_at": "2026/11/01 07:54",
   "currencies": [
     {
       "code": "USD",
