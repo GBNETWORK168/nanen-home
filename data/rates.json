@@ -1,9 +1,9 @@
 {
   "source": "臺灣銀行牌告匯率",
   "source_url": "https://rate.bot.com.tw/xrt",
-  "listed_at": "2026/11/01 05:31",
+  "listed_at": "2026/11/02 07:51",
   "listed_note": "牌價最新掛牌時間（台北時間）",
-  "fetched_at": "2026/11/01 07:54",
+  "fetched_at": "2026/11/02 07:59",
   "currencies": [
     {
       "code": "USD",
@@ -18,10 +18,10 @@
       "code": "AUD",
       "name": "澳幣",
       "unit": 1,
-      "spot_buy": 22.675,
-      "spot_sell": 23.02,
-      "cash_buy": 22.46,
-      "cash_sell": 23.24
+      "spot_buy": 22.655,
+      "spot_sell": 23.0,
+      "cash_buy": 22.44,
+      "cash_sell": 23.22
     },
     {
       "code": "JPY",
