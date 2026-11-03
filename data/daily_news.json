@@ -1,70 +1,70 @@
 {
-  "date": "2026.10.30",
+  "date": "2026.11.04",
   "title": "南恩新聞報報",
-  "date_label": "2026.10.30",
+  "date_label": "2026.11.04",
   "headlines": [
     {
-      "url": "https://www.cna.com.tw/news/aopl/202610290371.aspx",
-      "title": "美第3季GDP擴張3.4%高於預期 9月核心通膨年增3.1%",
-      "source": "中央社",
-      "time": "2026/10/29"
-    },
-    {
-      "url": "https://www.ctee.com.tw/news/20261030700056-439901",
-      "title": "9月景氣連十紅 最長紀錄",
+      "url": "https://www.ctee.com.tw/news/20261103701350-430704",
+      "title": "輝達祭出51％新規 全球雲端業者被迫與中國客戶切割",
       "source": "工商時報",
-      "time": "2026/10/30"
+      "time": "2026/11/03"
     },
     {
-      "url": "https://www.ctee.com.tw/news/20261030700062-439901",
-      "title": "台股失守2大關 拚反攻",
+      "url": "https://www.cna.com.tw/news/afe/202611030310.aspx",
+      "title": "外資賣超1073億元史上第8大 調節ETF居多",
+      "source": "中央社",
+      "time": "2026/11/03"
+    },
+    {
+      "url": "https://www.ctee.com.tw/news/20261103701577-430301",
+      "title": "民眾永豐銀帳戶錢自動轉出！金管會：共427筆、419人、金額4,000多萬元",
       "source": "工商時報",
-      "time": "2026/10/30"
+      "time": "2026/11/03"
     },
     {
-      "url": "https://www.cna.com.tw/news/afe/202610290380.aspx",
-      "title": "強化資本結構 富邦人壽擬發累積次順位債上限400億",
+      "url": "https://www.cna.com.tw/news/afe/202611030333.aspx",
+      "title": "保誠白皮書：9成高資產族群具財富傳承需求 僅3.7%完成規劃",
       "source": "中央社",
-      "time": "2026/10/29"
+      "time": "2026/11/03"
     },
     {
-      "url": "https://www.cna.com.tw/news/ahel/202610290230.aspx",
-      "title": "健保放寬B肝抗病毒藥給付條件 受惠人數上看3萬人",
+      "url": "https://www.cna.com.tw/news/ahel/202611030228.aspx",
+      "title": "逾8成長者免健保費 3大醫護團發聲籲重新審視",
       "source": "中央社",
-      "time": "2026/10/29"
+      "time": "2026/11/03"
     }
   ],
   "indices": [
     {
       "name": "道瓊",
-      "value": "52,342.56",
+      "value": "51,786.72",
       "dir": "dn",
-      "change": "-132.54（-0.25%）"
+      "change": "-197.26（-0.38%）"
     },
     {
       "name": "標普500",
-      "value": "7,720.39",
-      "dir": "dn",
-      "change": "-23.59（-0.30%）"
+      "value": "7,568.92",
+      "dir": "up",
+      "change": "+27.52（+0.36%）"
     },
     {
       "name": "那斯達克",
-      "value": "26,184.73",
-      "dir": "dn",
-      "change": "-365.12（-1.38%）"
+      "value": "25,372.01",
+      "dir": "up",
+      "change": "+207.65（+0.83%）"
     },
     {
       "name": "台股加權",
-      "value": "46,368.33",
+      "value": "43,307.54",
       "dir": "dn",
-      "change": "-667.25（-1.42%）"
+      "change": "-1,612.60（-3.59%）"
     }
   ],
-  "indices_note": "美股為美東 10/29（週四）收盤；台股為 10/29（週四）收盤",
+  "indices_note": "美股為美東 11/03（週二）收盤；台股為 11/03（週二）收盤（台股 11/04 尚未開盤）",
   "posters": [
     {
-      "caption": "每日報報 2026.10.30（五大頭條）",
-      "download": "20261030-每日報報-五大頭條.png",
+      "caption": "每日報報 2026.11.04（五大頭條）",
+      "download": "20261104-每日報報-五大頭條.png",
       "thumb": "daily-news/thumb/poster-1-headlines.jpg",
       "full": "daily-news/img/poster-1-headlines.png",
       "download_path": "daily-news/img/poster-1-headlines.png"
@@ -72,143 +72,143 @@
   ],
   "clips": [
     {
-      "caption": "美Q3 GDP增3.4%　核心通膨3.1%",
-      "download": "20261030-剪報-美Q3 GDP增3.4%.png",
-      "source_url": "https://www.cna.com.tw/news/aopl/202610290371.aspx",
-      "source": "中央社 2026/10/29",
-      "thumb": "daily-news/thumb/clip-usgdp.jpg",
-      "full": "daily-news/img/cards/usgdp.png",
-      "download_path": "daily-news/img/cards/usgdp.png"
+      "caption": "輝達新規　雲端業者須51%賣非中企",
+      "download": "20261104-剪報-輝達新規.png",
+      "source_url": "https://www.ctee.com.tw/news/20261103701350-430704",
+      "source": "工商時報 2026/11/03",
+      "thumb": "daily-news/thumb/clip-nvdacloud.jpg",
+      "full": "daily-news/img/cards/nvdacloud.png",
+      "download_path": "daily-news/img/cards/nvdacloud.png"
     },
     {
-      "caption": "景氣連10紅　創最長紀錄",
-      "download": "20261030-剪報-景氣連10紅.png",
-      "source_url": "https://www.ctee.com.tw/news/20261030700056-439901",
-      "source": "工商時報 2026/10/30",
-      "thumb": "daily-news/thumb/clip-boom.jpg",
-      "full": "daily-news/img/cards/boom.png",
-      "download_path": "daily-news/img/cards/boom.png"
+      "caption": "外資賣超1073億　史上第8大",
+      "download": "20261104-剪報-外資賣超1073億.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202611030310.aspx",
+      "source": "中央社 2026/11/03",
+      "thumb": "daily-news/thumb/clip-foreignsell.jpg",
+      "full": "daily-news/img/cards/foreignsell.png",
+      "download_path": "daily-news/img/cards/foreignsell.png"
     },
     {
-      "caption": "台股跌667點　失守季線",
-      "download": "20261030-剪報-台股跌667點.png",
-      "source_url": "https://www.ctee.com.tw/news/20261030700062-439901",
-      "source": "工商時報 2026/10/30",
-      "thumb": "daily-news/thumb/clip-taiexdrop.jpg",
-      "full": "daily-news/img/cards/taiexdrop.png",
-      "download_path": "daily-news/img/cards/taiexdrop.png"
+      "caption": "蘋果財報：營收優預期　毛利率展望遜",
+      "download": "20261104-剪報-蘋果財報：營收優預期.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183025/post/202611030004/",
+      "source": "今周刊 2026/11/03",
+      "thumb": "daily-news/thumb/clip-applecfo.jpg",
+      "full": "daily-news/img/cards/applecfo.png",
+      "download_path": "daily-news/img/cards/applecfo.png"
     },
     {
-      "caption": "台達電14天跌3成　法說解析",
-      "download": "20261030-剪報-台達電14天跌3成.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183015/post/202610290044/",
-      "source": "今周刊 2026/10/29",
-      "thumb": "daily-news/thumb/clip-deltaq3.jpg",
-      "full": "daily-news/img/cards/deltaq3.png",
-      "download_path": "daily-news/img/cards/deltaq3.png"
+      "caption": "資金荒：有房無債也貸不到錢",
+      "download": "20261104-剪報-資金荒：有房無債也貸不到錢.png",
+      "source_url": "https://www.cw.com.tw/article/5143547",
+      "source": "天下雜誌 2026/11/03",
+      "thumb": "daily-news/thumb/clip-loancrunch.jpg",
+      "full": "daily-news/img/cards/loancrunch.png",
+      "download_path": "daily-news/img/cards/loancrunch.png"
     },
     {
-      "caption": "公股行庫資金緊俏　LCR告急",
-      "download": "20261030-剪報-公股行庫資金緊俏.png",
-      "source_url": "https://www.cw.com.tw/article/5143492",
-      "source": "天下雜誌 2026/10/29",
-      "thumb": "daily-news/thumb/clip-banklcr.jpg",
-      "full": "daily-news/img/cards/banklcr.png",
-      "download_path": "daily-news/img/cards/banklcr.png"
+      "caption": "華邦電731億擴產　高雄新廠12/29動工",
+      "download": "20261104-剪報-華邦電731億擴產.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202611030266.aspx",
+      "source": "中央社 2026/11/03",
+      "thumb": "daily-news/thumb/clip-winbond.jpg",
+      "full": "daily-news/img/cards/winbond.png",
+      "download_path": "daily-news/img/cards/winbond.png"
     },
     {
-      "caption": "聯電跌停　法人目標價分歧",
-      "download": "20261030-剪報-聯電跌停.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183008/post/202610290017/",
-      "source": "今周刊 2026/10/29",
-      "thumb": "daily-news/thumb/clip-umcdrop.jpg",
-      "full": "daily-news/img/cards/umcdrop.png",
-      "download_path": "daily-news/img/cards/umcdrop.png"
+      "caption": "永豐銀帳戶自動轉出　419人受影響",
+      "download": "20261104-剪報-永豐銀帳戶自動轉出.png",
+      "source_url": "https://www.ctee.com.tw/news/20261103701577-430301",
+      "source": "工商時報 2026/11/03",
+      "thumb": "daily-news/thumb/clip-sinopac.jpg",
+      "full": "daily-news/img/cards/sinopac.png",
+      "download_path": "daily-news/img/cards/sinopac.png"
     },
     {
-      "caption": "富邦人壽擬發次順位債400億",
-      "download": "20261030-剪報-富邦人壽擬發次順位債400億.png",
-      "source_url": "https://www.cna.com.tw/news/afe/202610290380.aspx",
-      "source": "中央社 2026/10/29",
-      "thumb": "daily-news/thumb/clip-fubonbond.jpg",
-      "full": "daily-news/img/cards/fubonbond.png",
-      "download_path": "daily-news/img/cards/fubonbond.png"
+      "caption": "保誠白皮書：僅3.7%完成傳承規劃",
+      "download": "20261104-剪報-保誠白皮書：僅3.7%完成傳承規劃.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202611030333.aspx",
+      "source": "中央社 2026/11/03",
+      "thumb": "daily-news/thumb/clip-prudential.jpg",
+      "full": "daily-news/img/cards/prudential.png",
+      "download_path": "daily-news/img/cards/prudential.png"
     },
     {
-      "caption": "資安威脅升溫　企業宜投保資安險",
-      "download": "20261030-剪報-資安威脅升溫.png",
-      "source_url": "https://www.ctee.com.tw/news/20261030700107-439901",
-      "source": "工商時報 2026/10/30",
+      "caption": "資安險前三季保費5.64億　年增近4成",
+      "download": "20261104-剪報-資安險前三季保費5.64億.png",
+      "source_url": "https://www.ctee.com.tw/news/20261103700305-430305",
+      "source": "工商時報 2026/11/03",
       "thumb": "daily-news/thumb/clip-cyberins.jpg",
       "full": "daily-news/img/cards/cyberins.png",
       "download_path": "daily-news/img/cards/cyberins.png"
     },
     {
-      "caption": "高息ETF回溫　00927報酬居冠",
-      "download": "20261030-剪報-高息ETF回溫.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202610290014/",
-      "source": "今周刊 2026/10/29",
-      "thumb": "daily-news/thumb/clip-hiyield.jpg",
-      "full": "daily-news/img/cards/hiyield.png",
-      "download_path": "daily-news/img/cards/hiyield.png"
+      "caption": "00406A配息誘人　高配息不等於高報酬",
+      "download": "20261104-剪報-00406A配息誘人.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202611030034/",
+      "source": "今周刊 2026/11/03",
+      "thumb": "daily-news/thumb/clip-etf00406a.jpg",
+      "full": "daily-news/img/cards/etf00406a.png",
+      "download_path": "daily-news/img/cards/etf00406a.png"
     },
     {
-      "caption": "元大金破兆　五大兆元金控",
-      "download": "20261030-剪報-元大金破兆.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183025/post/202610290018/",
-      "source": "今周刊 2026/10/29",
-      "thumb": "daily-news/thumb/clip-trilliongroup.jpg",
-      "full": "daily-news/img/cards/trilliongroup.png",
-      "download_path": "daily-news/img/cards/trilliongroup.png"
+      "caption": "貝萊德投資長：無聊的7%債息也能安心睡",
+      "download": "20261104-剪報-貝萊德投資長：無聊的7%債息也能安心睡.png",
+      "source_url": "https://www.cw.com.tw/article/5143543",
+      "source": "天下雜誌 2026/11/03",
+      "thumb": "daily-news/thumb/clip-blackrock.jpg",
+      "full": "daily-news/img/cards/blackrock.png",
+      "download_path": "daily-news/img/cards/blackrock.png"
     },
     {
-      "caption": "主動型基金勝率僅4成",
-      "download": "20261030-剪報-主動型基金勝率僅4成.png",
-      "source_url": "https://www.cw.com.tw/article/5143484",
-      "source": "天下雜誌 2026/10/29",
-      "thumb": "daily-news/thumb/clip-activefund.jpg",
-      "full": "daily-news/img/cards/activefund.png",
-      "download_path": "daily-news/img/cards/activefund.png"
+      "caption": "0050何時轉0056？退休被動收入差一倍",
+      "download": "20261104-剪報-0050何時轉0056退休被動收入差一倍.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202611030019/",
+      "source": "今周刊 2026/11/03",
+      "thumb": "daily-news/thumb/clip-etf0050.jpg",
+      "full": "daily-news/img/cards/etf0050.png",
+      "download_path": "daily-news/img/cards/etf0050.png"
     },
     {
-      "caption": "B肝用藥放寬　3萬人受惠",
-      "download": "20261030-剪報-B肝用藥放寬.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202610290230.aspx",
-      "source": "中央社 2026/10/29",
-      "thumb": "daily-news/thumb/clip-hbvdrug.jpg",
-      "full": "daily-news/img/cards/hbvdrug.png",
-      "download_path": "daily-news/img/cards/hbvdrug.png"
+      "caption": "逾8成長者免健保費　三大醫護團籲審視",
+      "download": "20261104-剪報-逾8成長者免健保費.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611030228.aspx",
+      "source": "中央社 2026/11/03",
+      "thumb": "daily-news/thumb/clip-elderhi.jpg",
+      "full": "daily-news/img/cards/elderhi.png",
+      "download_path": "daily-news/img/cards/elderhi.png"
     },
     {
-      "caption": "失智照護3.0　衛福部提4方向",
-      "download": "20261030-剪報-失智照護3.0.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202610290289.aspx",
-      "source": "中央社 2026/10/29",
-      "thumb": "daily-news/thumb/clip-dementia.jpg",
-      "full": "daily-news/img/cards/dementia.png",
-      "download_path": "daily-news/img/cards/dementia.png"
+      "caption": "長者哽塞昏迷　彰基員工接力哈姆立克救命",
+      "download": "20261104-剪報-長者哽塞昏迷.png",
+      "source_url": "https://www.ctee.com.tw/news/20261103701922-431401",
+      "source": "工商時報 2026/11/03",
+      "thumb": "daily-news/thumb/clip-heimlich.jpg",
+      "full": "daily-news/img/cards/heimlich.png",
+      "download_path": "daily-news/img/cards/heimlich.png"
     },
     {
-      "caption": "牛奶針治失眠　衛福部要查",
-      "download": "20261030-剪報-牛奶針治失眠.png",
-      "source_url": "https://www.ctee.com.tw/news/20261029701706-431401",
-      "source": "工商時報 2026/10/29",
-      "thumb": "daily-news/thumb/clip-propofol.jpg",
-      "full": "daily-news/img/cards/propofol.png",
-      "download_path": "daily-news/img/cards/propofol.png"
+      "caption": "姚黛瑋：45歲開始運動走出憂鬱黑洞",
+      "download": "20261104-剪報-姚黛瑋：45歲開始運動走出憂鬱黑洞.png",
+      "source_url": "https://www.cw.com.tw/article/5143529",
+      "source": "天下雜誌 2026/11/02",
+      "thumb": "daily-news/thumb/clip-yaodaiwei.jpg",
+      "full": "daily-news/img/cards/yaodaiwei.png",
+      "download_path": "daily-news/img/cards/yaodaiwei.png"
     },
     {
-      "caption": "共生之家　長照第三條路",
-      "download": "20261030-剪報-共生之家.png",
-      "source_url": "https://www.cw.com.tw/article/5143399",
-      "source": "天下雜誌 2026/10/29",
-      "thumb": "daily-news/thumb/clip-cohousing.jpg",
-      "full": "daily-news/img/cards/cohousing.png",
-      "download_path": "daily-news/img/cards/cohousing.png"
+      "caption": "眼中風：黃金治療時間與高風險群",
+      "download": "20261104-剪報-眼中風：黃金治療時間與高風險群.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183029/post/202611020039/",
+      "source": "今周刊 2026/11/03",
+      "thumb": "daily-news/thumb/clip-eyestroke.jpg",
+      "full": "daily-news/img/cards/eyestroke.png",
+      "download_path": "daily-news/img/cards/eyestroke.png"
     }
   ],
-  "zip": "daily-news/news-20261030-all.zip",
+  "zip": "daily-news/news-20261104-all.zip",
   "page": "daily-news/",
   "source_repo": "https://dashin-team.github.io/daily-news/",
-  "synced_at": "2026/11/03 08:55"
+  "synced_at": "2026/11/04 08:55"
 }
