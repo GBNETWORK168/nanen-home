@@ -190,26 +190,136 @@
     }
    ],
    "currency": "TWD",
-   "nav": 666.05,
-   "nav_date": "2026-11-03",
+   "nav": 665.8,
+   "nav_date": "2026-11-04",
    "risk_level": "RR5",
    "type": "國內股票開放型科技類",
    "region": "台灣",
    "company": "安聯投信",
    "benchmark": "台灣資訊科技指數",
    "returns": {
-    "ytd": 71.87,
-    "m1": -20.37,
-    "m3": -3.55,
-    "m6": -2.66,
-    "y1": 100.03,
-    "y2": 206.75,
-    "y3": 323.83,
-    "y5": 382.19
+    "ytd": 71.81,
+    "m1": -20.4,
+    "m3": -6.43,
+    "m6": -7.82,
+    "y1": 104.38,
+    "y2": 202.24,
+    "y3": 323.67,
+    "y5": 382.78
    },
-   "std_dev": 53.84,
-   "sharpe": 0.45,
-   "beta": 1.25,
+   "std_dev": 57.65,
+   "sharpe": 0.43,
+   "beta": 1.38,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "category": "tech",
+   "sub": "台灣科技",
+   "boundary": null,
+   "origin": "人工審閱",
+   "status": "ok",
+   "dividend_per_unit": null,
+   "dividend_date": null,
+   "frequency": "無配息（累積型）",
+   "frequency_source": null,
+   "periods_per_year": null,
+   "dividend_12m_per_unit": null,
+   "dividend_12m_count": 0,
+   "annual_yield": null,
+   "annual_yield_12m": null
+  },
+  {
+   "code": "NGE5",
+   "name": "野村e科技證券投資信託基金",
+   "short_name": "野村e科技",
+   "kind": "境內基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/14/NGE5",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
+   "currency": "TWD",
+   "nav": 192.28,
+   "nav_date": "2026-11-04",
+   "risk_level": "RR5",
+   "type": "國內股票開放型科技類",
+   "region": "台灣",
+   "company": "野村投信",
+   "benchmark": "台灣資訊科技指數",
+   "returns": {
+    "ytd": 61.21,
+    "m1": -19.71,
+    "m3": -0.92,
+    "m6": -16.02,
+    "y1": 86.75,
+    "y2": 176.74,
+    "y3": 248.9,
+    "y5": 347.58
+   },
+   "std_dev": 57.29,
+   "sharpe": 0.39,
+   "beta": 1.31,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "台灣科技",
@@ -320,26 +430,26 @@
     }
    ],
    "currency": "TWD",
-   "nav": 36.35,
-   "nav_date": "2026-11-03",
+   "nav": 36.02,
+   "nav_date": "2026-11-04",
    "risk_level": "RR5",
    "type": "資訊科技股",
    "region": "台灣",
    "company": "富邦投信",
    "benchmark": "ICE FactSet台灣核心半導體指數",
    "returns": {
-    "ytd": 76.46,
-    "m1": -15.93,
-    "m3": -6.5,
-    "m6": 1.1,
-    "y1": 85.73,
-    "y2": 130.53,
-    "y3": 222.39,
-    "y5": 182.19
+    "ytd": 74.86,
+    "m1": -16.69,
+    "m3": -7.27,
+    "m6": -5.06,
+    "y1": 84.92,
+    "y2": 128.05,
+    "y3": 219.47,
+    "y5": 180.5
    },
-   "std_dev": 44.41,
-   "sharpe": 0.46,
-   "beta": 0.74,
+   "std_dev": 48.82,
+   "sharpe": 0.42,
+   "beta": 0.73,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "半導體ETF",
@@ -353,118 +463,8 @@
    "periods_per_year": 4,
    "dividend_12m_per_unit": 6.736,
    "dividend_12m_count": 3,
-   "annual_yield": 0.440165,
-   "annual_yield_12m": 0.185309
-  },
-  {
-   "code": "NGE5",
-   "name": "野村e科技證券投資信託基金",
-   "short_name": "野村e科技",
-   "kind": "境內基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/14/NGE5",
-   "products": [
-    {
-     "code": "UND",
-     "name": "年年吉祥變額萬能壽險",
-     "on_sale": true
-    },
-    {
-     "code": "AUT",
-     "name": "聚富變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "FPVA",
-     "name": "卓越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "NUL",
-     "name": "優質理財變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "UL",
-     "name": "靈活理財變額保險",
-     "on_sale": false
-    },
-    {
-     "code": "ULN",
-     "name": "吉祥理財變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "ULO",
-     "name": "吉祥理財變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "ULV",
-     "name": "富貴吉祥變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "UNA",
-     "name": "富貴吉祥變額萬能壽險(V2)",
-     "on_sale": false
-    },
-    {
-     "code": "UNO",
-     "name": "吉祥理財變額萬能壽險(V1)",
-     "on_sale": false
-    },
-    {
-     "code": "UNV",
-     "name": "富貴吉祥變額萬能壽險(V1)",
-     "on_sale": false
-    },
-    {
-     "code": "VADT",
-     "name": "優越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBDT",
-     "name": "優越變額年金保險",
-     "on_sale": false
-    }
-   ],
-   "currency": "TWD",
-   "nav": 192.01,
-   "nav_date": "2026-11-03",
-   "risk_level": "RR5",
-   "type": "國內股票開放型科技類",
-   "region": "台灣",
-   "company": "野村投信",
-   "benchmark": "台灣資訊科技指數",
-   "returns": {
-    "ytd": 60.99,
-    "m1": -19.82,
-    "m3": 4.81,
-    "m6": -12.82,
-    "y1": 81.4,
-    "y2": 179.0,
-    "y3": 248.41,
-    "y5": 346.22
-   },
-   "std_dev": 55.66,
-   "sharpe": 0.38,
-   "beta": 1.17,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "category": "tech",
-   "sub": "台灣科技",
-   "boundary": null,
-   "origin": "人工審閱",
-   "status": "ok",
-   "dividend_per_unit": null,
-   "dividend_date": null,
-   "frequency": "無配息（累積型）",
-   "frequency_source": null,
-   "periods_per_year": null,
-   "dividend_12m_per_unit": null,
-   "dividend_12m_count": 0,
-   "annual_yield": null,
-   "annual_yield_12m": null
+   "annual_yield": 0.444198,
+   "annual_yield_12m": 0.187007
   },
   {
    "code": "F0052",
@@ -560,26 +560,26 @@
     }
    ],
    "currency": "TWD",
-   "nav": 58.14,
-   "nav_date": "2026-11-03",
+   "nav": 57.55,
+   "nav_date": "2026-11-04",
    "risk_level": "RR5",
    "type": "資訊科技股",
    "region": "台灣",
    "company": "富邦投信",
    "benchmark": "臺灣資訊科技指數",
    "returns": {
-    "ytd": 57.1,
-    "m1": -11.9,
-    "m3": -1.78,
-    "m6": 10.35,
-    "y1": 61.04,
-    "y2": 126.42,
-    "y3": 279.14,
-    "y5": 302.2
+    "ytd": 56.16,
+    "m1": -12.43,
+    "m3": -1.53,
+    "m6": 4.24,
+    "y1": 60.94,
+    "y2": 122.04,
+    "y3": 276.86,
+    "y5": 301.54
    },
-   "std_dev": 37.6,
+   "std_dev": 37.84,
    "sharpe": 0.41,
-   "beta": 1.01,
+   "beta": 0.94,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "台灣科技ETF",
@@ -593,8 +593,8 @@
    "periods_per_year": 1,
    "dividend_12m_per_unit": 1.199,
    "dividend_12m_count": 1,
-   "annual_yield": 0.020623,
-   "annual_yield_12m": 0.020623
+   "annual_yield": 0.020834,
+   "annual_yield_12m": 0.020834
   },
   {
    "code": "FBE14",
@@ -630,26 +630,26 @@
     }
    ],
    "currency": "TWD",
-   "nav": 80.17,
-   "nav_date": "2026-11-03",
+   "nav": 80.03,
+   "nav_date": "2026-11-04",
    "risk_level": "RR5",
    "type": "國內股票開放型科技類",
    "region": "台灣",
    "company": "富邦投信",
    "benchmark": "台灣資訊科技指數",
    "returns": {
-    "ytd": 34.04,
-    "m1": -19.18,
-    "m3": -5.24,
-    "m6": -20.75,
-    "y1": 44.27,
-    "y2": 103.63,
-    "y3": 128.73,
-    "y5": 127.89
+    "ytd": 33.81,
+    "m1": -19.32,
+    "m3": -8.71,
+    "m6": -24.05,
+    "y1": 46.49,
+    "y2": 101.03,
+    "y3": 128.33,
+    "y5": 127.49
    },
-   "std_dev": 48.97,
-   "sharpe": 0.28,
-   "beta": 1.07,
+   "std_dev": 52.01,
+   "sharpe": 0.27,
+   "beta": 1.23,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "台灣科技",
@@ -795,26 +795,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 50.8644,
-   "nav_date": "2026-11-02",
+   "nav": 49.8617,
+   "nav_date": "2026-11-03",
    "risk_level": "RR4",
    "type": "多重資產型",
    "region": "全球",
    "company": "富邦投信",
    "benchmark": "道瓊全球指數",
    "returns": {
-    "ytd": 38.29,
-    "m1": -21.88,
-    "m3": -4.21,
-    "m6": -13.35,
-    "y1": 34.86,
-    "y2": 96.26,
-    "y3": 206.63,
-    "y5": 147.43
+    "ytd": 35.57,
+    "m1": -23.42,
+    "m3": -9.49,
+    "m6": -15.06,
+    "y1": 31.4,
+    "y2": 92.39,
+    "y3": 198.25,
+    "y5": 142.59
    },
-   "std_dev": 53.51,
-   "sharpe": 0.23,
-   "beta": 3.2,
+   "std_dev": 55.0,
+   "sharpe": 0.21,
+   "beta": 3.5,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "AI主題多重資產",
@@ -875,26 +875,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 163.46,
-   "nav_date": "2026-11-02",
+   "nav": 153.45,
+   "nav_date": "2026-11-03",
    "risk_level": "RR5",
    "type": "股票型",
    "region": "全球",
    "company": "安聯投信",
    "benchmark": "ISE Cyber Security UCITS Total Return Net",
    "returns": {
-    "ytd": 39.67,
-    "m1": -5.1,
-    "m3": 13.49,
-    "m6": 49.17,
-    "y1": 28.49,
+    "ytd": 31.12,
+    "m1": -10.91,
+    "m3": 5.6,
+    "m6": 40.03,
+    "y1": 18.15,
     "y2": null,
     "y3": null,
     "y5": null
    },
-   "std_dev": 46.54,
-   "sharpe": 0.2,
-   "beta": 1.64,
+   "std_dev": 49.65,
+   "sharpe": 0.15,
+   "beta": 1.9,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "網路資安",
@@ -908,8 +908,8 @@
    "periods_per_year": 12,
    "dividend_12m_per_unit": 3.87596,
    "dividend_12m_count": 12,
-   "annual_yield": 0.030984,
-   "annual_yield_12m": 0.023712
+   "annual_yield": 0.033005,
+   "annual_yield_12m": 0.025259
   },
   {
    "code": "JF09",
@@ -930,26 +930,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 153.6,
-   "nav_date": "2026-11-02",
+   "nav": 150.51,
+   "nav_date": "2026-11-03",
    "risk_level": "RR5",
    "type": "資訊科技股",
    "region": "太平洋地區(含日本)",
    "company": "摩根投信",
    "benchmark": "MSCI 綜合亞太科技100等權重淨回報指數",
    "returns": {
-    "ytd": 25.57,
-    "m1": -14.47,
-    "m3": -10.15,
-    "m6": 2.24,
-    "y1": 21.16,
-    "y2": 74.29,
-    "y3": 117.44,
-    "y5": 26.56
+    "ytd": 23.05,
+    "m1": -16.19,
+    "m3": -11.88,
+    "m6": 0.19,
+    "y1": 17.69,
+    "y2": 70.78,
+    "y3": 109.39,
+    "y5": 24.32
    },
-   "std_dev": 45.5,
-   "sharpe": 0.17,
-   "beta": 1.21,
+   "std_dev": 48.48,
+   "sharpe": 0.15,
+   "beta": 1.34,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "資訊科技（亞太）",
@@ -1060,225 +1060,30 @@
     }
    ],
    "currency": "TWD",
-   "nav": 116.91,
-   "nav_date": "2026-11-02",
+   "nav": 118.58,
+   "nav_date": "2026-11-03",
    "risk_level": "RR4",
    "type": "資訊科技股",
    "region": "美國",
    "company": "富邦投信",
    "benchmark": "NASDAQ-100指數",
    "returns": {
-    "ytd": 16.85,
-    "m1": -4.5,
-    "m3": 1.18,
-    "m6": 8.6,
-    "y1": 16.57,
-    "y2": 45.92,
-    "y3": 96.0,
-    "y5": 111.37
+    "ytd": 14.66,
+    "m1": -6.29,
+    "m3": -0.84,
+    "m6": 6.56,
+    "y1": 14.49,
+    "y2": 43.19,
+    "y3": 90.45,
+    "y5": 105.95
    },
-   "std_dev": 20.22,
-   "sharpe": 0.23,
-   "beta": 0.8,
+   "std_dev": 21.75,
+   "sharpe": 0.19,
+   "beta": 0.92,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "美國科技ETF",
    "boundary": "指數為 NASDAQ-100，名稱無科技字樣；富邦網站標示投資標的為資訊科技股",
-   "origin": "人工審閱",
-   "status": "ok",
-   "dividend_per_unit": null,
-   "dividend_date": null,
-   "frequency": "無配息（累積型）",
-   "frequency_source": null,
-   "periods_per_year": null,
-   "dividend_12m_per_unit": null,
-   "dividend_12m_count": 0,
-   "annual_yield": null,
-   "annual_yield_12m": null
-  },
-  {
-   "code": "FDE33",
-   "name": "富達基金-全球科技基金(A股累計美元)",
-   "short_name": "富達全球科技",
-   "kind": "境外基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDE33",
-   "products": [
-    {
-     "code": "UND",
-     "name": "年年吉祥變額萬能壽險",
-     "on_sale": true
-    },
-    {
-     "code": "VCAT",
-     "name": "真好利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCBF",
-     "name": "外幣計價真吉利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCBT",
-     "name": "真吉利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCCF",
-     "name": "外幣計價真豐利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCCT",
-     "name": "真豐利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCDF",
-     "name": "外幣計價真福利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCDT",
-     "name": "真福利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "FFVA",
-     "name": "外幣計價卓越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "FPVA",
-     "name": "卓越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "NUL",
-     "name": "優質理財變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "UL",
-     "name": "靈活理財變額保險",
-     "on_sale": false
-    },
-    {
-     "code": "ULN",
-     "name": "吉祥理財變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "ULO",
-     "name": "吉祥理財變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "ULV",
-     "name": "富貴吉祥變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "UNA",
-     "name": "富貴吉祥變額萬能壽險(V2)",
-     "on_sale": false
-    },
-    {
-     "code": "UNO",
-     "name": "吉祥理財變額萬能壽險(V1)",
-     "on_sale": false
-    },
-    {
-     "code": "UNV",
-     "name": "富貴吉祥變額萬能壽險(V1)",
-     "on_sale": false
-    },
-    {
-     "code": "VABF",
-     "name": "外幣計價真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VABT",
-     "name": "真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VACF",
-     "name": "外幣計價真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VACT",
-     "name": "真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VADF",
-     "name": "外幣計價優越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VADT",
-     "name": "優越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBBF",
-     "name": "外幣計價真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBBT",
-     "name": "真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBCF",
-     "name": "外幣計價真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBCT",
-     "name": "真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBDF",
-     "name": "外幣計價優越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBDT",
-     "name": "優越變額年金保險",
-     "on_sale": false
-    }
-   ],
-   "currency": "USD",
-   "nav": 86.21,
-   "nav_date": "2026-11-02",
-   "risk_level": "RR4",
-   "type": "資訊科技股",
-   "region": "全球",
-   "company": "富達投信",
-   "benchmark": "MSCI AC World Information Technology Index",
-   "returns": {
-    "ytd": 14.78,
-    "m1": -1.54,
-    "m3": 4.59,
-    "m6": 4.45,
-    "y1": 13.82,
-    "y2": 44.28,
-    "y3": 97.91,
-    "y5": 85.92
-   },
-   "std_dev": 21.46,
-   "sharpe": 0.19,
-   "beta": 0.62,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "category": "tech",
-   "sub": "資訊科技",
-   "boundary": null,
    "origin": "人工審閱",
    "status": "ok",
    "dividend_per_unit": null,
@@ -1525,26 +1330,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 1378.19,
-   "nav_date": "2026-11-02",
+   "nav": 1397.85,
+   "nav_date": "2026-11-03",
    "risk_level": "RR4",
    "type": "資訊科技股",
    "region": "全球",
    "company": "聯博投信",
    "benchmark": "摩根史坦利世界資訊科技指數",
    "returns": {
-    "ytd": 17.24,
-    "m1": -16.38,
-    "m3": -6.31,
-    "m6": -3.92,
-    "y1": 13.0,
-    "y2": 62.29,
-    "y3": 139.43,
-    "y5": 66.69
+    "ytd": 18.92,
+    "m1": -15.19,
+    "m3": -7.08,
+    "m6": -2.55,
+    "y1": 13.84,
+    "y2": 64.61,
+    "y3": 137.64,
+    "y5": 68.02
    },
-   "std_dev": 39.3,
-   "sharpe": 0.13,
-   "beta": 1.22,
+   "std_dev": 37.16,
+   "sharpe": 0.14,
+   "beta": 1.23,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "資訊科技",
@@ -1560,6 +1365,421 @@
    "dividend_12m_count": 0,
    "annual_yield": null,
    "annual_yield_12m": null
+  },
+  {
+   "code": "FDE33",
+   "name": "富達基金-全球科技基金(A股累計美元)",
+   "short_name": "富達全球科技",
+   "kind": "境外基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/34/FDE33",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
+   "currency": "USD",
+   "nav": 85.5,
+   "nav_date": "2026-11-03",
+   "risk_level": "RR4",
+   "type": "資訊科技股",
+   "region": "全球",
+   "company": "富達投信",
+   "benchmark": "MSCI AC World Information Technology Index",
+   "returns": {
+    "ytd": 13.83,
+    "m1": -2.35,
+    "m3": 1.73,
+    "m6": 3.59,
+    "y1": 12.41,
+    "y2": 43.1,
+    "y3": 92.01,
+    "y5": 84.35
+   },
+   "std_dev": 18.88,
+   "sharpe": 0.18,
+   "beta": 0.61,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "category": "tech",
+   "sub": "資訊科技",
+   "boundary": null,
+   "origin": "人工審閱",
+   "status": "ok",
+   "dividend_per_unit": null,
+   "dividend_date": null,
+   "frequency": "無配息（累積型）",
+   "frequency_source": null,
+   "periods_per_year": null,
+   "dividend_12m_per_unit": null,
+   "dividend_12m_count": 0,
+   "annual_yield": null,
+   "annual_yield_12m": null
+  },
+  {
+   "code": "DST3",
+   "name": "安聯AI收益成長多重資產證券投資信託基金-B類型(月配息)-美元",
+   "short_name": "安聯AI收益成長",
+   "kind": "境內基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/10/DST3",
+   "products": [
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    }
+   ],
+   "currency": "USD",
+   "nav": 11.71,
+   "nav_date": "2026-11-03",
+   "risk_level": "RR3",
+   "type": "多重資產型",
+   "region": "台灣,美國,日本,英國,韓國,香港,德國,法國,印度,瑞士,荷蘭,新加坡,大中華地區,芬蘭,西班牙,瑞典,丹麥,奧地利,挪威",
+   "company": "安聯投信",
+   "benchmark": "道瓊工業",
+   "returns": {
+    "ytd": 11.24,
+    "m1": -8.21,
+    "m3": -6.72,
+    "m6": -3.46,
+    "y1": 9.79,
+    "y2": 33.13,
+    "y3": null,
+    "y5": null
+   },
+   "std_dev": 18.94,
+   "sharpe": 0.15,
+   "beta": 0.51,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "category": "tech",
+   "sub": "AI主題多重資產",
+   "boundary": "名稱含「AI」，但類型為多重資產型收益基金（非純科技股）",
+   "origin": "人工審閱",
+   "status": "ok",
+   "dividend_per_unit": 0.097,
+   "dividend_date": "2026-10-29",
+   "frequency": "月配",
+   "frequency_source": "富邦網站配息頻率欄",
+   "periods_per_year": 12,
+   "dividend_12m_per_unit": 0.995,
+   "dividend_12m_count": 12,
+   "annual_yield": 0.099402,
+   "annual_yield_12m": 0.08497
+  },
+  {
+   "code": "MLE24",
+   "name": "貝萊德世界科技基金A10美元(總報酬穩定配息)",
+   "short_name": "貝萊德世界科技 A10",
+   "kind": "境外基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/27/MLE24",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "VCAT",
+     "name": "真好利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBF",
+     "name": "外幣計價真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCBT",
+     "name": "真吉利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCF",
+     "name": "外幣計價真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCCT",
+     "name": "真豐利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDF",
+     "name": "外幣計價真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "VCDT",
+     "name": "真福利變額年金保險",
+     "on_sale": true
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VABF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VABT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VACT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBF",
+     "name": "外幣計價真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBBT",
+     "name": "真多利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCF",
+     "name": "外幣計價真有利變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBCT",
+     "name": "真有利變額年金保險",
+     "on_sale": false
+    }
+   ],
+   "currency": "USD",
+   "nav": 18.49,
+   "nav_date": "2026-11-03",
+   "risk_level": "RR4",
+   "type": "資訊科技股",
+   "region": "全球",
+   "company": "貝萊德投信",
+   "benchmark": "摩根士丹利（所有國家）世界資訊科技 10/40 指數",
+   "returns": {
+    "ytd": 17.75,
+    "m1": -16.19,
+    "m3": -3.91,
+    "m6": 2.12,
+    "y1": 9.57,
+    "y2": 47.7,
+    "y3": 110.76,
+    "y5": null
+   },
+   "std_dev": 42.16,
+   "sharpe": 0.11,
+   "beta": 1.39,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "category": "tech",
+   "sub": "資訊科技",
+   "boundary": null,
+   "origin": "人工審閱",
+   "status": "ok",
+   "dividend_per_unit": 0.162,
+   "dividend_date": "2026-10-30",
+   "frequency": "月配",
+   "frequency_source": "富邦網站配息頻率欄",
+   "periods_per_year": 12,
+   "dividend_12m_per_unit": 1.7395,
+   "dividend_12m_count": 12,
+   "annual_yield": 0.105138,
+   "annual_yield_12m": 0.094078
   },
   {
    "code": "MLE23",
@@ -1690,26 +1910,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 134.52,
-   "nav_date": "2026-11-02",
+   "nav": 132.16,
+   "nav_date": "2026-11-03",
    "risk_level": "RR4",
    "type": "資訊科技股",
    "region": "全球",
    "company": "貝萊德投信",
    "benchmark": "摩根士丹利（所有國家）世界資訊科技 10/40 指數",
    "returns": {
-    "ytd": 19.85,
-    "m1": -14.66,
-    "m3": -2.74,
-    "m6": 3.89,
-    "y1": 11.29,
-    "y2": 50.39,
-    "y3": 117.46,
-    "y5": 53.47
+    "ytd": 17.75,
+    "m1": -16.15,
+    "m3": -3.87,
+    "m6": 2.07,
+    "y1": 9.56,
+    "y2": 47.75,
+    "y3": 111.05,
+    "y5": 51.3
    },
-   "std_dev": 41.84,
-   "sharpe": 0.12,
-   "beta": 1.28,
+   "std_dev": 42.13,
+   "sharpe": 0.11,
+   "beta": 1.39,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "資訊科技",
@@ -1725,226 +1945,6 @@
    "dividend_12m_count": 0,
    "annual_yield": null,
    "annual_yield_12m": null
-  },
-  {
-   "code": "MLE24",
-   "name": "貝萊德世界科技基金A10美元(總報酬穩定配息)",
-   "short_name": "貝萊德世界科技 A10",
-   "kind": "境外基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/27/MLE24",
-   "products": [
-    {
-     "code": "UND",
-     "name": "年年吉祥變額萬能壽險",
-     "on_sale": true
-    },
-    {
-     "code": "VCAT",
-     "name": "真好利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCBF",
-     "name": "外幣計價真吉利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCBT",
-     "name": "真吉利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCCF",
-     "name": "外幣計價真豐利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCCT",
-     "name": "真豐利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCDF",
-     "name": "外幣計價真福利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCDT",
-     "name": "真福利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "ULV",
-     "name": "富貴吉祥變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "UNA",
-     "name": "富貴吉祥變額萬能壽險(V2)",
-     "on_sale": false
-    },
-    {
-     "code": "UNV",
-     "name": "富貴吉祥變額萬能壽險(V1)",
-     "on_sale": false
-    },
-    {
-     "code": "VABF",
-     "name": "外幣計價真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VABT",
-     "name": "真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VACF",
-     "name": "外幣計價真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VACT",
-     "name": "真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBBF",
-     "name": "外幣計價真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBBT",
-     "name": "真多利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBCF",
-     "name": "外幣計價真有利變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBCT",
-     "name": "真有利變額年金保險",
-     "on_sale": false
-    }
-   ],
-   "currency": "USD",
-   "nav": 18.82,
-   "nav_date": "2026-11-02",
-   "risk_level": "RR4",
-   "type": "資訊科技股",
-   "region": "全球",
-   "company": "貝萊德投信",
-   "benchmark": "摩根士丹利（所有國家）世界資訊科技 10/40 指數",
-   "returns": {
-    "ytd": 19.85,
-    "m1": -14.69,
-    "m3": -2.79,
-    "m6": 3.94,
-    "y1": 11.28,
-    "y2": 50.34,
-    "y3": 117.16,
-    "y5": null
-   },
-   "std_dev": 41.87,
-   "sharpe": 0.12,
-   "beta": 1.28,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "category": "tech",
-   "sub": "資訊科技",
-   "boundary": null,
-   "origin": "人工審閱",
-   "status": "ok",
-   "dividend_per_unit": 0.162,
-   "dividend_date": "2026-10-30",
-   "frequency": "月配",
-   "frequency_source": "富邦網站配息頻率欄",
-   "periods_per_year": 12,
-   "dividend_12m_per_unit": 1.7395,
-   "dividend_12m_count": 12,
-   "annual_yield": 0.103294,
-   "annual_yield_12m": 0.092428
-  },
-  {
-   "code": "DST3",
-   "name": "安聯AI收益成長多重資產證券投資信託基金-B類型(月配息)-美元",
-   "short_name": "安聯AI收益成長",
-   "kind": "境內基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/FUND/10/DST3",
-   "products": [
-    {
-     "code": "VCAT",
-     "name": "真好利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCBF",
-     "name": "外幣計價真吉利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCBT",
-     "name": "真吉利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCCF",
-     "name": "外幣計價真豐利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCCT",
-     "name": "真豐利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCDF",
-     "name": "外幣計價真福利變額年金保險",
-     "on_sale": true
-    },
-    {
-     "code": "VCDT",
-     "name": "真福利變額年金保險",
-     "on_sale": true
-    }
-   ],
-   "currency": "USD",
-   "nav": 11.57,
-   "nav_date": "2026-11-02",
-   "risk_level": "RR3",
-   "type": "多重資產型",
-   "region": "台灣,美國,日本,英國,韓國,香港,德國,法國,印度,瑞士,荷蘭,新加坡,大中華地區,芬蘭,西班牙,瑞典,丹麥,奧地利,挪威",
-   "company": "安聯投信",
-   "benchmark": "道瓊工業",
-   "returns": {
-    "ytd": 9.91,
-    "m1": -9.31,
-    "m3": -6.89,
-    "m6": -4.61,
-    "y1": 8.66,
-    "y2": 31.53,
-    "y3": null,
-    "y5": null
-   },
-   "std_dev": 20.8,
-   "sharpe": 0.13,
-   "beta": 0.81,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "category": "tech",
-   "sub": "AI主題多重資產",
-   "boundary": "名稱含「AI」，但類型為多重資產型收益基金（非純科技股）",
-   "origin": "人工審閱",
-   "status": "ok",
-   "dividend_per_unit": 0.097,
-   "dividend_date": "2026-10-29",
-   "frequency": "月配",
-   "frequency_source": "富邦網站配息頻率欄",
-   "periods_per_year": 12,
-   "dividend_12m_per_unit": 0.995,
-   "dividend_12m_count": 12,
-   "annual_yield": 0.100605,
-   "annual_yield_12m": 0.085998
   },
   {
    "code": "T0757",
@@ -2040,26 +2040,26 @@
     }
    ],
    "currency": "TWD",
-   "nav": 132.69,
-   "nav_date": "2026-11-02",
+   "nav": 135.26,
+   "nav_date": "2026-11-03",
    "risk_level": "RR5",
    "type": "股票型",
    "region": "美國",
    "company": "統一投信",
    "benchmark": "NYSE FANG+ Index",
    "returns": {
-    "ytd": 15.19,
-    "m1": -5.55,
-    "m3": 3.46,
-    "m6": 12.67,
-    "y1": 8.58,
-    "y2": 51.31,
-    "y3": 133.05,
-    "y5": 150.88
+    "ytd": 12.1,
+    "m1": -8.08,
+    "m3": -0.45,
+    "m6": 9.64,
+    "y1": 6.99,
+    "y2": 47.25,
+    "y3": 126.02,
+    "y5": 147.34
    },
-   "std_dev": 26.78,
-   "sharpe": 0.11,
-   "beta": 0.93,
+   "std_dev": 27.23,
+   "sharpe": 0.09,
+   "beta": 0.97,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "美國科技ETF",
@@ -2205,26 +2205,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 37.1578,
-   "nav_date": "2026-11-02",
+   "nav": 36.2282,
+   "nav_date": "2026-11-03",
    "risk_level": "RR4",
    "type": "資訊科技股",
    "region": "全球",
    "company": "安聯投信",
    "benchmark": "50% MSCI AC World (ACWI) Total Return Net + 50% MSCI World Information Technology Total Return Net",
    "returns": {
-    "ytd": 8.56,
-    "m1": -9.35,
-    "m3": -5.72,
-    "m6": -4.09,
-    "y1": 6.81,
-    "y2": 34.34,
-    "y3": 82.72,
-    "y5": 10.92
+    "ytd": 5.84,
+    "m1": -11.62,
+    "m3": -7.86,
+    "m6": -6.49,
+    "y1": 4.2,
+    "y2": 30.98,
+    "y3": 75.03,
+    "y5": 8.44
    },
-   "std_dev": 25.87,
-   "sharpe": 0.09,
-   "beta": 0.72,
+   "std_dev": 29.64,
+   "sharpe": 0.07,
+   "beta": 0.89,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "AI／資訊科技",
@@ -2425,26 +2425,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 139.26,
-   "nav_date": "2026-11-02",
+   "nav": 136.98,
+   "nav_date": "2026-11-03",
    "risk_level": "RR4",
    "type": "股票型",
    "region": "美國",
    "company": "摩根投信",
    "benchmark": "羅素1000等權重科技指數(預扣30%所得稅的總報酬淨額)",
    "returns": {
-    "ytd": 1.91,
-    "m1": -13.36,
-    "m3": -1.23,
-    "m6": 0.83,
-    "y1": -4.83,
-    "y2": 30.98,
-    "y3": 85.38,
-    "y5": 37.2
+    "ytd": 0.24,
+    "m1": -14.78,
+    "m3": -4.06,
+    "m6": -0.82,
+    "y1": -6.22,
+    "y2": 28.84,
+    "y3": 79.76,
+    "y5": 34.32
    },
-   "std_dev": 35.94,
-   "sharpe": 0.0,
-   "beta": 2.07,
+   "std_dev": 35.48,
+   "sharpe": -0.02,
+   "beta": 1.93,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "tech",
    "sub": "資訊科技（美國）",
@@ -2600,26 +2600,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 213.81,
-   "nav_date": "2026-11-02",
+   "nav": 215.42,
+   "nav_date": "2026-11-03",
    "risk_level": "RR4",
    "type": "生物科技",
    "region": "美國",
    "company": "iShares（BlackRock）",
    "benchmark": "NYSE Biotechnology Index",
    "returns": {
-    "ytd": 26.79,
-    "m1": 4.14,
-    "m3": 14.69,
-    "m6": 27.84,
-    "y1": 34.41,
-    "y2": 50.32,
-    "y3": 84.33,
-    "y5": 33.09
+    "ytd": 27.79,
+    "m1": 4.96,
+    "m3": 15.91,
+    "m6": 28.84,
+    "y1": 37.12,
+    "y2": 51.51,
+    "y3": 81.17,
+    "y5": 32.42
    },
-   "std_dev": 25.74,
-   "sharpe": 0.32,
-   "beta": 1.05,
+   "std_dev": 25.15,
+   "sharpe": 0.35,
+   "beta": 1.06,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "health",
    "sub": "生技ETF",
@@ -2633,8 +2633,8 @@
    "periods_per_year": 4,
    "dividend_12m_per_unit": 0.339885,
    "dividend_12m_count": 4,
-   "annual_yield": 0.000209,
-   "annual_yield_12m": 0.00159
+   "annual_yield": 0.000208,
+   "annual_yield_12m": 0.001578
   },
   {
    "code": "UBE2",
@@ -2785,26 +2785,201 @@
     }
    ],
    "currency": "USD",
-   "nav": 1121.58,
-   "nav_date": "2026-10-30",
+   "nav": 1105.03,
+   "nav_date": "2026-11-02",
    "risk_level": "RR4",
    "type": "生物科技",
    "region": "全球",
    "company": "瑞銀投信",
    "benchmark": "MSCI US Investable Market Biotechnology 10/40 Index (r)",
    "returns": {
-    "ytd": 26.39,
-    "m1": 4.85,
-    "m3": 11.42,
-    "m6": 24.17,
-    "y1": 32.83,
-    "y2": 57.26,
-    "y3": 91.94,
-    "y5": 42.94
+    "ytd": 24.52,
+    "m1": 5.78,
+    "m3": 12.18,
+    "m6": 22.34,
+    "y1": 30.01,
+    "y2": 57.52,
+    "y3": 82.79,
+    "y5": 37.86
    },
-   "std_dev": 19.33,
-   "sharpe": 0.44,
-   "beta": 0.95,
+   "std_dev": 27.68,
+   "sharpe": 0.3,
+   "beta": 1.05,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "category": "health",
+   "sub": "生技",
+   "boundary": null,
+   "origin": "人工審閱",
+   "status": "ok",
+   "dividend_per_unit": null,
+   "dividend_date": null,
+   "frequency": "無配息（累積型）",
+   "frequency_source": null,
+   "periods_per_year": null,
+   "dividend_12m_per_unit": null,
+   "dividend_12m_count": 0,
+   "annual_yield": null,
+   "annual_yield_12m": null
+  },
+  {
+   "code": "PI02",
+   "name": "百達-生物科技-R 美元",
+   "short_name": "百達生物科技",
+   "kind": "境外基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/57/PI02",
+   "products": [
+    {
+     "code": "AUF",
+     "name": "外幣計價聚富變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "AUT",
+     "name": "聚富變額萬能壽險",
+     "on_sale": false
+    }
+   ],
+   "currency": "USD",
+   "nav": 1241.14,
+   "nav_date": "2026-11-03",
+   "risk_level": "RR4",
+   "type": "生物科技",
+   "region": "全球",
+   "company": "百達投顧",
+   "benchmark": "MSCI 所有國家世界指數",
+   "returns": {
+    "ytd": 10.2,
+    "m1": 2.6,
+    "m3": -0.63,
+    "m6": 9.17,
+    "y1": 24.28,
+    "y2": 51.52,
+    "y3": 99.58,
+    "y5": 42.29
+   },
+   "std_dev": 28.77,
+   "sharpe": 0.24,
+   "beta": 1.02,
+   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
+   "category": "health",
+   "sub": "生技",
+   "boundary": null,
+   "origin": "人工審閱",
+   "status": "ok",
+   "dividend_per_unit": null,
+   "dividend_date": null,
+   "frequency": "無配息（累積型）",
+   "frequency_source": null,
+   "periods_per_year": null,
+   "dividend_12m_per_unit": null,
+   "dividend_12m_count": 0,
+   "annual_yield": null,
+   "annual_yield_12m": null
+  },
+  {
+   "code": "FRE8",
+   "name": "富蘭克林坦伯頓全球投資系列-生技領航基金A(acc)股",
+   "short_name": "富蘭克林生技領航",
+   "kind": "境外基金",
+   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRE8",
+   "products": [
+    {
+     "code": "UND",
+     "name": "年年吉祥變額萬能壽險",
+     "on_sale": true
+    },
+    {
+     "code": "FFVA",
+     "name": "外幣計價卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "FPVA",
+     "name": "卓越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "NUL",
+     "name": "優質理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UL",
+     "name": "靈活理財變額保險",
+     "on_sale": false
+    },
+    {
+     "code": "ULN",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULO",
+     "name": "吉祥理財變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "ULV",
+     "name": "富貴吉祥變額萬能壽險",
+     "on_sale": false
+    },
+    {
+     "code": "UNA",
+     "name": "富貴吉祥變額萬能壽險(V2)",
+     "on_sale": false
+    },
+    {
+     "code": "UNO",
+     "name": "吉祥理財變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "UNV",
+     "name": "富貴吉祥變額萬能壽險(V1)",
+     "on_sale": false
+    },
+    {
+     "code": "VADF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VADT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDF",
+     "name": "外幣計價優越變額年金保險",
+     "on_sale": false
+    },
+    {
+     "code": "VBDT",
+     "name": "優越變額年金保險",
+     "on_sale": false
+    }
+   ],
+   "currency": "USD",
+   "nav": 65.78,
+   "nav_date": "2026-11-03",
+   "risk_level": "RR4",
+   "type": "生物科技",
+   "region": "全球",
+   "company": "富蘭克林投顧",
+   "benchmark": "那斯達克生技指數",
+   "returns": {
+    "ytd": 10.89,
+    "m1": 1.83,
+    "m3": -4.14,
+    "m6": 7.29,
+    "y1": 24.07,
+    "y2": 50.73,
+    "y3": 102.77,
+    "y5": 56.92
+   },
+   "std_dev": 26.46,
+   "sharpe": 0.26,
+   "beta": 0.92,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "health",
    "sub": "生技",
@@ -3055,204 +3230,29 @@
     }
    ],
    "currency": "USD",
-   "nav": 680.08,
-   "nav_date": "2026-11-02",
+   "nav": 675.83,
+   "nav_date": "2026-11-03",
    "risk_level": "RR3",
    "type": "健康護理股",
    "region": "全球",
    "company": "聯博投信",
    "benchmark": "摩根史坦利世界醫療指數",
    "returns": {
-    "ytd": 14.71,
-    "m1": 11.19,
-    "m3": 11.66,
-    "m6": 20.58,
-    "y1": 22.52,
-    "y2": 16.87,
-    "y3": 32.12,
-    "y5": 25.57
+    "ytd": 13.99,
+    "m1": 10.5,
+    "m3": 11.56,
+    "m6": 19.82,
+    "y1": 21.81,
+    "y2": 16.14,
+    "y3": 30.89,
+    "y5": 23.38
    },
-   "std_dev": 19.48,
-   "sharpe": 0.31,
-   "beta": 1.07,
+   "std_dev": 19.26,
+   "sharpe": 0.3,
+   "beta": 1.06,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "health",
    "sub": "醫療／健康護理",
-   "boundary": null,
-   "origin": "人工審閱",
-   "status": "ok",
-   "dividend_per_unit": null,
-   "dividend_date": null,
-   "frequency": "無配息（累積型）",
-   "frequency_source": null,
-   "periods_per_year": null,
-   "dividend_12m_per_unit": null,
-   "dividend_12m_count": 0,
-   "annual_yield": null,
-   "annual_yield_12m": null
-  },
-  {
-   "code": "PI02",
-   "name": "百達-生物科技-R 美元",
-   "short_name": "百達生物科技",
-   "kind": "境外基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/57/PI02",
-   "products": [
-    {
-     "code": "AUF",
-     "name": "外幣計價聚富變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "AUT",
-     "name": "聚富變額萬能壽險",
-     "on_sale": false
-    }
-   ],
-   "currency": "USD",
-   "nav": 1238.84,
-   "nav_date": "2026-11-02",
-   "risk_level": "RR4",
-   "type": "生物科技",
-   "region": "全球",
-   "company": "百達投顧",
-   "benchmark": "MSCI 所有國家世界指數",
-   "returns": {
-    "ytd": 9.99,
-    "m1": 2.41,
-    "m3": -2.98,
-    "m6": 8.97,
-    "y1": 22.21,
-    "y2": 51.23,
-    "y3": 104.67,
-    "y5": 45.36
-   },
-   "std_dev": 26.74,
-   "sharpe": 0.24,
-   "beta": 0.9,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "category": "health",
-   "sub": "生技",
-   "boundary": null,
-   "origin": "人工審閱",
-   "status": "ok",
-   "dividend_per_unit": null,
-   "dividend_date": null,
-   "frequency": "無配息（累積型）",
-   "frequency_source": null,
-   "periods_per_year": null,
-   "dividend_12m_per_unit": null,
-   "dividend_12m_count": 0,
-   "annual_yield": null,
-   "annual_yield_12m": null
-  },
-  {
-   "code": "FRE8",
-   "name": "富蘭克林坦伯頓全球投資系列-生技領航基金A(acc)股",
-   "short_name": "富蘭克林生技領航",
-   "kind": "境外基金",
-   "detail_url": "https://invest.fubonlife.com.tw/funds/overview/WFUND/35/FRE8",
-   "products": [
-    {
-     "code": "UND",
-     "name": "年年吉祥變額萬能壽險",
-     "on_sale": true
-    },
-    {
-     "code": "FFVA",
-     "name": "外幣計價卓越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "FPVA",
-     "name": "卓越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "NUL",
-     "name": "優質理財變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "UL",
-     "name": "靈活理財變額保險",
-     "on_sale": false
-    },
-    {
-     "code": "ULN",
-     "name": "吉祥理財變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "ULO",
-     "name": "吉祥理財變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "ULV",
-     "name": "富貴吉祥變額萬能壽險",
-     "on_sale": false
-    },
-    {
-     "code": "UNA",
-     "name": "富貴吉祥變額萬能壽險(V2)",
-     "on_sale": false
-    },
-    {
-     "code": "UNO",
-     "name": "吉祥理財變額萬能壽險(V1)",
-     "on_sale": false
-    },
-    {
-     "code": "UNV",
-     "name": "富貴吉祥變額萬能壽險(V1)",
-     "on_sale": false
-    },
-    {
-     "code": "VADF",
-     "name": "外幣計價優越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VADT",
-     "name": "優越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBDF",
-     "name": "外幣計價優越變額年金保險",
-     "on_sale": false
-    },
-    {
-     "code": "VBDT",
-     "name": "優越變額年金保險",
-     "on_sale": false
-    }
-   ],
-   "currency": "USD",
-   "nav": 64.52,
-   "nav_date": "2026-11-02",
-   "risk_level": "RR4",
-   "type": "生物科技",
-   "region": "全球",
-   "company": "富蘭克林投顧",
-   "benchmark": "那斯達克生技指數",
-   "returns": {
-    "ytd": 8.77,
-    "m1": -0.12,
-    "m3": -6.55,
-    "m6": 5.24,
-    "y1": 18.58,
-    "y2": 47.85,
-    "y3": 104.05,
-    "y5": 56.45
-   },
-   "std_dev": 26.32,
-   "sharpe": 0.21,
-   "beta": 0.89,
-   "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
-   "category": "health",
-   "sub": "生技",
    "boundary": null,
    "origin": "人工審閱",
    "status": "ok",
@@ -3350,26 +3350,26 @@
     }
    ],
    "currency": "USD",
-   "nav": 27.27,
-   "nav_date": "2026-11-02",
+   "nav": 27.4,
+   "nav_date": "2026-11-03",
    "risk_level": "RR3",
    "type": "健康護理股",
    "region": "全球",
    "company": "富達投信",
    "benchmark": "MSCI AC World Health Care Index(非ESG績效指標)",
    "returns": {
-    "ytd": 4.4,
-    "m1": 11.03,
-    "m3": 9.52,
-    "m6": 14.92,
-    "y1": 10.67,
-    "y2": 1.6,
-    "y3": 18.82,
-    "y5": -0.94
+    "ytd": 4.9,
+    "m1": 11.56,
+    "m3": 10.71,
+    "m6": 15.47,
+    "y1": 11.93,
+    "y2": 2.09,
+    "y3": 18.0,
+    "y5": 0.37
    },
-   "std_dev": 20.07,
-   "sharpe": 0.15,
-   "beta": 1.08,
+   "std_dev": 20.38,
+   "sharpe": 0.17,
+   "beta": 1.11,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "health",
    "sub": "醫療／健康護理",
@@ -3525,25 +3525,25 @@
     }
    ],
    "currency": "USD",
-   "nav": 56.47,
-   "nav_date": "2026-11-02",
+   "nav": 56.42,
+   "nav_date": "2026-11-03",
    "risk_level": "RR3",
    "type": "健康護理股",
    "region": "美國",
    "company": "iShares（BlackRock）",
    "benchmark": "Dow Jones U.S. Select Medical Equipment Index",
    "returns": {
-    "ytd": -8.72,
-    "m1": 12.01,
-    "m3": 7.79,
-    "m6": 12.25,
-    "y1": -5.66,
-    "y2": -3.57,
-    "y3": 22.66,
-    "y5": -11.88
+    "ytd": -8.85,
+    "m1": 11.85,
+    "m3": 4.26,
+    "m6": 12.09,
+    "y1": -6.64,
+    "y2": -3.71,
+    "y3": 21.09,
+    "y5": -12.25
    },
-   "std_dev": 22.7,
-   "sharpe": -0.09,
+   "std_dev": 21.55,
+   "sharpe": -0.11,
    "beta": 1.0,
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets ＋ getFundInfo/getEtfInfo ＋ getFundDividends/getEtfDividends）",
    "category": "health",
@@ -3558,9 +3558,9 @@
    "periods_per_year": 4,
    "dividend_12m_per_unit": 0.262135,
    "dividend_12m_count": 4,
-   "annual_yield": 0.00573,
-   "annual_yield_12m": 0.004642
+   "annual_yield": 0.005735,
+   "annual_yield_12m": 0.004646
   }
  ],
- "updated_at": "2026-11-04T09:26:34+08:00"
+ "updated_at": "2026-11-05T09:19:13+08:00"
 }
