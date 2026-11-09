@@ -1,37 +1,37 @@
 {
-  "date": "2026.11.08",
+  "date": "2026.11.09",
   "title": "南恩新聞報報",
-  "date_label": "2026.11.08",
+  "date_label": "2026.11.09",
   "headlines": [
     {
-      "url": "https://www.ctee.com.tw/news/20261108700021-439901",
-      "title": "費半強彈 台積電ADR勁揚逾6％",
+      "url": "https://www.ctee.com.tw/news/20261109700031-439901",
+      "title": "護盤大軍到 聯袂壓制空方",
+      "source": "工商時報",
+      "time": "2026/11/09"
+    },
+    {
+      "url": "https://www.cna.com.tw/news/afe/202611080026.aspx",
+      "title": "台股1個月以來急跌萬點　法人：不宜貿然搶反彈",
+      "source": "中央社",
+      "time": "2026/11/08"
+    },
+    {
+      "url": "https://www.ctee.com.tw/news/20261109700037-439901",
+      "title": "AI投資擴散 台鏈搶全球商機",
+      "source": "工商時報",
+      "time": "2026/11/09"
+    },
+    {
+      "url": "https://www.ctee.com.tw/news/20261108700076-430305",
+      "title": "在宅醫療險 保障缺口優先補",
       "source": "工商時報",
       "time": "2026/11/08"
     },
     {
-      "url": "https://www.ctee.com.tw/news/20261108700018-439901",
-      "title": "16檔高借券股 拚反攻",
-      "source": "工商時報",
+      "url": "https://www.cna.com.tw/news/ahel/202611080124.aspx",
+      "title": "食藥署：瘦瘦針疑不良反應通報達63件　非罕見副作用",
+      "source": "中央社",
       "time": "2026/11/08"
-    },
-    {
-      "url": "https://www.cna.com.tw/news/afe/202611070039.aspx",
-      "title": "新台幣逆勢強彈現止貶曙光？專家：反轉仍有長路",
-      "source": "中央社",
-      "time": "2026/11/07"
-    },
-    {
-      "url": "https://www.ctee.com.tw/news/20261107700041-430304",
-      "title": "公股銀救市「愈跌愈買」！聚焦高股息、AI鏈",
-      "source": "工商時報",
-      "time": "2026/11/07"
-    },
-    {
-      "url": "https://www.cna.com.tw/news/ahel/202611070104.aspx",
-      "title": "卓榮泰：健保預算破兆元　具體落實健康台灣",
-      "source": "中央社",
-      "time": "2026/11/07"
     }
   ],
   "indices": [
@@ -60,11 +60,11 @@
       "change": "-1,873.08（-4.51%）"
     }
   ],
-  "indices_note": "美股為美東 11/06（週五）收盤；台股為 11/06（週五）收盤（週末休市，下一交易日為 11/09 週一）",
+  "indices_note": "美股為美東 11/06（週五）收盤；台股為 11/06（週五）收盤（本日 11/09 週一開盤前編輯）",
   "posters": [
     {
-      "caption": "每日報報 2026.11.08（五大頭條）",
-      "download": "20261108-每日報報-五大頭條.png",
+      "caption": "每日報報 2026.11.09（五大頭條）",
+      "download": "20261109-每日報報-五大頭條.png",
       "thumb": "daily-news/thumb/poster-1-headlines.jpg",
       "full": "daily-news/img/poster-1-headlines.png",
       "download_path": "daily-news/img/poster-1-headlines.png"
@@ -72,143 +72,143 @@
   ],
   "clips": [
     {
-      "caption": "費半強彈　台積電ADR漲逾6%",
-      "download": "20261108-剪報-費半強彈.png",
-      "source_url": "https://www.ctee.com.tw/news/20261108700021-439901",
+      "caption": "國安基金進場　聯袂壓制空方",
+      "download": "20261109-剪報-國安基金進場.png",
+      "source_url": "https://www.ctee.com.tw/news/20261109700031-439901",
+      "source": "工商時報 2026/11/09",
+      "thumb": "daily-news/thumb/clip-nsfguard.jpg",
+      "full": "daily-news/img/cards/nsfguard.png",
+      "download_path": "daily-news/img/cards/nsfguard.png"
+    },
+    {
+      "caption": "台股月跌萬點　法人：勿貿然搶反彈",
+      "download": "20261109-剪報-台股月跌萬點.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202611080026.aspx",
+      "source": "中央社 2026/11/08",
+      "thumb": "daily-news/thumb/clip-tenkdrop.jpg",
+      "full": "daily-news/img/cards/tenkdrop.png",
+      "download_path": "daily-news/img/cards/tenkdrop.png"
+    },
+    {
+      "caption": "AI投資擴散　台鏈搶全球商機",
+      "download": "20261109-剪報-AI投資擴散.png",
+      "source_url": "https://www.ctee.com.tw/news/20261109700037-439901",
+      "source": "工商時報 2026/11/09",
+      "thumb": "daily-news/thumb/clip-aiglobal.jpg",
+      "full": "daily-news/img/cards/aiglobal.png",
+      "download_path": "daily-news/img/cards/aiglobal.png"
+    },
+    {
+      "caption": "呂宗耀：國安基金不只是救市",
+      "download": "20261109-剪報-呂宗耀：國安基金不只是救市.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183008/post/202611080010/",
+      "source": "今周刊 2026/11/08",
+      "thumb": "daily-news/thumb/clip-lvzongyao.jpg",
+      "full": "daily-news/img/cards/lvzongyao.png",
+      "download_path": "daily-news/img/cards/lvzongyao.png"
+    },
+    {
+      "caption": "限空令今上路　5大措施一次看",
+      "download": "20261109-剪報-限空令今上路.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183008/post/202611070005/",
+      "source": "今周刊 2026/11/08",
+      "thumb": "daily-news/thumb/clip-shortlimit.jpg",
+      "full": "daily-news/img/cards/shortlimit.png",
+      "download_path": "daily-news/img/cards/shortlimit.png"
+    },
+    {
+      "caption": "華邦電焦佑鈞：限建影響不大",
+      "download": "20261109-剪報-華邦電焦佑鈞：限建影響不大.png",
+      "source_url": "https://www.cw.com.tw/article/5143621",
+      "source": "天下雜誌 2026/11/07",
+      "thumb": "daily-news/thumb/clip-winbond.jpg",
+      "full": "daily-news/img/cards/winbond.png",
+      "download_path": "daily-news/img/cards/winbond.png"
+    },
+    {
+      "caption": "在宅醫療險上市　先補保障缺口",
+      "download": "20261109-剪報-在宅醫療險上市.png",
+      "source_url": "https://www.ctee.com.tw/news/20261108700076-430305",
       "source": "工商時報 2026/11/08",
-      "thumb": "daily-news/thumb/clip-soxrebound.jpg",
-      "full": "daily-news/img/cards/soxrebound.png",
-      "download_path": "daily-news/img/cards/soxrebound.png"
+      "thumb": "daily-news/thumb/clip-homecare.jpg",
+      "full": "daily-news/img/cards/homecare.png",
+      "download_path": "daily-news/img/cards/homecare.png"
     },
     {
-      "caption": "限空令上路　16檔高借券股拚反攻",
-      "download": "20261108-剪報-限空令上路.png",
-      "source_url": "https://www.ctee.com.tw/news/20261108700018-439901",
+      "caption": "金控海外曝險33兆創新高",
+      "download": "20261109-剪報-金控海外曝險33兆創新高.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202611080101.aspx",
+      "source": "中央社 2026/11/08",
+      "thumb": "daily-news/thumb/clip-fhcexposure.jpg",
+      "full": "daily-news/img/cards/fhcexposure.png",
+      "download_path": "daily-news/img/cards/fhcexposure.png"
+    },
+    {
+      "caption": "0050報酬43%　定期定額別停扣",
+      "download": "20261109-剪報-0050報酬43%.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183012/post/202611070013/",
+      "source": "今周刊 2026/11/07",
+      "thumb": "daily-news/thumb/clip-etf43.jpg",
+      "full": "daily-news/img/cards/etf43.png",
+      "download_path": "daily-news/img/cards/etf43.png"
+    },
+    {
+      "caption": "AI監管疑慮　亞洲科技股估值承壓",
+      "download": "20261109-剪報-AI監管疑慮.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202611080016.aspx",
+      "source": "中央社 2026/11/08",
+      "thumb": "daily-news/thumb/clip-aivaluation.jpg",
+      "full": "daily-news/img/cards/aivaluation.png",
+      "download_path": "daily-news/img/cards/aivaluation.png"
+    },
+    {
+      "caption": "蒙格：受不了暴跌50%報酬平庸",
+      "download": "20261109-剪報-蒙格：受不了暴跌50%報酬平庸.png",
+      "source_url": "https://www.cw.com.tw/article/5143579",
+      "source": "天下雜誌 2026/11/05",
+      "thumb": "daily-news/thumb/clip-munger50.jpg",
+      "full": "daily-news/img/cards/munger50.png",
+      "download_path": "daily-news/img/cards/munger50.png"
+    },
+    {
+      "caption": "瘦瘦針不良反應通報63件",
+      "download": "20261109-剪報-瘦瘦針不良反應通報63件.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611080124.aspx",
+      "source": "中央社 2026/11/08",
+      "thumb": "daily-news/thumb/clip-glp1.jpg",
+      "full": "daily-news/img/cards/glp1.png",
+      "download_path": "daily-news/img/cards/glp1.png"
+    },
+    {
+      "caption": "男性HPV疫苗接種增4成",
+      "download": "20261109-剪報-男性HPV疫苗接種增4成.png",
+      "source_url": "https://www.ctee.com.tw/news/20261108700588-431205",
       "source": "工商時報 2026/11/08",
-      "thumb": "daily-news/thumb/clip-sbl16.jpg",
-      "full": "daily-news/img/cards/sbl16.png",
-      "download_path": "daily-news/img/cards/sbl16.png"
+      "thumb": "daily-news/thumb/clip-hpvmen.jpg",
+      "full": "daily-news/img/cards/hpvmen.png",
+      "download_path": "daily-news/img/cards/hpvmen.png"
     },
     {
-      "caption": "新台幣強彈　止貶仍有長路",
-      "download": "20261108-剪報-新台幣強彈.png",
-      "source_url": "https://www.cna.com.tw/news/afe/202611070039.aspx",
-      "source": "中央社 2026/11/07",
-      "thumb": "daily-news/thumb/clip-twdstop.jpg",
-      "full": "daily-news/img/cards/twdstop.png",
-      "download_path": "daily-news/img/cards/twdstop.png"
-    },
-    {
-      "caption": "台電曾文生　AI時代拚電力人力",
-      "download": "20261108-剪報-台電曾文生.png",
-      "source_url": "https://www.cw.com.tw/article/5143600",
-      "source": "天下雜誌 2026/11/06",
-      "thumb": "daily-news/thumb/clip-taipower.jpg",
-      "full": "daily-news/img/cards/taipower.png",
-      "download_path": "daily-news/img/cards/taipower.png"
-    },
-    {
-      "caption": "融資大減創紀錄　台指期夜盤返4萬",
-      "download": "20261108-剪報-融資大減創紀錄.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183008/post/202611070002/",
-      "source": "今周刊 2026/11/07",
-      "thumb": "daily-news/thumb/clip-marginrecord.jpg",
-      "full": "daily-news/img/cards/marginrecord.png",
-      "download_path": "daily-news/img/cards/marginrecord.png"
-    },
-    {
-      "caption": "費半暴跌12%　晶片股多便宜？",
-      "download": "20261108-剪報-費半暴跌12%.png",
-      "source_url": "https://www.cw.com.tw/article/5143595",
-      "source": "天下雜誌 2026/11/06",
-      "thumb": "daily-news/thumb/clip-soxvalue.jpg",
-      "full": "daily-news/img/cards/soxvalue.png",
-      "download_path": "daily-news/img/cards/soxvalue.png"
-    },
-    {
-      "caption": "公股銀救市　愈跌愈買",
-      "download": "20261108-剪報-公股銀救市.png",
-      "source_url": "https://www.ctee.com.tw/news/20261107700041-430304",
-      "source": "工商時報 2026/11/07",
-      "thumb": "daily-news/thumb/clip-bankbuy.jpg",
-      "full": "daily-news/img/cards/bankbuy.png",
-      "download_path": "daily-news/img/cards/bankbuy.png"
-    },
-    {
-      "caption": "外資資產近外匯存底3倍",
-      "download": "20261108-剪報-外資資產近外匯存底3倍.png",
-      "source_url": "https://www.cna.com.tw/news/afe/202611070037.aspx",
-      "source": "中央社 2026/11/07",
-      "thumb": "daily-news/thumb/clip-foreignasset.jpg",
-      "full": "daily-news/img/cards/foreignasset.png",
-      "download_path": "daily-news/img/cards/foreignasset.png"
-    },
-    {
-      "caption": "0050跌破90元　施昇輝不慌",
-      "download": "20261108-剪報-0050跌破90元.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202611060011/",
-      "source": "今周刊 2026/11/07",
-      "thumb": "daily-news/thumb/clip-etfsleep.jpg",
-      "full": "daily-news/img/cards/etfsleep.png",
-      "download_path": "daily-news/img/cards/etfsleep.png"
-    },
-    {
-      "caption": "大跌搶正2　槓桿ETF買前必看",
-      "download": "20261108-剪報-大跌搶正2.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202611060029/",
-      "source": "今周刊 2026/11/07",
-      "thumb": "daily-news/thumb/clip-lev2etf.jpg",
-      "full": "daily-news/img/cards/lev2etf.png",
-      "download_path": "daily-news/img/cards/lev2etf.png"
-    },
-    {
-      "caption": "公股行庫LCR緊繃　科技廠成隱形銀行",
-      "download": "20261108-剪報-公股行庫LCR緊繃.png",
-      "source_url": "https://www.cw.com.tw/article/5143492",
-      "source": "天下雜誌 2026/10/29",
-      "thumb": "daily-news/thumb/clip-banklcr.jpg",
-      "full": "daily-news/img/cards/banklcr.png",
-      "download_path": "daily-news/img/cards/banklcr.png"
-    },
-    {
-      "caption": "健保預算破兆　中榮科技大樓動土",
-      "download": "20261108-剪報-健保預算破兆.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202611070104.aspx",
-      "source": "中央社 2026/11/07",
-      "thumb": "daily-news/thumb/clip-nhi1t.jpg",
-      "full": "daily-news/img/cards/nhi1t.png",
-      "download_path": "daily-news/img/cards/nhi1t.png"
-    },
-    {
-      "caption": "許維恩挺癌友　籲定期乳癌篩檢",
-      "download": "20261108-剪報-許維恩挺癌友.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202611070101.aspx",
-      "source": "中央社 2026/11/07",
-      "thumb": "daily-news/thumb/clip-breastscreen.jpg",
-      "full": "daily-news/img/cards/breastscreen.png",
-      "download_path": "daily-news/img/cards/breastscreen.png"
-    },
-    {
-      "caption": "顧心臟　晚上7點後別做7件事",
-      "download": "20261108-剪報-顧心臟.png",
-      "source_url": "https://www.ctee.com.tw/news/20261107700002-430905",
-      "source": "工商時報 2026/11/07",
-      "thumb": "daily-news/thumb/clip-heart7pm.jpg",
-      "full": "daily-news/img/cards/heart7pm.png",
-      "download_path": "daily-news/img/cards/heart7pm.png"
-    },
-    {
-      "caption": "沙拉不夠纖　天然益生菌護腸",
-      "download": "20261108-剪報-沙拉不夠纖.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183029/post/202611060040/",
+      "caption": "盯盤焦慮　醫師教3招調整",
+      "download": "20261109-剪報-盯盤焦慮.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183008/post/202611060027/",
       "source": "今周刊 2026/11/06",
-      "thumb": "daily-news/thumb/clip-fiber.jpg",
-      "full": "daily-news/img/cards/fiber.png",
-      "download_path": "daily-news/img/cards/fiber.png"
+      "thumb": "daily-news/thumb/clip-stockanxiety.jpg",
+      "full": "daily-news/img/cards/stockanxiety.png",
+      "download_path": "daily-news/img/cards/stockanxiety.png"
+    },
+    {
+      "caption": "預測失能　腰圍比肌力更關鍵",
+      "download": "20261109-剪報-預測失能.png",
+      "source_url": "https://www.cw.com.tw/article/5143612",
+      "source": "天下雜誌 2026/11/09",
+      "thumb": "daily-news/thumb/clip-waistline.jpg",
+      "full": "daily-news/img/cards/waistline.png",
+      "download_path": "daily-news/img/cards/waistline.png"
     }
   ],
-  "zip": "daily-news/news-20261108-all.zip",
+  "zip": "daily-news/news-20261109-all.zip",
   "page": "daily-news/",
   "source_repo": "https://dashin-team.github.io/daily-news/",
-  "synced_at": "2026/11/08 08:59"
+  "synced_at": "2026/11/09 08:01"
 }
