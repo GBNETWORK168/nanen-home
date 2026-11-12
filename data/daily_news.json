@@ -1,70 +1,70 @@
 {
-  "date": "2026.11.11",
+  "date": "2026.11.12",
   "title": "南恩新聞報報",
-  "date_label": "2026.11.11",
+  "date_label": "2026.11.12",
   "headlines": [
     {
-      "url": "https://www.ctee.com.tw/news/20261111700050-439901",
-      "title": "台股爆量飆千點 暫化破底危機",
+      "url": "https://www.ctee.com.tw/news/20261112700043-439901",
+      "title": "政策利多齊發、上市櫃營收飆高 台股V轉氣勢強 月線在望",
+      "source": "工商時報",
+      "time": "2026/11/12"
+    },
+    {
+      "url": "https://www.ctee.com.tw/news/20261112700046-439901",
+      "title": "Fed鷹風陣陣 12月升息2碼？",
+      "source": "工商時報",
+      "time": "2026/11/12"
+    },
+    {
+      "url": "https://www.cw.com.tw/article/5143673",
+      "title": "美債大跌，輝達續挫｜台積電砸10億美元，押Anthropic與OpenAI",
+      "source": "天下雜誌",
+      "time": "2026/11/11"
+    },
+    {
+      "url": "https://www.ctee.com.tw/news/20261111700347-430305",
+      "title": "產險攻銀髮市場 保障擴大",
       "source": "工商時報",
       "time": "2026/11/11"
     },
     {
-      "url": "https://www.ctee.com.tw/news/20261111700043-439901",
-      "title": "上市櫃前十月營收 提前登頂",
-      "source": "工商時報",
-      "time": "2026/11/11"
-    },
-    {
-      "url": "https://www.cna.com.tw/news/afe/202611110004.aspx",
-      "title": "通膨高於預期　美債殖利率全面跳升、12月恐升息2碼",
+      "url": "https://www.cna.com.tw/news/ahel/202611110217.aspx",
+      "title": "首例瘦瘦針疑釀眼中風失明　申請藥害救濟審議中",
       "source": "中央社",
       "time": "2026/11/11"
-    },
-    {
-      "url": "https://www.ctee.com.tw/news/20261110700100-430305",
-      "title": "台股強震、保戶籌錢！壽險爆保單解約、借款潮",
-      "source": "工商時報",
-      "time": "2026/11/10"
-    },
-    {
-      "url": "https://www.cna.com.tw/news/ahel/202611100219.aspx",
-      "title": "「小眾肺癌」免疫治療逾300萬　家屬嘆非一般人能負擔",
-      "source": "中央社",
-      "time": "2026/11/10"
     }
   ],
   "indices": [
     {
       "name": "道瓊",
-      "value": "52,231.89",
-      "dir": "dn",
-      "change": "-157.86（-0.30%）"
+      "value": "52,486.49",
+      "dir": "up",
+      "change": "+254.60（+0.49%）"
     },
     {
       "name": "標普500",
-      "value": "7,520.93",
-      "dir": "dn",
-      "change": "-29.01（-0.38%）"
+      "value": "7,619.38",
+      "dir": "up",
+      "change": "+98.45（+1.31%）"
     },
     {
       "name": "那斯達克",
-      "value": "25,065.88",
-      "dir": "dn",
-      "change": "-187.26（-0.74%）"
+      "value": "25,466.19",
+      "dir": "up",
+      "change": "+400.31（+1.60%）"
     },
     {
       "name": "台股加權",
-      "value": "42,711.92",
+      "value": "44,257.15",
       "dir": "up",
-      "change": "+1,050.22（+2.52%）"
+      "change": "+1,545.23（+3.62%）"
     }
   ],
-  "indices_note": "美股為美東 11/10（週二）收盤（中央社）；台股為 11/10（週二）收盤（中央社；本日 11/11 週三開盤前編輯）",
+  "indices_note": "美股為美東 11/11（週三）收盤（中央社）；台股為 11/11（週三）收盤（中央社、工商時報；本日 11/12 週四開盤前編輯）",
   "posters": [
     {
-      "caption": "每日報報 2026.11.11（五大頭條）",
-      "download": "20261111-每日報報-五大頭條.png",
+      "caption": "每日報報 2026.11.12（五大頭條）",
+      "download": "20261112-每日報報-五大頭條.png",
       "thumb": "daily-news/thumb/poster-1-headlines.jpg",
       "full": "daily-news/img/poster-1-headlines.png",
       "download_path": "daily-news/img/poster-1-headlines.png"
@@ -72,143 +72,143 @@
   ],
   "clips": [
     {
-      "caption": "台股爆量飆千點　暫化破底危機",
-      "download": "20261111-剪報-台股爆量飆千點.png",
-      "source_url": "https://www.ctee.com.tw/news/20261111700050-439901",
-      "source": "工商時報 2026/11/11",
-      "thumb": "daily-news/thumb/clip-twrebound.jpg",
-      "full": "daily-news/img/cards/twrebound.png",
-      "download_path": "daily-news/img/cards/twrebound.png"
+      "caption": "台股V轉氣勢強　月線在望",
+      "download": "20261112-剪報-台股V轉氣勢強.png",
+      "source_url": "https://www.ctee.com.tw/news/20261112700043-439901",
+      "source": "工商時報 2026/11/12",
+      "thumb": "daily-news/thumb/clip-twvturn.jpg",
+      "full": "daily-news/img/cards/twvturn.png",
+      "download_path": "daily-news/img/cards/twvturn.png"
     },
     {
-      "caption": "上市櫃前十月營收　提前登頂",
-      "download": "20261111-剪報-上市櫃前十月營收.png",
-      "source_url": "https://www.ctee.com.tw/news/20261111700043-439901",
-      "source": "工商時報 2026/11/11",
-      "thumb": "daily-news/thumb/clip-revenue.jpg",
-      "full": "daily-news/img/cards/revenue.png",
-      "download_path": "daily-news/img/cards/revenue.png"
+      "caption": "Fed鷹風陣陣　12月升息2碼？",
+      "download": "20261112-剪報-Fed鷹風陣陣.png",
+      "source_url": "https://www.ctee.com.tw/news/20261112700046-439901",
+      "source": "工商時報 2026/11/12",
+      "thumb": "daily-news/thumb/clip-fedhawk.jpg",
+      "full": "daily-news/img/cards/fedhawk.png",
+      "download_path": "daily-news/img/cards/fedhawk.png"
     },
     {
-      "caption": "美通膨高於預期　12月恐升息2碼",
-      "download": "20261111-剪報-美通膨高於預期.png",
-      "source_url": "https://www.cna.com.tw/news/afe/202611110004.aspx",
+      "caption": "台積電砸10億美元押兩大AI",
+      "download": "20261112-剪報-台積電砸10億美元押兩大AI.png",
+      "source_url": "https://www.cw.com.tw/article/5143673",
+      "source": "天下雜誌 2026/11/11",
+      "thumb": "daily-news/thumb/clip-tsmcai.jpg",
+      "full": "daily-news/img/cards/tsmcai.png",
+      "download_path": "daily-news/img/cards/tsmcai.png"
+    },
+    {
+      "caption": "台股收復44000點　新台幣收32.86元",
+      "download": "20261112-剪報-台股收復44000點.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202611110283.aspx",
       "source": "中央社 2026/11/11",
-      "thumb": "daily-news/thumb/clip-uscpi.jpg",
-      "full": "daily-news/img/cards/uscpi.png",
-      "download_path": "daily-news/img/cards/uscpi.png"
+      "thumb": "daily-news/thumb/clip-twdfx.jpg",
+      "full": "daily-news/img/cards/twdfx.png",
+      "download_path": "daily-news/img/cards/twdfx.png"
     },
     {
-      "caption": "外資連9賣　續砍341億元",
-      "download": "20261111-剪報-外資連9賣.png",
-      "source_url": "https://www.cna.com.tw/news/afe/202611100353.aspx",
-      "source": "中央社 2026/11/10",
-      "thumb": "daily-news/thumb/clip-foreignsell.jpg",
-      "full": "daily-news/img/cards/foreignsell.png",
-      "download_path": "daily-news/img/cards/foreignsell.png"
+      "caption": "前9月月薪成長2.93%",
+      "download": "20261112-剪報-前9月月薪成長2.93%.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202611110277.aspx",
+      "source": "中央社 2026/11/11",
+      "thumb": "daily-news/thumb/clip-wage.jpg",
+      "full": "daily-news/img/cards/wage.png",
+      "download_path": "daily-news/img/cards/wage.png"
     },
     {
-      "caption": "這波反彈要追多嗎？",
-      "download": "20261111-剪報-這波反彈要追多嗎.png",
-      "source_url": "https://www.cw.com.tw/article/5143664",
+      "caption": "美中AI管制升溫　台商風險上升",
+      "download": "20261112-剪報-美中AI管制升溫.png",
+      "source_url": "https://www.cw.com.tw/article/5143634",
       "source": "天下雜誌 2026/11/10",
-      "thumb": "daily-news/thumb/clip-chasebounce.jpg",
-      "full": "daily-news/img/cards/chasebounce.png",
-      "download_path": "daily-news/img/cards/chasebounce.png"
+      "thumb": "daily-news/thumb/clip-aicontrol.jpg",
+      "full": "daily-news/img/cards/aicontrol.png",
+      "download_path": "daily-news/img/cards/aicontrol.png"
     },
     {
-      "caption": "黃仁勳3.6%持股成權力弱點",
-      "download": "20261111-剪報-黃仁勳3.6%持股成權力弱點.png",
-      "source_url": "https://www.cw.com.tw/article/5143662",
-      "source": "天下雜誌 2026/11/10",
-      "thumb": "daily-news/thumb/clip-jensenstake.jpg",
-      "full": "daily-news/img/cards/jensenstake.png",
-      "download_path": "daily-news/img/cards/jensenstake.png"
+      "caption": "產險攻銀髮市場　保障擴大",
+      "download": "20261112-剪報-產險攻銀髮市場.png",
+      "source_url": "https://www.ctee.com.tw/news/20261111700347-430305",
+      "source": "工商時報 2026/11/11",
+      "thumb": "daily-news/thumb/clip-silverins.jpg",
+      "full": "daily-news/img/cards/silverins.png",
+      "download_path": "daily-news/img/cards/silverins.png"
     },
     {
-      "caption": "壽險爆保單解約、借款潮",
-      "download": "20261111-剪報-壽險爆保單解約、借款潮.png",
-      "source_url": "https://www.ctee.com.tw/news/20261110700100-430305",
-      "source": "工商時報 2026/11/10",
-      "thumb": "daily-news/thumb/clip-policyloan.jpg",
-      "full": "daily-news/img/cards/policyloan.png",
-      "download_path": "daily-news/img/cards/policyloan.png"
+      "caption": "保險業AI使用率升至53％",
+      "download": "20261112-剪報-保險業AI使用率升至53％.png",
+      "source_url": "https://www.ctee.com.tw/news/20261111701032-430305",
+      "source": "工商時報 2026/11/11",
+      "thumb": "daily-news/thumb/clip-insai.jpg",
+      "full": "daily-news/img/cards/insai.png",
+      "download_path": "daily-news/img/cards/insai.png"
     },
     {
-      "caption": "富邦產險推樂齡專案",
-      "download": "20261111-剪報-富邦產險推樂齡專案.png",
-      "source_url": "https://www.ctee.com.tw/news/20261110700751-430305",
-      "source": "工商時報 2026/11/10",
-      "thumb": "daily-news/thumb/clip-fubonsenior.jpg",
-      "full": "daily-news/img/cards/fubonsenior.png",
-      "download_path": "daily-news/img/cards/fubonsenior.png"
+      "caption": "主動ETF新兵00418A掛牌",
+      "download": "20261112-剪報-主動ETF新兵00418A掛牌.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202611110048/",
+      "source": "今周刊 2026/11/11",
+      "thumb": "daily-news/thumb/clip-etf418a.jpg",
+      "full": "daily-news/img/cards/etf418a.png",
+      "download_path": "daily-news/img/cards/etf418a.png"
     },
     {
-      "caption": "數位保險3業者申設",
-      "download": "20261111-剪報-數位保險3業者申設.png",
-      "source_url": "https://www.cna.com.tw/news/afe/202611100318.aspx",
-      "source": "中央社 2026/11/10",
-      "thumb": "daily-news/thumb/clip-digitalins.jpg",
-      "full": "daily-news/img/cards/digitalins.png",
-      "download_path": "daily-news/img/cards/digitalins.png"
+      "caption": "賣飛009816該認錯買回？",
+      "download": "20261112-剪報-賣飛009816該認錯買回.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202611110064/",
+      "source": "今周刊 2026/11/11",
+      "thumb": "daily-news/thumb/clip-etf9816.jpg",
+      "full": "daily-news/img/cards/etf9816.png",
+      "download_path": "daily-news/img/cards/etf9816.png"
     },
     {
-      "caption": "遺產繼承流程一次看",
-      "download": "20261111-剪報-遺產繼承流程一次看.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183012/post/202611100031/",
-      "source": "今周刊 2026/11/10",
-      "thumb": "daily-news/thumb/clip-inherit.jpg",
-      "full": "daily-news/img/cards/inherit.png",
-      "download_path": "daily-news/img/cards/inherit.png"
+      "caption": "AI股還能逢低買進？關鍵五問",
+      "download": "20261112-剪報-AI股還能逢低買進關鍵五問.png",
+      "source_url": "https://www.cw.com.tw/article/5143608",
+      "source": "天下雜誌 2026/11/06",
+      "thumb": "daily-news/thumb/clip-crashq5.jpg",
+      "full": "daily-news/img/cards/crashq5.png",
+      "download_path": "daily-news/img/cards/crashq5.png"
     },
     {
-      "caption": "00878高配息能撐多久？",
-      "download": "20261111-剪報-00878高配息能撐多久.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202611100028/",
-      "source": "今周刊 2026/11/10",
-      "thumb": "daily-news/thumb/clip-etf878.jpg",
-      "full": "daily-news/img/cards/etf878.png",
-      "download_path": "daily-news/img/cards/etf878.png"
+      "caption": "首例瘦瘦針疑釀眼中風失明",
+      "download": "20261112-剪報-首例瘦瘦針疑釀眼中風失明.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611110217.aspx",
+      "source": "中央社 2026/11/11",
+      "thumb": "daily-news/thumb/clip-glp1eye.jpg",
+      "full": "daily-news/img/cards/glp1eye.png",
+      "download_path": "daily-news/img/cards/glp1eye.png"
     },
     {
-      "caption": "小眾肺癌免疫治療逾300萬",
-      "download": "20261111-剪報-小眾肺癌免疫治療逾300萬.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202611100219.aspx",
-      "source": "中央社 2026/11/10",
-      "thumb": "daily-news/thumb/clip-lungcancer.jpg",
-      "full": "daily-news/img/cards/lungcancer.png",
-      "download_path": "daily-news/img/cards/lungcancer.png"
+      "caption": "吸菸者罹肺阻塞風險高6.3倍",
+      "download": "20261112-剪報-吸菸者罹肺阻塞風險高6.3倍.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611110304.aspx",
+      "source": "中央社 2026/11/11",
+      "thumb": "daily-news/thumb/clip-copd.jpg",
+      "full": "daily-news/img/cards/copd.png",
+      "download_path": "daily-news/img/cards/copd.png"
     },
     {
-      "caption": "台大急診單日破300人天數破百",
-      "download": "20261111-剪報-台大急診單日破300人天數破百.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202611100246.aspx",
-      "source": "中央社 2026/11/10",
-      "thumb": "daily-news/thumb/clip-ntuher.jpg",
-      "full": "daily-news/img/cards/ntuher.png",
-      "download_path": "daily-news/img/cards/ntuher.png"
+      "caption": "醫師55歲猝逝　疑流感奪命",
+      "download": "20261112-剪報-醫師55歲猝逝.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183027/post/202611110018/",
+      "source": "今周刊 2026/11/11",
+      "thumb": "daily-news/thumb/clip-fludoc.jpg",
+      "full": "daily-news/img/cards/fludoc.png",
+      "download_path": "daily-news/img/cards/fludoc.png"
     },
     {
-      "caption": "血管35歲走下坡　吃對礦物質顧血管",
-      "download": "20261111-剪報-血管35歲走下坡.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183029/post/202611100034/",
-      "source": "今周刊 2026/11/10",
-      "thumb": "daily-news/thumb/clip-vessel.jpg",
-      "full": "daily-news/img/cards/vessel.png",
-      "download_path": "daily-news/img/cards/vessel.png"
-    },
-    {
-      "caption": "65歲後做5種運動　關節年輕10歲",
-      "download": "20261111-剪報-65歲後做5種運動.png",
-      "source_url": "https://www.cw.com.tw/article/5143665",
-      "source": "天下雜誌 2026/11/10",
-      "thumb": "daily-news/thumb/clip-jointex.jpg",
-      "full": "daily-news/img/cards/jointex.png",
-      "download_path": "daily-news/img/cards/jointex.png"
+      "caption": "仙草抗發炎　還能降血糖",
+      "download": "20261112-剪報-仙草抗發炎.png",
+      "source_url": "https://www.cw.com.tw/article/5143465",
+      "source": "天下雜誌 2026/11/05",
+      "thumb": "daily-news/thumb/clip-grassjelly.jpg",
+      "full": "daily-news/img/cards/grassjelly.png",
+      "download_path": "daily-news/img/cards/grassjelly.png"
     }
   ],
-  "zip": "daily-news/news-20261111-all.zip",
+  "zip": "daily-news/news-20261112-all.zip",
   "page": "daily-news/",
   "source_repo": "https://dashin-team.github.io/daily-news/",
-  "synced_at": "2026/11/11 07:59"
+  "synced_at": "2026/11/12 08:02"
 }
