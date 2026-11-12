@@ -26,13 +26,14 @@
 <symbol id="i-health" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3.5h6V9h5.5v6H15v5.5H9V15H3.5V9H9z"/></g><path d="M6.5 12h3l1.4-2.6 2.2 5.2 1.4-2.6h3" fill="none" stroke="url(#gd)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
 <symbol id="i-hiyield" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="13" r="7.5"/></g><path d="M11 16.5V9.8M8 12.6l3-3 3 3" fill="none" stroke="url(#gd)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M19.5 2.5v4.5M17.25 4.75h4.5" stroke="url(#gd)" stroke-width="1.6" stroke-linecap="round"/></symbol>
 <symbol id="i-fund" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v4c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-4M4 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5"/><path d="M4 8v4"/><path d="M18 8v4"/></g><ellipse cx="11" cy="8" rx="7" ry="2.5" fill="url(#gd)" stroke="url(#gr)" stroke-width="1.6"/></symbol>
+<symbol id="i-video" viewBox="0 0 24 24"><g fill="none" stroke="url(#gr)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10.2l5-2.7v9l-5-2.7z"/></g><path d="M8 12l4 2.4V9.6z" fill="url(#gd)" stroke="none"/></symbol>
 </defs></svg>
 <header class="nav">
   <div class="wrap nav-in">
     <a class="brand" href="#top"><img src="img/logo_nav.png" alt="南恩通訊處" width="46" height="46"><span><b>南恩通訊處</b><small>台南最大心，服務最用心</small></span></a>
     <button class="burger" aria-label="開啟選單" aria-expanded="false" onclick="toggleNav(this)"><svg class="si" aria-hidden="true"><use href="#i-menu"/></svg></button>
     <nav id="menu">
-      <a href="#family-liability">調皮搗蛋險</a><a href="#products">保險商品</a><a href="#tools">線上報價</a><a href="finance.html">每日財經</a><a href="fund.html">配息基金</a><a href="und.html">UND試算</a><a href="#why">服務特色</a><a href="#vision">團隊願景</a><a href="#contact">聯絡我們</a>
+      <a href="#products">保險商品</a><a href="#tools">線上報價</a><a href="finance.html">每日財經</a><a href="fund.html">配息基金</a><a href="und.html">UND試算</a><a href="#vision">願景與特色</a><a href="#contact">聯絡我們</a>
       <a class="btn-nav" href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener">旅平險報價</a>
     </nav>
   </div>
@@ -86,7 +87,19 @@
   <div id="rates-trend"></div>
 </div></section>
 
-<section id="family-liability" class="fl-sec"><div class="wrap sec">
+<section id="products" class="wrap sec">
+  <h2>保險商品分類</h2>
+  <p class="sub">選擇您關心的保障類型，了解規劃重點</p>
+  <div class="grid6">
+    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/medical.png" alt="醫療險" width="64" height="64" loading="lazy" decoding="async"></span><b>醫療險</b><small>住院、手術、實支實付</small></a>
+    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/critical.png" alt="重大傷病" width="64" height="64" loading="lazy" decoding="async"></span><b>重大傷病</b><small>癌症、重大疾病一次給付</small></a>
+    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/longterm.png" alt="長照險" width="64" height="64" loading="lazy" decoding="async"></span><b>長照險</b><small>失能照護、長期安心</small></a>
+    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/savings.png" alt="儲蓄險" width="64" height="64" loading="lazy" decoding="async"></span><b>儲蓄險</b><small>穩健累積、退休規劃</small></a>
+    <a class="tile" href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener"><span class="ico"><img src="img/icons/travel.png" alt="旅平險" width="64" height="64" loading="lazy" decoding="async"></span><b>旅平險</b><small>出國旅遊、線上試算</small></a>
+    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/car.png" alt="車險" width="64" height="64" loading="lazy" decoding="async"></span><b>車險</b><small>強制險、任意險規劃</small></a>
+  </div>
+
+  <div id="family-liability" class="fl-panel">
   <p class="fl-kicker">家人保障－家庭日常生活責任保險</p>
   <h2 class="fl-slogan">調皮搗蛋也有保障！</h2>
   <p class="fl-intro">家庭成員因日常活動所引起之意外事故，致第三人體傷、死亡或財物受損時，在約定保額內，由保險公司負賠償之責。</p>
@@ -111,42 +124,81 @@
     <tbody><tr><td>50萬</td><td><b>683</b> 元</td></tr><tr><td>100萬</td><td><b>783</b> 元</td></tr><tr><td>150萬</td><td><b>839</b> 元</td></tr><tr><td>200萬</td><td><b>877</b> 元</td></tr></tbody>
   </table></div>
   <p class="fl-foot">實際承保內容以保單條款為準；歡迎<a href="#contact">聯絡我們報價</a>。</p>
-</div></section>
-
-<section id="products" class="wrap sec">
-  <h2>保險商品分類</h2>
-  <p class="sub">選擇您關心的保障類型，了解規劃重點</p>
-  <div class="grid6">
-    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/medical.png" alt="醫療險" width="64" height="64" loading="lazy" decoding="async"></span><b>醫療險</b><small>住院、手術、實支實付</small></a>
-    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/critical.png" alt="重大傷病" width="64" height="64" loading="lazy" decoding="async"></span><b>重大傷病</b><small>癌症、重大疾病一次給付</small></a>
-    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/longterm.png" alt="長照險" width="64" height="64" loading="lazy" decoding="async"></span><b>長照險</b><small>失能照護、長期安心</small></a>
-    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/savings.png" alt="儲蓄險" width="64" height="64" loading="lazy" decoding="async"></span><b>儲蓄險</b><small>穩健累積、退休規劃</small></a>
-    <a class="tile" href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener"><span class="ico"><img src="img/icons/travel.png" alt="旅平險" width="64" height="64" loading="lazy" decoding="async"></span><b>旅平險</b><small>出國旅遊、線上試算</small></a>
-    <a class="tile" href="#contact"><span class="ico"><img src="img/icons/car.png" alt="車險" width="64" height="64" loading="lazy" decoding="async"></span><b>車險</b><small>強制險、任意險規劃</small></a>
   </div>
 </section>
 
 <section id="tools" class="band"><div class="wrap sec">
   <h2>線上工具</h2>
   <p class="sub">隨時隨地，快速取得報價</p>
-  <div class="cards">
+  <nav class="tool-nav" aria-label="工具分類">
+    <a href="#tools-quote">報價與試算</a>
+    <a href="#tools-invest">投資與基金</a>
+    <a href="#tools-knowledge">保險知識專區</a>
+    <a href="#tools-team">團隊工具</a>
+  </nav>
+
+  <div id="tools-quote" class="tool-group">
+    <h3 class="tool-cat">報價與試算</h3>
+    <div class="cards">
     <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/travel.png" alt="旅平險" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>旅平險組合方案試算</h3><p>依旅遊天數與保額組合，即時計算保費。</p><a href="https://gbnetwork168.github.io/nanen-travel-quote/editor.html" target="_blank" rel="noopener">前往試算 →</a></div></article>
     <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/savings.png" alt="儲蓄險" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>儲蓄險快速報價</h3><p>儲蓄險保費與商品快速查詢、比較。</p><a href="savings-quote/home.html">前往報價 →</a></div></article>
     <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/medical.png" alt="醫療險" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>醫療險快速報價</h3><p>醫療險（四季春等）保費快速查詢，輸入條件即時試算。</p><a href="medical-quote/index.html">前往報價 →</a></div></article>
-    <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/claim.png" alt="車禍理賠" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>車禍理賠流程</h3><p>現場 SOP、陪伴客戶、理賠與和解重點一次看懂。</p><a href="car-claim/index.html">前往閱讀 →</a></div></article>
-    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/cancer.png" alt="癌症風險地圖" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>人類風險地圖（癌症）</h3><p>如果罹癌，需要準備多少錢？互動式風險地圖一看就懂。</p><a href="cancer-risk-map/index.html">前往查看 →</a></div></article>
+    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/medical.png" alt="富小胖商品報價" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>富小胖商品報價</h3><p>醫療、重大傷病、長照等商品一站查詢，快速比較保障內容與保費。</p><a href="https://gbnetwork168.github.io/fubon-quote-tool/home.html" target="_blank" rel="noopener">前往報價 →</a></div></article>
+    <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/medical.png" alt="富邦個人險快速報價" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>富邦個人險快速報價</h3><p>個人險快速報價入口；此頁目前提示已搬家，會轉至新網址。</p><a href="https://s193yt.github.io/personal-quote/" target="_blank" rel="noopener">前往報價 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/medical.png" alt="四季春快速報價" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>四季春快速報價</h3><p>輸入被保險人條件，即時查詢可投保的四季春等醫療險主約與附約。</p><a href="https://baojia-fyc.pages.dev" target="_blank" rel="noopener">前往報價 →</a></div></article>
+    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/savings.png" alt="搭配專區" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>搭配專區</h3><p>試算男女癌搭配儲蓄或重大傷病／重大疾病附約的領回規劃。</p><a href="https://gbnetwork168.github.io/personal-quote/combo.html" target="_blank" rel="noopener">前往試算 →</a></div></article>
+    <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/cancer.png" alt="CIA＆CIB" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>CIA＆CIB</h3><p>豪愛守護（CIA／CIB）男癌／女癌投保條件與單位保費試算。</p><a href="https://dashin-team.github.io/cia-cib-cancer/" target="_blank" rel="noopener">前往試算 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/cancer.png" alt="CLX＆CLZ" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>CLX＆CLZ</h3><p>豪愛無憂（CLZ／CLX）男癌／女癌投保條件與單位保費試算。</p><a href="https://dashin-team.github.io/clz-clx-cancer/" target="_blank" rel="noopener">前往試算 →</a></div></article>
     <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/fracture.png" alt="骨折險" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>骨折險</h3><p>意外險／骨折保障說明與即時保費試算。</p><a href="accident-insurance/index.html">前往試算 →</a></div></article>
     <article class="card"><div class="card-top c3"><span class="ico"><svg class="fd-card-svg" role="img" aria-label="教師責任險"><use href="#i-teacher"/></svg></span></div><div class="card-b"><h3>教師責任險</h3><p>為老師撐一把傘：教學場域責任風險、真實案例與保費試算。</p><a href="teacher-liability/index.html">前往閱讀 →</a></div></article>
-    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/finance.png" alt="每日財經" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>每日財經</h3><p>華爾街日報、Bloomberg 中文日報圖文版、南恩新聞報報與每日匯率，每日更新、可下載 PDF。</p><a href="finance.html">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/savings.png" alt="房貸組合試算" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>房貸組合試算</h3><p>依房貸條件試算搭配儲蓄險後的每月現金流、保障與逐年明細。</p><a href="https://gbnetwork168.github.io/mortgage-combo/" target="_blank" rel="noopener">前往試算 →</a></div></article>
+    <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/claim.png" alt="理賠即時通" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>理賠即時通</h3><p>治療前先依條款查保單權益與限額，並比較長照、失能與傷病保障。</p><a href="https://peibupei.pages.dev/" target="_blank" rel="noopener">前往查看 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/medical.png" alt="醫療實支實付比較" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>醫療實支實付比較</h3><p>各家實支實付醫療險保障比較，僅供參考，以各公司正式條款為準。</p><a href="https://gbnetwork168.github.io/medical-compare/" target="_blank" rel="noopener">前往查看 →</a></div></article>
+    </div>
+  </div>
+
+  <div id="tools-invest" class="tool-group">
+    <h3 class="tool-cat">投資與基金</h3>
+    <div class="cards">
     <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/fund.svg" alt="配息基金" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>配息基金試算</h3><p>基金淨值、配息與年化配息率一覽，投資金額試算、轉換試算與比較圖。</p><a href="fund.html">前往試算 →</a></div></article>
     <article class="card"><div class="card-top c1"><span class="ico"><svg class="fd-card-svg" role="img" aria-label="科技與醫療基金"><use href="#i-tech"/></svg></span></div><div class="card-b"><h3>科技與醫療基金</h3><p>科技、半導體、AI、生技、醫療健康護理基金與 ETF 的報酬、配息一覽與比較圖。</p><a href="fund_theme.html">前往查看 →</a></div></article>
     <article class="card"><div class="card-top c2"><span class="ico"><svg class="fd-card-svg" role="img" aria-label="高配息新標的"><use href="#i-hiyield"/></svg></span></div><div class="card-b"><h3>高配息新標的（5%以上）</h3><p>年化配息率 5% 以上、有實際配息紀錄的新標的，附近 12 個月配息對照。</p><a href="fund_new.html">前往查看 →</a></div></article>
+    </div>
+  </div>
+
+  <div id="tools-knowledge" class="tool-group">
+    <h3 class="tool-cat">保險知識專區</h3>
+    <div class="cards">
+    <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/claim.png" alt="車禍理賠" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>車禍理賠流程</h3><p>現場 SOP、陪伴客戶、理賠與和解重點一次看懂。</p><a href="car-claim/index.html">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/cancer.png" alt="癌症風險地圖" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>人類風險地圖（癌症）</h3><p>如果罹癌，需要準備多少錢？互動式風險地圖一看就懂。</p><a href="cancer-risk-map/index.html">前往查看 →</a></div></article>
+    <article class="card"><div class="card-top c3"><span class="ico"><svg class="fd-card-svg" role="img" aria-label="團險職災"><use href="#i-shield"/></svg></span></div><div class="card-b"><h3>團險職災</h3><p>員工職災時雇主依法要承擔的補償責任、案例與團險專案怎麼選。</p><a href="https://dashin-team.github.io/group-injury-guide/" target="_blank" rel="noopener">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/medical.png" alt="實支實付＆手術險" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>實支實付＆手術險</h3><p>從手術定義、健保代碼到定額與實支實付怎麼分工，一次看懂。</p><a href="https://dashin-team.github.io/surgery-insurance-guide/" target="_blank" rel="noopener">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/longterm.png" alt="失能＆失智＆長照" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>失能＆失智＆長照</h3><p>一頁看懂三種保障的理賠條件差異、重疊、缺口與適合誰。</p><a href="https://dashin-team.github.io/ltc-compare-v2/" target="_blank" rel="noopener">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/car.png" alt="車險架構" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>車險架構</h3><p>富邦車險健檢互動教學：險種重點、規劃順序與出單實務提醒。</p><a href="https://dashin-team.github.io/fubon-car-insurance-guide/" target="_blank" rel="noopener">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><svg class="fd-card-svg" role="img" aria-label="意外險教育訓練"><use href="#i-bulb"/></svg></span></div><div class="card-b"><h3>意外險教育訓練</h3><p>整理意外定義、理賠項目、職業等級與失能給付表，供夥伴教學使用。</p><a href="https://dashin-team.github.io/accident-insurance-guide/" target="_blank" rel="noopener">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c2"><span class="ico"><svg class="fd-card-svg" role="img" aria-label="新生兒教戰手冊"><use href="#i-heart"/></svg></span></div><div class="card-b"><h3>新生兒教戰手冊</h3><p>協助新手爸媽規劃寶寶保障的時程、文件、建議順序與溝通要點。</p><a href="https://dashin-team.github.io/newborn-insurance-guide/" target="_blank" rel="noopener">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/travel.png" alt="旅平險大補給" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>旅平險大補給</h3><p>海外旅行不便險基本常識、保障一頁看懂與常見實務誤區。</p><a href="https://dashin-team.github.io/travel-insurance-guide/" target="_blank" rel="noopener">前往閱讀 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><img src="img/icons/critical.png" alt="認識重大傷病" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>認識重大傷病</h3><p>看懂重大傷病與重大傷病險，以及發生率、花費與保障缺口。</p><a href="https://dashin-team.github.io/critical-illness/?v=4" target="_blank" rel="noopener">前往閱讀 →</a></div></article>
+    </div>
+  </div>
+
+  <div id="tools-team" class="tool-group">
+    <h3 class="tool-cat">團隊工具</h3>
+    <div class="cards">
+    <article class="card"><div class="card-top c2"><span class="ico"><img src="img/icons/finance.png" alt="每日財經" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>每日財經</h3><p>華爾街日報、Bloomberg 中文日報圖文版、南恩新聞報報與每日匯率，每日更新、可下載 PDF。</p><a href="finance.html">前往閱讀 →</a></div></article>
     <article class="card"><div class="card-top c3"><span class="ico"><img src="img/icons/medical.png" alt="保單健檢" width="64" height="64" loading="lazy" decoding="async"></span></div><div class="card-b"><h3>保單健檢預約</h3><p>帶著現有保單，讓我們幫您檢視保障。</p><a href="#contact">聯絡我們 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><svg class="fd-card-svg" role="img" aria-label="輪播圖產生器"><use href="#i-bulb"/></svg></span></div><div class="card-b"><h3>輪播圖產生器</h3><p>貼上文案即可生成 IG 輪播圖，可直接編輯、預覽並下載。</p><a href="https://dashin-team.github.io/ig-carousel/" target="_blank" rel="noopener">前往使用 →</a></div></article>
+    <article class="card"><div class="card-top c2"><span class="ico"><svg class="fd-card-svg" role="img" aria-label="富邦佣金快速查詢"><use href="#i-fund"/></svg></span></div><div class="card-b"><h3>富邦佣金快速查詢</h3><p>需登入後查詢富邦佣金；未登入會看到保護頁，無法直接瀏覽。</p><a href="https://bronze-petal-4y96.here.now" target="_blank" rel="noopener">前往查詢 →</a></div></article>
+    <article class="card"><div class="card-top c3"><span class="ico"><svg class="fd-card-svg" role="img" aria-label="南恩影片共享區"><use href="#i-chat"/></svg></span></div><div class="card-b"><h3>南恩影片共享區</h3><p>依分類瀏覽單位影片，登入後即可點擊播放。</p><a href="https://nanen-video.netlify.app/" target="_blank" rel="noopener">前往觀看 →</a></div></article>
+    <article class="card"><div class="card-top c1"><span class="ico"><svg class="fd-card-svg" role="img" aria-label="即時對話翻譯"><use href="#i-chat"/></svg></span></div><div class="card-b"><h3>即時對話翻譯</h3><p>雙向即時對話翻譯，可對調語言、朗讀與清除內容。</p><a href="https://gbnetwork168.github.io/live-translate/" target="_blank" rel="noopener">前往使用 →</a></div></article>
+    </div>
   </div>
 </div></section>
 
-<section id="vision" class="vision"><div class="wrap sec">
-  <h2>團隊願景</h2>
+<section id="vision" class="vision">
+  <div id="why" class="vis-why-anchor" tabindex="-1"></div>
+  <div class="wrap sec">
+  <h2>團隊願景與服務特色</h2>
   <p class="sub">南恩通訊處・台南最大心，服務最用心</p>
   <a class="home-banner" href="brand.html"><img src="img/brand/banner.jpg" alt="南恩通訊處 台南最大心，服務最用心" width="2400" height="600" loading="lazy" decoding="async"></a>
   <p class="brush-quote">台南最大心，<br class="m-br">服務最用心</p>
@@ -157,16 +209,13 @@
     <li><b class="em">充滿愛</b>・<b class="em">充滿智慧</b></li>
   </ul>
   <p class="center"><a class="btn btn-gold" href="brand.html#vision">看完整團隊願景 →</a></p>
-</div></section>
-
-<section id="why" class="wrap sec">
-  <h2>為什麼選擇南恩</h2>
+  <h3 class="why-heading">為什麼選擇南恩</h3>
   <div class="why">
     <div><svg class="si si-lg" aria-hidden="true"><use href="#i-pin"/></svg><b>在地服務</b><p>深耕台南，就近提供面對面諮詢。</p></div>
     <div><svg class="si si-lg" aria-hidden="true"><use href="#i-check"/></svg><b>需求導向</b><p>依家庭與人生階段規劃，不推銷不需要的保障。</p></div>
     <div><svg class="si si-lg" aria-hidden="true"><use href="#i-shield"/></svg><b>理賠協助</b><p>理賠流程全程協助，讓您少跑一趟。</p></div>
   </div>
-</section>
+</div></section>
 
 <section id="contact" class="band"><div class="wrap sec">
   <h2>通訊處聯絡資訊</h2>

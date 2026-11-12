@@ -60,6 +60,11 @@ h2::after{content:"";display:block;width:150px;height:10px;margin:12px auto 0;ba
 .card-top .ico img{width:92px;height:92px;transition:.3s}.card:hover .card-top .ico img{transform:scale(1.1) rotate(-3deg)}
 .card-b{padding:20px;display:flex;flex-direction:column;flex:1}.card-b h3{margin:0 0 6px;color:var(--navy)}.card-b p{margin:0 0 12px;color:var(--mut);flex:1}
 .card-b a{color:var(--b);font-weight:800;align-self:flex-start;border-bottom:2px solid var(--gold2);transition:.2s}.card-b a:hover{color:var(--teal);border-color:var(--gold)}
+.cards-fill{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.tools-h3{text-align:center;margin:48px 0 8px;color:var(--navy);font-size:22px;letter-spacing:2px;font-weight:700}
+.tools-sub{text-align:center;color:var(--mut);margin:0 0 22px;font-size:15px}
+@media(max-width:720px){.tools-h3{font-size:20px;letter-spacing:1px;margin-top:36px}.tools-sub{font-size:14px;margin-bottom:18px}}
+
 /* 特色 */
 .why{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}
 .why div{background:#fff;border-radius:20px;box-shadow:var(--sh);border:var(--edge);padding:22px 24px;transition:.25s}.why div:hover{transform:translateY(-4px);box-shadow:var(--sh2)}
@@ -380,3 +385,33 @@ nav.open{display:flex}nav a{padding:14px 20px;border-top:1px solid #edf2f8}nav a
 .fd-prod li em{font-style:normal;font-size:11px;margin-left:4px;padding:0 5px;border:1px solid #c5ccd6;border-radius:6px;color:#8a97a6}
 .fd-prodnote{margin:8px 4px 0;font-size:12.5px;color:var(--mut)}
 .fd-prod li em{white-space:nowrap}
+
+/* 線上工具分類與跳轉 */
+.tool-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:0 0 28px}
+.tool-nav a{background:#fff;border:1.5px solid rgba(201,162,74,.7);border-radius:99px;padding:7px 16px;font-weight:700;color:var(--navy);font-size:15px;box-shadow:var(--sh);transition:.2s;white-space:nowrap}
+.tool-nav a:hover,.tool-nav a:focus-visible{background:#fff8e6;border-color:var(--gold);color:var(--b);transform:translateY(-2px)}
+.tool-group{margin:0 0 40px;scroll-margin-top:84px}
+.tool-group:last-child{margin-bottom:0}
+.tool-cat{width:100%;margin:0 0 18px;text-align:center;color:var(--navy);font-size:22px;letter-spacing:2px;font-weight:800}
+.tool-cat::after{content:"";display:block;width:72px;height:3px;margin:8px auto 0;background:var(--goldg);border-radius:2px}
+
+/* 團隊願景與服務特色合併區塊 */
+.vis-why-anchor{position:absolute;top:0;left:0;width:1px;height:1px;overflow:hidden;pointer-events:none;scroll-margin-top:76px}
+.why-heading{text-align:center;margin:42px 0 0;color:var(--navy);font-size:22px;letter-spacing:2px;font-weight:800}
+.why-heading::after{content:"";display:block;width:72px;height:3px;margin:8px auto 0;background:var(--goldg);border-radius:2px}
+
+/* 家責險改為商品分類下的子項目 */
+.fl-panel{margin-top:42px;padding:32px 24px 28px;background:linear-gradient(180deg,#fff8e6 0%,#fffdf6 100%);border:var(--edge);border-radius:24px;box-shadow:var(--sh);scroll-margin-top:84px}
+.fl-panel .fl-slogan{font-size:44px;letter-spacing:3px;margin:0 auto}
+@media(max-width:900px){
+  .tool-nav{gap:8px;margin-bottom:22px}
+  .tool-nav a{font-size:14px;padding:6px 14px}
+  .fl-panel{padding:24px 16px 22px}
+  .fl-panel .fl-slogan{font-size:36px;letter-spacing:2px}
+}
+@media(max-width:720px){
+  .tool-cat,.why-heading{font-size:20px}
+  .fl-panel{margin-top:28px;padding:20px 12px 18px}
+  .fl-panel .fl-slogan{font-size:min(32px,8.4vw);letter-spacing:1px}
+  .tool-group{margin-bottom:32px}
+}
