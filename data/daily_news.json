@@ -1,70 +1,70 @@
 {
-  "date": "2026.11.12",
+  "date": "2026.11.13",
   "title": "南恩新聞報報",
-  "date_label": "2026.11.12",
+  "date_label": "2026.11.13",
   "headlines": [
     {
-      "url": "https://www.ctee.com.tw/news/20261112700043-439901",
-      "title": "政策利多齊發、上市櫃營收飆高 台股V轉氣勢強 月線在望",
+      "url": "https://www.ctee.com.tw/news/20261113700046-439901",
+      "title": "黃仁勳下台 輝達茫然",
       "source": "工商時報",
-      "time": "2026/11/12"
+      "time": "2026/11/13"
     },
     {
-      "url": "https://www.ctee.com.tw/news/20261112700046-439901",
-      "title": "Fed鷹風陣陣 12月升息2碼？",
+      "url": "https://www.ctee.com.tw/news/20261113700049-439901",
+      "title": "為他瘋狂 台股洗三溫暖",
       "source": "工商時報",
-      "time": "2026/11/12"
+      "time": "2026/11/13"
     },
     {
-      "url": "https://www.cw.com.tw/article/5143673",
-      "title": "美債大跌，輝達續挫｜台積電砸10億美元，押Anthropic與OpenAI",
+      "url": "https://www.cw.com.tw/article/5143699",
+      "title": "黃仁勳辭職會掃到台廠AI供應鏈嗎？「踩油門的人不見了」需求會放緩？",
       "source": "天下雜誌",
-      "time": "2026/11/11"
+      "time": "2026/11/12"
     },
     {
-      "url": "https://www.ctee.com.tw/news/20261111700347-430305",
-      "title": "產險攻銀髮市場 保障擴大",
+      "url": "https://www.ctee.com.tw/news/20261112701641-430305",
+      "title": "旺旺保前三季賺22.6億元創高 獲利飆增1.5倍",
       "source": "工商時報",
-      "time": "2026/11/11"
+      "time": "2026/11/12"
     },
     {
-      "url": "https://www.cna.com.tw/news/ahel/202611110217.aspx",
-      "title": "首例瘦瘦針疑釀眼中風失明　申請藥害救濟審議中",
+      "url": "https://www.cna.com.tw/news/ahel/202611120356.aspx",
+      "title": "台東學生錯打COVID-19疫苗　疾管署：不致有害、要求徹查",
       "source": "中央社",
-      "time": "2026/11/11"
+      "time": "2026/11/12"
     }
   ],
   "indices": [
     {
       "name": "道瓊",
-      "value": "52,486.49",
-      "dir": "up",
-      "change": "+254.60（+0.49%）"
+      "value": "52,297.09",
+      "dir": "dn",
+      "change": "-189.40（-0.36%）"
     },
     {
       "name": "標普500",
-      "value": "7,619.38",
-      "dir": "up",
-      "change": "+98.45（+1.31%）"
+      "value": "7,592.40",
+      "dir": "dn",
+      "change": "-26.98（-0.35%）"
     },
     {
       "name": "那斯達克",
-      "value": "25,466.19",
-      "dir": "up",
-      "change": "+400.31（+1.60%）"
+      "value": "25,366.09",
+      "dir": "dn",
+      "change": "-100.10（-0.39%）"
     },
     {
       "name": "台股加權",
-      "value": "44,257.15",
-      "dir": "up",
-      "change": "+1,545.23（+3.62%）"
+      "value": "43,091.87",
+      "dir": "dn",
+      "change": "-1,165.28（-2.63%）"
     }
   ],
-  "indices_note": "美股為美東 11/11（週三）收盤（中央社）；台股為 11/11（週三）收盤（中央社、工商時報；本日 11/12 週四開盤前編輯）",
+  "indices_note": "美股為美東 11/12（週四）收盤（中央社）；台股為 11/12（週四）收盤（工商時報）；本日 11/13 週五開盤前編輯",
   "posters": [
     {
-      "caption": "每日報報 2026.11.12（五大頭條）",
-      "download": "20261112-每日報報-五大頭條.png",
+      "caption": "每日報報 2026.11.13（五大頭條）",
+      "download": "20261113-每日報報-五大頭條.png",
       "thumb": "daily-news/thumb/poster-1-headlines.jpg",
       "full": "daily-news/img/poster-1-headlines.png",
       "download_path": "daily-news/img/poster-1-headlines.png"
@@ -72,143 +72,143 @@
   ],
   "clips": [
     {
-      "caption": "台股V轉氣勢強　月線在望",
-      "download": "20261112-剪報-台股V轉氣勢強.png",
-      "source_url": "https://www.ctee.com.tw/news/20261112700043-439901",
+      "caption": "黃仁勳下台　輝達茫然",
+      "download": "20261113-剪報-黃仁勳下台.png",
+      "source_url": "https://www.ctee.com.tw/news/20261113700046-439901",
+      "source": "工商時報 2026/11/13",
+      "thumb": "daily-news/thumb/clip-jhhquit.jpg",
+      "full": "daily-news/img/cards/jhhquit.png",
+      "download_path": "daily-news/img/cards/jhhquit.png"
+    },
+    {
+      "caption": "為他瘋狂　台股洗三溫暖",
+      "download": "20261113-剪報-為他瘋狂.png",
+      "source_url": "https://www.ctee.com.tw/news/20261113700049-439901",
+      "source": "工商時報 2026/11/13",
+      "thumb": "daily-news/thumb/clip-twswing.jpg",
+      "full": "daily-news/img/cards/twswing.png",
+      "download_path": "daily-news/img/cards/twswing.png"
+    },
+    {
+      "caption": "黃仁勳辭職　台廠AI鏈受衝擊？",
+      "download": "20261113-剪報-黃仁勳辭職.png",
+      "source_url": "https://www.cw.com.tw/article/5143699",
+      "source": "天下雜誌 2026/11/12",
+      "thumb": "daily-news/thumb/clip-nvsupply.jpg",
+      "full": "daily-news/img/cards/nvsupply.png",
+      "download_path": "daily-news/img/cards/nvsupply.png"
+    },
+    {
+      "caption": "外商對台採購估3258億美元",
+      "download": "20261113-剪報-外商對台採購估3258億美元.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202611120308.aspx",
+      "source": "中央社 2026/11/12",
+      "thumb": "daily-news/thumb/clip-ipoaward.jpg",
+      "full": "daily-news/img/cards/ipoaward.png",
+      "download_path": "daily-news/img/cards/ipoaward.png"
+    },
+    {
+      "caption": "金管會資安長會議盯4面向",
+      "download": "20261113-剪報-金管會資安長會議盯4面向.png",
+      "source_url": "https://www.cna.com.tw/news/afe/202611120331.aspx",
+      "source": "中央社 2026/11/12",
+      "thumb": "daily-news/thumb/clip-fsccyber.jpg",
+      "full": "daily-news/img/cards/fsccyber.png",
+      "download_path": "daily-news/img/cards/fsccyber.png"
+    },
+    {
+      "caption": "「AI央行」輝達大到不能倒？",
+      "download": "20261113-剪報-「AI央行」輝達大到不能倒.png",
+      "source_url": "https://www.cw.com.tw/article/5143692",
+      "source": "天下雜誌 2026/11/12",
+      "thumb": "daily-news/thumb/clip-aicentral.jpg",
+      "full": "daily-news/img/cards/aicentral.png",
+      "download_path": "daily-news/img/cards/aicentral.png"
+    },
+    {
+      "caption": "旺旺保前三季賺22.6億創高",
+      "download": "20261113-剪報-旺旺保前三季賺22.6億創高.png",
+      "source_url": "https://www.ctee.com.tw/news/20261112701641-430305",
       "source": "工商時報 2026/11/12",
-      "thumb": "daily-news/thumb/clip-twvturn.jpg",
-      "full": "daily-news/img/cards/twvturn.png",
-      "download_path": "daily-news/img/cards/twvturn.png"
+      "thumb": "daily-news/thumb/clip-wwins.jpg",
+      "full": "daily-news/img/cards/wwins.png",
+      "download_path": "daily-news/img/cards/wwins.png"
     },
     {
-      "caption": "Fed鷹風陣陣　12月升息2碼？",
-      "download": "20261112-剪報-Fed鷹風陣陣.png",
-      "source_url": "https://www.ctee.com.tw/news/20261112700046-439901",
-      "source": "工商時報 2026/11/12",
-      "thumb": "daily-news/thumb/clip-fedhawk.jpg",
-      "full": "daily-news/img/cards/fedhawk.png",
-      "download_path": "daily-news/img/cards/fedhawk.png"
+      "caption": "強制第三人責任險　小黃抗議",
+      "download": "20261113-剪報-強制第三人責任險.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611120304.aspx",
+      "source": "中央社 2026/11/12",
+      "thumb": "daily-news/thumb/clip-taxiins.jpg",
+      "full": "daily-news/img/cards/taxiins.png",
+      "download_path": "daily-news/img/cards/taxiins.png"
     },
     {
-      "caption": "台積電砸10億美元押兩大AI",
-      "download": "20261112-剪報-台積電砸10億美元押兩大AI.png",
-      "source_url": "https://www.cw.com.tw/article/5143673",
-      "source": "天下雜誌 2026/11/11",
-      "thumb": "daily-news/thumb/clip-tsmcai.jpg",
-      "full": "daily-news/img/cards/tsmcai.png",
-      "download_path": "daily-news/img/cards/tsmcai.png"
+      "caption": "存600萬　退休月花5萬？",
+      "download": "20261113-剪報-存600萬.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183012/post/202611120013/",
+      "source": "今周刊 2026/11/12",
+      "thumb": "daily-news/thumb/clip-retire600.jpg",
+      "full": "daily-news/img/cards/retire600.png",
+      "download_path": "daily-news/img/cards/retire600.png"
     },
     {
-      "caption": "台股收復44000點　新台幣收32.86元",
-      "download": "20261112-剪報-台股收復44000點.png",
-      "source_url": "https://www.cna.com.tw/news/afe/202611110283.aspx",
-      "source": "中央社 2026/11/11",
-      "thumb": "daily-news/thumb/clip-twdfx.jpg",
-      "full": "daily-news/img/cards/twdfx.png",
-      "download_path": "daily-news/img/cards/twdfx.png"
+      "caption": "00631L規模破3000億　能買嗎？",
+      "download": "20261113-剪報-00631L規模破3000億.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202611120012/",
+      "source": "今周刊 2026/11/12",
+      "thumb": "daily-news/thumb/clip-etf631l.jpg",
+      "full": "daily-news/img/cards/etf631l.png",
+      "download_path": "daily-news/img/cards/etf631l.png"
     },
     {
-      "caption": "前9月月薪成長2.93%",
-      "download": "20261112-剪報-前9月月薪成長2.93%.png",
-      "source_url": "https://www.cna.com.tw/news/afe/202611110277.aspx",
-      "source": "中央社 2026/11/11",
-      "thumb": "daily-news/thumb/clip-wage.jpg",
-      "full": "daily-news/img/cards/wage.png",
-      "download_path": "daily-news/img/cards/wage.png"
+      "caption": "輝達該買還是該賣？",
+      "download": "20261113-剪報-輝達該買還是該賣.png",
+      "source_url": "https://www.cw.com.tw/article/5143701",
+      "source": "天下雜誌 2026/11/13",
+      "thumb": "daily-news/thumb/clip-nvbuy.jpg",
+      "full": "daily-news/img/cards/nvbuy.png",
+      "download_path": "daily-news/img/cards/nvbuy.png"
     },
     {
-      "caption": "美中AI管制升溫　台商風險上升",
-      "download": "20261112-剪報-美中AI管制升溫.png",
-      "source_url": "https://www.cw.com.tw/article/5143634",
-      "source": "天下雜誌 2026/11/10",
-      "thumb": "daily-news/thumb/clip-aicontrol.jpg",
-      "full": "daily-news/img/cards/aicontrol.png",
-      "download_path": "daily-news/img/cards/aicontrol.png"
+      "caption": "台東16學生錯打COVID疫苗",
+      "download": "20261113-剪報-台東16學生錯打COVID疫苗.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611120356.aspx",
+      "source": "中央社 2026/11/12",
+      "thumb": "daily-news/thumb/clip-vaxerr.jpg",
+      "full": "daily-news/img/cards/vaxerr.png",
+      "download_path": "daily-news/img/cards/vaxerr.png"
     },
     {
-      "caption": "產險攻銀髮市場　保障擴大",
-      "download": "20261112-剪報-產險攻銀髮市場.png",
-      "source_url": "https://www.ctee.com.tw/news/20261111700347-430305",
+      "caption": "兒童飾品手錶　重金屬超標",
+      "download": "20261113-剪報-兒童飾品手錶.png",
+      "source_url": "https://www.cna.com.tw/news/ahel/202611120318.aspx",
+      "source": "中央社 2026/11/12",
+      "thumb": "daily-news/thumb/clip-toymetal.jpg",
+      "full": "daily-news/img/cards/toymetal.png",
+      "download_path": "daily-news/img/cards/toymetal.png"
+    },
+    {
+      "caption": "寶林案倖存者：仍付健康代價",
+      "download": "20261113-剪報-寶林案倖存者：仍付健康代價.png",
+      "source_url": "https://www.businesstoday.com.tw/article/category/183027/post/202611120019/",
+      "source": "今周刊 2026/11/12",
+      "thumb": "daily-news/thumb/clip-baolin.jpg",
+      "full": "daily-news/img/cards/baolin.png",
+      "download_path": "daily-news/img/cards/baolin.png"
+    },
+    {
+      "caption": "冬季乾眼好發　中醫教護眼",
+      "download": "20261113-剪報-冬季乾眼好發.png",
+      "source_url": "https://www.ctee.com.tw/news/20261111700678-430905",
       "source": "工商時報 2026/11/11",
-      "thumb": "daily-news/thumb/clip-silverins.jpg",
-      "full": "daily-news/img/cards/silverins.png",
-      "download_path": "daily-news/img/cards/silverins.png"
-    },
-    {
-      "caption": "保險業AI使用率升至53％",
-      "download": "20261112-剪報-保險業AI使用率升至53％.png",
-      "source_url": "https://www.ctee.com.tw/news/20261111701032-430305",
-      "source": "工商時報 2026/11/11",
-      "thumb": "daily-news/thumb/clip-insai.jpg",
-      "full": "daily-news/img/cards/insai.png",
-      "download_path": "daily-news/img/cards/insai.png"
-    },
-    {
-      "caption": "主動ETF新兵00418A掛牌",
-      "download": "20261112-剪報-主動ETF新兵00418A掛牌.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202611110048/",
-      "source": "今周刊 2026/11/11",
-      "thumb": "daily-news/thumb/clip-etf418a.jpg",
-      "full": "daily-news/img/cards/etf418a.png",
-      "download_path": "daily-news/img/cards/etf418a.png"
-    },
-    {
-      "caption": "賣飛009816該認錯買回？",
-      "download": "20261112-剪報-賣飛009816該認錯買回.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183013/post/202611110064/",
-      "source": "今周刊 2026/11/11",
-      "thumb": "daily-news/thumb/clip-etf9816.jpg",
-      "full": "daily-news/img/cards/etf9816.png",
-      "download_path": "daily-news/img/cards/etf9816.png"
-    },
-    {
-      "caption": "AI股還能逢低買進？關鍵五問",
-      "download": "20261112-剪報-AI股還能逢低買進關鍵五問.png",
-      "source_url": "https://www.cw.com.tw/article/5143608",
-      "source": "天下雜誌 2026/11/06",
-      "thumb": "daily-news/thumb/clip-crashq5.jpg",
-      "full": "daily-news/img/cards/crashq5.png",
-      "download_path": "daily-news/img/cards/crashq5.png"
-    },
-    {
-      "caption": "首例瘦瘦針疑釀眼中風失明",
-      "download": "20261112-剪報-首例瘦瘦針疑釀眼中風失明.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202611110217.aspx",
-      "source": "中央社 2026/11/11",
-      "thumb": "daily-news/thumb/clip-glp1eye.jpg",
-      "full": "daily-news/img/cards/glp1eye.png",
-      "download_path": "daily-news/img/cards/glp1eye.png"
-    },
-    {
-      "caption": "吸菸者罹肺阻塞風險高6.3倍",
-      "download": "20261112-剪報-吸菸者罹肺阻塞風險高6.3倍.png",
-      "source_url": "https://www.cna.com.tw/news/ahel/202611110304.aspx",
-      "source": "中央社 2026/11/11",
-      "thumb": "daily-news/thumb/clip-copd.jpg",
-      "full": "daily-news/img/cards/copd.png",
-      "download_path": "daily-news/img/cards/copd.png"
-    },
-    {
-      "caption": "醫師55歲猝逝　疑流感奪命",
-      "download": "20261112-剪報-醫師55歲猝逝.png",
-      "source_url": "https://www.businesstoday.com.tw/article/category/183027/post/202611110018/",
-      "source": "今周刊 2026/11/11",
-      "thumb": "daily-news/thumb/clip-fludoc.jpg",
-      "full": "daily-news/img/cards/fludoc.png",
-      "download_path": "daily-news/img/cards/fludoc.png"
-    },
-    {
-      "caption": "仙草抗發炎　還能降血糖",
-      "download": "20261112-剪報-仙草抗發炎.png",
-      "source_url": "https://www.cw.com.tw/article/5143465",
-      "source": "天下雜誌 2026/11/05",
-      "thumb": "daily-news/thumb/clip-grassjelly.jpg",
-      "full": "daily-news/img/cards/grassjelly.png",
-      "download_path": "daily-news/img/cards/grassjelly.png"
+      "thumb": "daily-news/thumb/clip-dryeye.jpg",
+      "full": "daily-news/img/cards/dryeye.png",
+      "download_path": "daily-news/img/cards/dryeye.png"
     }
   ],
-  "zip": "daily-news/news-20261112-all.zip",
+  "zip": "daily-news/news-20261113-all.zip",
   "page": "daily-news/",
   "source_repo": "https://dashin-team.github.io/daily-news/",
-  "synced_at": "2026/11/12 08:02"
+  "synced_at": "2026/11/13 08:02"
 }
