@@ -78,16 +78,16 @@
      "on_sale": false
     }
    ],
-   "nav": 35.35,
-   "nav_date": "2026-11-16",
+   "nav": 35.14,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.59,
    "dividend_date": "2026-11-03",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.200283,
+   "annual_yield": 0.20148,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 7.08,
-   "return_1y": "0.92",
+   "return_1y": "0.22",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -170,16 +170,16 @@
      "on_sale": false
     }
    ],
-   "nav": 35.08,
-   "nav_date": "2026-11-16",
+   "nav": 35.01,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.51,
    "dividend_date": "2026-11-03",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.174458,
+   "annual_yield": 0.174807,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 6.12,
-   "return_1y": "-0.86",
+   "return_1y": "-1.01",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -262,16 +262,16 @@
      "on_sale": false
     }
    ],
-   "nav": 7.03,
-   "nav_date": "2026-11-16",
+   "nav": 7.01,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.0623,
    "dividend_date": "2026-10-30",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.106344,
+   "annual_yield": 0.106648,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 0.791,
-   "return_1y": "0.98",
+   "return_1y": "0.82",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -394,16 +394,16 @@
      "on_sale": false
     }
    ],
-   "nav": 70.82,
-   "nav_date": "2026-11-16",
+   "nav": 70.41,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.597,
    "dividend_date": "2026-11-10",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.101158,
+   "annual_yield": 0.101747,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 8.085,
-   "return_1y": "6.61",
+   "return_1y": "5.71",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -506,16 +506,16 @@
      "on_sale": false
     }
    ],
-   "nav": 8.88,
-   "nav_date": "2026-11-16",
+   "nav": 8.82,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.075,
    "dividend_date": "2026-10-30",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.101351,
+   "annual_yield": 0.102041,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 0.8914,
-   "return_1y": "4.58",
+   "return_1y": "4.54",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -583,16 +583,16 @@
      "on_sale": true
     }
    ],
-   "nav": 7.2531,
-   "nav_date": "2026-11-16",
+   "nav": 7.2201,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.0607,
    "dividend_date": "2026-11-02",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.100426,
+   "annual_yield": 0.100885,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 0.7284,
-   "return_1y": "1.43",
+   "return_1y": "1.21",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -660,16 +660,16 @@
      "on_sale": true
     }
    ],
-   "nav": 132.2292,
-   "nav_date": "2026-11-16",
+   "nav": 130.9491,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 1.133471,
    "dividend_date": "2026-10-29",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.102864,
+   "annual_yield": 0.10387,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 13.938943,
-   "return_1y": "9.95",
+   "return_1y": "8.74",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -737,16 +737,16 @@
      "on_sale": true
     }
    ],
-   "nav": 11.17,
-   "nav_date": "2026-11-16",
+   "nav": 11.09,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.0928,
    "dividend_date": "2026-10-30",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.099696,
+   "annual_yield": 0.100415,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 1.1136,
-   "return_1y": "-0.34",
+   "return_1y": "-0.48",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -869,13 +869,13 @@
      "on_sale": false
     }
    ],
-   "nav": 9.09,
-   "nav_date": "2026-11-16",
+   "nav": 9.1,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.0622,
    "dividend_date": "2026-10-30",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.082112,
+   "annual_yield": 0.082022,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 0.7737,
    "return_1y": "3.17",
@@ -947,7 +947,7 @@
     }
    ],
    "nav": 4.21,
-   "nav_date": "2026-11-16",
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.034,
    "dividend_date": "2026-11-02",
    "frequency": "月配",
@@ -1078,16 +1078,16 @@
      "on_sale": false
     }
    ],
-   "nav": 8.0276,
-   "nav_date": "2026-11-16",
+   "nav": 7.9765,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.06,
    "dividend_date": "2026-11-16",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.089691,
+   "annual_yield": 0.090265,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 0.67,
-   "return_1y": "3.48",
+   "return_1y": "2.77",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -1175,16 +1175,16 @@
      "on_sale": false
     }
    ],
-   "nav": 6.19,
-   "nav_date": "2026-11-16",
+   "nav": 6.14,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.0432,
    "dividend_date": "2026-10-30",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.083748,
+   "annual_yield": 0.08443,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 0.5068,
-   "return_1y": "6.01",
+   "return_1y": "5.83",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -1252,16 +1252,16 @@
      "on_sale": false
     }
    ],
-   "nav": 103.1386,
-   "nav_date": "2026-11-16",
+   "nav": 102.4572,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.614279,
    "dividend_date": "2026-10-29",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.07147,
+   "annual_yield": 0.071946,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 7.509576,
-   "return_1y": "4.91",
+   "return_1y": "4.43",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -1384,16 +1384,16 @@
      "on_sale": false
     }
    ],
-   "nav": 10.41,
-   "nav_date": "2026-11-16",
+   "nav": 10.42,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.06,
    "dividend_date": "2026-11-02",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.069164,
+   "annual_yield": 0.069098,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 0.684,
-   "return_1y": "1.36",
+   "return_1y": "1.83",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -1461,16 +1461,16 @@
      "on_sale": true
     }
    ],
-   "nav": 67.74,
-   "nav_date": "2026-11-16",
+   "nav": 67.05,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.8322,
    "dividend_date": "2026-10-30",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.147422,
+   "annual_yield": 0.14894,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 9.9864,
-   "return_1y": "-0.30",
+   "return_1y": "-0.50",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -1533,16 +1533,16 @@
      "on_sale": true
     }
    ],
-   "nav": 11.18,
-   "nav_date": "2026-11-16",
+   "nav": 11.11,
+   "nav_date": "2026-11-17",
    "dividend_per_unit": 0.097,
    "dividend_date": "2026-10-29",
    "frequency": "月配",
    "periods_per_year": 12,
-   "annual_yield": 0.104114,
+   "annual_yield": 0.10477,
    "annual_yield_basis": "最近一次每單位配息 × 年配息次數 ÷ 淨值（毛，未含手續費係數）",
    "dividend_12m_per_unit": 0.995,
-   "return_1y": "8.67",
+   "return_1y": "8.87",
    "status": "ok",
    "source": "https://invest.fubonlife.com.tw（/api/asset/getAssets）",
    "numbers": {
@@ -1557,5 +1557,5 @@
    }
   }
  ],
- "updated_at": "2026-11-18T09:24:22+08:00"
+ "updated_at": "2026-11-19T09:25:48+08:00"
 }
