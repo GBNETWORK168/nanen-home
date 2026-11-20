@@ -1,6 +1,31 @@
 {
   "days": [
     {
+      "date": "2026-11-20",
+      "items": [
+        {
+          "id": "wsj",
+          "name": "華爾街日報",
+          "pdf": "news/20261120/wsj_20261120.pdf",
+          "previews": [
+            "news/20261120/wsj_p1.png",
+            "news/20261120/wsj_p2.png",
+            "news/20261120/wsj_p3.png"
+          ]
+        },
+        {
+          "id": "bloomberg",
+          "name": "Bloomberg",
+          "pdf": "news/20261120/bloomberg_20261120.pdf",
+          "previews": [
+            "news/20261120/bloomberg_p1.png",
+            "news/20261120/bloomberg_p2.png",
+            "news/20261120/bloomberg_p3.png"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "items": [
         {
@@ -71,31 +96,6 @@
             "news/20261117/bloomberg_p1.png",
             "news/20261117/bloomberg_p2.png",
             "news/20261117/bloomberg_p3.png"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "items": [
-        {
-          "id": "wsj",
-          "name": "華爾街日報",
-          "pdf": "news/20261116/wsj_20261116.pdf",
-          "previews": [
-            "news/20261116/wsj_p1.png",
-            "news/20261116/wsj_p2.png",
-            "news/20261116/wsj_p3.png"
-          ]
-        },
-        {
-          "id": "bloomberg",
-          "name": "Bloomberg",
-          "pdf": "news/20261116/bloomberg_20261116.pdf",
-          "previews": [
-            "news/20261116/bloomberg_p1.png",
-            "news/20261116/bloomberg_p2.png",
-            "news/20261116/bloomberg_p3.png"
           ]
         }
       ]
