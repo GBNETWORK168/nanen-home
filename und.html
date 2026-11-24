@@ -197,10 +197,11 @@ input.bad{border-color:#d32f2f!important;background:#fff4f4}
   <h2>試算：投資標的與配息</h2>
   <p class="sub" id="fundSrc">標的資料：本站 <a href="fund.html">配息基金</a>（data/funds.json）</p>
   <div class="fd-panel">
-    <p class="fd-note">「報酬率來源」選「依投資標的」時套用。預設報酬率帶入近一年報酬率，可修改；年化配息率＝最近一次每單位配息×年配息次數÷淨值。<b>配息率非保證，過去績效不代表未來。</b></p>
+    <p class="fd-note">「報酬率來源」選「依投資標的」時套用。預設帶入近一年含息總報酬率（可修改）；年化配息率＝最近一次每單位配息×年配息次數÷淨值。<b>配息率非保證，過去績效不代表未來。</b></p>
     <div id="fRows"></div>
     <div class="u-tog"><button class="u-btn" id="fAdd">＋ 新增標的</button>
       <label class="fd-chk"><input type="checkbox" id="cash" checked><span id="cashL">配息：現金撥回（自帳戶價值撥出）</span></label></div>
+    <p class="fd-note" id="cashNote">提醒：含息總報酬＝淨值變化＋配息；勾選「現金撥回」時，配息會自帳戶價值撥出，若假設含息總報酬率低於配息率（例如設 0%），帳戶價值會逐年縮水，但配息現金已領出（可看下方「當年現金配息」與「帳戶價值＋累計現金配息」）。</p>
     <p class="fd-note" id="fSum"></p>
     <div class="fd-tblwrap"><table class="fd-tbl" id="fTbl"><thead><tr><th>代號</th><th class="l">基金</th><th>幣別</th><th>淨值</th><th>每單位配息</th><th>年化配息率</th><th>近一年報酬</th><th class="l">UND 可選</th></tr></thead><tbody></tbody></table></div>
   </div>
@@ -341,19 +342,19 @@ $('qBtn').onclick=ask;$('qIn').addEventListener('keydown',e=>{if(e.key==='Enter'
 $('qClr').onclick=()=>{$('qIn').value='';$('qOut').innerHTML='';};
 $('qCats').onclick=e=>{const b=e.target.closest('button');if(b){qCat=b.dataset.c;renderQA();}};
 // ---- 提領 / 標的 rows ----
-let wds=[{s:10,e:20,mode:'amt',v:50000},{s:25,e:30,mode:'amt',v:30000}];
+let wds=[];
 let frs=[{code:'JFP11',w:50,r:null},{code:'FRB5',w:50,r:null}];
-function renderWd(){$('wdRows').innerHTML=wds.map((w,i)=>`<div class="u-row" data-i="${i}">
+function renderWd(){$('wdRows').innerHTML=wds.length?wds.map((w,i)=>`<div class="u-row" data-i="${i}">
  <label>開始年度<input type="number" data-k="s" value="${w.s}"></label><label>結束年度<input type="number" data-k="e" value="${w.e}"></label>
  <label>方式<select data-k="mode"><option value="amt"${w.mode==='amt'?' selected':''}>每年金額（元）</option><option value="pct"${w.mode==='pct'?' selected':''}>帳戶價值 %</option></select></label>
- <label>${w.mode==='pct'?'每年 %':'每年金額'}<input type="number" data-k="v" value="${w.v}"></label><button class="u-btn" data-del="${i}">移除</button></div>`).join('');}
+ <label>${w.mode==='pct'?'每年 %':'每年金額'}<input type="number" data-k="v" value="${w.v}"></label><button class="u-btn" data-del="${i}">移除</button></div>`).join(''):'<p class="fd-note" style="margin:6px 0">目前未設定中途提領；如需模擬提領，請點下方「＋ 新增提領」。</p>';}
 $('wdRows').addEventListener('input',e=>{const r=e.target.closest('.u-row');if(!r||!e.target.dataset.k)return;wds[+r.dataset.i][e.target.dataset.k]=e.target.value;if(e.target.dataset.k==='mode')renderWd();calc();});
 $('wdRows').addEventListener('click',e=>{if(e.target.dataset.del!=null){wds.splice(+e.target.dataset.del,1);renderWd();calc();}});
 $('wdAdd').onclick=()=>{wds.push({s:1,e:1,mode:'amt',v:10000});renderWd();calc();};
 const fOf=c=>FUNDS.find(x=>x.code===c);
 function renderF(){$('fRows').innerHTML=frs.map((f,i)=>{const fd=fOf(f.code);if(f.r==null&&fd)f.r=fd.r1y;
  return `<div class="u-row" data-i="${i}"><label class="w2">投資標的<select data-k="code">${FUNDS.map(x=>`<option value="${x.code}"${x.code===f.code?' selected':''}>${esc(x.code+' '+x.name)}${x.und?'':'（非UND）'}</option>`).join('')}</select></label>
- <label>配置 %<input type="number" data-k="w" value="${f.w}"></label><label>假設年報酬 %<input type="number" step="0.01" data-k="r" value="${f.r}"></label>
+ <label>配置 %<input type="number" data-k="w" value="${f.w}"></label><label>假設含息總報酬 %<input type="number" step="0.01" data-k="r" value="${f.r}"></label>
  <span class="u-meta">${fd?`${esc(fd.cur)}｜${esc(fd.type)}｜${esc(fd.risk)}｜年化配息率 ${(fd.yld*100).toFixed(2)}%${fd.und?'':'｜⚠ 未列 UND 可選'}`:''}</span><button class="u-btn" data-del="${i}">移除</button></div>`;}).join('');
  $('fTbl').tBodies[0].innerHTML=FUNDS.map(x=>`<tr><td>${esc(x.code)}</td><td class="l">${esc(x.name)}</td><td>${esc(x.cur)}</td><td>${x.nav}</td><td>${x.dpu}</td><td>${(x.yld*100).toFixed(2)}%</td><td>${x.r1y}%</td><td class="l${x.und?'':' danger'}">${x.und?'是':'否'+(NOTES[x.code]?'（'+esc(NOTES[x.code])+'）':'')}</td></tr>`).join('');}
 $('fRows').addEventListener('input',e=>{const r=e.target.closest('.u-row');const k=e.target.dataset.k;if(!r||!k)return;const f=frs[+r.dataset.i];
@@ -468,7 +469,7 @@ function calc(){
  const fr=frs.map(f=>({fund:fOf(f.code),w:num(f.w)/100,r:num(f.r)/100}));const wsum=fr.reduce((s,f)=>s+f.w,0);
  const effRate=useFunds?fr.reduce((s,f)=>s+f.w*f.r,0):num($('rate').value)/100;
  const dyTot=useFunds?fr.reduce((s,f)=>s+f.w*(f.fund?f.fund.yld:0),0):0;
- $('fSum').textContent=useFunds?`加權假設報酬率 ${(effRate*100).toFixed(2)}%；加權年化配息率 ${(dyTot*100).toFixed(2)}%；配置合計 ${Math.round(wsum*100)}%`:'目前使用自訂報酬率；改選「依投資標的」才會套用下列配置。';
+ $('fSum').textContent=useFunds?`加權假設含息總報酬率 ${(effRate*100).toFixed(2)}%；加權年化配息率 ${(dyTot*100).toFixed(2)}%；配置合計 ${Math.round(wsum*100)}%`:'目前使用自訂報酬率；改選「依投資標的」才會套用下列配置。';
  const warn=[];const RG=planRanges({age:age===null?30:age,typ,n,prem:premV,face:faceV,years:yearsV,regS:num($('regS').value),regE:num($('regE').value),regAmt:num($('regAmt').value),lumpS:num($('lumpS').value),lumpE:num($('lumpE').value),lumpAmt:num($('lumpAmt').value)});showRanges(RG,warn);
  if(age===null)warn.push('生日格式請輸入民國年月日，例：850701。');
  const ag=age===null?30:age;const maxAge=typ==='A'?64:70;
@@ -490,8 +491,9 @@ function calc(){
  $('warn').innerHTML=warn.length?`<div class="u-warn"><b>提醒</b><ul>${warn.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></div>`:'';
  let cw=0,cd=0;const rows=res.map(r=>{cw+=r.wd;cd+=r.div;return{...r,cw,cd};});chart(rows);
  const th=a=>'<tr>'+a.map((h,i)=>`<th${i<0?' class="l"':''}>${esc(h)}</th>`).join('')+'</tr>';let head,body;
- if(view==='main'){head=th(['保單年度','年齡','累計保費','提領金額','累計提領','帳戶價值','解約金','身故保障']);
-  body=rows.map((r,i)=>{const d=lapsed&&i===rows.length-1?' class="danger"':'';return `<tr><td>${r.y}</td><td>${r.age}</td><td>${fmt(r.cum)}</td><td>${r.wd?fmt(r.wd):'–'}</td><td>${fmt(r.cw)}</td><td${d}>${fmt(r.av)}</td><td${d}>${fmt(r.av)}</td><td>${fmt(r.death)}</td></tr>`;});}
+ if(view==='main'){const showDiv=useFunds&&cash;
+  head=th(showDiv?['保單年度','年齡','累計保費','提領金額','累計提領','當年現金配息','帳戶價值','帳戶價值＋累計現金配息','解約金','身故保障']:['保單年度','年齡','累計保費','提領金額','累計提領','帳戶價值','解約金','身故保障']);
+  body=rows.map((r,i)=>{const d=lapsed&&i===rows.length-1?' class="danger"':'';return showDiv?`<tr><td>${r.y}</td><td>${r.age}</td><td>${fmt(r.cum)}</td><td>${r.wd?fmt(r.wd):'–'}</td><td>${fmt(r.cw)}</td><td>${fmt(r.div)}</td><td${d}>${fmt(r.av)}</td><td>${fmt(r.av+r.cd)}</td><td${d}>${fmt(r.av)}</td><td>${fmt(r.death)}</td></tr>`:`<tr><td>${r.y}</td><td>${r.age}</td><td>${fmt(r.cum)}</td><td>${r.wd?fmt(r.wd):'–'}</td><td>${fmt(r.cw)}</td><td${d}>${fmt(r.av)}</td><td${d}>${fmt(r.av)}</td><td>${fmt(r.death)}</td></tr>`;});}
  else if(view==='cost'){head=th(['保單年度','年齡','當年保費','其中定期定額','其中單筆','前置費用','保險成本','年末保額','帳戶價值']);
   body=rows.map(r=>`<tr><td>${r.y}</td><td>${r.age}</td><td>${fmt(r.prem)}</td><td>${r.reg?fmt(r.reg):'–'}</td><td>${r.lump?fmt(r.lump):'–'}</td><td>${fmt(r.exp)}</td><td>${fmt(r.coi)}</td><td>${fmt(r.face)}</td><td>${fmt(r.av)}</td></tr>`);}
  else{const sel=fr.filter(f=>f.fund&&f.w>0);
